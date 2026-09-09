@@ -1,6 +1,6 @@
-# NEXT BEST STEPS (autonomous engine)
-1. **If operator has EFTA PDFs:** run PDF swarm on Butterfly successor clause + 1953 three versions + Beller bates (highest gate unlock).
-2. **Else public path:** USVI emergency motion Jul 2022 full text (decant exhibits); JPM SAR excerpts in USVI v JPM docket; NY DOS HBRK entity snapshot.
-3. **Then:** M3 circular-flow on Southern+Butterfly; M2 dual graph scores for Indyke/Kahn/Beller.
-4. **Park:** Engoron until Columbia primary appears.
-5. **Watch:** Alexanderson still thin — secondary forensic names only; don’t force.
+# NEXT BEST STEPS (post EFTA pack ingest)
+1. If more Drive folders exist (other EFTA ranges / trust PDFs), link them — this pack is SDNY/Apollo-heavy.
+2. Continue local OCR on image-heavy 255p case PDFs if needed (tesseract available).
+3. Deep-read EFTA02731082 full for more Kahn/Indyke/trust banking.
+4. Cross Southern Trust $23.5M Black path with USVI EDA Southern Trust tax story (same entity family).
+5. 1953/Butterfly gates still need different primary PDFs.
