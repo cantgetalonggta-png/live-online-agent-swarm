@@ -1,0 +1,15 @@
+MAP-006 — East 66th × Indyke (H5+H9)
+
+[Wexner]--prior_owner-->[301_E_66]
+[Mark_Epstein/Ossa]--majority_units-->[301_E_66]
+[Nine_E_71_Corp]--addr_of_record_10F-->[301_E_66]
+[Indyke]--office_10B-->[301_E_66]
+[HBRK_Kahn_Beller]--office_10F-->[301_E_66]
+[Kellen/Marcinkova/Groff]--biz_or_ops-->[301_E_66]
+[Staff_Guest_Model_network]--housed-->[301_E_66]
+[Barak]--visitor-->[301_E_66]
+[Indyke]--co_executor+1953_trustee+50M-->[Estate/1953]
+[Indyke]--black_book-->[Epstein_contacts]
+[Indyke]--Wexner_Fdn_secretary-->[Wexner_nonprofit]
+[Engoron]--NULL-->[301_E_66]
+[Engoron]--NULL_personal-->[Indyke]
