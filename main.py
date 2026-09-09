@@ -2,8 +2,8 @@
 """
 Live Online Agent Swarm — CLI entry point.
   python main.py "your goal"
-  python main.py --api
-  python main.py --dashboard
+  python main.py --api          # start FastAPI :8000
+  python main.py --dashboard    # hint for streamlit
 """
 import asyncio
 import sys

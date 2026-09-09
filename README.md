@@ -1,63 +1,84 @@
-# Live Online Agent Swarm
+# Live Online Investigation Swarm
 
-**Public-record ceiling · HITL enforced · SOLID / MAYBE discipline**
+**Bayesian ACH · RedisGraph Hybrid RAG · FastAPI + Streamlit · HITL · Public-record ceiling**
 
-A multi-agent investigation swarm built from the loaded Grok skills:
+Multi-agent investigation system built from Grok skills (`multi-agent-patterns`, `truth-verification`, `osint-rag-master`, `knowledge-base-builder`, `integrity-investigative-system`, …).
 
-- `multi-agent-patterns` (Supervisor + Parallel Fan-out + Swarm roles)
-- `multi-agent-project-structure` (this layout)
-- `multi-agent-tooling`
-- `llm-orchestration`
-- `agent-roles-memory-pattern-anticipation` (MemoryVault, Pattern, Anticipation, Compliance)
-- `osint-rag-master` + `ethical-data-harvesting` + `live-web-mastery`
-- `truth-verification` (ACH / Bayesian)
-- `research-automation`
-- `legal-osint-compliance-layer` + `sensitive-data-defensive-scan`
-- `integrity-investigative-system` concepts (provenance hashing)
+## Features
 
-## Quick Start
+| Layer | What |
+|-------|------|
+| **Supervisor** | Orchestrates Compliance → parallel OSINT/LiveWeb/Pattern → Bayesian TruthVerifier → MemoryVault → Anticipation → Synthesizer |
+| **Bayesian ACH** | Full Analysis of Competing Hypotheses + sequential Bayesian updates with source quality weights |
+| **Graph RAG** | Hybrid vector (TF-IDF) + networkx graph; Redis persistence + RedisGraph Cypher mirror when `REDIS_URL` is set. Schema: `Document-HAS_CHUNK-Chunk-MENTIONS-Entity`, `Claim-SUPPORTED_BY-Source` |
+| **Dashboard** | Streamlit: Run Swarm, Bayesian Verify, Graph RAG ingest/query, Claims, Health |
+| **API** | FastAPI: `/swarm/run`, `/verify`, `/rag/query`, `/rag/ingest`, `/claims`, `/graph/*`, `/health` |
+
+## Quick start
 
 ```bash
-cd agent_swarm_live
-python -m venv .venv && source .venv/bin/activate   # optional
 pip install -r requirements.txt
-python main.py "Map public FOIA and court records on a current open case"
+
+# CLI
+python main.py "Map public FOIA records on agency X"
+
+# FastAPI (OpenAPI at /docs)
+python main.py --api
+# or: uvicorn api.app:app --host 0.0.0.0 --port 8000
+
+# Streamlit dashboard
+streamlit run dashboard/app.py --server.port 8501 --server.address 0.0.0.0
 ```
 
-## Architecture
+### Optional Redis / RedisGraph
 
-```
-Supervisor (orchestrator)
-    ├── Compliance (gate)
-    ├── OSINTCollector  ──┐
-    ├── LiveWebScout    ──┬── parallel fan-out
-    ├── Pattern         ──┘
-    ├── TruthVerifier
-    ├── MemoryVault
-    ├── Anticipation (background)
-    └── Synthesizer (final report)
+```bash
+export REDIS_URL=redis://localhost:6379/0
+# If RedisGraph module is loaded, Cypher mirror activates automatically.
 ```
 
-## Absolute Rules (non-negotiable)
+Without Redis the graph runs fully in-memory (networkx) and still supports hybrid RAG.
 
-1. Only public records and operator-supplied public material.
-2. HITL = YES for bulk ingest, external actions, irreversible decisions.
-3. SOLID / MAYBE tagging on every claim.
-4. No private data, no credential packs, no unauthorized access.
-5. Every claim carries provenance (URL + timestamp + hash).
+## Absolute rules
 
-## Live Online
+1. Only public records and operator-supplied public material  
+2. HITL = YES for bulk ingest / external / irreversible actions  
+3. SOLID / MAYBE tagging on every claim  
+4. No private data, no credential packs, no unauthorized access  
+5. Provenance (URL + timestamp + hash) on every claim  
 
-This repo is designed to be pushed to GitHub and run as a scheduled automation or interactive service.
-Extend the agents with real tool calls (web_search, Wayback, dorks, Graph RAG) under the same compliance gates.
+## API examples
 
-## Extending
+```bash
+curl -s http://localhost:8000/health | jq
+curl -s -X POST http://localhost:8000/swarm/run \
+  -H 'Content-Type: application/json' \
+  -d '{"goal":"Public records on open data portals"}' | jq .results.TruthVerifier
+curl -s -X POST http://localhost:8000/verify \
+  -H 'Content-Type: application/json' \
+  -d '{"claim":"Agency X published FOIA log in 2025"}' | jq .best
+curl -s -X POST http://localhost:8000/rag/query \
+  -H 'Content-Type: application/json' \
+  -d '{"query":"transparency FOIA","top_k":5}' | jq
+```
 
-- Add real collection under `tools/web_tools.py` using ethical recipes only.
-- Swap in-memory MemoryVault for Redis + Neo4j (see integrity-investigative-system).
-- Wire Prometheus metrics via `metrics-self-healing`.
-- Deploy with Docker / Kubernetes (see multi-agent-tooling).
+## Layout
 
-## License / Ethics
+```
+agent_swarm_live/
+├── main.py / swarm_runtime.py / swarm_config.py
+├── api/app.py              # FastAPI
+├── dashboard/app.py        # Streamlit
+├── agents/                 # Supervisor + specialists
+├── utils/
+│   ├── bayesian.py         # ACH + Bayesian updates
+│   ├── graph_rag.py        # RedisGraph-compatible hybrid RAG
+│   ├── memory.py           # MemoryVault + graph mirror
+│   ├── directives.py
+│   └── monitor.py
+└── tools/
+```
 
-Lawful public-record research only. Operator is responsible for jurisdiction and ToS compliance.
+## License / ethics
+
+Lawful public-record research only. Operator is responsible for jurisdiction and ToS.
