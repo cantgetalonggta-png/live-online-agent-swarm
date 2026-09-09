@@ -1,4 +1,2 @@
-# FU-018 — Production volumes other than VOL00012
-**Finding:** VOL00012 = EFTA0273xxxx only.
-**Need:** VOL00001–00011 or later with lower bates (trust instruments, Butterfly, Beller SAR) if held.
-**HITL:** YES
+# FU-018 — Other VOL numbers — CLOSED 2026-09-09
+All VOL00012 (1)(2)(3) are duplicates of same volume. Reopen only if different VOL numbers with lower bates uploaded.
