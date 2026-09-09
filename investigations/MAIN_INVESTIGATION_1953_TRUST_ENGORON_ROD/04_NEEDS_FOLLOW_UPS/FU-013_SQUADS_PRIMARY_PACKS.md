@@ -1,8 +1,15 @@
-# FU-013 — Ingest operator SQUADS primary PDFs
-From GROK OLD FILES inventory:
-- jeffrey-epstein-documents-full.PDF (~24.5MB)
-- E files multi-part FOIA
-- little-black-book-redacted.PDF
-- LATEST UPDATED EPSTEIN set
-- Proof/ ME suicide, DP World Reuters, etc.
-Upload to Drive → run same primary extract pipeline as EFTA pack.
+# FU-013 — SQUADS primary packs (UPDATED 2026-09-09)
+**Status:** PARTIALLY RESOLVED — packs now on Drive
+
+## Delivered
+- SQUADS folder with E files multipage FOIA Parts 01–21+
+- VOL00012 maps EFTA0273 pack
+
+## Still needed
+1. OCR on Part XX image PDFs
+2. Little black book if distinct path
+3. Production volumes other than VOL00012
+4. jeffrey-epstein-documents-full.PDF if distinct
+
+## Tag
+FOIA multiparts = public record acquisition success. Operator theory docs quarantined.
