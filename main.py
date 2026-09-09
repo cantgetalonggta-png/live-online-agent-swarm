@@ -1,8 +1,17 @@
 #!/usr/bin/env python3
-"""Live Online Agent Swarm CLI. python main.py GOAL | --api | --dashboard"""
-import asyncio, sys, json
+"""
+Live Online Agent Swarm — CLI entry point.
+  python main.py "your goal"
+  python main.py --api          # start FastAPI :8000
+  python main.py --dashboard    # hint for streamlit
+"""
+import asyncio
+import sys
+import json
+
 from swarm_runtime import get_runtime
 from swarm_config import config
+
 
 async def main(goal: str):
     print("=" * 60)
@@ -10,13 +19,16 @@ async def main(goal: str):
     print("  Bayesian ACH · RedisGraph RAG · HITL · Public-record ceiling")
     print("=" * 60)
     print(f"Goal: {goal}\n")
+
     supervisor, monitor, vault = get_runtime()
     result = await supervisor.run({"goal": goal})
+
     print("\n" + "=" * 60)
     print("  FINAL SWARM OUTPUT")
     print("=" * 60)
     print(json.dumps(result, indent=2, default=str))
     return result
+
 
 if __name__ == "__main__":
     args = sys.argv[1:]
