@@ -1,7 +1,4 @@
 # FU-012 — Full Groff→Kahn unit occupancy list + Ossa ownership map
-**Status:** PARTIAL — public reporting of ~15-unit 2012 list now vaulted in RPT-006; full primary email + complete ACRIS/deed schedule still open  
-**Next:**  
-1. Locate public PACER/FOIA exhibit PDF of Groff unit email (not only secondary quote)  
-2. JustFix / ACRIS bulk for 301 E 66 BBLs under H1 if >20 docs  
-3. Hash-dedupe any SQUADS E-file pages mentioning 301/66  
-**Close when:** primary unit list + ownership CSV dual-persisted
+**Status:** PARTIAL CLOSE (2026-09-09 H1 ACRIS pass)  
+**Done:** Public unit roster reconstructed; ACRIS bulk 1931 legals / 613 parties; Owners Corp + Ossa entity graph; lot map for 10F/10N/2C/8C/11J  
+**Still open:** Primary PDF image of Groff 2012 email; full deed PDFs per unit lot; complete 150+ sponsor unit ownership schedule beyond Open Data parties

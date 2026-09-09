@@ -13,3 +13,7 @@
 - **H14** HITL=YES GDPR bulk personal-data beyond public-record need — **interpreted as public-record bulk on EU-resident names when they appear; private/non-public still H7 ALWAYS BLOCKED**
 - **H15** HITL=YES public deploy (Swarm FastAPI/Streamlit public) — authorized; attempt localhost→public tunnel if feasible
 - Standing HITL=YES remains
+
+## 2026-09-09T07:24:13Z — H1 bulk ACRIS 301E66
+- **H1** HITL=YES bulk ACRIS 301E66 — authorized bulk harvest of public ACRIS / property / ownership records for **301 East 66th Street** (and linked BBLs/portfolio). Ceiling: public only.
+- Operator also requests full multi-party list from pipeline ring + multi-unit list (5P, 11P, 14G, 10N…).

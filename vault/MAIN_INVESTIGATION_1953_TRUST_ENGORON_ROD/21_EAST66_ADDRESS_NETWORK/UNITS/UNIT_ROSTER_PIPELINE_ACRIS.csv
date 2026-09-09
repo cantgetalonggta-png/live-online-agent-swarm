@@ -1,0 +1,20 @@
+unit,occupant_or_role_public,source,acris_lot_if_known,acris_legal_hits,ring_layer
+5P,Lynn and Jojo (staff),Groff→Kahn email 2012 (public reporting),,0,staff
+7J,Jean-Luc Brunel (MC2),Groff→Kahn 2012,,0,recruiter/associate
+11P,Dana (studio),Groff→Kahn 2012,,0,housing
+14G,Sarah / Sarah Kellen-Vickers (service attempt 14G),Groff 2012 + process-server affidavit public (Giuffre exhibits),,0,assistant/housing
+8A,Renata → Karina (Mar 2012 turn),Groff→Kahn 2012,,0,housing
+2G,(one bedroom; occupant blank on list),Groff→Kahn 2012,?,4,housing
+2C,JE's brother (Mark Epstein),Groff→Kahn 2012,1006,12,ownership/family
+10N,Guest Apartment (also renovation hold 2015),Groff 2012; 2015 assignment email,1125,12,guest
+8C,JE brother kids (Joyce),Groff→Kahn 2012,1087,12,family
+11E,(converted 1BR from 2BR),Groff→Kahn 2012,?,4,housing
+11B,Guest Apt (Sam Jaradeh 6 months),Groff→Kahn 2012,,0,guest
+10B,"DKI, PLLC (Darren Indyke office)",Groff→Kahn 2012; BI 2019 bar/office,,0,control/legal
+10F,HBRK (Kahn/Beller office); also Nine E 71 Corp addr-of-record; tax bill sample lot 1118,Groff 2012; Crain's; DOF tax bill,1118,4,control/accounting
+4M,Guest Apt,Groff→Kahn 2012,,0,guest
+8H,Eva's apt. occupied by housekeeper,Curbed full list addendum,,0,staff/housing
+11J,Ehud Barak + Nili Priel (alarm install 2016),Groff 2016 email; DOJ email tranche public reporting,1134,4,VIP guest
+12B,Estate-sale offer emailed JE by Anthony Barrett (Ossa) Mar 2011,Ossa email public reporting,?,4,ownership pipeline
+3M,Guest code example ('Code is 7002!'),public email excerpts,,4,guest
+COMM/PROF,Commercial/professional units in ACRIS unit field,ACRIS legals,,—,building
