@@ -1,0 +1,12 @@
+from,to,relation,tag
+Jeffrey_Epstein,Darren_Indyke,APPOINTS_TRUSTEE_1953,ROCK_SOLID
+Jeffrey_Epstein,Richard_Kahn,APPOINTS_TRUSTEE_1953,ROCK_SOLID
+Jeffrey_Epstein,Karyna_Shuliak,BEQUESTS_PRIMARY_1953,ROCK_SOLID
+Karyna_Shuliak,Columbia_Dental,ATTENDED,ROCK_SOLID
+Columbia_Dental,Columbia_University,PART_OF,ROCK_SOLID
+Arthur_Engoron,Columbia_University,ALUM_BA_1972,ROCK_SOLID
+Arthur_Engoron,NYU_Law,ALUM_JD_1979,ROCK_SOLID
+Darren_Indyke,Cornell_Law,ALUM_JD_1991,ROCK_SOLID
+Darren_Indyke,Colgate,ALUM_BA_1986,ROCK_SOLID
+Arthur_Engoron,Jeffrey_Epstein,DIRECT_LINK,NONE_FOUND
+Arthur_Engoron,Indyke_Kahn_Dockets,ASSIGNED_JUDGE,NONE_FOUND
