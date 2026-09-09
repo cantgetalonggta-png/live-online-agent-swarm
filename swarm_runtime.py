@@ -13,7 +13,6 @@ from agents import (
     SynthesizerAgent,
 )
 
-# Process-level singletons so API + dashboard share state
 _monitor = None
 _vault = None
 _supervisor = None
