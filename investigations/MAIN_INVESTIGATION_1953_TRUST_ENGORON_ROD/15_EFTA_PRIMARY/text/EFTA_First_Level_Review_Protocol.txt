@@ -1,0 +1,427 @@
+                                                       U.S. Department of Justice
+
+                                                       Office of the Deputy Attorney General
+
+
+The Deputy Attorney General                            Washington, DC 20530
+
+
+
+
+                                          MEMORANDUM
+
+Subject:          Attorney Review Protocol for Epstein Files
+
+Date:             January 4, 2026
+=====================================================================
+
+        This memorandum memorializes the protocol for conducting a responsiveness review of
+the Jeffrey Epstein files and to assist in providing guidance on redactions for victim identifying
+information and other protected categories of information. Please review the entire protocol before
+beginning your review.
+
+       It is of paramount importance to the Department that this review is thorough and that victim
+information is properly protected. If you have any questions about this protocol or about the
+documents under review, please escalate them promptly by emailing your question to
+EFTAreview@usdoj.gov.
+
+                              BACKGROUND ON CRIMINAL CHARGES
+
+        The criminal charges against Jeffrey Epstein and Ghislaine Maxwell arise from a years-
+long scheme to recruit and entice minor girls into engaging in commercial sex acts, specifically
+sexualized massages and related sexual activity in exchange for money, in locations including
+Manhattan and Palm Beach, Florida. In both Florida and New York, the charged scheme operated
+in a nearly identical fashion: Epstein victimized minor girls who were brought to his homes to give
+Epstein erotic “massages,” in exchange for hundreds of dollars, and then paid those individuals to
+recruit additional minor victims, who typically ranged in age from 14 to 17 years old. Once the
+victims were alone with Epstein, the “massages” became increasingly sexual. Epstein’s conduct
+included masturbating in front of victims; fondling their breasts; placing a vibrator on their
+genitals; and/or directly touching their genitals. Some victims also continued to engage in such
+acts with Epstein after they were no longer minors. The victims were typically paid by Epstein or
+his employees in cash. After their first visit to Epstein’s residences, victims usually were contacted
+via telephone by individuals who worked for Epstein (including Maxwell) to arrange additional
+massages. In order to maintain a steady stream of underage girls to perform sexual acts, Epstein
+also directed others, including some of his victims, to recruit other minor girls to engage in
+sexualized massages. Some victims brought just one or two friends, while others brought Epstein
+dozens of other girls.
+
+        While the above description summarizes the charges against Epstein and Maxwell, note
+that the Department is not limiting its redactions to victims of the charged offenses. For purposes
+of this review (and relevant redactions), victims include individuals identified as victims, or
+potential victims, through the Department’s prior prosecutions of Epstein and Maxwell as well as
+                                                                                                Page 2
+
+
+all individuals who have (directly or through counsel) been identified, including self-identified, to
+the Department as potential victims of state or federal offenses or other claims of sexual
+exploitation or misconduct by Epstein or Maxwell.
+
+I. Responsiveness
+
+    A. Overview
+
+        The Epstein Files Transparency Act, Pub. L. 119-38, 139 Stat. 656 (the “Act”), requires
+the Attorney General to produce “all unclassified records, documents, communications, and
+investigative materials” in DOJ possession that “relate to:
+
+        (1) Jeffrey Epstein including all investigations, prosecutions, or custodial matters.
+
+        (2) Ghislaine Maxwell.
+
+       (3) Flight logs or travel records, including but not limited to manifests, itineraries, pilot
+records, and customs or immigration documentation, for any aircraft, vessel, or vehicle owned,
+operated, or used by Jeffrey Epstein or any related entity.
+
+       (4) Individuals, including government officials, named or referenced in connection with
+Epstein’s criminal activities, civil settlements, immunity or plea agreements, or investigatory
+proceedings.
+
+       (5) Entities (corporate, nonprofit, academic, or governmental) with known or alleged ties
+to Epstein’s trafficking or financial networks.
+
+       (6) Any immunity deals, non-prosecution agreements, plea bargains, or sealed settlements
+involving Epstein or his associates.
+
+       (7) Internal DOJ communications, including emails, memos, meeting notes, concerning
+decisions to charge, not charge, investigate, or decline to investigate Epstein or his associates.
+
+        (8) All communications, memoranda, directives, logs, or metadata concerning the
+destruction, deletion, alteration, misplacement, or concealment of documents, recordings, or
+electronic data related to Epstein, his associates, his detention and death, or any investigative files.
+
+        (9) Documentation of Epstein’s detention or death, including incident reports, witness
+interviews, medical examiner files, autopsy reports, and written records detailing the
+circumstances and cause of death.” Act § 2(a).
+
+    B. Responsiveness Tags
+
+        There are five choices for responsiveness tags in the review platform; please choose only
+one tag for each document. Each document should be evaluated on its own, irrespective of its
+relationship to other documents. For example, an email and its attachments should each be
+evaluated standing alone for responsiveness.
+                                                                                            Page 3
+
+
+
+        • Responsive—apply this tag if a document relates to any of the nine topics above
+        • Non-responsive—apply this tag if a document does not relate to any of the nine topics
+          above
+          o If non-responsive, move on to the next document (i.e., no need to apply redactions
+              or any other tags)
+        • Duplicate—apply this tag if the document is a duplicate. For example, if the document
+          is an email chain and the most-inclusive email (i.e., containing all the back-and-forth)
+          has already been reviewed and redacted as appropriate for production, the interstitial
+          back-and-forth can be marked as duplicates. This is also the case for any materials
+          already publicly released through official channels; for example, the Department’s
+          prior release of the flight log, contact book, and masseuse list.
+          o If a duplicate, move on to the next document (i.e., no need to apply redactions or
+              any other tags)
+        • Error—apply this tag if there is a technical issue with viewing the document
+        • Foreign language—apply this tag if a document is in a foreign language
+
+       If you have any questions about whether a document is responsive, please email your
+question to EFTAreview@usdoj.gov.
+
+         If a document is tagged responsive, please proceed to evaluating whether it needs a content
+tag listed below to track the materials that are produced.
+
+        • 2(a)(3) Flight Logs—apply this tag if a document relates to the third topic above
+          (“Flight logs or travel records, including but not limited to manifests, itineraries, pilot
+          records, and customs or immigration documentation, for any aircraft, vessel, or vehicle
+          owned, operated, or used by Jeffrey Epstein or any related entity.”)
+        • 2(a)(6) Deals—apply this tag if a document relates to the sixth topic above (“Any
+          immunity deals, non-prosecution agreements, plea bargains, or sealed settlements
+          involving Epstein or his associates.”)
+        • 2(a)(7) Charging—apply this tag if a document relates to the seventh topic above
+          (“Internal DOJ communications, including emails, memos, meeting notes, concerning
+          decisions to charge, not charge, investigate, or decline to investigate Epstein or his
+          associates.”)
+        • 2(a)(8) Destruction—apply this tag is a document relates to the eighth topic above (“All
+          communications, memoranda, directives, logs, or metadata concerning the destruction,
+          deletion, alteration, misplacement, or concealment of documents, recordings, or
+          electronic data related to Epstein, his associates, his detention and death, or any
+          investigative files.”)
+        • 302s—apply this tag to all FBI 302s
+
+        Finally, for the report to Congress, please use the “Notes” box to list any “government
+officials and politically exposed persons named or referenced in the released materials.” Act § 3
+(emphasis added). Be specific; if the material provides the person’s name, list the name.
+                                                                                           Page 4
+
+
+
+J                                         • Annotations
+
+
+    T ~ [ Add note
+
+  No notes yet
+
+
+        Do NOT use this “Notes” box for questions, notes, or explanatory comments – those
+should be addressed using the “Freeform Codes” instead, as explained below. The “Notes” box
+should be used only for listing the names of “government officials and politically exposed
+persons named or referenced in the released materials.” Likewise, when making redactions in
+the review platform, there is also a “Notes” option. Do NOT use it; enter any necessary notes
+via a “Freeform Code” instead.
+
+        Questions should be emailed to EFTAreview@usdoj.gov rather than notated in the
+review platform. However, there are a few “Freeform Codes” that allow for “Reviewer Note”
+text entry. These should be used sparingly:
+
+        • “RN-Redaction”—to be used for a note about redaction, such as when there is no
+          applicable tag (e.g., tax records, SARs)
+        • “RN-Other”—other note
+
+II. Permitted Withholdings and/or Redactions
+
+    A. Overview
+
+        Even if a document is responsive, the Act allows for certain withholdings and redactions,
+except that “no record shall be withheld, delayed, or redacted on the basis of embarrassment,
+reputational harm, or political sensitivity, including to any government official, public figure, or
+foreign dignitary.” Act. § 2(b).
+
+        Permitted withholdings or redactions under the Act fall into the following five categories:
+
+       “(1) Contain personally identifiable information of victims or victims’ personal and
+medical files and similar files the disclosure of which would constitute a clearly unwarranted
+invasion of personal privacy;
+
+       (2) Depict or contain child sexual abuse materials (CSAM) as defined under 18 U.S.C.
+2256 and prohibited under 18 U.S.C. 2252–2252A;
+
+           •   [Note that this includes all descriptions of sexual abuse contained within victim and
+               witness statements, police reports, etc. Redact only the child sexual abuse
+               descriptions and leave in the surrounding information.]
+                                                                                             Page 5
+
+
+       (3) Would jeopardize an active federal investigation or ongoing prosecution, provided that
+such withholding is narrowly tailored and temporary;
+
+       (4) Depict or contain images of death, physical abuse, or injury of any person; or
+
+           •   [Note that this language is “any person,” not just to victims, and also includes
+               “injury” and not just death.]
+
+        (5) Contain information specifically authorized under criteria established by an Executive
+order to be kept secret in the interest of national defense or foreign policy and are in fact properly
+classified pursuant to such Executive order.” Act § 2(c)(1).
+
+        In addition, as detailed further below, certain personal identifying information (PII) and
+protected health information (PHI) must be redacted to comply with existing federal law.
+
+        Please mark all redactions using the review platform’s redaction tool.1 After marking the
+redactions, please select all the bases for the redactions you have marked. If a document would
+be entirely redacted such that the document will not get produced, please choose “z_Redacted
+in Full” and also select the applicable category in “Redaction.”
+
+       The applicable bases in the “Redaction” category to select include:
+
+       •   Classified—please immediately raise to your POC if you come across any documents
+           that appear to be classified under EO 13526. Documents that are designated as
+           “confidential” for purposes of discovery are not classified.
+       •   Depict/contain CSAM
+       •   Images of Death/Abuse/Injury
+       •   Ongoing federal investigation
+       •   PII
+       •   Victim PII
+       •   Sealed—for records indicating on their face that they were filed under seal, or sealed
+           by a court
+
+   B. Redaction of Victim Information
+
+        Victim names, personal identifying information, private health information, and other
+third-party names or identifying details that, if disclosed, would reveal the identity of the victim
+must be redacted. This pertains to all victims, even victims who later became perpetrators. 2
+
+1 Again, this is necessary only if the document is responsive.  If a document is a duplicate or is
+non-responsive, there is no need to make line redactions so long as it is coded as a “Duplicate” or
+“Non-responsive.”
+2 One thing to note is that victim records—e.g., school, immunization records, yearbooks—should
+
+be treated as non-responsive rather than responsive. Therefore, for those records, there is no need
+to apply redactions. See supra at 5 n.1.
+                                                                                             Page6
+
+
+
+       1. Victim and Associate Names
+       Attached is a high�nfidential list of victim names that must be redacted. These names
+should be highlighted in � in the review platform as a tool to assist your review. The
+highlighting may be both underinclusive (for example, not highlighting a misspelling of a name)
+and overinclusive ( capturing names not on the victim list), so please undeitake a careful
+review of the entire document for third-party names.
+
+       Important Note: the highlighting function does NOT work for Excel files, and image files.
+Thus, for any images or Excel files, please review carefully for any potential victim PII.
+
+        If you see a third-party name in a document, please check the list to see whether the third
+patty is a victim. Please note that you should check the names of both male and female third
+patties, as the victim list also includes some family members and significant others of victims
+whose names must be redacted to protect the privacy of victims.
+
+    fu the Maxwell ti·ial, ce1tain associates of victims (along with ce1tain victims) were pennitted
+by the Comt to testify under pseudonyms to avoid revealing a victim's identity, so it is i�
+   •      1          •        11 hiid•              •  •     •   f     der. For example, -
+         I                                                             •ennitted to testify as "Matt,"
+                  I                                                      was pennitted to testify as
+"Brian." These pseudonyms (first name only)-along with the names Kate and Shawn-at·e not
+included on the redaction list because they at·e ve1y common first names. If you see these names
+standing alone in documents or emails, please consider whether the name is being used to refer to
+the witness who testified under a pseudonym. If it is, please redact the name and any other
+infonnation in the document that could be used to identify the person. This is an illusu-ation-as
+explained fuither below--of how the relatives and associates of victims must also be redacted to
+protect a victim's identity.
+
+         Context in a document may also suggest that a third patty is a victim. If based on the
+contents of a document, you believe you have identified a victim who is not on the list we have
+circulated, please escalate (i) the document number, (ii) a brief description of why you believe the
+document shows that the person is a victim, and (iii) the victim's name to
+EFT.Areview@usdoj.gov. A document, for example, indicating that a minor was recmited to give
+a massage to Epstein is one that should be escalated if the name of the minor is not ah-eady on our
+list of victims.
+
+         If, after examining the contents and context of the document and reviewing the attached
+list of victim names, you at·e still in doubt about whether a third patty may be a victim or could be
+used to identify a victim based on the context of the document, please email your question to
+EFT.Areview@usdoj.gov.
+                                                                                           Page 7
+
+
+       2. Images
+
+       With the exception of Maxwell and any well-known female public figures, all images of
+women should have their faces redacted (as we cannot determine from the image whether the
+person is a victim).
+       All facial images and names of apparent minors should be redacted.
+
+        A reviewer should err on the side of partial redactions if possible. If it is impossible to
+“segregate” CSAM, or partial redactions may still reveal information that would constitute “a
+clearly unwarranted invasion of personal privacy,” please choose the “z_Redacted in Full” and
+“Depict/contain CSAM” tags.
+
+       3. Victim Identifying Information / Health Information
+
+       Below is a non-exhaustive list of PII / PHI that must be redacted:
+
+        • Date of birth
+        • Place of Birth (city, state, and zip code)
+        • Home address (street address, city, state, and zip code)
+        • Social security number (SSN)
+        • Email address
+        • Current and former employers, including any television shows/movies on which
+          victims have appeared
+        • Telephone number
+        • Social media handles
+        • Financial information, e.g.., bank account and credit card numbers
+        • Medical history and diagnoses, treatment plans, medications, etc.
+        • Counseling notes and therapy records
+
+        The Act also permits the redaction or withholding of information akin to personal and
+medical files “the disclosure of which would constitute a clearly unwarranted invasion of personal
+privacy.” Act. § 2(c)(1)(A). This could include, for example, a victim’s school records. If you
+have questions about whether something in a document could be redacted or withheld on this basis,
+please email EFTAreview@usdoj.gov.
+
+       4. Other Information that Would Reveal Victim Identity
+
+       While names and identifiers may be used to identify a victim, and must be redacted,
+consider whether other information in the document requires further redaction to protect the
+victim’s identity or privacy. Here are some examples:
+
+       •   Names of a victim’s family members.
+
+       •   Information about when and where the victim went to school, or where and when a
+           victim worked in a particular job.
+                                                                                         Page 8
+
+
+
+       •   Information about associates of a victim (redact the victim’s name and also the names
+           of the associates).
+
+       •   A victim’s medical information.
+
+   C. Other Permitted Withholdings
+
+       1. Privacy Act Redactions
+
+       You must also redact PII that may be present in the documents:
+
+        • Names of Government employees (AUSAs and DOJ, law enforcement, BOP
+          employees, OIG employees, contractors at USAO/FBI, etc.), except:
+          o Those occupying Presidentially-nominated, Senate-confirmed positions, including
+             if in an Acting role (U.S. Attorney, federal judges, etc.);
+          o Public affairs officers or other media-facing individuals;
+          o The two BOP prison guards who were prosecuted – Michael Thomas and Tova
+             Noel
+        • Names of confidential sources or cooperating witnesses
+        • Email addresses
+        • Dates of birth
+        • Personal street addresses (street, city, state, zip), except:
+          o Epstein’s addresses:
+          o 9 East 71st Street New York, NY
+          o 6100 Red Hook Boulevard Little Saint James, USVI
+          o 358 El Brillo Way Palm Beach, FL
+        • Telephone numbers
+        • Social security numbers (SSN)
+        • Driver’s license numbers, passport numbers, license plate numbers, VINs
+        • Bank/financial account numbers, credit card numbers
+        • Other ID numbers (badge number, medical ID number, taxpayer ID number)
+
+      You must also redact PHI, such as medical history and diagnoses, treatment plans,
+medications, etc.
+
+       For Epstein (and any of his entities), redact his SSN and any phone numbers. Do not redact
+anything else, including his email addresses.
+
+       For Maxwell, do not redact her name but redact the rest of her PII, including her email
+address(es), and PHI.
+
+     If you are in doubt about whether PII or PHI should be redacted, please email
+EFTAreview@usdoj.gov.
+                                                                                           Page 9
+
+
+       2. Privilege
+
+       Also review if any of the following might apply:
+
+        • Deliberative-Process Privilege—“[D]ocuments reflecting advisory opinions,
+          recommendations and deliberations comprising part of a process by which
+          governmental decisions and policies are formulated.” United States Fish & Wildlife
+          Serv. v. Sierra Club, Inc., 592 U.S. 261, 267 (2021) (quotation omitted).
+
+        • Work-Product Privilege—Documents that, for example, reflect “the mental processes
+          of the attorney,” United States v. Nobles, 422 U.S. 225, 238 (1975), in the
+          “contemplation of litigation,” N. L. R. B. v. Sears, Roebuck & Co., 421 U.S. 132, 154
+          (1975).
+
+        • Attorney-Client Privilege—“[C]onfidential communications between Government
+          officials and Government attorneys.” United States v. Jicarilla Apache Nation, 564
+          U.S. 162, 170 (2011).
+                  o If a document contains ACP material between Epstein/his attorney(s);
+                      Maxwell/her attorney(s); or the two of them (common defense), the
+                      document should be redacted.
+
+       If a privilege applies, please mark the redaction using the review platform's redaction tool
+and select the basis or bases for the privilege. When a document is entirely privileged, such that
+the document will not get produced, please also choose “z_Redacted in Full.”
+
+        Do not liberally apply these bases for redaction. If you have a question about whether a
+privilege is applicable to a particular document, please email EFTAreview@usdoj.gov.
+
+       3. Other
+
+   •   Tax records: for tax records generally, redact only to the extent it reveals PII. If the “tax
+       record” is a tax return, choose “z_Redacted in Full” and make a note of it in the “RN-
+       Redaction” freeform text field.
+
+   •   Defense counsel names: do not redact. (Their PII, such as email, phone number, addresses,
+       are redacted.)
+
+   •   SARs: redact; choose “z_Redacted in Full” and make a note of it in the “RN-Redaction”
+       freeform text field.
+

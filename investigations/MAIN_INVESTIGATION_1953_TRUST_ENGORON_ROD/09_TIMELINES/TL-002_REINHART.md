@@ -1,0 +1,13 @@
+# TL-002 — Reinhart × Epstein-adjacent work
+- 1984–87 Princeton / Penn Law  
+- 1988–96 DOJ Public Integrity / Treasury  
+- 1996–2008 AUSA S.D. Fla.  
+- 2007-09-24 Epstein NPA  
+- ~2007-10 private practice registration (reporting)  
+- 2008-01-01 leave USAO  
+- 2008-01-02 counsel to Epstein employees (pilots, Kellen, Marcinkova)  
+- 2008–09 fees paid via Epstein for employee counsel (reporting)  
+- 2009-04-28 Epstein→Reinhart re NPA probation modification (reporting)  
+- 2011–13 ethics/knowledge dispute in public record  
+- 2018-03-14 U.S. Magistrate Judge  
+- 2022-08 Mar-a-Lago warrant signed  

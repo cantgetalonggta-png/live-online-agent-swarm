@@ -1,0 +1,23 @@
+# TL-001 Master Timeline (selected)
+- 1949-05-22 Engoron born
+- 1967 Engoron Wheatley
+- 1972 Engoron Columbia BA
+- 1979 Engoron NYU JD
+- 1991 Indyke Cornell JD
+- 1996~ Indyke begins exclusive Epstein work
+- 2006-12-27 Butterfly Trust
+- 2012 Shuliak Columbia Dental irregular admission; Epstein donations
+- 2015 Shuliak Dental graduate
+- 2019-01-18 Epstein 2019 Trust
+- 2019-02-04 Trust amended
+- 2019-07-06 Epstein arrested
+- 2019-08-08 1953 Trust restatement + will
+- 2019-08-10 Epstein death
+- 2019-08-15~ will filed USVI
+- 2020–21 EVCP ~$121–125M
+- 2022 USVI settlement $105M+
+- 2023–24 Engoron Trump fraud trial/order
+- 2024–26 Indyke/Kahn class suits; $35M settlement
+- 2026 early DOJ files make 1953 Trust public
+- 2025-12-31 Engoron retires
+- 2026-09-08 This vault created
