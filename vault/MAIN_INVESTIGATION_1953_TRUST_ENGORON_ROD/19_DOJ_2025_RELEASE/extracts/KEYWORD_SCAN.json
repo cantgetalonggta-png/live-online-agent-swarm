@@ -1,0 +1,88 @@
+{
+  "counts": {
+    "Indyke": 0,
+    "Darren Indyke": 0,
+    "Kahn": 0,
+    "Richard Kahn": 0,
+    "Southern Trust": 0,
+    "1953 Trust": 0,
+    "1953": 0,
+    "Wheatley": 0,
+    "Engoron": 0,
+    "Reinhart": 0,
+    "Bruce Reinhart": 0,
+    "Wexner": 0,
+    "Maxwell": 0,
+    "NPA": 0,
+    "non-prosecution": 0,
+    "OPR": 0,
+    "Office of Professional Responsibility": 0,
+    "Bondi": 1,
+    "Patel": 2,
+    "FBI": 5,
+    "victim": 10,
+    "flight log": 1,
+    "Deutsche": 0,
+    "JPMorgan": 0,
+    "wire": 0,
+    "trustee": 0,
+    "beneficiary": 0,
+    "will": 5,
+    "estate": 0,
+    "Ghislaine": 0,
+    "Acosta": 0,
+    "SDNY": 0,
+    "SDFL": 0,
+    "Palm Beach": 0,
+    "Mar-a-Lago": 0,
+    "Black Book": 0,
+    "little black book": 0,
+    "contact": 1,
+    "flight": 1,
+    "log": 1,
+    "redacted": 9,
+    "phone": 1
+  },
+  "contexts": {
+    "Bondi": [
+      "Sjgeerely, Decla Bondi hu"
+    ],
+    "Patel": [
+      "\u20ac. 20530 NDE = February 27, 2025 Dear Director Patel, Before you came into office, I requested the full end complete files elated to",
+      "a ] CARE ENARNMANNRREEEL i pies] Biss ay Ti ih SEE 3h patel g ie ( LaFibd IAB CTT) MLEEEEEEEEEEPEENEERS"
+    ],
+    "FBI": [
+      "was the full set of documents responsive to my request and was repeatedly assured by the FBI that we had received the full set of documents. Late yesterday, I leaned from a source t",
+      "had received the full set of documents. Late yesterday, I leaned from a source that the FBI Field Office in New York was in possession of thousands of pages of documents related to"
+    ],
+    "victim": [
+      "ocuments, which consisted primarily oflight logs, Epstein\u2019 list of contacts, and a lst ofvictims\u2019 names and \u2018phone numbers. 1 repeatedly questioned whether this was the full se",
+      "t any public disclosure ofthese files will be done in a manner to protect the privacy of victims and in accordance with law, as I have done my entire career as a prosecutor. 1 a"
+    ],
+    "flight log": [
+      "his request, | received approximately 200 pages of documents, which consisted primarily oflight logs, Epstein\u2019 list of contacts, and a lst ofvictims\u2019 names and \u2018phone numbers. 1 re"
+    ],
+    "will": [
+      "I was to learn this new information. By 8:00 a.m. tomorrow, February 28, the FBI will deliver the full and complete Epstein files to my office, including all records, documen",
+      "Jeffrey Epstein and hs clients, regardless of how such information was obtained. \u2018There will be no withholdings or limitations to my or your access. The Department of Justice \u2018will"
+    ],
+    "contact": [
+      "imately 200 pages of documents, which consisted primarily oflight logs, Epstein\u2019 list of contacts, and a lst ofvictims\u2019 names and \u2018phone numbers. 1 repeatedly questioned whether"
+    ],
+    "flight": [
+      "his request, | received approximately 200 pages of documents, which consisted primarily oflight logs, Epstein\u2019 list of contacts, and a lst ofvictims\u2019 names and \u2018phone numbers."
+    ],
+    "log": [
+      "uest, | received approximately 200 pages of documents, which consisted primarily oflight logs, Epstein\u2019 list of contacts, and a lst ofvictims\u2019 names and \u2018phone numbers. 1 re"
+    ],
+    "redacted": [
+      "E 2. 35 SE C [33 . o \u201cRedacted to . protect potential : C viet information Vis idors Masszos (PD",
+      "is idors Masszos (PD . 2 \u201cRedacted to protect potential . victim information ) Wl con"
+    ],
+    "phone": [
+      "isted primarily oflight logs, Epstein\u2019 list of contacts, and a lst ofvictims\u2019 names and \u2018phone numbers. 1 repeatedly questioned whether this was the full set of documents respo"
+    ]
+  },
+  "chars": 105199,
+  "pages": 224
+}
