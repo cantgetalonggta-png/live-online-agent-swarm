@@ -1,17 +1,13 @@
-# TL-002 — Bruce Reinhart × Epstein
-- 1984 Princeton eng
-- 1987 Penn Law
-- 1988–94 DOJ Public Integrity
-- 1996–2008 AUSA S.D. Fla.
-- 2007-09-24 Epstein NPA
-- 2007-10 private practice LLC registered (reporting)
-- 2008-01-01 resign USAO
-- 2008-01-02 counsel Epstein employees (pilots, Kellen, Marcinkova)
-- 2008–09 Epstein payments >$20k (reporting)
-- 2009-04-28 Epstein→Reinhart NPA mod email while incarcerated
-- 2011 ethics complaint / declaration
-- 2013 supervisors contradiction filing (reporting)
-- 2015 declined Newsmax Epstein analysis without disclosing role (Post)
-- 2018-03-14 U.S. Magistrate Judge
-- 2022-08 signed Mar-a-Lago warrant
-- 2022 altered Maxwell photo debunked AP
+# TL-002 — Reinhart × Epstein-adjacent work
+- 1984–87 Princeton / Penn Law  
+- 1988–96 DOJ Public Integrity / Treasury  
+- 1996–2008 AUSA S.D. Fla.  
+- 2007-09-24 Epstein NPA  
+- ~2007-10 private practice registration (reporting)  
+- 2008-01-01 leave USAO  
+- 2008-01-02 counsel to Epstein employees (pilots, Kellen, Marcinkova)  
+- 2008–09 fees paid via Epstein for employee counsel (reporting)  
+- 2009-04-28 Epstein→Reinhart re NPA probation modification (reporting)  
+- 2011–13 ethics/knowledge dispute in public record  
+- 2018-03-14 U.S. Magistrate Judge  
+- 2022-08 Mar-a-Lago warrant signed  

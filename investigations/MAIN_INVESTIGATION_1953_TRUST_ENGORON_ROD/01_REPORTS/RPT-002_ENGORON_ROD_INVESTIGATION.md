@@ -1,31 +1,30 @@
-# RPT-002 — Engoron Connecting Rod Investigation
-**Date:** 2026-09-08 | **HITL:** YES
+# RPT-002 — Engoron connecting rod (1953 Trust context)
+**Date:** 2026-09-08 · language tightened
 
 ## Question
-What breadcrumb/connecting rod links 1953 Trust network → Judge Arthur F. Engoron?
+Is there a public-record link from the 1953 Trust network to Arthur F. Engoron?
 
-## Finding (primary)
-**INDIRECT institutional rod via Columbia University:**
-- Engoron: Columbia University B.A. English Literature **1972**; NYU Law J.D. **1979**; Wheatley School **1967**; b. May 22 1949; retired NY Supreme Court 2025-12-31; now Phillips Nizer senior counsel.
-- Shuliak (1953 Trust #1 intended heir): Columbia College of Dental Medicine (Dental 2015; postdoc later); admission irregular process with Epstein donations ~$210k (Columbia official statement + NYT/DOJ).
+## Answer
+**No direct link found.**  
+**Indirect institutional edge only:** Columbia University.
 
-## Direct link Engoron ↔ Epstein/Indyke/Kahn/1953 Trust
-**NONE FOUND** in public search (court assignment, employment, donation, beneficiary, co-party).
+- Engoron: Columbia BA English 1972; NYU JD 1979; N.Y. Supreme Court (ret. 2025-12-31); now Phillips Nizer senior counsel.  
+- Shuliak: primary intended 1953 residual; Columbia College of Dental Medicine (Dental ~2015 path; Epstein-linked admission/donations in public reporting).  
 
-## Docket negatives (ROCK_SOLID as negatives)
-- Bensky/Ward v Indyke: S.D.N.Y. 1:24-cv-01204 → Judge **Arun Subramanian**
-- Doe v Indyke (2020): S.D.N.Y. → Judge **Lewis J. Liman**
-- No public assignment of GMVA state cases to Engoron Part 37
+Same university, different schools, decades apart. No public personal, docket, employment, or money tie Engoron ↔ Epstein / Indyke / Kahn / 1953 Trust.
 
-## Education dual graph
+## Dockets checked (Indyke/Kahn side)
+- S.D.N.Y. 1:24-cv-01204 → Judge Arun Subramanian  
+- S.D.N.Y. 1:20-cv-02365 → Judge Lewis J. Liman  
+No public assignment of those matters to Engoron.
+
+## Education (relevant only to shared-institution check)
 | Person | Undergrad | Law |
 |--------|-----------|-----|
 | Engoron | Columbia 1972 | NYU 1979 |
-| Indyke | Colgate 1986 | **Cornell** 1991 |
-| Kahn | (see dossier) | — |
-| Shuliak | Belarus medical + Columbia Dental | — |
+| Indyke | Colgate 1986 | Cornell 1991 |
 
-Indyke does **not** share Columbia/NYU with Engoron.
+Indyke does not share Columbia/NYU with Engoron.
 
 ## Tag
-Columbia co-affiliation: ROCK_SOLID as co-affiliation; POSSIBLE as investigative lead only
+Columbia co-affiliation: established as fact · investigative lead only if primary alumni/donor materials later show more than co-presence at the same university.

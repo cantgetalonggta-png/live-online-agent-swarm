@@ -1,2 +1,2 @@
-# RS-005 Reinhart counsel to Kellen, Marcinkova, Epstein pilots
-Reinhart own admission to Miami Herald; NYT; NYPost; Politico; AP.
+# RS-005 — Reinhart represented Kellen, Marcinkova, Epstein pilots
+Basis: Reinhart statements to Miami Herald; consistent NYT / Post / Politico / AP reporting. Operator pass aligns.

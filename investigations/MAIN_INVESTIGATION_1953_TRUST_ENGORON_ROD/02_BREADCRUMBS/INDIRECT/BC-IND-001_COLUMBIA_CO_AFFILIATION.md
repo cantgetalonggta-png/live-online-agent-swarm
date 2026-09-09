@@ -1,20 +1,11 @@
-# BC-IND-001 — Columbia University Co-Affiliation (PRIMARY ROD)
-**Type:** INDIRECT / INSTITUTIONAL BRIDGE  
-**Tag:** ROCK_SOLID (co-affiliation facts) · POSSIBLE (investigative lead)
+# BC-IND-001 — Columbia co-affiliation (Engoron rod)
+**Type:** indirect institutional  
 
-## Node A
-Arthur F. Engoron — Columbia BA English Literature 1972 (Martindale, Wikipedia, Phillips Nizer bio)
+**Nodes:** Engoron (Columbia BA 1972) · Shuliak (Columbia Dental ~2012–15; 1953 Trust primary intended residual).  
 
-## Node B
-Karyna Shuliak — Columbia College of Dental Medicine (Dental '15); 1953 Trust primary intended beneficiary (~$100M+)
+**Edge:** same university; different schools; decades apart.  
 
-## Edge
-Same university institution; different schools (College vs Dental Medicine); decades apart (Engoron ~1968–72; Shuliak ~2012–15)
+**Is:** co-affiliation fact.  
+**Is not:** proof of personal contact, shared donation, or case influence.
 
-## What it is NOT
-- Not personal acquaintance
-- Not shared donation evidence Engoron↔Epstein
-- Not docket connection
-
-## Follow-up
-Public Columbia alumni directories, yearbooks, dental-school donor lists, Zuckerman/Bollinger dinner guest lists (already public DOJ re Epstein invitations 2013)
+Follow-up only with public alumni/donor/yearbook material or operator-held primary PDFs.

@@ -1,57 +1,28 @@
 # PL-REINHART — Bruce E. Reinhart
-**Role:** U.S. Magistrate Judge, S.D. Fla. (West Palm Beach) since 2018-03-14  
-**HITL window:** 2026-09-08 30-min pass  
-**Critical distinction:** **NOT Arthur Engoron**. Separate person, separate court.
+**Role:** U.S. Magistrate Judge, S.D. Fla. (West Palm Beach), since 2018-03-14  
+**Vault reason:** counsel to Epstein employees (pilots, Kellen, Marcinkova); later Mar-a-Lago warrant signer
 
-## Education / career (ROCK_SOLID — court bio, NYT, Miami Herald)
-- Princeton University, civil engineering cum laude ~1984
-- University of Pennsylvania Law, J.D. cum laude 1987; Penn Law Review
-- Clerk: Hon. Norma L. Shapiro, E.D. Pa.
-- DOJ Public Integrity Section trial attorney ~1988–1994
-- Treasury senior policy advisor (criminal investigations policy)
-- AUSA S.D. Fla. West Palm Beach **1996–2008** (resigned effective **2008-01-01**)
-- Private practice white-collar defense **2008–2018** (solo + national firm co-chair white collar)
-- Sworn U.S. Magistrate Judge S.D. Fla. **2018-03-14**
-- Chambers: Paul G. Rogers Federal Building, 701 Clematis St, West Palm Beach FL
-- Spouse: Circuit Judge Carolyn Bell (appointed ~same week as his swearing-in)
+## Career (public bios)
+- Princeton (civil engineering, ~1984); Penn Law J.D. 1987  
+- DOJ Public Integrity; Treasury policy; AUSA S.D. Fla. 1996–2008 (exit 2008-01-01)  
+- Private white-collar practice 2008–2018  
+- Magistrate 2018–present · Chambers: 701 Clematis St, West Palm Beach  
+- Spouse: Circuit Judge Carolyn Bell  
 
-## Epstein nexus (multi-outlet + Reinhart own admissions)
-### Clients (Reinhart admitted to Miami Herald / NYPost / NYT)
-- Epstein’s **pilots**
-- **Sarah Kellen** (scheduler / named NPA co-conspirator; later Sarah Kensington; 2026 House testimony claimed victim status)
-- **Nadia Marcinkova / Marcinko** (“Global Girl”; NPA-named; pilot; later DOJ files on cooperation/visa)
+## Epstein-adjacent work (what matters)
+**Clients (admitted / multi-source):** Epstein pilots; Sarah Kellen; Nadia Marcinkova (Marcinko).  
 
-### Timing (ROCK_SOLID pattern)
-- NPA signed **2007-09-24** (names Kellen, Ross, Groff, Marcinkova + “any potential co-conspirators”)
-- Reinhart registered private practice address **Oct 2007** while still AUSA (public reporting 2026 DOJ files / AOL)
-- Left USAO **2008-01-01**; began representing Epstein employees **2008-01-02** (Herald court docs)
-- Billing: **>$20,000** paid from Epstein for employee representation (2026 reporting)
-- 2009-04-28: Epstein email to Reinhart re NPA probation modification while incarcerated (DOJ files reporting)
-- Villafaña (AUSA on Epstein) later said she discussed strategies re female assistants with Reinhart; he said he was “best friends” with defense counsel Jack Goldberger (2026 files reporting)
+**Timing:** NPA 2007-09-24 → private practice setup ~Oct 2007 (reporting) → leave USAO 2008-01-01 → employee representation 2008-01-02.  
 
-### Ethics / CVRA fallout (CONTESTED)
-- Victims’ counsel accused side-switch / appearance of currying favor
-- Reinhart sworn declaration: never learned confidential non-public Epstein info; did not participate in investigation
-- Former USAO supervisors later stated he **did** learn confidential non-public information about Epstein matter
-- DOJ complaint against him dismissed (per Reinhart/Herald)
+**Money / contact (reporting on DOJ files):** Epstein paid for employee counsel (>$20k reported); 2009 email from Epstein to Reinhart on NPA probation modification while incarcerated.  
 
-## Mar-a-Lago warrant (ROCK_SOLID)
-- Aug 2022: signed FBI search warrant for Trump Mar-a-Lago classified documents matter
-- Public firestorm + antisemitic threats; Marshals detail reported
-- **Altered photo** of Reinhart with Maxwell = **FALSE** (AP fact-check: composite of Maxwell+Epstein photo + Reinhart football photo)
+**USAO knowledge dispute:** Reinhart said he did not handle the Epstein case and did not learn confidential non-public info; former supervisors later said he had learned such information. Record conflict; no elevation without primary filings.
 
-## Political donations (FEC public)
-- Obama 2008: $1,000 campaign + $1,000 Victory Fund
-- Jeb Bush 2016: $500
-- Other small donations both parties including Palm Beach SA Dave Aronberg
+## Mar-a-Lago
+Signed the August 2022 search warrant as magistrate. Unrelated in subject matter to 1953 Trust; same person, different case.
 
-## Tags
-| Claim | Tag |
-|-------|-----|
-| Represented Epstein pilots / Kellen / Marcinkova | ROCK_SOLID |
-| Left USAO 1 Jan 2008, hired next day for Epstein employees | ROCK_SOLID |
-| Never represented Epstein personally | ROCK_SOLID (his statement + fact-checks) |
-| Signed Mar-a-Lago warrant | ROCK_SOLID |
-| Is the same person as Engoron | FALSE (FL-001) |
-| Controlled NPA / was “Epstein’s lawyer” | FARFETCHED / FALSE as phrased |
-| Side-switch ethics violation | CONTESTED |
+## Donations (FEC public, context only)
+Obama 2008 (~$2k total); Jeb Bush 2015 ($500); other small bipartisan gifts. Not used as proof of case outcomes.
+
+## Do not file under this node
+Engoron Columbia rod · 1953 Trust trustees · Indyke/Kahn estate dockets · viral Maxwell-plane composites (debunked)

@@ -1,4 +1,4 @@
-# PT-003 — Prosecutor → next-day defense of NPA-named staff
-**Pattern:** AUSA exits 2008-01-01; Epstein-employee representation 2008-01-02; NPA already signed Sept 2007 protecting those names.  
-**Anomaly check:** Speed of transition + Epstein billing + later NPA modification request to Reinhart while incarcerated.  
-**Tag:** PATTERN (timing); CONTESTED on improper confidential use.
+# PT-003 — USAO exit → next-day defense of NPA-named staff
+**Observation:** Leave 2008-01-01; employee representation 2008-01-02; NPA already in place Sept 2007 protecting named staff.  
+**Use:** timing edge on the counsel graph.  
+**Do not use as:** automatic proof of misconduct or NPA authorship.

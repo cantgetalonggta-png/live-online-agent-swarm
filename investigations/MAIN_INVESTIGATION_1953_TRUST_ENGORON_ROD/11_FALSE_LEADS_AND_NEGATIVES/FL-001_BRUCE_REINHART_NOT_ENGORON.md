@@ -1,23 +1,11 @@
-# FL-001 — Bruce Reinhart ≠ Arthur Engoron (UPDATED 2026-09-08 HITL)
-**Tag:** FALSE_LEAD for Engoron identity; SOLID as Reinhart dossier
+# FL-001 — Filing note: Reinhart and Engoron are different people
+**Status:** permanent hygiene · not an investigative claim
 
-## Pass statement (operator)
-“Bruce E. Reinhart (federal magistrate who signed the Mar-a-Lago search warrant) previously represented Epstein employees (pilots, Kellen, Marcinkova)”
+Two judges appear in this vault for different reasons. Do not merge files or graph nodes.
 
-## Assessment
-**PASS ACCEPTED AS FACT** for Reinhart.  
-**REJECTED AS ENGORON LINK.**
+| | Engoron | Reinhart |
+|--|---------|----------|
+| Court | N.Y. Supreme (ret.) | U.S. Magistrate, S.D. Fla. |
+| Why in vault | Columbia co-affiliation via Shuliak (indirect rod) | Counsel to Epstein employees (pilots, Kellen, Marcinkova); later Mar-a-Lago warrant |
 
-| Person | Court | Epstein link | Mar-a-Lago |
-|--------|-------|--------------|------------|
-| **Bruce E. Reinhart** | U.S. Magistrate S.D. Fla. | Represented pilots, Kellen, Marcinkova 2008+ | Signed warrant 2022 |
-| **Arthur F. Engoron** | N.Y. Supreme Court (ret.) | Columbia co-affiliation via Shuliak only | None |
-
-## Do not
-- Confuse the two judges
-- Claim Reinhart “is Epstein’s lawyer” (he denied representing Epstein personally; USA TODAY FALSE rating on that claim)
-- Use altered Maxwell+Reinhart plane photos (AP: fake)
-
-## Do
-- File Reinhart under PL-REINHART + BC-DIR-001
-- Keep Engoron rod as BC-IND-001 Columbia only
+No further analysis of identity. File them separately. See PL-ENGORON, PL-REINHART, BC-IND-001, BC-DIR-001.

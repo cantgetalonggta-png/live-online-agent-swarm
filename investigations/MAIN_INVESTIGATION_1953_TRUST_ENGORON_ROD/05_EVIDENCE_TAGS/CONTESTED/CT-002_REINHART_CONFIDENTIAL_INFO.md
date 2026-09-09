@@ -1,2 +1,2 @@
-# CT-002 Reinhart confidential Epstein info while AUSA
-Reinhart: none. Supervisors filing: he learned confidential non-public info. CONTESTED.
+# CT-002 — Whether Reinhart learned confidential non-public Epstein information as AUSA
+Reinhart declaration: no. Later supervisor statements (reporting): yes. Unresolved without primary filings. Do not treat either side as settled.

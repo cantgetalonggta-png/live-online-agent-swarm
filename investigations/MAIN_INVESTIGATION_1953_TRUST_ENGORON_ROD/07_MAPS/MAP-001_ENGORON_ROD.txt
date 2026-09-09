@@ -1,22 +1,15 @@
-1953 TRUST
-   |
-   | intended primary residual
-   v
-KARYNA SHULIAK ---- Columbia Dental (2012-15)
-   |                      |
-   |                      | same university
-   |                      v
-   |              COLUMBIA UNIVERSITY
-   |                      ^
-   |                      | BA English 1972
-   |                      |
-   +---------------- ARTHUR ENGORON
+1953 Trust
+    | intended primary residual
+    v
+Karyna Shuliak ---- Columbia Dental (~2012-15)
                          |
-                         | JD 1979
+                         | same university (different school / era)
                          v
-                      NYU LAW
+                  Columbia University
                          ^
-                         | (Epstein influence also reported at NYU — weak)
+                         | BA English 1972
+                         |
+                  Arthur Engoron
 
-DIRECT Engoron--Epstein/Indyke/Kahn: NONE
-DOCKET Engoron--Indyke suits: NONE (Subramanian/Liman instead)
+No public direct Engoron edge to Epstein, Indyke, Kahn, or 1953 Trust dockets.
+Indyke/Kahn federal cases: Subramanian / Liman — not Engoron.
