@@ -1,0 +1,12 @@
+# Multi-Agent Swarm Live Online
+# Core
+asyncio
+aiohttp
+pydantic>=2.0
+python-dotenv
+# Optional for live UI
+# streamlit
+# fastapi
+# uvicorn
+# For observability
+# prometheus-client
