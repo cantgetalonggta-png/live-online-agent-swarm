@@ -27,3 +27,5 @@ Drive: MAIN_INVESTIGATION_1953_TRUST_ENGORON_ROD root + REINHART_PASS subfolder
 ## Starter protocol (locked)
 Every turn: (1) 20 map-moving Qs (2) 5 new breadcrumbs APR/AAD (3) 5 advanced methods  
 See `STARTER_PROTOCOL_3.md` · latest pack `14_SWARM_OUTPUTS/Q20_*` · `BC-NEW-2026-09-08_FIVE` · `M5_ADVANCED_METHODS_*`
+
+See also: AUTONOMOUS_RESEARCH_CONTROL_RULES.md · NEXT_BEST_STEPS.md
