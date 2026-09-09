@@ -1,0 +1,13 @@
+Southern Trust (USVI EDA tax vehicle; Indyke/Kahn signed financials)
+    |
+    +-- Southern Financial / Southern Country (post-death wire loops)
+    |
+Butterfly Trust (ops payments; DB account 2018; $13M in Apr 2020)
+    |
+    +-- Sep 2020 DECANT --> three successor trusts
+            |-- two with Indyke + Kahn + spouses as beneficiaries
+            |-- stated purpose (reporting): insulate from third-party claimants
+    |
+1953 Trust (pour-over residual after claims) -- trustees Indyke+Kahn
+    |-- intended: Shuliak > Indyke > Kahn ...
+    |-- actual residual paid: open (Q1)
