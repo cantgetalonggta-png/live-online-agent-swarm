@@ -19,7 +19,7 @@ def _bool_env(name: str, default: bool = True) -> bool:
 
 class SwarmConfig(BaseModel):
     name: str = "Live Online Investigation Swarm"
-    version: str = "1.1.0"
+    version: str = "1.2.0"
     hitl_required: bool = Field(default_factory=lambda: _bool_env("HITL_REQUIRED", True))
     public_record_ceiling: bool = Field(default_factory=lambda: _bool_env("PUBLIC_RECORD_CEILING", True))
     max_parallel_agents: int = 8
