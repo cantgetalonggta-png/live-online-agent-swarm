@@ -1,8 +1,9 @@
-"""Phase 1 core engines: metadata, barrier, audit, skill-tree."""
+"""Phase 1–2 core engines: metadata, barrier, audit, skill-tree, HITL gate."""
 from .audit import AuditTrail, get_audit
 from .skill_loader import SkillTreeLoader, get_skill_tree
 from .barrier_classifier import LawfulRoute, classify_barrier
 from .metadata_extractor import extract, extract_from_text, extract_from_csv, batch_success_rate
+from .hitl_gate import HITLGate, get_hitl_gate, require_hitl_gate
 
 __all__ = [
     "AuditTrail",
@@ -15,4 +16,7 @@ __all__ = [
     "extract_from_text",
     "extract_from_csv",
     "batch_success_rate",
+    "HITLGate",
+    "get_hitl_gate",
+    "require_hitl_gate",
 ]
