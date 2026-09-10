@@ -1,0 +1,7 @@
+API_BASE=https://gratuit-lambda-ipod-dublin.trycloudflare.com
+API_DOCS=https://gratuit-lambda-ipod-dublin.trycloudflare.com/docs
+API_HEALTH=https://gratuit-lambda-ipod-dublin.trycloudflare.com/health
+DASHBOARD=https://airline-checkout-test-abu.trycloudflare.com
+LOCAL_API=http://127.0.0.1:8000
+LOCAL_DASH=http://127.0.0.1:8501
+HITL_EXPIRES_UTC=2026-09-10T03:31:46Z
