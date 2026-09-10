@@ -30,3 +30,12 @@
 - Full focus public-record address/entity network at 301 E 66
 - RPT-009 + MAP-007 + BC-PIPE-001..010 + entity/timeline CSVs
 - No methods of exploitation elaborated
+
+## 2026-09-10T08:48:21Z — operator: Grant HITL APPROVAL
+- **Grant ID:** `HITL_GRANT_120MIN_2026-09-10T0848Z`
+- **Window:** 2026-09-10T08:48:21Z → 2026-09-10T10:48:21Z (120 min)
+- **Effect:** Standing A1–A10 + Phase 2 build + dual-persist + investigation continuity (public ceiling)
+- **Machine grant:** `vault/hitl/active_grant.json`
+- **MD grant:** `vault/MAIN_INVESTIGATION_1953_TRUST_ENGORON_ROD/00_HITL_AND_INDEX/HITL_GRANT_120MIN_2026-09-10T0848Z.md`
+- **NOT granted:** H7 / bypass / credentials / illegal access (never liftable)
+- **HITL gate service:** `utils/phase1/hitl_gate.py` + `GET /phase1/hitl` `POST /phase1/hitl/check`
