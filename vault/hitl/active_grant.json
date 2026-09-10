@@ -1,0 +1,55 @@
+{
+  "grant_id": "HITL_GRANT_120MIN_2026-09-10T0848Z",
+  "status": "ACTIVE",
+  "operator_phrase": "Grant HITL APPROVAL",
+  "start_utc": "2026-09-10T08:48:21Z",
+  "expiry_utc": "2026-09-10T10:48:21Z",
+  "duration_minutes": 120,
+  "public_record_ceiling": true,
+  "hitl_required_default": true,
+  "granted_classes": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "A6",
+    "A7",
+    "A8",
+    "A9",
+    "A10",
+    "PHASE1_COMPLETE",
+    "PHASE2_BUILD",
+    "DUAL_PERSIST",
+    "SWARM_LOCAL",
+    "INVESTIGATION_1953_CONTINUITY"
+  ],
+  "prior_scopes_reaffirmed": [
+    "H1_301E66_public",
+    "H5_east66_network",
+    "H9_indyke",
+    "H14_gdpr_public_only",
+    "H15_public_deploy_prior"
+  ],
+  "not_granted": [
+    "H7_non_public",
+    "barrier_bypass",
+    "credential_abuse",
+    "illegal_scrape",
+    "restricted_fulltext_summary"
+  ],
+  "still_explicit_after_expiry": [
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H8",
+    "H10",
+    "H11",
+    "H12",
+    "H15"
+  ],
+  "constitution": "docs/GOD_TIER_SYSTEM/III_CONSTITUTION/LAWFUL_AI_GOVERNANCE_CONSTITUTION.md",
+  "matrix": "vault/MAIN_INVESTIGATION_1953_TRUST_ENGORON_ROD/00_HITL_AND_INDEX/HITL_AUTHORITY_MATRIX.md"
+}
