@@ -1,0 +1,33 @@
+entity,role_in_pipeline,unit_or_addr,layer,confidence,notes
+301/66 OWNERS CORP,tax owner / sponsor stack,building,A,SOLID,ACRIS DOF
+Ossa Properties,Mark Epstein firm; c/o Owners Corp,building,A,SOLID,JustFix Crain's
+Mark Epstein,shareholder; family units 2C 8C,2C/8C,A/E,SOLID,
+Anthony Barrett,Ossa officer; 12B email; Head Officer JustFix,building,A,SOLID,
+Andrew Losso,Officer / Site Manager JustFix,building,A,SOLID,
+Olga Minevich,portfolio name JustFix,building,A,SOLID,
+Darren K. Indyke,counsel; DKI PLLC office; co-executor,10B,B,SOLID,RPT-005
+Richard D. Kahn,accountant; HBRK; co-executor,10F,B,SOLID,
+Harry Beller,HBRK partner,10F,B,MAYBE,name on stack
+Lesley Groff,assistant; unit list author; 10th ops,10th,C,SOLID,
+Sarah Kellen / Vickers / Kensington,assistant; 14G; SLK Designs,14G,C,SOLID,process server
+Nadia Marcinkova / Marcinko,associate; Aviloop reg,11th hist,C,SOLID,BI
+Adriana Ross,named 2008 cohort; building link public,building,C,SOLID,coverage
+Jean-Luc Brunel,MC2 head; unit 7J; deceased 2022,7J,D,SOLID,
+MC2 Models,agency; multi-apt housing statements,building,D,SOLID,civil
+Maritza Vasquez,MC2 bookkeeper sworn multi-apt,n/a,D,SOLID,testimony
+Les Wexner,prior building owner narrative + 71st gift,prior,A,SOLID,Crain's
+Nine East 71st Street Corp,townhouse holder; addr 10F,10F,B,SOLID,Crain's
+Ehud Barak,VIP long stay 11J,11J,G,SOLID,emails
+Nili Priel,VIP long stay 11J,11J,G,SOLID,emails
+Rafi Shlomo,Israeli mission security access 11J,11J,G,SOLID,DOJ tranche reporting
+Yoni Koren,Barak aide stays,building,G,SOLID,NYPost
+Lynn and Jojo,staff 5P,5P,F,SOLID,Groff list
+Dana,housing 11P,11P,F,SOLID,Groff list first name only
+Renata then Karina,housing 8A,8A,F,SOLID,Groff list
+Sam Jaradeh,guest 11B 6 mo,11B,F,SOLID,Groff list
+Joyce,Mark kids 8C,8C,E,SOLID,Groff list
+Eva Andersson-Dubin,ex; 8H context,8H,F,MAYBE,housekeeper occupancy note
+Larry Visoski,pilot; paid via 301 company Indyke,pay path,B,SOLID,2009 dep
+Steve Bannon,visitor reported,building,G,SOLID,NYPost 2026
+Peter Attia,stays referenced 2026 coverage,building,G,SOLID,news
+Jeffrey Epstein,use-rights / assignment control,multi,ALL,SOLID,emails

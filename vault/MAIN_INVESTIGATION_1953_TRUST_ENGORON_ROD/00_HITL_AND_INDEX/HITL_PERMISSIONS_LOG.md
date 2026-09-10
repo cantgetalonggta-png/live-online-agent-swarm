@@ -17,3 +17,16 @@
 ## 2026-09-09T07:24:13Z — H1 bulk ACRIS 301E66
 - **H1** HITL=YES bulk ACRIS 301E66 — authorized bulk harvest of public ACRIS / property / ownership records for **301 East 66th Street** (and linked BBLs/portfolio). Ceiling: public only.
 - Operator also requests full multi-party list from pipeline ring + multi-unit list (5P, 11P, 14G, 10N…).
+
+## 2026-09-09 — Drive full dual-persist
+- Operator: upload absolutely everything so far into a Drive folder
+- Created: **SWARM_FULL_UPLOAD_2026-09-09** under existing `MAIN_INVESTIGATION_1953_TRUST_ENGORON_ROD`
+- Folder ID: 1XUqADdElhHY_IFzW-XExGlDiY68q6phZ
+- Link: https://drive.google.com/drive/folders/1XUqADdElhHY_IFzW-XExGlDiY68q6phZ
+- Uploaded: MAIN_INVESTIGATION_FULL.tar.gz (~194MB, entire vault), REPORTS_HITL_UNITS_ONLY.tar.gz, RPT-001..008, unit CSVs, HITL matrix/log, README, FULL_FILE_MANIFEST
+- Parent vault folder: https://drive.google.com/drive/folders/1ZoCe06NRxeqD64xaVh2TLVNG_XZ6T8Ki
+
+## 2026-09-09 — Pipeline ×5 HITL=YES RUN
+- Full focus public-record address/entity network at 301 E 66
+- RPT-009 + MAP-007 + BC-PIPE-001..010 + entity/timeline CSVs
+- No methods of exploitation elaborated
