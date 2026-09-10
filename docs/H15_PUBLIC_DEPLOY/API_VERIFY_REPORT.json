@@ -1,0 +1,1980 @@
+{
+  "endpoints": [
+    "API_BASE=https://fraction-finest-contract-issued.trycloudflare.com",
+    "API_DOCS=https://fraction-finest-contract-issued.trycloudflare.com/docs",
+    "API_HEALTH=https://fraction-finest-contract-issued.trycloudflare.com/health",
+    "DASHBOARD=https://wallpaper-columns-bid-cams.trycloudflare.com",
+    "LOCAL_API=http://127.0.0.1:8000",
+    "LOCAL_DASH=http://127.0.0.1:8501",
+    "HITL_EXPIRES_UTC=2026-09-10T05:29:16Z",
+    "REDEPLOYED_UTC=2026-09-10T03:39:16Z"
+  ],
+  "results": {
+    "local": {
+      "GET /health": {
+        "ok": true,
+        "http": 200,
+        "body": {
+          "status": "ok",
+          "swarm": {
+            "total_events": 11,
+            "agents": {
+              "Supervisor": {
+                "status": "idle",
+                "ts": "2026-09-10T03:34:54.792813"
+              },
+              "Compliance": {
+                "status": "idle",
+                "ts": "2026-09-10T03:34:54.778586"
+              },
+              "OSINTCollector": {
+                "status": "idle",
+                "ts": "2026-09-10T03:34:54.780901"
+              },
+              "LiveWebScout": {
+                "status": "idle",
+                "ts": "2026-09-10T03:34:54.783548"
+              },
+              "Pattern": {
+                "status": "idle",
+                "ts": "2026-09-10T03:34:54.785864"
+              },
+              "TruthVerifier": {
+                "status": "idle",
+                "ts": "2026-09-10T03:34:54.790437"
+              },
+              "MemoryVault": {
+                "status": "idle",
+                "ts": "2026-09-10T03:34:54.790500"
+              },
+              "Anticipation": {
+                "status": "idle",
+                "ts": "2026-09-10T03:34:54.792739"
+              },
+              "Synthesizer": {
+                "status": "idle",
+                "ts": "2026-09-10T03:34:54.792808"
+              }
+            },
+            "last_5": [
+              "[2026-09-10T03:34:54.787672] [TruthVerifier] Running Bayesian ACH on: Integrate lawful GOD-TIER metadata-only skill tree and constitution in...",
+              "[2026-09-10T03:34:54.790453] [MemoryVault] Persisting and indexing new findings into MemoryVault",
+              "[2026-09-10T03:34:54.790508] [Anticipation] Checking public calendars and known release schedules",
+              "[2026-09-10T03:34:54.792799] [Synthesizer] Assembling structured intelligence report",
+              "[2026-09-10T03:34:54.792815] [Supervisor] Orchestration complete."
+            ]
+          },
+          "memory": {
+            "claim_count": 9,
+            "timeline_events": 0,
+            "entities": 0,
+            "verifications": 5,
+            "graph": {
+              "nodes": 28,
+              "edges": 21,
+              "chunks": 17,
+              "labels": {
+                "Document": 3,
+                "Chunk": 8,
+                "Claim": 9,
+                "Source": 8
+              },
+              "redis_connected": false,
+              "redis_graph": false
+            },
+            "recent_logs": [
+              "[2026-09-10T03:34:54.790428] ACH verification stored for claim",
+              "[2026-09-10T03:34:54.790540] Stored MAYBE: Anticipation scan completed \u2014 no high-confidence imminent public drops detected ...",
+              "[2026-09-10T03:34:54.797639] ACH verification stored for claim",
+              "[2026-09-10T03:34:54.797676] Stored MAYBE: GOD-TIER has 7 pillars including Metadata-Only Discovery and HITL Judgment Layer...",
+              "[2026-09-10T03:34:54.802135] ACH verification stored for claim",
+              "[2026-09-10T03:34:54.802172] Stored MAYBE: Skill-tree registry has exactly 200 nodes across 10 domains....",
+              "[2026-09-10T03:34:54.806896] ACH verification stored for claim",
+              "[2026-09-10T03:34:54.806931] Stored MAYBE: Constitution Article II forbids bypass and circumvention....",
+              "[2026-09-10T03:34:54.811728] ACH verification stored for claim",
+              "[2026-09-10T03:34:54.811764] Stored MAYBE: HITL 120m authorizes GOD-TIER build not barrier bypass...."
+            ]
+          },
+          "config": {
+            "hitl_required": true,
+            "public_record_ceiling": true,
+            "roles": [
+              "Supervisor",
+              "MemoryVault",
+              "PatternDetector",
+              "Anticipation",
+              "Compliance",
+              "OSINTCollector",
+              "TruthVerifier",
+              "ResearchPlanner",
+              "Synthesizer",
+              "LiveWebScout"
+            ]
+          }
+        }
+      },
+      "GET /": {
+        "ok": true,
+        "http": 200,
+        "body": {
+          "name": "Live Online Investigation Swarm",
+          "version": "1.0.0",
+          "docs": "/docs",
+          "dashboard_hint": "streamlit run dashboard/app.py",
+          "absolute_rules": [
+            "Only public records and operator-supplied public material",
+            "HITL = YES for bulk ingest, external actions, irreversible decisions",
+            "SOLID / MAYBE tagging on every claim",
+            "No private data, no credential packs, no unauthorized access",
+            "Respect robots.txt, ToS, rate limits, jurisdiction",
+            "Every claim must have provenance (URL + timestamp + hash)"
+          ]
+        }
+      },
+      "GET /claims": {
+        "ok": true,
+        "http": 200,
+        "body": {
+          "claims": [
+            {
+              "hash": "6b6a276e3dcdb068",
+              "text": "Public search surface for 'Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.' contains open records and news",
+              "status": "MAYBE",
+              "confidence": 0.6,
+              "sources": [
+                "https://example-public-search.org/results",
+                "https://web.archive.org/"
+              ],
+              "agent": "OSINTCollector",
+              "notes": "Placeholder \u2014 replace with live ethical harvest",
+              "created_at": "2026-09-10T03:34:54.778709"
+            },
+            {
+              "hash": "a22b8d2542b9909a",
+              "text": "Live web surface for 'Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.' (demo mode)",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "https://news.google.com",
+                "https://web.archive.org"
+              ],
+              "agent": "LiveWebScout",
+              "notes": "Replace with live-web-mastery + rate-limited ethical collection",
+              "created_at": "2026-09-10T03:34:54.780938"
+            },
+            {
+              "hash": "64aa29c94ec94c46",
+              "text": "Pattern scan for 'Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.' surfaced 2 candidate regularities",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "internal:pattern-engine"
+              ],
+              "agent": "Pattern",
+              "notes": null,
+              "created_at": "2026-09-10T03:34:54.783583"
+            },
+            {
+              "hash": "caa83d00328fedb0",
+              "text": "Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.",
+              "status": "MAYBE",
+              "confidence": 0.5355,
+              "sources": [
+                "swarm:goal",
+                "https://news.google.com",
+                "https://example-public-search.org/results"
+              ],
+              "agent": "TruthVerifier",
+              "notes": "Best H: Claim is accurate and well-sourced (primary evidence) (posterior=0.535)",
+              "created_at": "2026-09-10T03:34:54.787895"
+            },
+            {
+              "hash": "e624bb9181a90eac",
+              "text": "Anticipation scan completed \u2014 no high-confidence imminent public drops detected in demo",
+              "status": "MAYBE",
+              "confidence": 0.4,
+              "sources": [
+                "internal:anticipation"
+              ],
+              "agent": "Anticipation",
+              "notes": null,
+              "created_at": "2026-09-10T03:34:54.790520"
+            },
+            {
+              "hash": "7edc6c5be893d211",
+              "text": "GOD-TIER has 7 pillars including Metadata-Only Discovery and HITL Judgment Layer.",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "operator"
+              ],
+              "agent": "API-TruthVerifier",
+              "notes": "Best: true",
+              "created_at": "2026-09-10T03:34:54.797657"
+            },
+            {
+              "hash": "a165761ffb3ea899",
+              "text": "Skill-tree registry has exactly 200 nodes across 10 domains.",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "operator"
+              ],
+              "agent": "API-TruthVerifier",
+              "notes": "Best: true",
+              "created_at": "2026-09-10T03:34:54.802153"
+            },
+            {
+              "hash": "9196c5f4fb928053",
+              "text": "Constitution Article II forbids bypass and circumvention.",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "operator"
+              ],
+              "agent": "API-TruthVerifier",
+              "notes": "Best: true",
+              "created_at": "2026-09-10T03:34:54.806913"
+            },
+            {
+              "hash": "a785d08c1457e1b0",
+              "text": "HITL 120m authorizes GOD-TIER build not barrier bypass.",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "operator"
+              ],
+              "agent": "API-TruthVerifier",
+              "notes": "Best: true",
+              "created_at": "2026-09-10T03:34:54.811745"
+            }
+          ],
+          "count": 9
+        }
+      },
+      "GET /verifications": {
+        "ok": true,
+        "http": 200,
+        "body": {
+          "verifications": [
+            {
+              "claim": "Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.",
+              "updated_at": "2026-09-10T03:34:54.787851",
+              "hypotheses": [
+                {
+                  "id": "H1",
+                  "text": "Claim is accurate and well-sourced (primary evidence)",
+                  "prior": 0.25,
+                  "posterior": 0.5355,
+                  "status": "untested",
+                  "evidence_for": [
+                    "claimchunk:fa84db3efc82",
+                    "claimchunk:79f37066d2a2",
+                    "claimchunk:f7b8ba3dedb2"
+                  ],
+                  "evidence_against": []
+                },
+                {
+                  "id": "H2",
+                  "text": "Claim is partially true / incomplete",
+                  "prior": 0.25,
+                  "posterior": 0.2544,
+                  "status": "contested",
+                  "evidence_for": [],
+                  "evidence_against": []
+                },
+                {
+                  "id": "H3",
+                  "text": "Claim is contradicted by stronger public evidence",
+                  "prior": 0.25,
+                  "posterior": 0.0218,
+                  "status": "contradicted",
+                  "evidence_for": [],
+                  "evidence_against": [
+                    "claimchunk:fa84db3efc82",
+                    "claimchunk:79f37066d2a2",
+                    "claimchunk:f7b8ba3dedb2"
+                  ]
+                },
+                {
+                  "id": "H4",
+                  "text": "Claim is untestable with current public data",
+                  "prior": 0.25,
+                  "posterior": 0.1884,
+                  "status": "contradicted",
+                  "evidence_for": [],
+                  "evidence_against": []
+                }
+              ],
+              "evidence": [
+                {
+                  "id": "claimchunk:fa84db3efc82",
+                  "description": "Pattern scan for 'Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.' surfaced 2 candidate regularities",
+                  "source": "internal:pattern-engine",
+                  "likelihood_if_h": 0.7896953499069872,
+                  "likelihood_if_not_h": 0.28272848756975955,
+                  "quality": 0.7896953499069872
+                },
+                {
+                  "id": "claimchunk:79f37066d2a2",
+                  "description": "Live web surface for 'Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.' (demo mode)",
+                  "source": "https://news.google.com",
+                  "likelihood_if_h": 0.7896229195272595,
+                  "likelihood_if_not_h": 0.28278281035455544,
+                  "quality": 0.7896229195272595
+                },
+                {
+                  "id": "claimchunk:f7b8ba3dedb2",
+                  "description": "Public search surface for 'Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.' contains open records and news",
+                  "source": "https://example-public-search.org/results",
+                  "likelihood_if_h": 0.7736186808000503,
+                  "likelihood_if_not_h": 0.29478598939996237,
+                  "quality": 0.7736186808000503
+                }
+              ],
+              "best": {
+                "id": "H1",
+                "text": "Claim is accurate and well-sourced (primary evidence)",
+                "posterior": 0.5355,
+                "status": "untested"
+              },
+              "claim_status": "MAYBE"
+            },
+            {
+              "claim": "GOD-TIER has 7 pillars including Metadata-Only Discovery and HITL Judgment Layer.",
+              "updated_at": "2026-09-10T03:34:54.797618",
+              "hypotheses": [
+                {
+                  "id": "H1",
+                  "text": "true",
+                  "prior": 0.5,
+                  "posterior": 0.5,
+                  "status": "untested",
+                  "evidence_for": [],
+                  "evidence_against": []
+                },
+                {
+                  "id": "H2",
+                  "text": "false",
+                  "prior": 0.5,
+                  "posterior": 0.5,
+                  "status": "untested",
+                  "evidence_for": [],
+                  "evidence_against": []
+                }
+              ],
+              "evidence": [
+                {
+                  "id": "1",
+                  "description": "Operator GOD-TIER artifacts on disk and GitHub d366831",
+                  "source": "operator",
+                  "likelihood_if_h": 0.95,
+                  "likelihood_if_not_h": 0.05,
+                  "quality": 0.95
+                },
+                {
+                  "id": "c:780b47185682",
+                  "description": "# I. GOD-TIER Operational Blueprint\n**Takeaway:** Self-developing, metadata-only, lawful investigative intelligence system.\n\n## 1. System Pillars\n1. Metadata-Only Discovery  \n2. Lawful Access Routing ",
+                  "source": "/workspace/artifacts/GOD_TIER_SYSTEM/I_BLUEPRINT/GOD_TIER_OPERATIONAL_BLUEPRINT.md",
+                  "likelihood_if_h": 0.6445843721996356,
+                  "likelihood_if_not_h": 0.3915617208502733,
+                  "quality": 0.6445843721996356
+                },
+                {
+                  "id": "c:406f30bed3fb",
+                  "description": ". Processing Layer\n- Metadata extraction \u00b7 Schema normalization \u00b7 Citation graph mapping \u00b7 Barrier classification \u00b7 Lawful route generation  \n\n### C. Intelligence Layer\n- Skill-tree execution \u00b7 Patter",
+                  "source": "/workspace/artifacts/GOD_TIER_SYSTEM/I_BLUEPRINT/GOD_TIER_OPERATIONAL_BLUEPRINT.md",
+                  "likelihood_if_h": 0.601209060539745,
+                  "likelihood_if_not_h": 0.4240932045951913,
+                  "quality": 0.601209060539745
+                },
+                {
+                  "id": "c:5a8f2724bf33",
+                  "description": "| Extract, Normalize, Cross-reference, Cluster, Graph |\n| Access Logic Intelligence | Classify barriers, Validate legality, Map lawful routes |\n| Routing Intelligence | FOIA/ATIP fields, Subpoena requ",
+                  "source": "/workspace/artifacts/GOD_TIER_SYSTEM/I_BLUEPRINT/GOD_TIER_OPERATIONAL_BLUEPRINT.md",
+                  "likelihood_if_h": 0.601209060539745,
+                  "likelihood_if_not_h": 0.4240932045951913,
+                  "quality": 0.601209060539745
+                },
+                {
+                  "id": "claimchunk:935a1bad1860",
+                  "description": "Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.",
+                  "source": "swarm:goal",
+                  "likelihood_if_h": 0.5634115617021046,
+                  "likelihood_if_not_h": 0.4524413287234215,
+                  "quality": 0.5634115617021046
+                },
+                {
+                  "id": "c:406f30bed3fb",
+                  "description": ". Processing Layer\n- Metadata extraction \u00b7 Schema normalization \u00b7 Citation graph mapping \u00b7 Barrier classification \u00b7 Lawful route generation  \n\n### C. Intelligence Layer\n- Skill-tree execution \u00b7 Patter",
+                  "source": "/workspace/artifacts/GOD_TIER_SYSTEM/I_BLUEPRINT/GOD_TIER_OPERATIONAL_BLUEPRINT.md",
+                  "likelihood_if_h": 0.5466204190623619,
+                  "likelihood_if_not_h": 0.4650346857032286,
+                  "quality": 0.5466204190623619
+                }
+              ],
+              "best": {
+                "id": "H1",
+                "text": "true",
+                "posterior": 0.5,
+                "status": "untested"
+              },
+              "claim_status": "MAYBE",
+              "claim_hash": "7edc6c5be893d211"
+            },
+            {
+              "claim": "Skill-tree registry has exactly 200 nodes across 10 domains.",
+              "updated_at": "2026-09-10T03:34:54.802115",
+              "hypotheses": [
+                {
+                  "id": "H1",
+                  "text": "true",
+                  "prior": 0.5,
+                  "posterior": 0.5,
+                  "status": "untested",
+                  "evidence_for": [],
+                  "evidence_against": []
+                },
+                {
+                  "id": "H2",
+                  "text": "false",
+                  "prior": 0.5,
+                  "posterior": 0.5,
+                  "status": "untested",
+                  "evidence_for": [],
+                  "evidence_against": []
+                }
+              ],
+              "evidence": [
+                {
+                  "id": "1",
+                  "description": "Operator GOD-TIER artifacts on disk and GitHub d366831",
+                  "source": "operator",
+                  "likelihood_if_h": 0.95,
+                  "likelihood_if_not_h": 0.05,
+                  "quality": 0.95
+                },
+                {
+                  "id": "c:1943ebb053d2",
+                  "description": "Exactly 200 nodes in 10 domains.",
+                  "source": "skill tree",
+                  "likelihood_if_h": 0.85,
+                  "likelihood_if_not_h": 0.2161703464391923,
+                  "quality": 0.878439538081077
+                },
+                {
+                  "id": "claimchunk:935a1bad1860",
+                  "description": "Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.",
+                  "source": "swarm:goal",
+                  "likelihood_if_h": 0.543737658212802,
+                  "likelihood_if_not_h": 0.46719675634039853,
+                  "quality": 0.543737658212802
+                },
+                {
+                  "id": "claimchunk:fa84db3efc82",
+                  "description": "Pattern scan for 'Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.' surfaced 2 candidate regularities",
+                  "source": "internal:pattern-engine",
+                  "likelihood_if_h": 0.5307245289570789,
+                  "likelihood_if_not_h": 0.47695660328219086,
+                  "quality": 0.5307245289570789
+                }
+              ],
+              "best": {
+                "id": "H1",
+                "text": "true",
+                "posterior": 0.5,
+                "status": "untested"
+              },
+              "claim_status": "MAYBE",
+              "claim_hash": "a165761ffb3ea899"
+            },
+            {
+              "claim": "Constitution Article II forbids bypass and circumvention.",
+              "updated_at": "2026-09-10T03:34:54.806876",
+              "hypotheses": [
+                {
+                  "id": "H1",
+                  "text": "true",
+                  "prior": 0.5,
+                  "posterior": 0.5,
+                  "status": "untested",
+                  "evidence_for": [],
+                  "evidence_against": []
+                },
+                {
+                  "id": "H2",
+                  "text": "false",
+                  "prior": 0.5,
+                  "posterior": 0.5,
+                  "status": "untested",
+                  "evidence_for": [],
+                  "evidence_against": []
+                }
+              ],
+              "evidence": [
+                {
+                  "id": "1",
+                  "description": "Operator GOD-TIER artifacts on disk and GitHub d366831",
+                  "source": "operator",
+                  "likelihood_if_h": 0.95,
+                  "likelihood_if_not_h": 0.05,
+                  "quality": 0.95
+                },
+                {
+                  "id": "c:791f1f090b91",
+                  "description": "# III. Lawful AI Governance Constitution\n\n## Article I \u2014 Purpose\nThe system supports lawful investigative research using **metadata only**, never accessing restricted content by bypass or circumventio",
+                  "source": "/workspace/artifacts/GOD_TIER_SYSTEM/III_CONSTITUTION/LAWFUL_AI_GOVERNANCE_CONSTITUTION.md",
+                  "likelihood_if_h": 0.6371115538827826,
+                  "likelihood_if_not_h": 0.397166334587913,
+                  "quality": 0.6371115538827826
+                },
+                {
+                  "id": "c:075a6f0e3eff",
+                  "description": "ap relationships  \n- Identify lawful routes  \n- Provide FOIA/subpoena field templates  \n- Summarize **public** information  \n\n## Article IV \u2014 HITL\nHITL **may**:\n- Resolve ambiguity \u00b7 Approve routing \u00b7",
+                  "source": "/workspace/artifacts/GOD_TIER_SYSTEM/III_CONSTITUTION/LAWFUL_AI_GOVERNANCE_CONSTITUTION.md",
+                  "likelihood_if_h": 0.5959780877179479,
+                  "likelihood_if_not_h": 0.4280164342115391,
+                  "quality": 0.5959780877179479
+                },
+                {
+                  "id": "c:9acb5114f425",
+                  "description": "rides, skill creation, governance checks.\n\n## Article VI \u2014 Ethics\nRespect privacy, ownership, jurisdiction, consent, legal process.\n\n## Article VII \u2014 Evolution\nMay evolve via pattern recognition, skil",
+                  "source": "/workspace/artifacts/GOD_TIER_SYSTEM/III_CONSTITUTION/LAWFUL_AI_GOVERNANCE_CONSTITUTION.md",
+                  "likelihood_if_h": 0.5959780877179479,
+                  "likelihood_if_not_h": 0.4280164342115391,
+                  "quality": 0.5959780877179479
+                },
+                {
+                  "id": "claimchunk:935a1bad1860",
+                  "description": "Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.",
+                  "source": "swarm:goal",
+                  "likelihood_if_h": 0.5411193489850009,
+                  "likelihood_if_not_h": 0.4691604882612493,
+                  "quality": 0.5411193489850009
+                },
+                {
+                  "id": "c:075a6f0e3eff",
+                  "description": "ap relationships  \n- Identify lawful routes  \n- Provide FOIA/subpoena field templates  \n- Summarize **public** information  \n\n## Article IV \u2014 HITL\nHITL **may**:\n- Resolve ambiguity \u00b7 Approve routing \u00b7",
+                  "source": "/workspace/artifacts/GOD_TIER_SYSTEM/III_CONSTITUTION/LAWFUL_AI_GOVERNANCE_CONSTITUTION.md",
+                  "likelihood_if_h": 0.5386690831266487,
+                  "likelihood_if_not_h": 0.47099818765501344,
+                  "quality": 0.5386690831266487
+                }
+              ],
+              "best": {
+                "id": "H1",
+                "text": "true",
+                "posterior": 0.5,
+                "status": "untested"
+              },
+              "claim_status": "MAYBE",
+              "claim_hash": "9196c5f4fb928053"
+            },
+            {
+              "claim": "HITL 120m authorizes GOD-TIER build not barrier bypass.",
+              "updated_at": "2026-09-10T03:34:54.811708",
+              "hypotheses": [
+                {
+                  "id": "H1",
+                  "text": "true",
+                  "prior": 0.5,
+                  "posterior": 0.5,
+                  "status": "untested",
+                  "evidence_for": [],
+                  "evidence_against": []
+                },
+                {
+                  "id": "H2",
+                  "text": "false",
+                  "prior": 0.5,
+                  "posterior": 0.5,
+                  "status": "untested",
+                  "evidence_for": [],
+                  "evidence_against": []
+                }
+              ],
+              "evidence": [
+                {
+                  "id": "1",
+                  "description": "Operator GOD-TIER artifacts on disk and GitHub d366831",
+                  "source": "operator",
+                  "likelihood_if_h": 0.95,
+                  "likelihood_if_not_h": 0.05,
+                  "quality": 0.95
+                },
+                {
+                  "id": "claimchunk:935a1bad1860",
+                  "description": "Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.",
+                  "source": "swarm:goal",
+                  "likelihood_if_h": 0.621267475415303,
+                  "likelihood_if_not_h": 0.40904939343852276,
+                  "quality": 0.621267475415303
+                },
+                {
+                  "id": "claimchunk:9c119fba32fd",
+                  "description": "GOD-TIER has 7 pillars including Metadata-Only Discovery and HITL Judgment Layer.",
+                  "source": "operator",
+                  "likelihood_if_h": 0.6077966524684364,
+                  "likelihood_if_not_h": 0.41915251064867276,
+                  "quality": 0.6077966524684364
+                },
+                {
+                  "id": "claimchunk:fa84db3efc82",
+                  "description": "Pattern scan for 'Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.' surfaced 2 candidate regularities",
+                  "source": "internal:pattern-engine",
+                  "likelihood_if_h": 0.5855053852828086,
+                  "likelihood_if_not_h": 0.4358709610378936,
+                  "quality": 0.5855053852828086
+                }
+              ],
+              "best": {
+                "id": "H1",
+                "text": "true",
+                "posterior": 0.5,
+                "status": "untested"
+              },
+              "claim_status": "MAYBE",
+              "claim_hash": "a785d08c1457e1b0"
+            }
+          ],
+          "count": 5
+        }
+      },
+      "GET /graph/stats": {
+        "ok": true,
+        "http": 200,
+        "body": {
+          "nodes": 28,
+          "edges": 21,
+          "chunks": 17,
+          "labels": {
+            "Document": 3,
+            "Chunk": 8,
+            "Claim": 9,
+            "Source": 8
+          },
+          "redis_connected": false,
+          "redis_graph": false
+        }
+      },
+      "POST /swarm/run": {
+        "ok": true,
+        "http": 200,
+        "body": {
+          "status": "completed",
+          "goal": "Public-record health check: confirm HITL and public ceiling flags only.",
+          "results": {
+            "OSINTCollector": {
+              "status": "ok",
+              "query": "Public-record health check: confirm HITL and public ceiling flags only.",
+              "claims_stored": [
+                "af7b0f00bd8d6b03"
+              ],
+              "count": 1,
+              "note": "Live mode would use search_techniques_master + ethical-scraper-orchestration"
+            },
+            "LiveWebScout": {
+              "status": "ok",
+              "claim_hash": "b3fac19fc88e04f8",
+              "query": "Public-record health check: confirm HITL and public ceiling flags only."
+            },
+            "Pattern": {
+              "status": "ok",
+              "patterns": [
+                {
+                  "pattern": "recurring entity co-occurrence",
+                  "strength": 0.4,
+                  "status": "MAYBE"
+                },
+                {
+                  "pattern": "temporal clustering of public filings",
+                  "strength": 0.55,
+                  "status": "MAYBE"
+                }
+              ],
+              "claim_hash": "33ef87334eb8e37d"
+            },
+            "TruthVerifier": {
+              "status": "verified",
+              "claim_hash": "9b47a657c9325e9a",
+              "final_status": "MAYBE",
+              "confidence": 0.5386,
+              "ach": {
+                "claim": "Public-record health check: confirm HITL and public ceiling flags only.",
+                "updated_at": "2026-09-10T03:39:14.936241",
+                "hypotheses": [
+                  {
+                    "id": "H1",
+                    "text": "Claim is accurate and well-sourced (primary evidence)",
+                    "prior": 0.25,
+                    "posterior": 0.5386,
+                    "status": "untested",
+                    "evidence_for": [
+                      "claimchunk:fe38c53c5c30",
+                      "claimchunk:8b405d9d0119",
+                      "claimchunk:943d9d83b508"
+                    ],
+                    "evidence_against": []
+                  },
+                  {
+                    "id": "H2",
+                    "text": "Claim is partially true / incomplete",
+                    "prior": 0.25,
+                    "posterior": 0.2545,
+                    "status": "contested",
+                    "evidence_for": [],
+                    "evidence_against": []
+                  },
+                  {
+                    "id": "H3",
+                    "text": "Claim is contradicted by stronger public evidence",
+                    "prior": 0.25,
+                    "posterior": 0.0202,
+                    "status": "contradicted",
+                    "evidence_for": [],
+                    "evidence_against": [
+                      "claimchunk:fe38c53c5c30",
+                      "claimchunk:8b405d9d0119",
+                      "claimchunk:943d9d83b508"
+                    ]
+                  },
+                  {
+                    "id": "H4",
+                    "text": "Claim is untestable with current public data",
+                    "prior": 0.25,
+                    "posterior": 0.1868,
+                    "status": "contradicted",
+                    "evidence_for": [],
+                    "evidence_against": []
+                  }
+                ],
+                "evidence": [
+                  {
+                    "id": "claimchunk:fe38c53c5c30",
+                    "description": "Live web surface for 'Public-record health check: confirm HITL and public ceiling flags only.' (demo mode)",
+                    "source": "https://news.google.com",
+                    "likelihood_if_h": 0.795221707202975,
+                    "likelihood_if_not_h": 0.27858371959776873,
+                    "quality": 0.795221707202975
+                  },
+                  {
+                    "id": "claimchunk:8b405d9d0119",
+                    "description": "Pattern scan for 'Public-record health check: confirm HITL and public ceiling flags only.' surfaced 2 candidate regularities",
+                    "source": "internal:pattern-engine",
+                    "likelihood_if_h": 0.7938874387134787,
+                    "likelihood_if_not_h": 0.279584420964891,
+                    "quality": 0.7938874387134787
+                  },
+                  {
+                    "id": "claimchunk:943d9d83b508",
+                    "description": "Public search surface for 'Public-record health check: confirm HITL and public ceiling flags only.' contains open records and news",
+                    "source": "https://example-public-search.org/results",
+                    "likelihood_if_h": 0.7813238239690272,
+                    "likelihood_if_not_h": 0.2890071320232297,
+                    "quality": 0.7813238239690272
+                  }
+                ],
+                "best": {
+                  "id": "H1",
+                  "text": "Claim is accurate and well-sourced (primary evidence)",
+                  "posterior": 0.5386,
+                  "status": "untested"
+                },
+                "claim_status": "MAYBE"
+              },
+              "rag_used": true
+            },
+            "MemoryVault": {
+              "status": "ok",
+              "snapshot": {
+                "claim_count": 13,
+                "timeline_events": 0,
+                "entities": 0,
+                "verifications": 6,
+                "graph": {
+                  "nodes": 32,
+                  "edges": 29,
+                  "chunks": 21,
+                  "labels": {
+                    "Document": 3,
+                    "Chunk": 8,
+                    "Claim": 13,
+                    "Source": 8
+                  },
+                  "redis_connected": false,
+                  "redis_graph": false
+                },
+                "recent_logs": [
+                  "[2026-09-10T03:34:54.802172] Stored MAYBE: Skill-tree registry has exactly 200 nodes across 10 domains....",
+                  "[2026-09-10T03:34:54.806896] ACH verification stored for claim",
+                  "[2026-09-10T03:34:54.806931] Stored MAYBE: Constitution Article II forbids bypass and circumvention....",
+                  "[2026-09-10T03:34:54.811728] ACH verification stored for claim",
+                  "[2026-09-10T03:34:54.811764] Stored MAYBE: HITL 120m authorizes GOD-TIER build not barrier bypass....",
+                  "[2026-09-10T03:39:14.927373] Stored MAYBE: Public search surface for 'Public-record health check: confirm HITL and public c...",
+                  "[2026-09-10T03:39:14.930872] Stored MAYBE: Live web surface for 'Public-record health check: confirm HITL and public ceilin...",
+                  "[2026-09-10T03:39:14.933249] Stored MAYBE: Pattern scan for 'Public-record health check: confirm HITL and public ceiling fl...",
+                  "[2026-09-10T03:39:14.936305] Stored MAYBE: Public-record health check: confirm HITL and public ceiling flags only....",
+                  "[2026-09-10T03:39:14.938407] ACH verification stored for claim"
+                ]
+              },
+              "note": "In production: Redis + Neo4j Graph RAG + vector index"
+            },
+            "Anticipation": {
+              "status": "ok",
+              "upcoming": [
+                {
+                  "source": "PACER / court calendar",
+                  "expected": "unknown",
+                  "status": "MAYBE"
+                },
+                {
+                  "source": "FOIA log public postings",
+                  "expected": "rolling",
+                  "status": "MAYBE"
+                }
+              ]
+            },
+            "Synthesizer": {
+              "status": "report_ready",
+              "report": {
+                "title": "Swarm Report: Public-record health check: confirm HITL and public ceiling flags only.",
+                "executive_summary": "Parallel agents collected public-surface signals. All claims tagged SOLID/MAYBE. HITL required before dissemination.",
+                "collection_results": {
+                  "OSINTCollector": "ok",
+                  "LiveWebScout": "ok",
+                  "Pattern": "ok",
+                  "TruthVerifier": "verified",
+                  "MemoryVault": "ok",
+                  "Anticipation": "ok"
+                },
+                "memory": {
+                  "claim_count": 13,
+                  "timeline_events": 0,
+                  "entities": 0,
+                  "verifications": 6,
+                  "graph": {
+                    "nodes": 32,
+                    "edges": 30,
+                    "chunks": 21,
+                    "labels": {
+                      "Document": 3,
+                      "Chunk": 8,
+                      "Claim": 13,
+                      "Source": 8
+                    },
+                    "redis_connected": false,
+                    "redis_graph": false
+                  },
+                  "recent_logs": [
+                    "[2026-09-10T03:34:54.806896] ACH verification stored for claim",
+                    "[2026-09-10T03:34:54.806931] Stored MAYBE: Constitution Article II forbids bypass and circumvention....",
+                    "[2026-09-10T03:34:54.811728] ACH verification stored for claim",
+                    "[2026-09-10T03:34:54.811764] Stored MAYBE: HITL 120m authorizes GOD-TIER build not barrier bypass....",
+                    "[2026-09-10T03:39:14.927373] Stored MAYBE: Public search surface for 'Public-record health check: confirm HITL and public c...",
+                    "[2026-09-10T03:39:14.930872] Stored MAYBE: Live web surface for 'Public-record health check: confirm HITL and public ceilin...",
+                    "[2026-09-10T03:39:14.933249] Stored MAYBE: Pattern scan for 'Public-record health check: confirm HITL and public ceiling fl...",
+                    "[2026-09-10T03:39:14.936305] Stored MAYBE: Public-record health check: confirm HITL and public ceiling flags only....",
+                    "[2026-09-10T03:39:14.938407] ACH verification stored for claim",
+                    "[2026-09-10T03:39:14.938576] Stored MAYBE: Anticipation scan completed \u2014 no high-confidence imminent public drops detected ..."
+                  ]
+                },
+                "confidence_note": "Most findings currently MAYBE \u2014 primary source confirmation needed",
+                "next_steps": [
+                  "Human review of all MAYBE claims",
+                  "Run TruthVerifier on high-value claims",
+                  "Expand collection with Wayback / dorks if authorized",
+                  "Update MemoryVault with confirmed SOLID items"
+                ],
+                "absolute_rules_observed": [
+                  "Only public records and operator-supplied public material",
+                  "HITL = YES for bulk ingest, external actions, irreversible decisions",
+                  "SOLID / MAYBE tagging on every claim",
+                  "No private data, no credential packs, no unauthorized access",
+                  "Respect robots.txt, ToS, rate limits, jurisdiction",
+                  "Every claim must have provenance (URL + timestamp + hash)"
+                ]
+              }
+            },
+            "hitl_notice": "[HITL REQUIRED] final dissemination of findings \u2014 pause for human confirmation before proceeding."
+          },
+          "memory_snapshot": {
+            "claim_count": 13,
+            "timeline_events": 0,
+            "entities": 0,
+            "verifications": 6,
+            "graph": {
+              "nodes": 32,
+              "edges": 30,
+              "chunks": 21,
+              "labels": {
+                "Document": 3,
+                "Chunk": 8,
+                "Claim": 13,
+                "Source": 8
+              },
+              "redis_connected": false,
+              "redis_graph": false
+            },
+            "recent_logs": [
+              "[2026-09-10T03:34:54.806896] ACH verification stored for claim",
+              "[2026-09-10T03:34:54.806931] Stored MAYBE: Constitution Article II forbids bypass and circumvention....",
+              "[2026-09-10T03:34:54.811728] ACH verification stored for claim",
+              "[2026-09-10T03:34:54.811764] Stored MAYBE: HITL 120m authorizes GOD-TIER build not barrier bypass....",
+              "[2026-09-10T03:39:14.927373] Stored MAYBE: Public search surface for 'Public-record health check: confirm HITL and public c...",
+              "[2026-09-10T03:39:14.930872] Stored MAYBE: Live web surface for 'Public-record health check: confirm HITL and public ceilin...",
+              "[2026-09-10T03:39:14.933249] Stored MAYBE: Pattern scan for 'Public-record health check: confirm HITL and public ceiling fl...",
+              "[2026-09-10T03:39:14.936305] Stored MAYBE: Public-record health check: confirm HITL and public ceiling flags only....",
+              "[2026-09-10T03:39:14.938407] ACH verification stored for claim",
+              "[2026-09-10T03:39:14.938576] Stored MAYBE: Anticipation scan completed \u2014 no high-confidence imminent public drops detected ..."
+            ]
+          },
+          "claims": [
+            {
+              "hash": "6b6a276e3dcdb068",
+              "text": "Public search surface for 'Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.' contains open records and news",
+              "status": "MAYBE",
+              "confidence": 0.6,
+              "sources": [
+                "https://example-public-search.org/results",
+                "https://web.archive.org/"
+              ],
+              "agent": "OSINTCollector",
+              "notes": "Placeholder \u2014 replace with live ethical harvest",
+              "created_at": "2026-09-10T03:34:54.778709"
+            },
+            {
+              "hash": "a22b8d2542b9909a",
+              "text": "Live web surface for 'Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.' (demo mode)",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "https://news.google.com",
+                "https://web.archive.org"
+              ],
+              "agent": "LiveWebScout",
+              "notes": "Replace with live-web-mastery + rate-limited ethical collection",
+              "created_at": "2026-09-10T03:34:54.780938"
+            },
+            {
+              "hash": "64aa29c94ec94c46",
+              "text": "Pattern scan for 'Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.' surfaced 2 candidate regularities",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "internal:pattern-engine"
+              ],
+              "agent": "Pattern",
+              "notes": null,
+              "created_at": "2026-09-10T03:34:54.783583"
+            },
+            {
+              "hash": "caa83d00328fedb0",
+              "text": "Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.",
+              "status": "MAYBE",
+              "confidence": 0.5355,
+              "sources": [
+                "swarm:goal",
+                "https://news.google.com",
+                "https://example-public-search.org/results"
+              ],
+              "agent": "TruthVerifier",
+              "notes": "Best H: Claim is accurate and well-sourced (primary evidence) (posterior=0.535)",
+              "created_at": "2026-09-10T03:34:54.787895"
+            },
+            {
+              "hash": "e624bb9181a90eac",
+              "text": "Anticipation scan completed \u2014 no high-confidence imminent public drops detected in demo",
+              "status": "MAYBE",
+              "confidence": 0.4,
+              "sources": [
+                "internal:anticipation"
+              ],
+              "agent": "Anticipation",
+              "notes": null,
+              "created_at": "2026-09-10T03:39:14.938552"
+            },
+            {
+              "hash": "7edc6c5be893d211",
+              "text": "GOD-TIER has 7 pillars including Metadata-Only Discovery and HITL Judgment Layer.",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "operator"
+              ],
+              "agent": "API-TruthVerifier",
+              "notes": "Best: true",
+              "created_at": "2026-09-10T03:34:54.797657"
+            },
+            {
+              "hash": "a165761ffb3ea899",
+              "text": "Skill-tree registry has exactly 200 nodes across 10 domains.",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "operator"
+              ],
+              "agent": "API-TruthVerifier",
+              "notes": "Best: true",
+              "created_at": "2026-09-10T03:34:54.802153"
+            },
+            {
+              "hash": "9196c5f4fb928053",
+              "text": "Constitution Article II forbids bypass and circumvention.",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "operator"
+              ],
+              "agent": "API-TruthVerifier",
+              "notes": "Best: true",
+              "created_at": "2026-09-10T03:34:54.806913"
+            },
+            {
+              "hash": "a785d08c1457e1b0",
+              "text": "HITL 120m authorizes GOD-TIER build not barrier bypass.",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "operator"
+              ],
+              "agent": "API-TruthVerifier",
+              "notes": "Best: true",
+              "created_at": "2026-09-10T03:34:54.811745"
+            },
+            {
+              "hash": "af7b0f00bd8d6b03",
+              "text": "Public search surface for 'Public-record health check: confirm HITL and public ceiling flags only.' contains open records and news",
+              "status": "MAYBE",
+              "confidence": 0.6,
+              "sources": [
+                "https://example-public-search.org/results",
+                "https://web.archive.org/"
+              ],
+              "agent": "OSINTCollector",
+              "notes": "Placeholder \u2014 replace with live ethical harvest",
+              "created_at": "2026-09-10T03:39:14.926945"
+            },
+            {
+              "hash": "b3fac19fc88e04f8",
+              "text": "Live web surface for 'Public-record health check: confirm HITL and public ceiling flags only.' (demo mode)",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "https://news.google.com",
+                "https://web.archive.org"
+              ],
+              "agent": "LiveWebScout",
+              "notes": "Replace with live-web-mastery + rate-limited ethical collection",
+              "created_at": "2026-09-10T03:39:14.930835"
+            },
+            {
+              "hash": "33ef87334eb8e37d",
+              "text": "Pattern scan for 'Public-record health check: confirm HITL and public ceiling flags only.' surfaced 2 candidate regularities",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "internal:pattern-engine"
+              ],
+              "agent": "Pattern",
+              "notes": null,
+              "created_at": "2026-09-10T03:39:14.933170"
+            },
+            {
+              "hash": "9b47a657c9325e9a",
+              "text": "Public-record health check: confirm HITL and public ceiling flags only.",
+              "status": "MAYBE",
+              "confidence": 0.5386,
+              "sources": [
+                "swarm:goal",
+                "https://news.google.com",
+                "https://example-public-search.org/results"
+              ],
+              "agent": "TruthVerifier",
+              "notes": "Best H: Claim is accurate and well-sourced (primary evidence) (posterior=0.539)",
+              "created_at": "2026-09-10T03:39:14.936282"
+            }
+          ],
+          "health": {
+            "total_events": 22,
+            "agents": {
+              "Supervisor": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:14.940694"
+              },
+              "Compliance": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:14.926843"
+              },
+              "OSINTCollector": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:14.930790"
+              },
+              "LiveWebScout": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:14.933128"
+              },
+              "Pattern": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:14.935135"
+              },
+              "TruthVerifier": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:14.938416"
+              },
+              "MemoryVault": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:14.938529"
+              },
+              "Anticipation": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:14.940600"
+              },
+              "Synthesizer": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:14.940689"
+              }
+            },
+            "last_5": [
+              "[2026-09-10T03:39:14.936149] [TruthVerifier] Running Bayesian ACH on: Public-record health check: confirm HITL and public ceiling flags only...",
+              "[2026-09-10T03:39:14.938433] [MemoryVault] Persisting and indexing new findings into MemoryVault",
+              "[2026-09-10T03:39:14.938538] [Anticipation] Checking public calendars and known release schedules",
+              "[2026-09-10T03:39:14.940680] [Synthesizer] Assembling structured intelligence report",
+              "[2026-09-10T03:39:14.940696] [Supervisor] Orchestration complete."
+            ]
+          }
+        }
+      },
+      "POST /verify": {
+        "ok": true,
+        "http": 200,
+        "body": {
+          "claim": "PUBLIC_RECORD_CEILING is enforced on live Swarm API.",
+          "updated_at": "2026-09-10T03:39:14.944661",
+          "hypotheses": [
+            {
+              "id": "H1",
+              "text": "true",
+              "prior": 0.5,
+              "posterior": 0.5,
+              "status": "untested",
+              "evidence_for": [],
+              "evidence_against": []
+            },
+            {
+              "id": "H2",
+              "text": "false",
+              "prior": 0.5,
+              "posterior": 0.5,
+              "status": "untested",
+              "evidence_for": [],
+              "evidence_against": []
+            }
+          ],
+          "evidence": [
+            {
+              "id": "h",
+              "description": "/health config",
+              "source": "api",
+              "likelihood_if_h": 0.9,
+              "likelihood_if_not_h": 0.1,
+              "quality": 0.9
+            },
+            {
+              "id": "claimchunk:fe38c53c5c30",
+              "description": "Live web surface for 'Public-record health check: confirm HITL and public ceiling flags only.' (demo mode)",
+              "source": "https://news.google.com",
+              "likelihood_if_h": 0.5897445785364926,
+              "likelihood_if_not_h": 0.4326915660976305,
+              "quality": 0.5897445785364926
+            },
+            {
+              "id": "claimchunk:79f37066d2a2",
+              "description": "Live web surface for 'Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.' (demo mode)",
+              "source": "https://news.google.com",
+              "likelihood_if_h": 0.5856405125658004,
+              "likelihood_if_not_h": 0.4357696155756497,
+              "quality": 0.5856405125658004
+            }
+          ],
+          "best": {
+            "id": "H1",
+            "text": "true",
+            "posterior": 0.5,
+            "status": "untested"
+          },
+          "claim_status": "MAYBE",
+          "claim_hash": "ada8e42007709817"
+        }
+      },
+      "POST /rag/query": {
+        "ok": true,
+        "http": 200,
+        "body": {
+          "query": "GOD-TIER skill tree public record",
+          "results": [
+            {
+              "chunk_id": "claimchunk:935a1bad1860",
+              "score": 0.5528383605156095,
+              "text": "Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.",
+              "source": "swarm:goal",
+              "title": "Claim MAYBE",
+              "meta": {
+                "status": "MAYBE",
+                "confidence": 0.5355
+              },
+              "via": "vector"
+            },
+            {
+              "chunk_id": "claimchunk:79f37066d2a2",
+              "score": 0.41304912817274353,
+              "text": "Live web surface for 'Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.' (demo mode)",
+              "source": "https://news.google.com",
+              "title": "Claim MAYBE",
+              "meta": {
+                "status": "MAYBE",
+                "confidence": 0.5
+              },
+              "via": "vector"
+            },
+            {
+              "chunk_id": "claimchunk:fa84db3efc82",
+              "score": 0.409591185501905,
+              "text": "Pattern scan for 'Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.' surfaced 2 candidate regularities",
+              "source": "internal:pattern-engine",
+              "title": "Claim MAYBE",
+              "meta": {
+                "status": "MAYBE",
+                "confidence": 0.5
+              },
+              "via": "vector"
+            }
+          ],
+          "graph_stats": {
+            "nodes": 34,
+            "edges": 31,
+            "chunks": 22,
+            "labels": {
+              "Document": 3,
+              "Chunk": 8,
+              "Claim": 14,
+              "Source": 9
+            },
+            "redis_connected": false,
+            "redis_graph": false
+          },
+          "backend": "networkx-only",
+          "redis_graph": false
+        }
+      },
+      "POST /rag/ingest": {
+        "ok": true,
+        "http": 200,
+        "body": {
+          "status": "ingested",
+          "doc_id": "h15-verify-ping",
+          "chunks": 1,
+          "graph": {
+            "nodes": 36,
+            "edges": 32,
+            "chunks": 23,
+            "labels": {
+              "Document": 4,
+              "Chunk": 9,
+              "Claim": 14,
+              "Source": 9
+            },
+            "redis_connected": false,
+            "redis_graph": false
+          }
+        }
+      }
+    },
+    "public": {
+      "GET /health": {
+        "ok": true,
+        "http": 200,
+        "body": {
+          "status": "ok",
+          "swarm": {
+            "total_events": 22,
+            "agents": {
+              "Supervisor": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:14.940694"
+              },
+              "Compliance": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:14.926843"
+              },
+              "OSINTCollector": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:14.930790"
+              },
+              "LiveWebScout": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:14.933128"
+              },
+              "Pattern": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:14.935135"
+              },
+              "TruthVerifier": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:14.938416"
+              },
+              "MemoryVault": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:14.938529"
+              },
+              "Anticipation": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:14.940600"
+              },
+              "Synthesizer": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:14.940689"
+              }
+            },
+            "last_5": [
+              "[2026-09-10T03:39:14.936149] [TruthVerifier] Running Bayesian ACH on: Public-record health check: confirm HITL and public ceiling flags only...",
+              "[2026-09-10T03:39:14.938433] [MemoryVault] Persisting and indexing new findings into MemoryVault",
+              "[2026-09-10T03:39:14.938538] [Anticipation] Checking public calendars and known release schedules",
+              "[2026-09-10T03:39:14.940680] [Synthesizer] Assembling structured intelligence report",
+              "[2026-09-10T03:39:14.940696] [Supervisor] Orchestration complete."
+            ]
+          },
+          "memory": {
+            "claim_count": 14,
+            "timeline_events": 0,
+            "entities": 0,
+            "verifications": 7,
+            "graph": {
+              "nodes": 36,
+              "edges": 32,
+              "chunks": 23,
+              "labels": {
+                "Document": 4,
+                "Chunk": 9,
+                "Claim": 14,
+                "Source": 9
+              },
+              "redis_connected": false,
+              "redis_graph": false
+            },
+            "recent_logs": [
+              "[2026-09-10T03:34:54.811728] ACH verification stored for claim",
+              "[2026-09-10T03:34:54.811764] Stored MAYBE: HITL 120m authorizes GOD-TIER build not barrier bypass....",
+              "[2026-09-10T03:39:14.927373] Stored MAYBE: Public search surface for 'Public-record health check: confirm HITL and public c...",
+              "[2026-09-10T03:39:14.930872] Stored MAYBE: Live web surface for 'Public-record health check: confirm HITL and public ceilin...",
+              "[2026-09-10T03:39:14.933249] Stored MAYBE: Pattern scan for 'Public-record health check: confirm HITL and public ceiling fl...",
+              "[2026-09-10T03:39:14.936305] Stored MAYBE: Public-record health check: confirm HITL and public ceiling flags only....",
+              "[2026-09-10T03:39:14.938407] ACH verification stored for claim",
+              "[2026-09-10T03:39:14.938576] Stored MAYBE: Anticipation scan completed \u2014 no high-confidence imminent public drops detected ...",
+              "[2026-09-10T03:39:14.944685] ACH verification stored for claim",
+              "[2026-09-10T03:39:14.944729] Stored MAYBE: PUBLIC_RECORD_CEILING is enforced on live Swarm API...."
+            ]
+          },
+          "config": {
+            "hitl_required": true,
+            "public_record_ceiling": true,
+            "roles": [
+              "Supervisor",
+              "MemoryVault",
+              "PatternDetector",
+              "Anticipation",
+              "Compliance",
+              "OSINTCollector",
+              "TruthVerifier",
+              "ResearchPlanner",
+              "Synthesizer",
+              "LiveWebScout"
+            ]
+          }
+        }
+      },
+      "GET /graph/stats": {
+        "ok": true,
+        "http": 200,
+        "body": {
+          "nodes": 36,
+          "edges": 32,
+          "chunks": 23,
+          "labels": {
+            "Document": 4,
+            "Chunk": 9,
+            "Claim": 14,
+            "Source": 9
+          },
+          "redis_connected": false,
+          "redis_graph": false
+        }
+      },
+      "POST /swarm/run": {
+        "ok": true,
+        "http": 200,
+        "body": {
+          "status": "completed",
+          "goal": "Public tunnel health check only.",
+          "results": {
+            "OSINTCollector": {
+              "status": "ok",
+              "query": "Public tunnel health check only.",
+              "claims_stored": [
+                "a6287255edf2d149"
+              ],
+              "count": 1,
+              "note": "Live mode would use search_techniques_master + ethical-scraper-orchestration"
+            },
+            "LiveWebScout": {
+              "status": "ok",
+              "claim_hash": "c79fe70a510edbd2",
+              "query": "Public tunnel health check only."
+            },
+            "Pattern": {
+              "status": "ok",
+              "patterns": [
+                {
+                  "pattern": "recurring entity co-occurrence",
+                  "strength": 0.4,
+                  "status": "MAYBE"
+                },
+                {
+                  "pattern": "temporal clustering of public filings",
+                  "strength": 0.55,
+                  "status": "MAYBE"
+                }
+              ],
+              "claim_hash": "e10da90efc92ebaa"
+            },
+            "TruthVerifier": {
+              "status": "verified",
+              "claim_hash": "df3422ac442f3cb2",
+              "final_status": "MAYBE",
+              "confidence": 0.4941,
+              "ach": {
+                "claim": "Public tunnel health check only.",
+                "updated_at": "2026-09-10T03:39:15.644967",
+                "hypotheses": [
+                  {
+                    "id": "H1",
+                    "text": "Claim is accurate and well-sourced (primary evidence)",
+                    "prior": 0.25,
+                    "posterior": 0.4941,
+                    "status": "untested",
+                    "evidence_for": [
+                      "claimchunk:f7b0caea593e",
+                      "claimchunk:c1c010a0121b",
+                      "claimchunk:07ee8d8e17b2"
+                    ],
+                    "evidence_against": []
+                  },
+                  {
+                    "id": "H2",
+                    "text": "Claim is partially true / incomplete",
+                    "prior": 0.25,
+                    "posterior": 0.2556,
+                    "status": "contested",
+                    "evidence_for": [],
+                    "evidence_against": []
+                  },
+                  {
+                    "id": "H3",
+                    "text": "Claim is contradicted by stronger public evidence",
+                    "prior": 0.25,
+                    "posterior": 0.0437,
+                    "status": "contradicted",
+                    "evidence_for": [],
+                    "evidence_against": [
+                      "claimchunk:f7b0caea593e",
+                      "claimchunk:c1c010a0121b",
+                      "claimchunk:07ee8d8e17b2"
+                    ]
+                  },
+                  {
+                    "id": "H4",
+                    "text": "Claim is untestable with current public data",
+                    "prior": 0.25,
+                    "posterior": 0.2067,
+                    "status": "contradicted",
+                    "evidence_for": [],
+                    "evidence_against": []
+                  }
+                ],
+                "evidence": [
+                  {
+                    "id": "claimchunk:f7b0caea593e",
+                    "description": "Live web surface for 'Public tunnel health check only.' (demo mode)",
+                    "source": "https://news.google.com",
+                    "likelihood_if_h": 0.7328451624692528,
+                    "likelihood_if_not_h": 0.32536612814806043,
+                    "quality": 0.7328451624692528
+                  },
+                  {
+                    "id": "claimchunk:c1c010a0121b",
+                    "description": "Pattern scan for 'Public tunnel health check only.' surfaced 2 candidate regularities",
+                    "source": "internal:pattern-engine",
+                    "likelihood_if_h": 0.728973733246348,
+                    "likelihood_if_not_h": 0.32826970006523903,
+                    "quality": 0.728973733246348
+                  },
+                  {
+                    "id": "claimchunk:07ee8d8e17b2",
+                    "description": "Public search surface for 'Public tunnel health check only.' contains open records and news",
+                    "source": "https://example-public-search.org/results",
+                    "likelihood_if_h": 0.7174988544938795,
+                    "likelihood_if_not_h": 0.3368758591295904,
+                    "quality": 0.7174988544938795
+                  }
+                ],
+                "best": {
+                  "id": "H1",
+                  "text": "Claim is accurate and well-sourced (primary evidence)",
+                  "posterior": 0.4941,
+                  "status": "untested"
+                },
+                "claim_status": "MAYBE"
+              },
+              "rag_used": true
+            },
+            "MemoryVault": {
+              "status": "ok",
+              "snapshot": {
+                "claim_count": 18,
+                "timeline_events": 0,
+                "entities": 0,
+                "verifications": 8,
+                "graph": {
+                  "nodes": 40,
+                  "edges": 40,
+                  "chunks": 27,
+                  "labels": {
+                    "Document": 4,
+                    "Chunk": 9,
+                    "Claim": 18,
+                    "Source": 9
+                  },
+                  "redis_connected": false,
+                  "redis_graph": false
+                },
+                "recent_logs": [
+                  "[2026-09-10T03:39:14.936305] Stored MAYBE: Public-record health check: confirm HITL and public ceiling flags only....",
+                  "[2026-09-10T03:39:14.938407] ACH verification stored for claim",
+                  "[2026-09-10T03:39:14.938576] Stored MAYBE: Anticipation scan completed \u2014 no high-confidence imminent public drops detected ...",
+                  "[2026-09-10T03:39:14.944685] ACH verification stored for claim",
+                  "[2026-09-10T03:39:14.944729] Stored MAYBE: PUBLIC_RECORD_CEILING is enforced on live Swarm API....",
+                  "[2026-09-10T03:39:15.634203] Stored MAYBE: Public search surface for 'Public tunnel health check only.' contains open recor...",
+                  "[2026-09-10T03:39:15.637138] Stored MAYBE: Live web surface for 'Public tunnel health check only.' (demo mode)...",
+                  "[2026-09-10T03:39:15.639379] Stored MAYBE: Pattern scan for 'Public tunnel health check only.' surfaced 2 candidate regular...",
+                  "[2026-09-10T03:39:15.645037] Stored MAYBE: Public tunnel health check only....",
+                  "[2026-09-10T03:39:15.649348] ACH verification stored for claim"
+                ]
+              },
+              "note": "In production: Redis + Neo4j Graph RAG + vector index"
+            },
+            "Anticipation": {
+              "status": "ok",
+              "upcoming": [
+                {
+                  "source": "PACER / court calendar",
+                  "expected": "unknown",
+                  "status": "MAYBE"
+                },
+                {
+                  "source": "FOIA log public postings",
+                  "expected": "rolling",
+                  "status": "MAYBE"
+                }
+              ]
+            },
+            "Synthesizer": {
+              "status": "report_ready",
+              "report": {
+                "title": "Swarm Report: Public tunnel health check only.",
+                "executive_summary": "Parallel agents collected public-surface signals. All claims tagged SOLID/MAYBE. HITL required before dissemination.",
+                "collection_results": {
+                  "OSINTCollector": "ok",
+                  "LiveWebScout": "ok",
+                  "Pattern": "ok",
+                  "TruthVerifier": "verified",
+                  "MemoryVault": "ok",
+                  "Anticipation": "ok"
+                },
+                "memory": {
+                  "claim_count": 18,
+                  "timeline_events": 0,
+                  "entities": 0,
+                  "verifications": 8,
+                  "graph": {
+                    "nodes": 40,
+                    "edges": 41,
+                    "chunks": 27,
+                    "labels": {
+                      "Document": 4,
+                      "Chunk": 9,
+                      "Claim": 18,
+                      "Source": 9
+                    },
+                    "redis_connected": false,
+                    "redis_graph": false
+                  },
+                  "recent_logs": [
+                    "[2026-09-10T03:39:14.938407] ACH verification stored for claim",
+                    "[2026-09-10T03:39:14.938576] Stored MAYBE: Anticipation scan completed \u2014 no high-confidence imminent public drops detected ...",
+                    "[2026-09-10T03:39:14.944685] ACH verification stored for claim",
+                    "[2026-09-10T03:39:14.944729] Stored MAYBE: PUBLIC_RECORD_CEILING is enforced on live Swarm API....",
+                    "[2026-09-10T03:39:15.634203] Stored MAYBE: Public search surface for 'Public tunnel health check only.' contains open recor...",
+                    "[2026-09-10T03:39:15.637138] Stored MAYBE: Live web surface for 'Public tunnel health check only.' (demo mode)...",
+                    "[2026-09-10T03:39:15.639379] Stored MAYBE: Pattern scan for 'Public tunnel health check only.' surfaced 2 candidate regular...",
+                    "[2026-09-10T03:39:15.645037] Stored MAYBE: Public tunnel health check only....",
+                    "[2026-09-10T03:39:15.649348] ACH verification stored for claim",
+                    "[2026-09-10T03:39:15.649566] Stored MAYBE: Anticipation scan completed \u2014 no high-confidence imminent public drops detected ..."
+                  ]
+                },
+                "confidence_note": "Most findings currently MAYBE \u2014 primary source confirmation needed",
+                "next_steps": [
+                  "Human review of all MAYBE claims",
+                  "Run TruthVerifier on high-value claims",
+                  "Expand collection with Wayback / dorks if authorized",
+                  "Update MemoryVault with confirmed SOLID items"
+                ],
+                "absolute_rules_observed": [
+                  "Only public records and operator-supplied public material",
+                  "HITL = YES for bulk ingest, external actions, irreversible decisions",
+                  "SOLID / MAYBE tagging on every claim",
+                  "No private data, no credential packs, no unauthorized access",
+                  "Respect robots.txt, ToS, rate limits, jurisdiction",
+                  "Every claim must have provenance (URL + timestamp + hash)"
+                ]
+              }
+            },
+            "hitl_notice": "[HITL REQUIRED] final dissemination of findings \u2014 pause for human confirmation before proceeding."
+          },
+          "memory_snapshot": {
+            "claim_count": 18,
+            "timeline_events": 0,
+            "entities": 0,
+            "verifications": 8,
+            "graph": {
+              "nodes": 40,
+              "edges": 41,
+              "chunks": 27,
+              "labels": {
+                "Document": 4,
+                "Chunk": 9,
+                "Claim": 18,
+                "Source": 9
+              },
+              "redis_connected": false,
+              "redis_graph": false
+            },
+            "recent_logs": [
+              "[2026-09-10T03:39:14.938407] ACH verification stored for claim",
+              "[2026-09-10T03:39:14.938576] Stored MAYBE: Anticipation scan completed \u2014 no high-confidence imminent public drops detected ...",
+              "[2026-09-10T03:39:14.944685] ACH verification stored for claim",
+              "[2026-09-10T03:39:14.944729] Stored MAYBE: PUBLIC_RECORD_CEILING is enforced on live Swarm API....",
+              "[2026-09-10T03:39:15.634203] Stored MAYBE: Public search surface for 'Public tunnel health check only.' contains open recor...",
+              "[2026-09-10T03:39:15.637138] Stored MAYBE: Live web surface for 'Public tunnel health check only.' (demo mode)...",
+              "[2026-09-10T03:39:15.639379] Stored MAYBE: Pattern scan for 'Public tunnel health check only.' surfaced 2 candidate regular...",
+              "[2026-09-10T03:39:15.645037] Stored MAYBE: Public tunnel health check only....",
+              "[2026-09-10T03:39:15.649348] ACH verification stored for claim",
+              "[2026-09-10T03:39:15.649566] Stored MAYBE: Anticipation scan completed \u2014 no high-confidence imminent public drops detected ..."
+            ]
+          },
+          "claims": [
+            {
+              "hash": "6b6a276e3dcdb068",
+              "text": "Public search surface for 'Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.' contains open records and news",
+              "status": "MAYBE",
+              "confidence": 0.6,
+              "sources": [
+                "https://example-public-search.org/results",
+                "https://web.archive.org/"
+              ],
+              "agent": "OSINTCollector",
+              "notes": "Placeholder \u2014 replace with live ethical harvest",
+              "created_at": "2026-09-10T03:34:54.778709"
+            },
+            {
+              "hash": "a22b8d2542b9909a",
+              "text": "Live web surface for 'Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.' (demo mode)",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "https://news.google.com",
+                "https://web.archive.org"
+              ],
+              "agent": "LiveWebScout",
+              "notes": "Replace with live-web-mastery + rate-limited ethical collection",
+              "created_at": "2026-09-10T03:34:54.780938"
+            },
+            {
+              "hash": "64aa29c94ec94c46",
+              "text": "Pattern scan for 'Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.' surfaced 2 candidate regularities",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "internal:pattern-engine"
+              ],
+              "agent": "Pattern",
+              "notes": null,
+              "created_at": "2026-09-10T03:34:54.783583"
+            },
+            {
+              "hash": "caa83d00328fedb0",
+              "text": "Integrate lawful GOD-TIER metadata-only skill tree and constitution into public-record investigation system. No bypass.",
+              "status": "MAYBE",
+              "confidence": 0.5355,
+              "sources": [
+                "swarm:goal",
+                "https://news.google.com",
+                "https://example-public-search.org/results"
+              ],
+              "agent": "TruthVerifier",
+              "notes": "Best H: Claim is accurate and well-sourced (primary evidence) (posterior=0.535)",
+              "created_at": "2026-09-10T03:34:54.787895"
+            },
+            {
+              "hash": "e624bb9181a90eac",
+              "text": "Anticipation scan completed \u2014 no high-confidence imminent public drops detected in demo",
+              "status": "MAYBE",
+              "confidence": 0.4,
+              "sources": [
+                "internal:anticipation"
+              ],
+              "agent": "Anticipation",
+              "notes": null,
+              "created_at": "2026-09-10T03:39:15.649536"
+            },
+            {
+              "hash": "7edc6c5be893d211",
+              "text": "GOD-TIER has 7 pillars including Metadata-Only Discovery and HITL Judgment Layer.",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "operator"
+              ],
+              "agent": "API-TruthVerifier",
+              "notes": "Best: true",
+              "created_at": "2026-09-10T03:34:54.797657"
+            },
+            {
+              "hash": "a165761ffb3ea899",
+              "text": "Skill-tree registry has exactly 200 nodes across 10 domains.",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "operator"
+              ],
+              "agent": "API-TruthVerifier",
+              "notes": "Best: true",
+              "created_at": "2026-09-10T03:34:54.802153"
+            },
+            {
+              "hash": "9196c5f4fb928053",
+              "text": "Constitution Article II forbids bypass and circumvention.",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "operator"
+              ],
+              "agent": "API-TruthVerifier",
+              "notes": "Best: true",
+              "created_at": "2026-09-10T03:34:54.806913"
+            },
+            {
+              "hash": "a785d08c1457e1b0",
+              "text": "HITL 120m authorizes GOD-TIER build not barrier bypass.",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "operator"
+              ],
+              "agent": "API-TruthVerifier",
+              "notes": "Best: true",
+              "created_at": "2026-09-10T03:34:54.811745"
+            },
+            {
+              "hash": "af7b0f00bd8d6b03",
+              "text": "Public search surface for 'Public-record health check: confirm HITL and public ceiling flags only.' contains open records and news",
+              "status": "MAYBE",
+              "confidence": 0.6,
+              "sources": [
+                "https://example-public-search.org/results",
+                "https://web.archive.org/"
+              ],
+              "agent": "OSINTCollector",
+              "notes": "Placeholder \u2014 replace with live ethical harvest",
+              "created_at": "2026-09-10T03:39:14.926945"
+            },
+            {
+              "hash": "b3fac19fc88e04f8",
+              "text": "Live web surface for 'Public-record health check: confirm HITL and public ceiling flags only.' (demo mode)",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "https://news.google.com",
+                "https://web.archive.org"
+              ],
+              "agent": "LiveWebScout",
+              "notes": "Replace with live-web-mastery + rate-limited ethical collection",
+              "created_at": "2026-09-10T03:39:14.930835"
+            },
+            {
+              "hash": "33ef87334eb8e37d",
+              "text": "Pattern scan for 'Public-record health check: confirm HITL and public ceiling flags only.' surfaced 2 candidate regularities",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "internal:pattern-engine"
+              ],
+              "agent": "Pattern",
+              "notes": null,
+              "created_at": "2026-09-10T03:39:14.933170"
+            },
+            {
+              "hash": "9b47a657c9325e9a",
+              "text": "Public-record health check: confirm HITL and public ceiling flags only.",
+              "status": "MAYBE",
+              "confidence": 0.5386,
+              "sources": [
+                "swarm:goal",
+                "https://news.google.com",
+                "https://example-public-search.org/results"
+              ],
+              "agent": "TruthVerifier",
+              "notes": "Best H: Claim is accurate and well-sourced (primary evidence) (posterior=0.539)",
+              "created_at": "2026-09-10T03:39:14.936282"
+            },
+            {
+              "hash": "ada8e42007709817",
+              "text": "PUBLIC_RECORD_CEILING is enforced on live Swarm API.",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "api"
+              ],
+              "agent": "API-TruthVerifier",
+              "notes": "Best: true",
+              "created_at": "2026-09-10T03:39:14.944707"
+            },
+            {
+              "hash": "a6287255edf2d149",
+              "text": "Public search surface for 'Public tunnel health check only.' contains open records and news",
+              "status": "MAYBE",
+              "confidence": 0.6,
+              "sources": [
+                "https://example-public-search.org/results",
+                "https://web.archive.org/"
+              ],
+              "agent": "OSINTCollector",
+              "notes": "Placeholder \u2014 replace with live ethical harvest",
+              "created_at": "2026-09-10T03:39:15.634140"
+            },
+            {
+              "hash": "c79fe70a510edbd2",
+              "text": "Live web surface for 'Public tunnel health check only.' (demo mode)",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "https://news.google.com",
+                "https://web.archive.org"
+              ],
+              "agent": "LiveWebScout",
+              "notes": "Replace with live-web-mastery + rate-limited ethical collection",
+              "created_at": "2026-09-10T03:39:15.637102"
+            },
+            {
+              "hash": "e10da90efc92ebaa",
+              "text": "Pattern scan for 'Public tunnel health check only.' surfaced 2 candidate regularities",
+              "status": "MAYBE",
+              "confidence": 0.5,
+              "sources": [
+                "internal:pattern-engine"
+              ],
+              "agent": "Pattern",
+              "notes": null,
+              "created_at": "2026-09-10T03:39:15.639353"
+            },
+            {
+              "hash": "df3422ac442f3cb2",
+              "text": "Public tunnel health check only.",
+              "status": "MAYBE",
+              "confidence": 0.4941,
+              "sources": [
+                "swarm:goal",
+                "https://news.google.com",
+                "https://example-public-search.org/results"
+              ],
+              "agent": "TruthVerifier",
+              "notes": "Best H: Claim is accurate and well-sourced (primary evidence) (posterior=0.494)",
+              "created_at": "2026-09-10T03:39:15.645011"
+            }
+          ],
+          "health": {
+            "total_events": 33,
+            "agents": {
+              "Supervisor": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:15.653094"
+              },
+              "Compliance": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:15.634034"
+              },
+              "OSINTCollector": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:15.637049"
+              },
+              "LiveWebScout": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:15.639307"
+              },
+              "Pattern": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:15.643656"
+              },
+              "TruthVerifier": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:15.649358"
+              },
+              "MemoryVault": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:15.649505"
+              },
+              "Anticipation": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:15.652979"
+              },
+              "Synthesizer": {
+                "status": "idle",
+                "ts": "2026-09-10T03:39:15.653089"
+              }
+            },
+            "last_5": [
+              "[2026-09-10T03:39:15.644872] [TruthVerifier] Running Bayesian ACH on: Public tunnel health check only....",
+              "[2026-09-10T03:39:15.649380] [MemoryVault] Persisting and indexing new findings into MemoryVault",
+              "[2026-09-10T03:39:15.649520] [Anticipation] Checking public calendars and known release schedules",
+              "[2026-09-10T03:39:15.653079] [Synthesizer] Assembling structured intelligence report",
+              "[2026-09-10T03:39:15.653096] [Supervisor] Orchestration complete."
+            ]
+          }
+        }
+      },
+      "GET /docs": {
+        "ok": true,
+        "http": 200
+      }
+    },
+    "dashboard": {
+      "public": {
+        "ok": true,
+        "http": 200
+      },
+      "local": {
+        "ok": true,
+        "http": 200
+      }
+    }
+  },
+  "verified_utc": "2026-09-10T03:39:16Z"
+}

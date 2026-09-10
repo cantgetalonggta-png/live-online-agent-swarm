@@ -1,8 +1,8 @@
-API_BASE=https://mesa-switch-dark-presence.trycloudflare.com
-API_DOCS=https://mesa-switch-dark-presence.trycloudflare.com/docs
-API_HEALTH=https://mesa-switch-dark-presence.trycloudflare.com/health
-DASHBOARD=https://receptors-fisheries-suddenly-nonprofit.trycloudflare.com
+API_BASE=https://fraction-finest-contract-issued.trycloudflare.com
+API_DOCS=https://fraction-finest-contract-issued.trycloudflare.com/docs
+API_HEALTH=https://fraction-finest-contract-issued.trycloudflare.com/health
+DASHBOARD=https://wallpaper-columns-bid-cams.trycloudflare.com
 LOCAL_API=http://127.0.0.1:8000
 LOCAL_DASH=http://127.0.0.1:8501
-HITL_EXPIRES_UTC=2026-09-10T03:28:23Z
-REDEPLOYED_UTC=2026-09-10T02:43:23Z
+HITL_EXPIRES_UTC=2026-09-10T05:29:16Z
+REDEPLOYED_UTC=2026-09-10T03:39:16Z
