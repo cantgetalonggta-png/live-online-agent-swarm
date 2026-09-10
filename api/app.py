@@ -2,6 +2,7 @@
 FastAPI live backend for the Investigation Swarm.
 Auth: SWARM_API_KEY (optional dev open mode if unset)
 Integrations: Redis (durable graph), Tavily (public search), multi-LLM hooks
+Phase 1 engines: metadata · barrier · audit · skill-tree
 """
 from __future__ import annotations
 import sys
@@ -29,7 +30,7 @@ _cors = [o.strip() for o in (os.getenv("SWARM_CORS_ORIGINS") or "*").split(",") 
 
 app = FastAPI(
     title="Live Online Investigation Swarm API",
-    description="Bayesian ACH · Graph RAG · Multi-agent Supervisor · HITL · optional Redis/Tavily/LLM",
+    description="Bayesian ACH · Graph RAG · Multi-agent Supervisor · HITL · Phase1 engines · optional Redis/Tavily/LLM",
     version=config.version,
 )
 
@@ -77,6 +78,18 @@ class LLMRequest(BaseModel):
     max_tokens: int = 800
 
 
+class ClassifyRequest(BaseModel):
+    text: str = Field(..., min_length=2)
+    meta: Optional[Dict[str, Any]] = None
+
+
+class ExtractRequest(BaseModel):
+    content: str = Field(..., min_length=1)
+    mime_hint: str = "text"
+    source: Optional[str] = None
+    doc_id: Optional[str] = None
+
+
 @app.get("/")
 def root():
     return {
@@ -86,6 +99,7 @@ def root():
         "auth_enabled": auth_enabled(),
         "dashboard_hint": "streamlit run dashboard/app.py",
         "absolute_rules": config.absolute_rules,
+        "phase1": ["/phase1/classify", "/phase1/extract", "/phase1/skills", "/phase1/audit"],
     }
 
 
@@ -95,10 +109,20 @@ def health():
     llm = get_llm()
     tavily = get_tavily()
     gstats = vault.graph.stats() if hasattr(vault, "graph") else {}
+    phase1 = {}
+    try:
+        from utils.phase1 import get_skill_tree, get_audit
+        phase1 = {
+            "skill_tree": get_skill_tree().stats(),
+            "audit_events": get_audit().count(),
+        }
+    except Exception as e:
+        phase1 = {"error": str(e)}
     return {
         "status": "ok",
         "swarm": monitor.health(),
         "memory": vault.snapshot(),
+        "phase1": phase1,
         "config": {
             "hitl_required": config.hitl_required,
             "public_record_ceiling": config.public_record_ceiling,
@@ -142,6 +166,15 @@ def integrations(_role: str = Depends(require_api_key)):
 async def swarm_run(req: GoalRequest, _role: str = Depends(require_write_key)):
     supervisor, _, _ = get_runtime()
     try:
+        # Phase 1 barrier pre-check
+        try:
+            from utils.phase1 import classify_barrier, get_audit
+            gate = classify_barrier(req.goal)
+            get_audit().record("api", "swarm_precheck", {"goal": req.goal[:200]}, gate["route"], hitl_required=gate.get("hitl_required", False))
+            if not gate.get("allowed", True):
+                return {"status": "blocked", "reason": "barrier_classifier", "gate": gate, "hitl": True}
+        except Exception:
+            pass
         result = await supervisor.run({"goal": req.goal})
         return result
     except Exception as e:
@@ -192,6 +225,11 @@ async def verify_claim(req: VerifyRequest, _role: str = Depends(require_write_ke
     )
     h = vault.store_claim(c)
     result["claim_hash"] = h
+    try:
+        from utils.phase1 import get_audit
+        get_audit().record("api", "verify", {"claim": req.claim[:200]}, status_str)
+    except Exception:
+        pass
     return result
 
 
@@ -205,10 +243,14 @@ def rag_query(req: RAGRequest, _role: str = Depends(require_api_key)):
 def rag_ingest(doc: DocIngest, _role: str = Depends(require_write_key)):
     _, _, vault = get_runtime()
     vault.add_document(doc.doc_id, doc.title, doc.source, doc.chunks, doc.meta)
-    # Persist to Redis if configured
     try:
         if hasattr(vault, "graph") and hasattr(vault.graph, "save"):
             vault.graph.save()
+    except Exception:
+        pass
+    try:
+        from utils.phase1 import get_audit
+        get_audit().record("api", "rag_ingest", {"doc_id": doc.doc_id}, "ingested", hitl_required=True)
     except Exception:
         pass
     return {"status": "ingested", "doc_id": doc.doc_id, "chunks": len(doc.chunks), "graph": vault.graph.stats()}
@@ -258,6 +300,53 @@ def graph_cypher(pattern: str = "MATCH (c:Claim) RETURN c LIMIT 20", _role: str 
 def list_verifications(_role: str = Depends(require_api_key)):
     _, _, vault = get_runtime()
     return {"verifications": vault.verification_history[-20:], "count": len(vault.verification_history)}
+
+
+# ---------- Phase 1 endpoints ----------
+
+@app.post("/phase1/classify")
+def phase1_classify(req: ClassifyRequest, _role: str = Depends(require_api_key)):
+    from utils.phase1 import classify_barrier, get_audit
+    result = classify_barrier(req.text, req.meta)
+    get_audit().record(
+        "api",
+        "barrier_classify",
+        {"text": req.text[:200]},
+        result["route"],
+        hitl_required=result.get("hitl_required", False),
+    )
+    return result
+
+
+@app.post("/phase1/extract")
+def phase1_extract(req: ExtractRequest, _role: str = Depends(require_write_key)):
+    from utils.phase1 import extract, get_audit
+    result = extract(req.content, mime_hint=req.mime_hint, source=req.source, doc_id=req.doc_id)
+    get_audit().record(
+        "api",
+        "metadata_extract",
+        {"doc_id": result.get("doc_id"), "source": req.source},
+        "ok" if result.get("parse_success") else "fail",
+    )
+    return result
+
+
+@app.get("/phase1/skills")
+def phase1_skills(domain: Optional[str] = None, q: Optional[str] = None, _role: str = Depends(require_api_key)):
+    from utils.phase1 import get_skill_tree
+    tree = get_skill_tree()
+    if q:
+        return {"hits": tree.search(q), "stats": tree.stats()}
+    if domain:
+        return {"domain": domain, "nodes": tree.query_domain(domain), "stats": tree.stats()}
+    return tree.stats()
+
+
+@app.get("/phase1/audit")
+def phase1_audit(n: int = 50, _role: str = Depends(require_api_key)):
+    from utils.phase1 import get_audit
+    a = get_audit()
+    return {"count": a.count(), "tail": a.tail(n)}
 
 
 if __name__ == "__main__":
