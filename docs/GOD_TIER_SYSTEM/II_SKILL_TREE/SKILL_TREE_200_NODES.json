@@ -1,0 +1,5412 @@
+{
+  "name": "GOD_TIER_200_NODE_SKILL_TREE",
+  "version": "1.0",
+  "created_utc": "2026-09-10T03:33:16.019782+00:00",
+  "node_count": 200,
+  "domains": 10,
+  "nodes_per_domain": 20,
+  "PUBLIC_RECORD_CEILING": true,
+  "governance": "III. Lawful AI Governance Constitution",
+  "nodes": [
+    {
+      "id": "N001",
+      "name": "MetadataExtractionEngine",
+      "domain": "D1_Metadata_Discovery",
+      "category": "Metadata Discovery",
+      "trigger": "Need for MetadataExtractionEngine capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N002",
+      "name": "SchemaNormalizer",
+      "domain": "D1_Metadata_Discovery",
+      "category": "Metadata Discovery",
+      "trigger": "Need for SchemaNormalizer capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N003",
+      "name": "CitationGraphExplorer",
+      "domain": "D1_Metadata_Discovery",
+      "category": "Metadata Discovery",
+      "trigger": "Need for CitationGraphExplorer capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N004",
+      "name": "IndexSystemNavigator",
+      "domain": "D1_Metadata_Discovery",
+      "category": "Metadata Discovery",
+      "trigger": "Need for IndexSystemNavigator capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N005",
+      "name": "ControlledVocabularyGuide",
+      "domain": "D1_Metadata_Discovery",
+      "category": "Metadata Discovery",
+      "trigger": "Need for ControlledVocabularyGuide capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N006",
+      "name": "MetadataClusterer",
+      "domain": "D1_Metadata_Discovery",
+      "category": "Metadata Discovery",
+      "trigger": "Need for MetadataClusterer capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N007",
+      "name": "MetadataPatternMiner",
+      "domain": "D1_Metadata_Discovery",
+      "category": "Metadata Discovery",
+      "trigger": "Need for MetadataPatternMiner capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N008",
+      "name": "MetadataAnomalyDetector",
+      "domain": "D1_Metadata_Discovery",
+      "category": "Metadata Discovery",
+      "trigger": "Need for MetadataAnomalyDetector capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N009",
+      "name": "MetadataCompletenessChecker",
+      "domain": "D1_Metadata_Discovery",
+      "category": "Metadata Discovery",
+      "trigger": "Need for MetadataCompletenessChecker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N010",
+      "name": "MetadataGapFinder",
+      "domain": "D1_Metadata_Discovery",
+      "category": "Metadata Discovery",
+      "trigger": "Need for MetadataGapFinder capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N011",
+      "name": "MetadataCrosswalkBuilder",
+      "domain": "D1_Metadata_Discovery",
+      "category": "Metadata Discovery",
+      "trigger": "Need for MetadataCrosswalkBuilder capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N012",
+      "name": "MetadataOntologyMapper",
+      "domain": "D1_Metadata_Discovery",
+      "category": "Metadata Discovery",
+      "trigger": "Need for MetadataOntologyMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N013",
+      "name": "MetadataSignalAmplifier",
+      "domain": "D1_Metadata_Discovery",
+      "category": "Metadata Discovery",
+      "trigger": "Need for MetadataSignalAmplifier capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N014",
+      "name": "MetadataNoiseReducer",
+      "domain": "D1_Metadata_Discovery",
+      "category": "Metadata Discovery",
+      "trigger": "Need for MetadataNoiseReducer capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N015",
+      "name": "MetadataSourceRanker",
+      "domain": "D1_Metadata_Discovery",
+      "category": "Metadata Discovery",
+      "trigger": "Need for MetadataSourceRanker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N016",
+      "name": "MetadataReliabilityScorer",
+      "domain": "D1_Metadata_Discovery",
+      "category": "Metadata Discovery",
+      "trigger": "Need for MetadataReliabilityScorer capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N017",
+      "name": "MetadataTemporalMapper",
+      "domain": "D1_Metadata_Discovery",
+      "category": "Metadata Discovery",
+      "trigger": "Need for MetadataTemporalMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N018",
+      "name": "MetadataGeoMapper",
+      "domain": "D1_Metadata_Discovery",
+      "category": "Metadata Discovery",
+      "trigger": "Need for MetadataGeoMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N019",
+      "name": "MetadataChainTracer",
+      "domain": "D1_Metadata_Discovery",
+      "category": "Metadata Discovery",
+      "trigger": "Need for MetadataChainTracer capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N020",
+      "name": "MetadataExistenceVerifier",
+      "domain": "D1_Metadata_Discovery",
+      "category": "Metadata Discovery",
+      "trigger": "Need for MetadataExistenceVerifier capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N021",
+      "name": "AccessControlInterpreter",
+      "domain": "D2_Access_Logic",
+      "category": "Access Logic",
+      "trigger": "Need for AccessControlInterpreter capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N022",
+      "name": "BarrierValidityAnalyzer",
+      "domain": "D2_Access_Logic",
+      "category": "Access Logic",
+      "trigger": "Need for BarrierValidityAnalyzer capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N023",
+      "name": "EthicalAccessGuide",
+      "domain": "D2_Access_Logic",
+      "category": "Access Logic",
+      "trigger": "Need for EthicalAccessGuide capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N024",
+      "name": "BarrierTypeClassifier",
+      "domain": "D2_Access_Logic",
+      "category": "Access Logic",
+      "trigger": "Need for BarrierTypeClassifier capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N025",
+      "name": "BarrierRiskProfiler",
+      "domain": "D2_Access_Logic",
+      "category": "Access Logic",
+      "trigger": "Need for BarrierRiskProfiler capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N026",
+      "name": "BarrierLegalChecker",
+      "domain": "D2_Access_Logic",
+      "category": "Access Logic",
+      "trigger": "Need for BarrierLegalChecker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N027",
+      "name": "BarrierContextAnalyzer",
+      "domain": "D2_Access_Logic",
+      "category": "Access Logic",
+      "trigger": "Need for BarrierContextAnalyzer capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N028",
+      "name": "BarrierHistoryMapper",
+      "domain": "D2_Access_Logic",
+      "category": "Access Logic",
+      "trigger": "Need for BarrierHistoryMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N029",
+      "name": "BarrierSourceIdentifier",
+      "domain": "D2_Access_Logic",
+      "category": "Access Logic",
+      "trigger": "Need for BarrierSourceIdentifier capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N030",
+      "name": "BarrierSeverityRanker",
+      "domain": "D2_Access_Logic",
+      "category": "Access Logic",
+      "trigger": "Need for BarrierSeverityRanker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N031",
+      "name": "BarrierJurisdictionMapper",
+      "domain": "D2_Access_Logic",
+      "category": "Access Logic",
+      "trigger": "Need for BarrierJurisdictionMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N032",
+      "name": "BarrierComplianceChecker",
+      "domain": "D2_Access_Logic",
+      "category": "Access Logic",
+      "trigger": "Need for BarrierComplianceChecker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N033",
+      "name": "BarrierExceptionFinder",
+      "domain": "D2_Access_Logic",
+      "category": "Access Logic",
+      "trigger": "Need for BarrierExceptionFinder capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N034",
+      "name": "BarrierAmbiguityResolver",
+      "domain": "D2_Access_Logic",
+      "category": "Access Logic",
+      "trigger": "Need for BarrierAmbiguityResolver capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N035",
+      "name": "BarrierSignalExtractor",
+      "domain": "D2_Access_Logic",
+      "category": "Access Logic",
+      "trigger": "Need for BarrierSignalExtractor capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N036",
+      "name": "BarrierMetadataLinker",
+      "domain": "D2_Access_Logic",
+      "category": "Access Logic",
+      "trigger": "Need for BarrierMetadataLinker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N037",
+      "name": "BarrierPatternMiner",
+      "domain": "D2_Access_Logic",
+      "category": "Access Logic",
+      "trigger": "Need for BarrierPatternMiner capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N038",
+      "name": "BarrierRouteSelector",
+      "domain": "D2_Access_Logic",
+      "category": "Access Logic",
+      "trigger": "Need for BarrierRouteSelector capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N039",
+      "name": "BarrierOutcomePredictor",
+      "domain": "D2_Access_Logic",
+      "category": "Access Logic",
+      "trigger": "Need for BarrierOutcomePredictor capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N040",
+      "name": "BarrierAuditLogger",
+      "domain": "D2_Access_Logic",
+      "category": "Access Logic",
+      "trigger": "Need for BarrierAuditLogger capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N041",
+      "name": "FoiaAtiRouter",
+      "domain": "D3_Lawful_Routing",
+      "category": "Lawful Routing",
+      "trigger": "Need for FoiaAtiRouter capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N042",
+      "name": "LawfulAlternativeRouter",
+      "domain": "D3_Lawful_Routing",
+      "category": "Lawful Routing",
+      "trigger": "Need for LawfulAlternativeRouter capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N043",
+      "name": "RoleBasedAuthMapper",
+      "domain": "D3_Lawful_Routing",
+      "category": "Lawful Routing",
+      "trigger": "Need for RoleBasedAuthMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N044",
+      "name": "FOIAFieldGenerator",
+      "domain": "D3_Lawful_Routing",
+      "category": "Lawful Routing",
+      "trigger": "Need for FOIAFieldGenerator capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N045",
+      "name": "ATIPFieldGenerator",
+      "domain": "D3_Lawful_Routing",
+      "category": "Lawful Routing",
+      "trigger": "Need for ATIPFieldGenerator capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N046",
+      "name": "SubpoenaRequirementMapper",
+      "domain": "D3_Lawful_Routing",
+      "category": "Lawful Routing",
+      "trigger": "Need for SubpoenaRequirementMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N047",
+      "name": "CourtMotionPathBuilder",
+      "domain": "D3_Lawful_Routing",
+      "category": "Lawful Routing",
+      "trigger": "Need for CourtMotionPathBuilder capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N048",
+      "name": "LibraryAccessPathBuilder",
+      "domain": "D3_Lawful_Routing",
+      "category": "Lawful Routing",
+      "trigger": "Need for LibraryAccessPathBuilder capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N049",
+      "name": "ArchiveLocator",
+      "domain": "D3_Lawful_Routing",
+      "category": "Lawful Routing",
+      "trigger": "Need for ArchiveLocator capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N050",
+      "name": "AuthorContactPathBuilder",
+      "domain": "D3_Lawful_Routing",
+      "category": "Lawful Routing",
+      "trigger": "Need for AuthorContactPathBuilder capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N051",
+      "name": "RepositoryAccessMapper",
+      "domain": "D3_Lawful_Routing",
+      "category": "Lawful Routing",
+      "trigger": "Need for RepositoryAccessMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N052",
+      "name": "PublicRecordRetrievalPlanner",
+      "domain": "D3_Lawful_Routing",
+      "category": "Lawful Routing",
+      "trigger": "Need for PublicRecordRetrievalPlanner capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N053",
+      "name": "GovernmentPortalNavigator",
+      "domain": "D3_Lawful_Routing",
+      "category": "Lawful Routing",
+      "trigger": "Need for GovernmentPortalNavigator capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N054",
+      "name": "LegalProcessClassifier",
+      "domain": "D3_Lawful_Routing",
+      "category": "Lawful Routing",
+      "trigger": "Need for LegalProcessClassifier capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N055",
+      "name": "JurisdictionRouteMapper",
+      "domain": "D3_Lawful_Routing",
+      "category": "Lawful Routing",
+      "trigger": "Need for JurisdictionRouteMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N056",
+      "name": "AccessTimelineEstimator",
+      "domain": "D3_Lawful_Routing",
+      "category": "Lawful Routing",
+      "trigger": "Need for AccessTimelineEstimator capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N057",
+      "name": "AccessCostEstimator",
+      "domain": "D3_Lawful_Routing",
+      "category": "Lawful Routing",
+      "trigger": "Need for AccessCostEstimator capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N058",
+      "name": "AccessDifficultyRanker",
+      "domain": "D3_Lawful_Routing",
+      "category": "Lawful Routing",
+      "trigger": "Need for AccessDifficultyRanker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N059",
+      "name": "AccessSuccessPredictor",
+      "domain": "D3_Lawful_Routing",
+      "category": "Lawful Routing",
+      "trigger": "Need for AccessSuccessPredictor capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N060",
+      "name": "AccessAuditLogger",
+      "domain": "D3_Lawful_Routing",
+      "category": "Lawful Routing",
+      "trigger": "Need for AccessAuditLogger capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N061",
+      "name": "HITLDecisionValidator",
+      "domain": "D4_HITL_Intelligence",
+      "category": "HITL Intelligence",
+      "trigger": "Need for HITLDecisionValidator capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N062",
+      "name": "HITLOverrideLogger",
+      "domain": "D4_HITL_Intelligence",
+      "category": "HITL Intelligence",
+      "trigger": "Need for HITLOverrideLogger capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N063",
+      "name": "HITLRelevanceScorer",
+      "domain": "D4_HITL_Intelligence",
+      "category": "HITL Intelligence",
+      "trigger": "Need for HITLRelevanceScorer capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N064",
+      "name": "HITLConflictResolver",
+      "domain": "D4_HITL_Intelligence",
+      "category": "HITL Intelligence",
+      "trigger": "Need for HITLConflictResolver capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N065",
+      "name": "HITLContextInterpreter",
+      "domain": "D4_HITL_Intelligence",
+      "category": "HITL Intelligence",
+      "trigger": "Need for HITLContextInterpreter capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N066",
+      "name": "HITLPatternReviewer",
+      "domain": "D4_HITL_Intelligence",
+      "category": "HITL Intelligence",
+      "trigger": "Need for HITLPatternReviewer capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N067",
+      "name": "HITLMetadataChecker",
+      "domain": "D4_HITL_Intelligence",
+      "category": "HITL Intelligence",
+      "trigger": "Need for HITLMetadataChecker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N068",
+      "name": "HITLBarrierChecker",
+      "domain": "D4_HITL_Intelligence",
+      "category": "HITL Intelligence",
+      "trigger": "Need for HITLBarrierChecker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N069",
+      "name": "HITLRouteApprover",
+      "domain": "D4_HITL_Intelligence",
+      "category": "HITL Intelligence",
+      "trigger": "Need for HITLRouteApprover capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N070",
+      "name": "HITLSkillApprover",
+      "domain": "D4_HITL_Intelligence",
+      "category": "HITL Intelligence",
+      "trigger": "Need for HITLSkillApprover capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N071",
+      "name": "HITLSkillCorrectionEngine",
+      "domain": "D4_HITL_Intelligence",
+      "category": "HITL Intelligence",
+      "trigger": "Need for HITLSkillCorrectionEngine capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N072",
+      "name": "HITLFeedbackIntegrator",
+      "domain": "D4_HITL_Intelligence",
+      "category": "HITL Intelligence",
+      "trigger": "Need for HITLFeedbackIntegrator capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N073",
+      "name": "HITLQualityAssurance",
+      "domain": "D4_HITL_Intelligence",
+      "category": "HITL Intelligence",
+      "trigger": "Need for HITLQualityAssurance capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N074",
+      "name": "HITLComplianceChecker",
+      "domain": "D4_HITL_Intelligence",
+      "category": "HITL Intelligence",
+      "trigger": "Need for HITLComplianceChecker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N075",
+      "name": "HITLExceptionHandler",
+      "domain": "D4_HITL_Intelligence",
+      "category": "HITL Intelligence",
+      "trigger": "Need for HITLExceptionHandler capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N076",
+      "name": "HITLJudgmentRecorder",
+      "domain": "D4_HITL_Intelligence",
+      "category": "HITL Intelligence",
+      "trigger": "Need for HITLJudgmentRecorder capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N077",
+      "name": "HITLDecisionTreeBuilder",
+      "domain": "D4_HITL_Intelligence",
+      "category": "HITL Intelligence",
+      "trigger": "Need for HITLDecisionTreeBuilder capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N078",
+      "name": "HITLCaseStudyMapper",
+      "domain": "D4_HITL_Intelligence",
+      "category": "HITL Intelligence",
+      "trigger": "Need for HITLCaseStudyMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N079",
+      "name": "HITLTrainingModule",
+      "domain": "D4_HITL_Intelligence",
+      "category": "HITL Intelligence",
+      "trigger": "Need for HITLTrainingModule capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N080",
+      "name": "HITLPerformanceAnalyzer",
+      "domain": "D4_HITL_Intelligence",
+      "category": "HITL Intelligence",
+      "trigger": "Need for HITLPerformanceAnalyzer capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N081",
+      "name": "SkillCreationEngine",
+      "domain": "D5_Self_Learning",
+      "category": "Self Learning",
+      "trigger": "Need for SkillCreationEngine capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N082",
+      "name": "SkillEvolutionEngine",
+      "domain": "D5_Self_Learning",
+      "category": "Self Learning",
+      "trigger": "Need for SkillEvolutionEngine capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N083",
+      "name": "SkillDependencyMapper",
+      "domain": "D5_Self_Learning",
+      "category": "Self Learning",
+      "trigger": "Need for SkillDependencyMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N084",
+      "name": "SkillClusterBuilder",
+      "domain": "D5_Self_Learning",
+      "category": "Self Learning",
+      "trigger": "Need for SkillClusterBuilder capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N085",
+      "name": "SkillGapFinder",
+      "domain": "D5_Self_Learning",
+      "category": "Self Learning",
+      "trigger": "Need for SkillGapFinder capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N086",
+      "name": "SkillRedundancyEliminator",
+      "domain": "D5_Self_Learning",
+      "category": "Self Learning",
+      "trigger": "Need for SkillRedundancyEliminator capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N087",
+      "name": "SkillPerformanceRanker",
+      "domain": "D5_Self_Learning",
+      "category": "Self Learning",
+      "trigger": "Need for SkillPerformanceRanker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N088",
+      "name": "SkillContextAnalyzer",
+      "domain": "D5_Self_Learning",
+      "category": "Self Learning",
+      "trigger": "Need for SkillContextAnalyzer capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N089",
+      "name": "SkillMetadataLinker",
+      "domain": "D5_Self_Learning",
+      "category": "Self Learning",
+      "trigger": "Need for SkillMetadataLinker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N090",
+      "name": "SkillBarrierLinker",
+      "domain": "D5_Self_Learning",
+      "category": "Self Learning",
+      "trigger": "Need for SkillBarrierLinker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N091",
+      "name": "SkillRouteLinker",
+      "domain": "D5_Self_Learning",
+      "category": "Self Learning",
+      "trigger": "Need for SkillRouteLinker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N092",
+      "name": "SkillOntologyBuilder",
+      "domain": "D5_Self_Learning",
+      "category": "Self Learning",
+      "trigger": "Need for SkillOntologyBuilder capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N093",
+      "name": "SkillDomainExpander",
+      "domain": "D5_Self_Learning",
+      "category": "Self Learning",
+      "trigger": "Need for SkillDomainExpander capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N094",
+      "name": "SkillLifecycleManager",
+      "domain": "D5_Self_Learning",
+      "category": "Self Learning",
+      "trigger": "Need for SkillLifecycleManager capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N095",
+      "name": "SkillAuditLogger",
+      "domain": "D5_Self_Learning",
+      "category": "Self Learning",
+      "trigger": "Need for SkillAuditLogger capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N096",
+      "name": "SkillPatternMiner",
+      "domain": "D5_Self_Learning",
+      "category": "Self Learning",
+      "trigger": "Need for SkillPatternMiner capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N097",
+      "name": "SkillSignalAmplifier",
+      "domain": "D5_Self_Learning",
+      "category": "Self Learning",
+      "trigger": "Need for SkillSignalAmplifier capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N098",
+      "name": "SkillNoiseReducer",
+      "domain": "D5_Self_Learning",
+      "category": "Self Learning",
+      "trigger": "Need for SkillNoiseReducer capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N099",
+      "name": "SkillAccuracyImprover",
+      "domain": "D5_Self_Learning",
+      "category": "Self Learning",
+      "trigger": "Need for SkillAccuracyImprover capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N100",
+      "name": "SkillComplianceChecker",
+      "domain": "D5_Self_Learning",
+      "category": "Self Learning",
+      "trigger": "Need for SkillComplianceChecker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N101",
+      "name": "ComplianceValidator",
+      "domain": "D6_Ethics_Governance",
+      "category": "Ethics Governance",
+      "trigger": "Need for ComplianceValidator capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N102",
+      "name": "LegalRiskAssessor",
+      "domain": "D6_Ethics_Governance",
+      "category": "Ethics Governance",
+      "trigger": "Need for LegalRiskAssessor capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N103",
+      "name": "EthicsPatternChecker",
+      "domain": "D6_Ethics_Governance",
+      "category": "Ethics Governance",
+      "trigger": "Need for EthicsPatternChecker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N104",
+      "name": "PrivacyRiskAssessor",
+      "domain": "D6_Ethics_Governance",
+      "category": "Ethics Governance",
+      "trigger": "Need for PrivacyRiskAssessor capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N105",
+      "name": "DataRetentionPlanner",
+      "domain": "D6_Ethics_Governance",
+      "category": "Ethics Governance",
+      "trigger": "Need for DataRetentionPlanner capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N106",
+      "name": "ConsentMinimizationCoach",
+      "domain": "D6_Ethics_Governance",
+      "category": "Ethics Governance",
+      "trigger": "Need for ConsentMinimizationCoach capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N107",
+      "name": "RightsImpactAnalyzer",
+      "domain": "D6_Ethics_Governance",
+      "category": "Ethics Governance",
+      "trigger": "Need for RightsImpactAnalyzer capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N108",
+      "name": "JurisdictionComplianceMapper",
+      "domain": "D6_Ethics_Governance",
+      "category": "Ethics Governance",
+      "trigger": "Need for JurisdictionComplianceMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N109",
+      "name": "TransparencyReportGenerator",
+      "domain": "D6_Ethics_Governance",
+      "category": "Ethics Governance",
+      "trigger": "Need for TransparencyReportGenerator capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N110",
+      "name": "AccountabilityTracker",
+      "domain": "D6_Ethics_Governance",
+      "category": "Ethics Governance",
+      "trigger": "Need for AccountabilityTracker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N111",
+      "name": "GovernanceRuleEngine",
+      "domain": "D6_Ethics_Governance",
+      "category": "Ethics Governance",
+      "trigger": "Need for GovernanceRuleEngine capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N112",
+      "name": "PolicyConsistencyChecker",
+      "domain": "D6_Ethics_Governance",
+      "category": "Ethics Governance",
+      "trigger": "Need for PolicyConsistencyChecker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N113",
+      "name": "EthicalExceptionMapper",
+      "domain": "D6_Ethics_Governance",
+      "category": "Ethics Governance",
+      "trigger": "Need for EthicalExceptionMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N114",
+      "name": "LegalAmbiguityResolver",
+      "domain": "D6_Ethics_Governance",
+      "category": "Ethics Governance",
+      "trigger": "Need for LegalAmbiguityResolver capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N115",
+      "name": "RightsConflictAnalyzer",
+      "domain": "D6_Ethics_Governance",
+      "category": "Ethics Governance",
+      "trigger": "Need for RightsConflictAnalyzer capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N116",
+      "name": "GovernanceAuditLogger",
+      "domain": "D6_Ethics_Governance",
+      "category": "Ethics Governance",
+      "trigger": "Need for GovernanceAuditLogger capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N117",
+      "name": "ComplianceTrainingModule",
+      "domain": "D6_Ethics_Governance",
+      "category": "Ethics Governance",
+      "trigger": "Need for ComplianceTrainingModule capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N118",
+      "name": "EthicsScenarioSimulator",
+      "domain": "D6_Ethics_Governance",
+      "category": "Ethics Governance",
+      "trigger": "Need for EthicsScenarioSimulator capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N119",
+      "name": "GovernanceDecisionTree",
+      "domain": "D6_Ethics_Governance",
+      "category": "Ethics Governance",
+      "trigger": "Need for GovernanceDecisionTree capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N120",
+      "name": "RightsPreservationEngine",
+      "domain": "D6_Ethics_Governance",
+      "category": "Ethics Governance",
+      "trigger": "Need for RightsPreservationEngine capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N121",
+      "name": "AuditTrailGenerator",
+      "domain": "D7_Audit_Accountability",
+      "category": "Audit Accountability",
+      "trigger": "Need for AuditTrailGenerator capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N122",
+      "name": "AuditEventClassifier",
+      "domain": "D7_Audit_Accountability",
+      "category": "Audit Accountability",
+      "trigger": "Need for AuditEventClassifier capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N123",
+      "name": "AuditRiskRanker",
+      "domain": "D7_Audit_Accountability",
+      "category": "Audit Accountability",
+      "trigger": "Need for AuditRiskRanker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N124",
+      "name": "AuditPatternMiner",
+      "domain": "D7_Audit_Accountability",
+      "category": "Audit Accountability",
+      "trigger": "Need for AuditPatternMiner capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N125",
+      "name": "AuditSignalExtractor",
+      "domain": "D7_Audit_Accountability",
+      "category": "Audit Accountability",
+      "trigger": "Need for AuditSignalExtractor capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N126",
+      "name": "AuditNoiseReducer",
+      "domain": "D7_Audit_Accountability",
+      "category": "Audit Accountability",
+      "trigger": "Need for AuditNoiseReducer capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N127",
+      "name": "AuditTimelineBuilder",
+      "domain": "D7_Audit_Accountability",
+      "category": "Audit Accountability",
+      "trigger": "Need for AuditTimelineBuilder capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N128",
+      "name": "AuditJurisdictionMapper",
+      "domain": "D7_Audit_Accountability",
+      "category": "Audit Accountability",
+      "trigger": "Need for AuditJurisdictionMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N129",
+      "name": "AuditBarrierChecker",
+      "domain": "D7_Audit_Accountability",
+      "category": "Audit Accountability",
+      "trigger": "Need for AuditBarrierChecker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N130",
+      "name": "AuditRouteChecker",
+      "domain": "D7_Audit_Accountability",
+      "category": "Audit Accountability",
+      "trigger": "Need for AuditRouteChecker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N131",
+      "name": "AuditSkillChecker",
+      "domain": "D7_Audit_Accountability",
+      "category": "Audit Accountability",
+      "trigger": "Need for AuditSkillChecker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N132",
+      "name": "AuditHITLChecker",
+      "domain": "D7_Audit_Accountability",
+      "category": "Audit Accountability",
+      "trigger": "Need for AuditHITLChecker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N133",
+      "name": "AuditComplianceChecker",
+      "domain": "D7_Audit_Accountability",
+      "category": "Audit Accountability",
+      "trigger": "Need for AuditComplianceChecker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N134",
+      "name": "AuditOutcomePredictor",
+      "domain": "D7_Audit_Accountability",
+      "category": "Audit Accountability",
+      "trigger": "Need for AuditOutcomePredictor capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N135",
+      "name": "AuditReportGenerator",
+      "domain": "D7_Audit_Accountability",
+      "category": "Audit Accountability",
+      "trigger": "Need for AuditReportGenerator capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N136",
+      "name": "AuditCaseStudyMapper",
+      "domain": "D7_Audit_Accountability",
+      "category": "Audit Accountability",
+      "trigger": "Need for AuditCaseStudyMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N137",
+      "name": "AuditMetadataLinker",
+      "domain": "D7_Audit_Accountability",
+      "category": "Audit Accountability",
+      "trigger": "Need for AuditMetadataLinker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N138",
+      "name": "AuditGovernanceLinker",
+      "domain": "D7_Audit_Accountability",
+      "category": "Audit Accountability",
+      "trigger": "Need for AuditGovernanceLinker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N139",
+      "name": "AuditLifecycleManager",
+      "domain": "D7_Audit_Accountability",
+      "category": "Audit Accountability",
+      "trigger": "Need for AuditLifecycleManager capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N140",
+      "name": "AuditIntegrityValidator",
+      "domain": "D7_Audit_Accountability",
+      "category": "Audit Accountability",
+      "trigger": "Need for AuditIntegrityValidator capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N141",
+      "name": "LeadGenerator",
+      "domain": "D8_Investigative_Intelligence",
+      "category": "Investigative Intelligence",
+      "trigger": "Need for LeadGenerator capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N142",
+      "name": "LeadRanker",
+      "domain": "D8_Investigative_Intelligence",
+      "category": "Investigative Intelligence",
+      "trigger": "Need for LeadRanker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N143",
+      "name": "LeadPatternMiner",
+      "domain": "D8_Investigative_Intelligence",
+      "category": "Investigative Intelligence",
+      "trigger": "Need for LeadPatternMiner capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N144",
+      "name": "LeadMetadataLinker",
+      "domain": "D8_Investigative_Intelligence",
+      "category": "Investigative Intelligence",
+      "trigger": "Need for LeadMetadataLinker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N145",
+      "name": "LeadBarrierLinker",
+      "domain": "D8_Investigative_Intelligence",
+      "category": "Investigative Intelligence",
+      "trigger": "Need for LeadBarrierLinker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N146",
+      "name": "LeadRouteLinker",
+      "domain": "D8_Investigative_Intelligence",
+      "category": "Investigative Intelligence",
+      "trigger": "Need for LeadRouteLinker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N147",
+      "name": "LeadTimelineBuilder",
+      "domain": "D8_Investigative_Intelligence",
+      "category": "Investigative Intelligence",
+      "trigger": "Need for LeadTimelineBuilder capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N148",
+      "name": "LeadGeoMapper",
+      "domain": "D8_Investigative_Intelligence",
+      "category": "Investigative Intelligence",
+      "trigger": "Need for LeadGeoMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N149",
+      "name": "LeadEntityMapper",
+      "domain": "D8_Investigative_Intelligence",
+      "category": "Investigative Intelligence",
+      "trigger": "Need for LeadEntityMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N150",
+      "name": "LeadCitationMapper",
+      "domain": "D8_Investigative_Intelligence",
+      "category": "Investigative Intelligence",
+      "trigger": "Need for LeadCitationMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N151",
+      "name": "LeadClusterBuilder",
+      "domain": "D8_Investigative_Intelligence",
+      "category": "Investigative Intelligence",
+      "trigger": "Need for LeadClusterBuilder capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N152",
+      "name": "LeadRiskAssessor",
+      "domain": "D8_Investigative_Intelligence",
+      "category": "Investigative Intelligence",
+      "trigger": "Need for LeadRiskAssessor capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N153",
+      "name": "LeadOutcomePredictor",
+      "domain": "D8_Investigative_Intelligence",
+      "category": "Investigative Intelligence",
+      "trigger": "Need for LeadOutcomePredictor capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N154",
+      "name": "LeadContextAnalyzer",
+      "domain": "D8_Investigative_Intelligence",
+      "category": "Investigative Intelligence",
+      "trigger": "Need for LeadContextAnalyzer capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N155",
+      "name": "LeadSignalAmplifier",
+      "domain": "D8_Investigative_Intelligence",
+      "category": "Investigative Intelligence",
+      "trigger": "Need for LeadSignalAmplifier capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N156",
+      "name": "LeadNoiseReducer",
+      "domain": "D8_Investigative_Intelligence",
+      "category": "Investigative Intelligence",
+      "trigger": "Need for LeadNoiseReducer capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N157",
+      "name": "LeadReliabilityChecker",
+      "domain": "D8_Investigative_Intelligence",
+      "category": "Investigative Intelligence",
+      "trigger": "Need for LeadReliabilityChecker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N158",
+      "name": "LeadSourceRanker",
+      "domain": "D8_Investigative_Intelligence",
+      "category": "Investigative Intelligence",
+      "trigger": "Need for LeadSourceRanker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N159",
+      "name": "LeadAuditLogger",
+      "domain": "D8_Investigative_Intelligence",
+      "category": "Investigative Intelligence",
+      "trigger": "Need for LeadAuditLogger capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N160",
+      "name": "LeadGovernanceChecker",
+      "domain": "D8_Investigative_Intelligence",
+      "category": "Investigative Intelligence",
+      "trigger": "Need for LeadGovernanceChecker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N161",
+      "name": "KnowledgeEquityAnalyst",
+      "domain": "D9_Global_Knowledge_Equity",
+      "category": "Global Knowledge Equity",
+      "trigger": "Need for KnowledgeEquityAnalyst capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N162",
+      "name": "AccessBarrierAudit",
+      "domain": "D9_Global_Knowledge_Equity",
+      "category": "Global Knowledge Equity",
+      "trigger": "Need for AccessBarrierAudit capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N163",
+      "name": "OpenKnowledgeStrategist",
+      "domain": "D9_Global_Knowledge_Equity",
+      "category": "Global Knowledge Equity",
+      "trigger": "Need for OpenKnowledgeStrategist capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N164",
+      "name": "PublicDomainResearcher",
+      "domain": "D9_Global_Knowledge_Equity",
+      "category": "Global Knowledge Equity",
+      "trigger": "Need for PublicDomainResearcher capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N165",
+      "name": "OAResourceMapper",
+      "domain": "D9_Global_Knowledge_Equity",
+      "category": "Global Knowledge Equity",
+      "trigger": "Need for OAResourceMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N166",
+      "name": "EquityPatternMiner",
+      "domain": "D9_Global_Knowledge_Equity",
+      "category": "Global Knowledge Equity",
+      "trigger": "Need for EquityPatternMiner capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N167",
+      "name": "EquitySignalExtractor",
+      "domain": "D9_Global_Knowledge_Equity",
+      "category": "Global Knowledge Equity",
+      "trigger": "Need for EquitySignalExtractor capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N168",
+      "name": "EquityNoiseReducer",
+      "domain": "D9_Global_Knowledge_Equity",
+      "category": "Global Knowledge Equity",
+      "trigger": "Need for EquityNoiseReducer capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N169",
+      "name": "EquityJurisdictionMapper",
+      "domain": "D9_Global_Knowledge_Equity",
+      "category": "Global Knowledge Equity",
+      "trigger": "Need for EquityJurisdictionMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N170",
+      "name": "EquityBarrierChecker",
+      "domain": "D9_Global_Knowledge_Equity",
+      "category": "Global Knowledge Equity",
+      "trigger": "Need for EquityBarrierChecker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N171",
+      "name": "EquityRouteBuilder",
+      "domain": "D9_Global_Knowledge_Equity",
+      "category": "Global Knowledge Equity",
+      "trigger": "Need for EquityRouteBuilder capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N172",
+      "name": "EquityOutcomePredictor",
+      "domain": "D9_Global_Knowledge_Equity",
+      "category": "Global Knowledge Equity",
+      "trigger": "Need for EquityOutcomePredictor capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N173",
+      "name": "EquityContextAnalyzer",
+      "domain": "D9_Global_Knowledge_Equity",
+      "category": "Global Knowledge Equity",
+      "trigger": "Need for EquityContextAnalyzer capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N174",
+      "name": "EquityGovernanceChecker",
+      "domain": "D9_Global_Knowledge_Equity",
+      "category": "Global Knowledge Equity",
+      "trigger": "Need for EquityGovernanceChecker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N175",
+      "name": "EquityAuditLogger",
+      "domain": "D9_Global_Knowledge_Equity",
+      "category": "Global Knowledge Equity",
+      "trigger": "Need for EquityAuditLogger capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N176",
+      "name": "EquityLifecycleManager",
+      "domain": "D9_Global_Knowledge_Equity",
+      "category": "Global Knowledge Equity",
+      "trigger": "Need for EquityLifecycleManager capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N177",
+      "name": "EquitySkillBuilder",
+      "domain": "D9_Global_Knowledge_Equity",
+      "category": "Global Knowledge Equity",
+      "trigger": "Need for EquitySkillBuilder capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N178",
+      "name": "EquityDomainExpander",
+      "domain": "D9_Global_Knowledge_Equity",
+      "category": "Global Knowledge Equity",
+      "trigger": "Need for EquityDomainExpander capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N179",
+      "name": "EquityCaseStudyMapper",
+      "domain": "D9_Global_Knowledge_Equity",
+      "category": "Global Knowledge Equity",
+      "trigger": "Need for EquityCaseStudyMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N180",
+      "name": "EquityTrainingModule",
+      "domain": "D9_Global_Knowledge_Equity",
+      "category": "Global Knowledge Equity",
+      "trigger": "Need for EquityTrainingModule capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N181",
+      "name": "SystemPatternMiner",
+      "domain": "D10_System_Level_Intelligence",
+      "category": "System Level Intelligence",
+      "trigger": "Need for SystemPatternMiner capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N182",
+      "name": "SystemSignalAmplifier",
+      "domain": "D10_System_Level_Intelligence",
+      "category": "System Level Intelligence",
+      "trigger": "Need for SystemSignalAmplifier capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N183",
+      "name": "SystemNoiseReducer",
+      "domain": "D10_System_Level_Intelligence",
+      "category": "System Level Intelligence",
+      "trigger": "Need for SystemNoiseReducer capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N184",
+      "name": "SystemOntologyBuilder",
+      "domain": "D10_System_Level_Intelligence",
+      "category": "System Level Intelligence",
+      "trigger": "Need for SystemOntologyBuilder capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N185",
+      "name": "SystemDomainExpander",
+      "domain": "D10_System_Level_Intelligence",
+      "category": "System Level Intelligence",
+      "trigger": "Need for SystemDomainExpander capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N186",
+      "name": "SystemLifecycleManager",
+      "domain": "D10_System_Level_Intelligence",
+      "category": "System Level Intelligence",
+      "trigger": "Need for SystemLifecycleManager capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N187",
+      "name": "SystemGovernanceChecker",
+      "domain": "D10_System_Level_Intelligence",
+      "category": "System Level Intelligence",
+      "trigger": "Need for SystemGovernanceChecker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N188",
+      "name": "SystemComplianceChecker",
+      "domain": "D10_System_Level_Intelligence",
+      "category": "System Level Intelligence",
+      "trigger": "Need for SystemComplianceChecker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N189",
+      "name": "SystemAuditLogger",
+      "domain": "D10_System_Level_Intelligence",
+      "category": "System Level Intelligence",
+      "trigger": "Need for SystemAuditLogger capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N190",
+      "name": "SystemSkillBuilder",
+      "domain": "D10_System_Level_Intelligence",
+      "category": "System Level Intelligence",
+      "trigger": "Need for SystemSkillBuilder capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N191",
+      "name": "SystemBarrierMapper",
+      "domain": "D10_System_Level_Intelligence",
+      "category": "System Level Intelligence",
+      "trigger": "Need for SystemBarrierMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N192",
+      "name": "SystemRouteMapper",
+      "domain": "D10_System_Level_Intelligence",
+      "category": "System Level Intelligence",
+      "trigger": "Need for SystemRouteMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N193",
+      "name": "SystemMetadataMapper",
+      "domain": "D10_System_Level_Intelligence",
+      "category": "System Level Intelligence",
+      "trigger": "Need for SystemMetadataMapper capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N194",
+      "name": "SystemContextAnalyzer",
+      "domain": "D10_System_Level_Intelligence",
+      "category": "System Level Intelligence",
+      "trigger": "Need for SystemContextAnalyzer capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N195",
+      "name": "SystemOutcomePredictor",
+      "domain": "D10_System_Level_Intelligence",
+      "category": "System Level Intelligence",
+      "trigger": "Need for SystemOutcomePredictor capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N196",
+      "name": "SystemPerformanceRanker",
+      "domain": "D10_System_Level_Intelligence",
+      "category": "System Level Intelligence",
+      "trigger": "Need for SystemPerformanceRanker capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N197",
+      "name": "SystemRiskAssessor",
+      "domain": "D10_System_Level_Intelligence",
+      "category": "System Level Intelligence",
+      "trigger": "Need for SystemRiskAssessor capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N198",
+      "name": "SystemIntegrityValidator",
+      "domain": "D10_System_Level_Intelligence",
+      "category": "System Level Intelligence",
+      "trigger": "Need for SystemIntegrityValidator capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N199",
+      "name": "SystemEvolutionEngine",
+      "domain": "D10_System_Level_Intelligence",
+      "category": "System Level Intelligence",
+      "trigger": "Need for SystemEvolutionEngine capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    },
+    {
+      "id": "N200",
+      "name": "SystemMasterController",
+      "domain": "D10_System_Level_Intelligence",
+      "category": "System Level Intelligence",
+      "trigger": "Need for SystemMasterController capability in lawful metadata-only investigation",
+      "inputs": [
+        "public_metadata",
+        "operator_query",
+        "jurisdiction",
+        "barrier_type"
+      ],
+      "outputs": [
+        "structured_result",
+        "audit_log_entry",
+        "hitl_flag_if_needed"
+      ],
+      "execution_rules": [
+        "PUBLIC_RECORD_CEILING=true",
+        "metadata-only for restricted surfaces",
+        "no bypass/circumvention",
+        "log decision to audit trail",
+        "HITL if irreversible/external/fee-paid"
+      ],
+      "version": "1.0",
+      "lawful_only": true
+    }
+  ]
+}
