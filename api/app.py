@@ -83,6 +83,12 @@ class ClassifyRequest(BaseModel):
     meta: Optional[Dict[str, Any]] = None
 
 
+
+class HitlCheckRequest(BaseModel):
+    action: str = Field(..., min_length=1)
+    irreversible: bool = False
+    meta: Optional[Dict[str, Any]] = None
+
 class ExtractRequest(BaseModel):
     content: str = Field(..., min_length=1)
     mime_hint: str = "text"
@@ -166,13 +172,16 @@ def integrations(_role: str = Depends(require_api_key)):
 async def swarm_run(req: GoalRequest, _role: str = Depends(require_write_key)):
     supervisor, _, _ = get_runtime()
     try:
-        # Phase 1 barrier pre-check
+        # Phase 1 barrier + HITL pre-check
         try:
-            from utils.phase1 import classify_barrier, get_audit
+            from utils.phase1 import classify_barrier, get_audit, get_hitl_gate
             gate = classify_barrier(req.goal)
             get_audit().record("api", "swarm_precheck", {"goal": req.goal[:200]}, gate["route"], hitl_required=gate.get("hitl_required", False))
             if not gate.get("allowed", True):
                 return {"status": "blocked", "reason": "barrier_classifier", "gate": gate, "hitl": True}
+            hitl = get_hitl_gate().check("swarm_run")
+            if not hitl.get("allowed", False) and hitl.get("hitl_required"):
+                return {"status": "blocked", "reason": "hitl_gate", "hitl": hitl}
         except Exception:
             pass
         result = await supervisor.run({"goal": req.goal})
@@ -347,6 +356,31 @@ def phase1_audit(n: int = 50, _role: str = Depends(require_api_key)):
     from utils.phase1 import get_audit
     a = get_audit()
     return {"count": a.count(), "tail": a.tail(n)}
+
+
+
+@app.get("/phase1/hitl")
+def phase1_hitl_status(_role: str = Depends(require_api_key)):
+    from utils.phase1 import get_hitl_gate, get_audit
+    gate = get_hitl_gate()
+    info = gate.grant_info()
+    get_audit().record("api", "hitl_status", {}, "active" if info.get("is_active") else "inactive")
+    return info
+
+
+@app.post("/phase1/hitl/check")
+def phase1_hitl_check(req: HitlCheckRequest, _role: str = Depends(require_api_key)):
+    from utils.phase1 import get_hitl_gate, get_audit
+    result = get_hitl_gate().check(req.action, irreversible=req.irreversible, meta=req.meta)
+    get_audit().record(
+        "api",
+        "hitl_check",
+        {"action": req.action},
+        "allow" if result.get("allowed") else "deny",
+        hitl_required=result.get("hitl_required", False),
+        meta={"matrix_id": result.get("matrix_id")},
+    )
+    return result
 
 
 if __name__ == "__main__":
