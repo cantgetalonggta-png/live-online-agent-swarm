@@ -1,0 +1,1109 @@
+{
+  "encyclopedia": "MASTER_SKILL_ENCYCLOPEDIA",
+  "version": "1.0",
+  "note": "v1.0 ships 53 skills (Domain 1 expanded beyond original 3-card draft to full access stack).",
+  "schema_fields": [
+    "id",
+    "name",
+    "domain_id",
+    "domain",
+    "category",
+    "trigger",
+    "inputs",
+    "outputs",
+    "execution_rules",
+    "version",
+    "guided_link"
+  ],
+  "absolute_rules": [
+    "lawful_only",
+    "authorization_ownership_barrier_validity",
+    "provenance_required_for_facts",
+    "prefer_guided_specialized_skills"
+  ],
+  "skill_count": 53,
+  "domain_count": 10,
+  "skills": [
+    {
+      "id": "OpenAccessNavigator",
+      "name": "OpenAccessNavigator",
+      "domain_id": 1,
+      "domain": "Knowledge Access, Retrieval & Open Information",
+      "category": "Knowledge Access",
+      "trigger": "User seeks free versions of paywalled content",
+      "inputs": [
+        "DOI",
+        "title",
+        "author"
+      ],
+      "outputs": [
+        "OA sources",
+        "preprints",
+        "legal copies"
+      ],
+      "execution_rules": [
+        "Query OA repositories",
+        "Validate copyright status",
+        "Provide legal access paths only"
+      ],
+      "version": "1.0",
+      "guided_link": "global-lawful-records-access"
+    },
+    {
+      "id": "PublicRecordLocator",
+      "name": "PublicRecordLocator",
+      "domain_id": 1,
+      "domain": "Knowledge Access, Retrieval & Open Information",
+      "category": "Records",
+      "trigger": "Business filings, deeds, court records",
+      "inputs": [
+        "jurisdiction",
+        "entity_name"
+      ],
+      "outputs": [
+        "official portals",
+        "retrieval steps"
+      ],
+      "execution_rules": [
+        "Map record type to registry",
+        "Identify fee vs free"
+      ],
+      "version": "1.0",
+      "guided_link": "global-lawful-records-access"
+    },
+    {
+      "id": "LegalAccessInterpreter",
+      "name": "LegalAccessInterpreter",
+      "domain_id": 1,
+      "domain": "Knowledge Access, Retrieval & Open Information",
+      "category": "Access Control",
+      "trigger": "Lawful vs unlawful access questions",
+      "inputs": [
+        "barrier_type"
+      ],
+      "outputs": [
+        "legal classification"
+      ],
+      "execution_rules": [
+        "Apply authorization doctrine",
+        "Apply ownership doctrine",
+        "Apply barrier-validity doctrine"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "RegistryFeeNavigator",
+      "name": "RegistryFeeNavigator",
+      "domain_id": 1,
+      "domain": "Knowledge Access, Retrieval & Open Information",
+      "category": "Records",
+      "trigger": "Statutory fee or certified copy",
+      "inputs": [
+        "registry",
+        "document_type"
+      ],
+      "outputs": [
+        "fee path",
+        "order steps"
+      ],
+      "execution_rules": [
+        "Confirm statutory fee",
+        "No fee evasion"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "FoiaAtiRouter",
+      "name": "FoiaAtiRouter",
+      "domain_id": 1,
+      "domain": "Knowledge Access, Retrieval & Open Information",
+      "category": "Government Access",
+      "trigger": "Unpublished government records",
+      "inputs": [
+        "agency",
+        "description",
+        "jurisdiction"
+      ],
+      "outputs": [
+        "request fields",
+        "portal",
+        "appeal path"
+      ],
+      "execution_rules": [
+        "Search open data first",
+        "File statutory request",
+        "No intrusion"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "LibraryPremiumGateway",
+      "name": "LibraryPremiumGateway",
+      "domain_id": 1,
+      "domain": "Knowledge Access, Retrieval & Open Information",
+      "category": "Knowledge Access",
+      "trigger": "Premium database access",
+      "inputs": [
+        "library_system",
+        "need"
+      ],
+      "outputs": [
+        "card path",
+        "DB list",
+        "ILL"
+      ],
+      "execution_rules": [
+        "User-held credentials only",
+        "No login sharing",
+        "Respect license"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "AuthorCopyFinder",
+      "name": "AuthorCopyFinder",
+      "domain_id": 1,
+      "domain": "Knowledge Access, Retrieval & Open Information",
+      "category": "Knowledge Access",
+      "trigger": "Author-posted PDF",
+      "inputs": [
+        "author",
+        "title",
+        "DOI"
+      ],
+      "outputs": [
+        "repo/faculty/author links"
+      ],
+      "execution_rules": [
+        "Prefer institutional repos",
+        "Author-posted legal only"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "NewsLegalAlternative",
+      "name": "NewsLegalAlternative",
+      "domain_id": 1,
+      "domain": "Knowledge Access, Retrieval & Open Information",
+      "category": "Knowledge Access",
+      "trigger": "News paywall",
+      "inputs": [
+        "article_id"
+      ],
+      "outputs": [
+        "press release",
+        "wire",
+        "library DB",
+        "gov summary"
+      ],
+      "execution_rules": [
+        "Never crack paywall",
+        "Summarize not bulk republish"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "NetworkTopologyAnalyst",
+      "name": "NetworkTopologyAnalyst",
+      "domain_id": 2,
+      "domain": "Digital Infrastructure, Connectivity & Systems",
+      "category": "Infrastructure",
+      "trigger": "Network design/routing",
+      "inputs": [
+        "architecture_type"
+      ],
+      "outputs": [
+        "topology map"
+      ],
+      "execution_rules": [
+        "Evaluate nodes links bottlenecks",
+        "No unauthorized scanning"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "SpectrumAllocationAdvisor",
+      "name": "SpectrumAllocationAdvisor",
+      "domain_id": 2,
+      "domain": "Digital Infrastructure, Connectivity & Systems",
+      "category": "Telecom Policy",
+      "trigger": "Wireless band usage",
+      "inputs": [
+        "band",
+        "region"
+      ],
+      "outputs": [
+        "allocation guidance"
+      ],
+      "execution_rules": [
+        "Apply ITU/national tables",
+        "Map band to use-case"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "SatelliteLatencyProfiler",
+      "name": "SatelliteLatencyProfiler",
+      "domain_id": 2,
+      "domain": "Digital Infrastructure, Connectivity & Systems",
+      "category": "Connectivity",
+      "trigger": "Satellite internet",
+      "inputs": [
+        "provider",
+        "orbit_type"
+      ],
+      "outputs": [
+        "latency/bandwidth profile"
+      ],
+      "execution_rules": [
+        "Compare GEO/MEO/LEO"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "DnsPathExplainer",
+      "name": "DnsPathExplainer",
+      "domain_id": 2,
+      "domain": "Digital Infrastructure, Connectivity & Systems",
+      "category": "Infrastructure",
+      "trigger": "DNS path questions",
+      "inputs": [
+        "hostname"
+      ],
+      "outputs": [
+        "resolution explanation"
+      ],
+      "execution_rules": [
+        "Public DNS knowledge unless user owns zone"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "CdnEdgeMapper",
+      "name": "CdnEdgeMapper",
+      "domain_id": 2,
+      "domain": "Digital Infrastructure, Connectivity & Systems",
+      "category": "Infrastructure",
+      "trigger": "CDN/edge questions",
+      "inputs": [
+        "provider_or_url"
+      ],
+      "outputs": [
+        "edge model"
+      ],
+      "execution_rules": [
+        "Public docs only",
+        "No hostile recon"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "MetadataExtractionEngine",
+      "name": "MetadataExtractionEngine",
+      "domain_id": 3,
+      "domain": "Metadata, Indexing & Information Science",
+      "category": "Information Science",
+      "trigger": "User provides document",
+      "inputs": [
+        "file"
+      ],
+      "outputs": [
+        "metadata record"
+      ],
+      "execution_rules": [
+        "Extract title authors keywords",
+        "Normalize schema"
+      ],
+      "version": "1.0",
+      "guided_link": "document-intelligence"
+    },
+    {
+      "id": "IndexSystemNavigator",
+      "name": "IndexSystemNavigator",
+      "domain_id": 3,
+      "domain": "Metadata, Indexing & Information Science",
+      "category": "Research",
+      "trigger": "Index guidance",
+      "inputs": [
+        "topic"
+      ],
+      "outputs": [
+        "index recommendations"
+      ],
+      "execution_rules": [
+        "Map field to index"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "CitationGraphExplorer",
+      "name": "CitationGraphExplorer",
+      "domain_id": 3,
+      "domain": "Metadata, Indexing & Information Science",
+      "category": "Research",
+      "trigger": "Citation trails",
+      "inputs": [
+        "DOI"
+      ],
+      "outputs": [
+        "upstream/downstream graph"
+      ],
+      "execution_rules": [
+        "Query scholarly databases",
+        "Attribute sources"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "SchemaNormalizer",
+      "name": "SchemaNormalizer",
+      "domain_id": 3,
+      "domain": "Metadata, Indexing & Information Science",
+      "category": "Information Science",
+      "trigger": "Merge heterogeneous metadata",
+      "inputs": [
+        "records"
+      ],
+      "outputs": [
+        "normalized table"
+      ],
+      "execution_rules": [
+        "Preserve provenance"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "ControlledVocabularyGuide",
+      "name": "ControlledVocabularyGuide",
+      "domain_id": 3,
+      "domain": "Metadata, Indexing & Information Science",
+      "category": "Information Science",
+      "trigger": "Taxonomy help",
+      "inputs": [
+        "domain"
+      ],
+      "outputs": [
+        "vocabulary recommendations"
+      ],
+      "execution_rules": [
+        "Prefer public thesauri"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "DigitalRightsAdvisor",
+      "name": "DigitalRightsAdvisor",
+      "domain_id": 4,
+      "domain": "Digital Rights, Privacy & Security",
+      "category": "Rights",
+      "trigger": "Digital freedoms by country",
+      "inputs": [
+        "country"
+      ],
+      "outputs": [
+        "rights overview"
+      ],
+      "execution_rules": [
+        "UN digital rights + national public law"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "PrivacyRiskAssessor",
+      "name": "PrivacyRiskAssessor",
+      "domain_id": 4,
+      "domain": "Digital Rights, Privacy & Security",
+      "category": "Security",
+      "trigger": "Privacy concerns",
+      "inputs": [
+        "platform"
+      ],
+      "outputs": [
+        "risk profile"
+      ],
+      "execution_rules": [
+        "Identify exposure vectors",
+        "GDPR/CCPA/PIPEDA aware"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "EthicalAccessGuide",
+      "name": "EthicalAccessGuide",
+      "domain_id": 4,
+      "domain": "Digital Rights, Privacy & Security",
+      "category": "Ethics",
+      "trigger": "Restricted content access",
+      "inputs": [
+        "url"
+      ],
+      "outputs": [
+        "legal alternatives"
+      ],
+      "execution_rules": [
+        "Validate license",
+        "Provide OA paths",
+        "No circumvention"
+      ],
+      "version": "1.0",
+      "guided_link": "legal-osint-compliance-layer"
+    },
+    {
+      "id": "ConsentMinimizationCoach",
+      "name": "ConsentMinimizationCoach",
+      "domain_id": 4,
+      "domain": "Digital Rights, Privacy & Security",
+      "category": "Privacy",
+      "trigger": "Data collection design",
+      "inputs": [
+        "purpose",
+        "fields"
+      ],
+      "outputs": [
+        "minimization plan"
+      ],
+      "execution_rules": [
+        "Least data necessary"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "DataRetentionPlanner",
+      "name": "DataRetentionPlanner",
+      "domain_id": 4,
+      "domain": "Digital Rights, Privacy & Security",
+      "category": "Privacy",
+      "trigger": "Retention questions",
+      "inputs": [
+        "purpose",
+        "jurisdiction"
+      ],
+      "outputs": [
+        "retention schedule"
+      ],
+      "execution_rules": [
+        "Purpose limitation",
+        "Deletion path"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "DigitalLiteracyTrainer",
+      "name": "DigitalLiteracyTrainer",
+      "domain_id": 5,
+      "domain": "Education, Literacy & Civic Participation",
+      "category": "Education",
+      "trigger": "Digital skills needed",
+      "inputs": [
+        "skill_level",
+        "goal"
+      ],
+      "outputs": [
+        "training plan"
+      ],
+      "execution_rules": [
+        "Step-by-step modules"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "CivicParticipationEnhancer",
+      "name": "CivicParticipationEnhancer",
+      "domain_id": 5,
+      "domain": "Education, Literacy & Civic Participation",
+      "category": "Civic Tech",
+      "trigger": "Digital democracy",
+      "inputs": [
+        "region"
+      ],
+      "outputs": [
+        "participation strategy"
+      ],
+      "execution_rules": [
+        "Map official tools to civic outcomes"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "DigitalRightsEducator",
+      "name": "DigitalRightsEducator",
+      "domain_id": 5,
+      "domain": "Education, Literacy & Civic Participation",
+      "category": "Human Rights",
+      "trigger": "Explain digital freedoms",
+      "inputs": [
+        "policy",
+        "audience"
+      ],
+      "outputs": [
+        "rights overview"
+      ],
+      "execution_rules": [
+        "Access expression information privacy"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "SourceEvaluationCoach",
+      "name": "SourceEvaluationCoach",
+      "domain_id": 5,
+      "domain": "Education, Literacy & Civic Participation",
+      "category": "Education",
+      "trigger": "Source reliability",
+      "inputs": [
+        "url_or_claim"
+      ],
+      "outputs": [
+        "evaluation checklist"
+      ],
+      "execution_rules": [
+        "Authorship evidence bias corroboration"
+      ],
+      "version": "1.0",
+      "guided_link": "truth-verification"
+    },
+    {
+      "id": "MediaLiteracyDrill",
+      "name": "MediaLiteracyDrill",
+      "domain_id": 5,
+      "domain": "Education, Literacy & Civic Participation",
+      "category": "Education",
+      "trigger": "Disinformation practice",
+      "inputs": [
+        "sample_claim"
+      ],
+      "outputs": [
+        "drill steps"
+      ],
+      "execution_rules": [
+        "Debunk without amplifying harm"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "SecureAccessAdvisor",
+      "name": "SecureAccessAdvisor",
+      "domain_id": 6,
+      "domain": "Security, Encryption & Safe Access",
+      "category": "Security",
+      "trigger": "Safe browsing/hardening",
+      "inputs": [
+        "device",
+        "threat_model"
+      ],
+      "outputs": [
+        "security plan"
+      ],
+      "execution_rules": [
+        "Encryption MFA updates",
+        "Defensive only"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "ThreatSurfaceMapper",
+      "name": "ThreatSurfaceMapper",
+      "domain_id": 6,
+      "domain": "Security, Encryption & Safe Access",
+      "category": "Cybersecurity",
+      "trigger": "Attack surface",
+      "inputs": [
+        "architecture"
+      ],
+      "outputs": [
+        "threat map"
+      ],
+      "execution_rules": [
+        "Identify vectors",
+        "No exploit code for third parties"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "CredentialSafetyAnalyst",
+      "name": "CredentialSafetyAnalyst",
+      "domain_id": 6,
+      "domain": "Security, Encryption & Safe Access",
+      "category": "Security",
+      "trigger": "Credential handling",
+      "inputs": [
+        "account_type"
+      ],
+      "outputs": [
+        "safety guidance"
+      ],
+      "execution_rules": [
+        "Authorization doctrine",
+        "No sharing"
+      ],
+      "version": "1.0",
+      "guided_link": "api-key-management"
+    },
+    {
+      "id": "EncryptionModeSelector",
+      "name": "EncryptionModeSelector",
+      "domain_id": 6,
+      "domain": "Security, Encryption & Safe Access",
+      "category": "Security",
+      "trigger": "Encryption choice",
+      "inputs": [
+        "use_case"
+      ],
+      "outputs": [
+        "mode recommendations"
+      ],
+      "execution_rules": [
+        "Modern standards",
+        "No roll-your-own"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "PhishingPatternSpotter",
+      "name": "PhishingPatternSpotter",
+      "domain_id": 6,
+      "domain": "Security, Encryption & Safe Access",
+      "category": "Security",
+      "trigger": "Suspicious message",
+      "inputs": [
+        "message_redacted"
+      ],
+      "outputs": [
+        "pattern flags"
+      ],
+      "execution_rules": [
+        "Never request live passwords"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "CorporateStructureInterpreter",
+      "name": "CorporateStructureInterpreter",
+      "domain_id": 7,
+      "domain": "Business, Governance & Organizational Systems",
+      "category": "Business",
+      "trigger": "LLC/corp/partnership",
+      "inputs": [
+        "jurisdiction",
+        "entity_type"
+      ],
+      "outputs": [
+        "structure explanation"
+      ],
+      "execution_rules": [
+        "Map structure to obligations"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "RegulatoryComplianceAdvisor",
+      "name": "RegulatoryComplianceAdvisor",
+      "domain_id": 7,
+      "domain": "Business, Governance & Organizational Systems",
+      "category": "Governance",
+      "trigger": "Compliance questions",
+      "inputs": [
+        "industry",
+        "jurisdiction"
+      ],
+      "outputs": [
+        "compliance checklist"
+      ],
+      "execution_rules": [
+        "Identify mandatory public filings"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "PublicFilingInterpreter",
+      "name": "PublicFilingInterpreter",
+      "domain_id": 7,
+      "domain": "Business, Governance & Organizational Systems",
+      "category": "Records",
+      "trigger": "Business filings meaning",
+      "inputs": [
+        "filing_type"
+      ],
+      "outputs": [
+        "explanation"
+      ],
+      "execution_rules": [
+        "Decode legal meaning carefully"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "EntityGraphBuilder",
+      "name": "EntityGraphBuilder",
+      "domain_id": 7,
+      "domain": "Business, Governance & Organizational Systems",
+      "category": "Business",
+      "trigger": "Related entities map",
+      "inputs": [
+        "seed_entity"
+      ],
+      "outputs": [
+        "public entity graph"
+      ],
+      "execution_rules": [
+        "Public registries only",
+        "SOLID/MAYBE tags"
+      ],
+      "version": "1.0",
+      "guided_link": "osint-rag-master"
+    },
+    {
+      "id": "UboPublicPathGuide",
+      "name": "UboPublicPathGuide",
+      "domain_id": 7,
+      "domain": "Business, Governance & Organizational Systems",
+      "category": "Business",
+      "trigger": "Beneficial ownership public path",
+      "inputs": [
+        "entity",
+        "jurisdiction"
+      ],
+      "outputs": [
+        "public UBO/PSC paths"
+      ],
+      "execution_rules": [
+        "Public registers only",
+        "No illicit bank access"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "EvidenceSynthesisEngine",
+      "name": "EvidenceSynthesisEngine",
+      "domain_id": 8,
+      "domain": "Research, Analysis & Knowledge Synthesis",
+      "category": "Research",
+      "trigger": "Multi-source questions",
+      "inputs": [
+        "topic",
+        "sources"
+      ],
+      "outputs": [
+        "synthesized analysis"
+      ],
+      "execution_rules": [
+        "Combine sources",
+        "Identify consensus",
+        "Cite claims"
+      ],
+      "version": "1.0",
+      "guided_link": "research-automation"
+    },
+    {
+      "id": "MethodologyAdvisor",
+      "name": "MethodologyAdvisor",
+      "domain_id": 8,
+      "domain": "Research, Analysis & Knowledge Synthesis",
+      "category": "Research",
+      "trigger": "Study design",
+      "inputs": [
+        "field",
+        "question"
+      ],
+      "outputs": [
+        "method guidance"
+      ],
+      "execution_rules": [
+        "Map field to method"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "DataInterpretationGuide",
+      "name": "DataInterpretationGuide",
+      "domain_id": 8,
+      "domain": "Research, Analysis & Knowledge Synthesis",
+      "category": "Analysis",
+      "trigger": "Dataset questions",
+      "inputs": [
+        "dataset"
+      ],
+      "outputs": [
+        "interpretation",
+        "caveats"
+      ],
+      "execution_rules": [
+        "Patterns and limits"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "AchMatrixBuilder",
+      "name": "AchMatrixBuilder",
+      "domain_id": 8,
+      "domain": "Research, Analysis & Knowledge Synthesis",
+      "category": "Analysis",
+      "trigger": "Competing hypotheses",
+      "inputs": [
+        "hypotheses",
+        "evidence"
+      ],
+      "outputs": [
+        "ACH matrix"
+      ],
+      "execution_rules": [
+        "Diagnostic scoring"
+      ],
+      "version": "1.0",
+      "guided_link": "truth-verification"
+    },
+    {
+      "id": "TimelineConstructor",
+      "name": "TimelineConstructor",
+      "domain_id": 8,
+      "domain": "Research, Analysis & Knowledge Synthesis",
+      "category": "Analysis",
+      "trigger": "Chronology needed",
+      "inputs": [
+        "events"
+      ],
+      "outputs": [
+        "timeline"
+      ],
+      "execution_rules": [
+        "Provenance per event"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "KnowledgeEquityAnalyst",
+      "name": "KnowledgeEquityAnalyst",
+      "domain_id": 9,
+      "domain": "Policy, Ethics & Global Knowledge Equity",
+      "category": "Ethics",
+      "trigger": "Access inequality",
+      "inputs": [
+        "region"
+      ],
+      "outputs": [
+        "equity analysis"
+      ],
+      "execution_rules": [
+        "Systemic barriers from public research"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "OpenKnowledgeStrategist",
+      "name": "OpenKnowledgeStrategist",
+      "domain_id": 9,
+      "domain": "Policy, Ethics & Global Knowledge Equity",
+      "category": "Policy",
+      "trigger": "Expanding access",
+      "inputs": [
+        "organization"
+      ],
+      "outputs": [
+        "strategy plan"
+      ],
+      "execution_rules": [
+        "Promote lawful OA mandates"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "PublicDomainResearcher",
+      "name": "PublicDomainResearcher",
+      "domain_id": 9,
+      "domain": "Policy, Ethics & Global Knowledge Equity",
+      "category": "Knowledge Equity",
+      "trigger": "Public-domain content",
+      "inputs": [
+        "work",
+        "year",
+        "jurisdiction"
+      ],
+      "outputs": [
+        "PD sources"
+      ],
+      "execution_rules": [
+        "Validate copyright term",
+        "Flag uncertainty"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "OaMandatePlanner",
+      "name": "OaMandatePlanner",
+      "domain_id": 9,
+      "domain": "Policy, Ethics & Global Knowledge Equity",
+      "category": "Policy",
+      "trigger": "OA policy design",
+      "inputs": [
+        "institution_type"
+      ],
+      "outputs": [
+        "mandate checklist"
+      ],
+      "execution_rules": [
+        "Public policy templates"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "AccessBarrierAudit",
+      "name": "AccessBarrierAudit",
+      "domain_id": 9,
+      "domain": "Policy, Ethics & Global Knowledge Equity",
+      "category": "Ethics",
+      "trigger": "Audit access barriers",
+      "inputs": [
+        "service"
+      ],
+      "outputs": [
+        "barrier inventory",
+        "lawful mitigations"
+      ],
+      "execution_rules": [
+        "No bypass recommendations"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "AccessControlInterpreter",
+      "name": "AccessControlInterpreter",
+      "domain_id": 10,
+      "domain": "System-Level Access Control & Authorization Logic",
+      "category": "Access Control",
+      "trigger": "Barriers permissions",
+      "inputs": [
+        "barrier_type"
+      ],
+      "outputs": [
+        "legal classification"
+      ],
+      "execution_rules": [
+        "Authorization Ownership Barrier Validity"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "AuthorizationDoctrineEngine",
+      "name": "AuthorizationDoctrineEngine",
+      "domain_id": 10,
+      "domain": "System-Level Access Control & Authorization Logic",
+      "category": "Access Control",
+      "trigger": "Permission questions",
+      "inputs": [
+        "actor",
+        "resource",
+        "context"
+      ],
+      "outputs": [
+        "authorization map"
+      ],
+      "execution_rules": [
+        "Explicit grant statutory license role",
+        "Implicit is not break-in"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "BarrierValidityAnalyzer",
+      "name": "BarrierValidityAnalyzer",
+      "domain_id": 10,
+      "domain": "System-Level Access Control & Authorization Logic",
+      "category": "Access Control",
+      "trigger": "Paywalls logins restrictions",
+      "inputs": [
+        "barrier"
+      ],
+      "outputs": [
+        "validity assessment",
+        "lawful alternatives"
+      ],
+      "execution_rules": [
+        "If valid only lawful routes"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "RoleBasedAuthMapper",
+      "name": "RoleBasedAuthMapper",
+      "domain_id": 10,
+      "domain": "System-Level Access Control & Authorization Logic",
+      "category": "Access Control",
+      "trigger": "Role-gated portals",
+      "inputs": [
+        "desired_role",
+        "portal"
+      ],
+      "outputs": [
+        "lawful role acquisition path"
+      ],
+      "execution_rules": [
+        "Document auth before access"
+      ],
+      "version": "1.0",
+      "guided_link": null
+    },
+    {
+      "id": "LawfulAlternativeRouter",
+      "name": "LawfulAlternativeRouter",
+      "domain_id": 10,
+      "domain": "System-Level Access Control & Authorization Logic",
+      "category": "Access Control",
+      "trigger": "Any blocked resource",
+      "inputs": [
+        "resource",
+        "barrier"
+      ],
+      "outputs": [
+        "ranked lawful alternatives"
+      ],
+      "execution_rules": [
+        "OA library fee FOI purchase counsel",
+        "Never illegal"
+      ],
+      "version": "1.0",
+      "guided_link": "global-lawful-records-access"
+    }
+  ]
+}
