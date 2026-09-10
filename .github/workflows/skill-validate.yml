@@ -1,0 +1,28 @@
+name: skill-validate
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Import Phase1 + skill tree
+        run: |
+          python -c "
+          from utils.phase1 import get_skill_tree, get_audit, classify_barrier, extract
+          tree = get_skill_tree()
+          print('skill_nodes', tree.stats())
+          print('barrier', classify_barrier('FOIA request to Department of Justice'))
+          print('meta', extract('Public record FOIA guide at https://www.justice.gov/oip/foia-guide dated 2024-01-15'))
+          a = get_audit()
+          a.record('ci', 'self_test', {'ok': True}, 'pass')
+          print('audit_count', a.count())
+          "
