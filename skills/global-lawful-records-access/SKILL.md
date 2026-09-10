@@ -137,3 +137,12 @@ Need document?
 ## Self-Evolution
 
 After each successful lawful retrieval, append working portal URL + quirks to `references/country-portals.md`. Prune dead links quarterly.
+
+## Generated operator pack (2026-09-09)
+
+- `assets/COMPLETE_OPERATIONAL_CHECKLIST.md`
+- `assets/FLOWCHART_DECISION_TREE_FULL.md`
+- `assets/GLOBAL_LAWFUL_RECORDS_ACCESS_MANUAL.md` (PDF-ready master)
+- `references/ALL_TOOLS_ALL_STEPS.md`
+- `references/SPECIALIZED_BUSINESS_DEEDS_LEGAL.md`
+- Artifacts export: `/workspace/artifacts/GLOBAL_LAWFUL_RECORDS_ACCESS_GUIDE/` (md + html + pdf)
