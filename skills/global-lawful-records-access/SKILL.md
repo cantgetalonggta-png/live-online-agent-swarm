@@ -1,6 +1,6 @@
 ---
 name: global-lawful-records-access
-description: Fully expanded international USA-inclusive step-by-step system for legally accessing business records, deeds, court filings, academic papers, government documents, corporate data, and news worldwide. Only lawful authorized alternative channels — no illegal bypassing, exploits, or circumvention. Triggers on global public records access, SEC EDGAR, Companies House, PACER, FOIA, land registry, OpenCorporates, Unpaywall, lawful paywall alternatives, or how to legally obtain restricted public information.
+description: International USA- and Canada-inclusive lawful access system for business records, deeds, court filings, academic papers, government documents, corporate data, news, statutes, and library-premium databases. Includes BC Corporate Online, BC LTSA, Court Services Online, public/university libraries (JSTOR/ProQuest/Lexis), Unpaywall, FOIA/FOI, ownership doctrine. No illegal bypass, exploits, or circumvention. Triggers on lawful records access, BC land title, library database access, paywall legal alternatives, PACER, Companies House, OpenCorporates, CanLII, LTSA.
 ---
 
 # Global Lawful Records Access
@@ -146,3 +146,9 @@ After each successful lawful retrieval, append working portal URL + quirks to `r
 - `references/ALL_TOOLS_ALL_STEPS.md`
 - `references/SPECIALIZED_BUSINESS_DEEDS_LEGAL.md`
 - Artifacts export: `/workspace/artifacts/GLOBAL_LAWFUL_RECORDS_ACCESS_GUIDE/` (md + html + pdf)
+
+
+## Canada / BC / Library pack
+- `references/CANADA_BC_LIBRARY_OWNERSHIP.md` — BC Corporate Online, LTSA, CSO, CanLII, libraries, ownership doctrine
+- `assets/CHECKLIST_CANADA_BC_LIBRARY.md`
+- `assets/GLOBAL_LAWFUL_RECORDS_ACCESS_MANUAL_v2.md` — consolidated USA+Canada manual
