@@ -1,0 +1,195 @@
+# Permanent Agent Swarm — Always-On Roster
+# As-of: 2026-09-11
+# Policy: PERMANENT_SWARM=true — every task routes through full control plane.
+# Ceiling: PUBLIC_RECORD_CEILING=true · HITL for irreversible/external · no secrets.
+
+version: "2.0.0"
+permanent_swarm: true
+never_bypass_supervisor: true
+public_record_ceiling: true
+hitl_required_for:
+  - bulk_ingest
+  - external_action
+  - irreversible_decision
+  - dissemination
+  - fee_paid_access
+  - contact_living_people
+
+planes:
+  control:
+    - Overseer
+    - Supervisor
+    - Planner
+    - FlagMonitor
+    - Healer
+    - SelfMetrics
+  work:
+    - Researcher
+    - Investigator
+    - OSINTCollector
+    - LiveWebScout
+    - Pattern
+    - Anticipation
+    - Teacher
+    - Synthesizer
+  governance:
+    - Auditor
+    - Compliance
+    - TruthVerifier
+  memory:
+    - MemoryVault
+  subagents:
+    - ExploreSub
+    - ScoutSub
+    - GeneralSub
+    - ReviewerSub
+
+roles:
+  Overseer:
+    plane: control
+    mode: primary
+    permanent: true
+    description: Constitution + ceiling enforcement + escalation authority. Always online.
+    model_hint: flagship
+    temperature: 0.1
+    permissions: { edit: deny, bash: ask, skill: allow }
+  Supervisor:
+    plane: control
+    mode: primary
+    permanent: true
+    description: Orchestrates every goal; never skipped. Fan-out/fan-in.
+    model_hint: flagship
+    temperature: 0.2
+  Planner:
+    plane: control
+    mode: primary
+    permanent: true
+    description: Decomposes goals into parallel/sequential steps with cost bounds.
+    model_hint: mid
+    temperature: 0.1
+  FlagMonitor:
+    plane: control
+    mode: primary
+    permanent: true
+    description: Watches flags — HITL, ceiling breach, agent fail, claim quality drop, rate limits.
+    model_hint: fast
+    temperature: 0.0
+  Healer:
+    plane: control
+    mode: primary
+    permanent: true
+    description: Restarts/reroutes failed agents; circuit-breaker; degrade gracefully.
+    model_hint: mid
+    temperature: 0.1
+  SelfMetrics:
+    plane: control
+    mode: primary
+    permanent: true
+    description: Latency, success rate, claim SOLID/MAYBE ratio, cost steps, health pulse.
+    model_hint: fast
+    temperature: 0.0
+  Researcher:
+    plane: work
+    mode: subagent
+    permanent: true
+    description: Broad public literature/docs research; cites sources.
+  Investigator:
+    plane: work
+    mode: subagent
+    permanent: true
+    description: Lead-driven public-record investigation; timelines, entities, graphs.
+  OSINTCollector:
+    plane: work
+    mode: subagent
+    permanent: true
+    description: Passive public OSINT only (aligned osint-public-ceiling).
+  LiveWebScout:
+    plane: work
+    mode: subagent
+    permanent: true
+    description: Live public web fetch within ceiling.
+  Pattern:
+    plane: work
+    mode: subagent
+    permanent: true
+    description: Pattern/cluster detection across vault + new evidence.
+  Anticipation:
+    plane: work
+    mode: subagent
+    permanent: true
+    description: Forward risks, missing evidence, next-public-source hypotheses.
+  Teacher:
+    plane: work
+    mode: subagent
+    permanent: true
+    description: Explains findings; proposes skill refinements (apply with HITL).
+  Synthesizer:
+    plane: work
+    mode: subagent
+    permanent: true
+    description: Final coherent report from all plane outputs.
+  Auditor:
+    plane: governance
+    mode: primary
+    permanent: true
+    description: Append-only JSONL audit of decisions, actors, hashes, HITL.
+  Compliance:
+    plane: governance
+    mode: primary
+    permanent: true
+    description: Public-record + HITL pre-check gate (first in every run).
+  TruthVerifier:
+    plane: governance
+    mode: primary
+    permanent: true
+    description: Bayesian ACH · SOLID/MAYBE/CONTESTED/CONTRADICTED.
+  MemoryVault:
+    plane: memory
+    mode: primary
+    permanent: true
+    description: Hybrid Graph RAG memory; provenance on every claim.
+  ExploreSub:
+    plane: subagents
+    mode: subagent
+    permanent: true
+    description: Read-only fast codebase/vault explore.
+  ScoutSub:
+    plane: subagents
+    mode: subagent
+    permanent: true
+    description: External docs/deps research read-only.
+  GeneralSub:
+    plane: subagents
+    mode: subagent
+    permanent: true
+    description: Multi-step parallel work unit.
+  ReviewerSub:
+    plane: subagents
+    mode: subagent
+    permanent: true
+    description: Code/report quality review; edit deny.
+
+default_pipeline:
+  - Compliance          # gate
+  - Overseer            # ceiling affirm
+  - FlagMonitor         # arm monitors
+  - SelfMetrics         # start pulse
+  - Planner             # decompose
+  - Supervisor          # fan-out work plane
+  - parallel_work:
+      - Researcher
+      - Investigator
+      - OSINTCollector
+      - LiveWebScout
+      - Pattern
+      - Anticipation
+  - TruthVerifier
+  - MemoryVault
+  - Teacher
+  - Synthesizer
+  - Auditor             # seal log
+  - Healer              # post-run repair if needed
+  - SelfMetrics         # end pulse
+  - Overseer            # final sign-off
+
+claim_tags: [SOLID, MAYBE, CONTESTED, CONTRADICTED]
