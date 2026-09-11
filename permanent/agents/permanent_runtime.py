@@ -1,8 +1,9 @@
-"""Permanent always-on swarm factory — never single-agent default."""
+"""Permanent always-on swarm factory — never single-agent default. Always-online."""
 from __future__ import annotations
 from typing import Dict
 from utils.monitor import SwarmMonitor
 from utils.memory import MemoryVault
+from utils.always_online import assert_always_online
 from agents.base import BaseAgent
 from agents.control.overseer import OverseerAgent
 from agents.control.planner import PlannerAgent
@@ -18,24 +19,27 @@ from agents.work.pattern import PatternAgent
 from agents.work.anticipation import AnticipationAgent
 from agents.work.teacher import TeacherAgent
 from agents.work.synthesizer import SynthesizerAgent
+from agents.work.autopilot_director import AutopilotDirectorAgent
 from agents.governance.compliance import ComplianceAgent
 from agents.governance.truth_verifier import TruthVerifierAgent
 from agents.governance.auditor import AuditorAgent
+from agents.governance.completeness_auditor import CompletenessAuditorAgent
 from agents.memory.memory_vault_agent import MemoryVaultAgent
 from agents.subagents.subs import ExploreSubAgent, ScoutSubAgent, GeneralSubAgent, ReviewerSubAgent
 
+
 class PermanentSwarm:
-    """Always routes through Supervisor + full planes."""
+    """Always routes through Supervisor + full planes. Always-online policy."""
 
     def __init__(self):
         self.monitor = SwarmMonitor()
         self.vault = MemoryVault()
         self.agents: Dict[str, BaseAgent] = {}
         self._build()
+        self.online_report = assert_always_online(list(self.agents.keys()))
 
     def _build(self):
         m, v = self.monitor, self.vault
-        # Register all permanent agents first (without supervisor)
         registry = {
             "Overseer": OverseerAgent("Overseer", m, v),
             "Planner": PlannerAgent("Planner", m, v),
@@ -50,9 +54,11 @@ class PermanentSwarm:
             "Anticipation": AnticipationAgent("Anticipation", m, v),
             "Teacher": TeacherAgent("Teacher", m, v),
             "Synthesizer": SynthesizerAgent("Synthesizer", m, v),
+            "AutopilotDirector": AutopilotDirectorAgent("AutopilotDirector", m, v),
             "Compliance": ComplianceAgent("Compliance", m, v),
             "TruthVerifier": TruthVerifierAgent("TruthVerifier", m, v),
             "Auditor": AuditorAgent(m, v),
+            "CompletenessAuditor": CompletenessAuditorAgent("CompletenessAuditor", m, v),
             "MemoryVault": MemoryVaultAgent("MemoryVault", m, v),
             "ExploreSub": ExploreSubAgent("ExploreSub", m, v),
             "ScoutSub": ScoutSubAgent("ScoutSub", m, v),
@@ -60,23 +66,30 @@ class PermanentSwarm:
             "ReviewerSub": ReviewerSubAgent("ReviewerSub", m, v),
         }
         self.agents = registry
-        # Supervisor last with full specialist map
         self.agents["Supervisor"] = SupervisorAgent(m, v, registry)
         for name in self.agents:
             self.monitor.set_status(name, "idle")
 
     async def run(self, goal: str) -> dict:
         """ONLY entry point — permanent swarm, never bypass Supervisor."""
+        # Always-online gate (non-blocking WARN)
+        self.online_report = assert_always_online(list(self.agents.keys()))
         supervisor = self.agents["Supervisor"]
-        return await supervisor.run({"goal": goal})
+        result = await supervisor.run({"goal": goal})
+        result["always_online"] = self.online_report
+        result["n_agents"] = len(self.agents)
+        return result
 
     def roster(self) -> dict:
         return {
             "permanent_swarm": True,
+            "always_online": True,
             "n_agents": len(self.agents),
             "agents": sorted(self.agents.keys()),
             "health": self.monitor.health(),
+            "online_gate": self.online_report.get("status") if isinstance(self.online_report, dict) else None,
         }
+
 
 def build_permanent_swarm() -> PermanentSwarm:
     return PermanentSwarm()
