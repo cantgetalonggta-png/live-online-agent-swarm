@@ -1,30 +1,25 @@
-"""SelfMetrics — latency, success, claim ratios, pulse."""
+"""SelfMetrics — pulse + solid ratio always online."""
 from __future__ import annotations
-import time
 from typing import Any, Dict
 from agents.base import BaseAgent
+from tools.registry import REGISTRY
+
 
 class SelfMetricsAgent(BaseAgent):
     plane = "control"
 
     async def execute(self, task: Dict[str, Any]) -> Dict[str, Any]:
-        phase = task.get("phase", "pulse")
-        self.log(f"SelfMetrics phase={phase}")
-        health = self.monitor.health()
-        snap = self.vault.snapshot()
-        n = snap.get("n_claims", 0) or 1
-        by = snap.get("by_status", {})
-        solid_ratio = by.get("SOLID", 0) / n if n else 0.0
-        maybe_ratio = by.get("MAYBE", 0) / n if n else 0.0
-        metrics = {
-            "phase": phase,
-            "ts": time.time(),
-            "health": health,
-            "vault": snap,
-            "solid_ratio": round(solid_ratio, 3),
-            "maybe_ratio": round(maybe_ratio, 3),
-            "permanent_swarm": True,
-        }
-        if solid_ratio < 0.2 and snap.get("n_claims", 0) >= 5:
-            self.monitor.raise_flag("quality", "SOLID ratio low", "warn")
-        return {"status": "ok", "metrics": metrics}
+        phase = task.get("phase", "tick")
+        self.log(f"SelfMetrics {phase}")
+        pulse = REGISTRY.call("pulse", phase=phase)
+        health = REGISTRY.call("health", monitor=self.monitor)
+        claims = self.vault.all_claims()
+        ratio = REGISTRY.call("solid_ratio", claims=claims)
+        # write pulse line
+        from pathlib import Path
+        import json, time
+        p = Path(self.config.metrics_path)
+        p.parent.mkdir(parents=True, exist_ok=True)
+        with p.open("a", encoding="utf-8") as f:
+            f.write(json.dumps({"ts": time.time(), "phase": phase, "pulse": pulse, "ratio": ratio, "health_uptime": health.get("uptime_sec")}) + "\n")
+        return {"status": "ok", "phase": phase, "pulse": pulse, "solid_ratio": ratio, "tools_wired": REGISTRY.tools_for(self.name), "always_online": True}
