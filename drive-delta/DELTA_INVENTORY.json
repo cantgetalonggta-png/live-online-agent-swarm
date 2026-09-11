@@ -1,0 +1,101 @@
+{
+  "as_of": "2026-09-11T08:00:58.545033+00:00",
+  "ceiling": "public only; never secret-store",
+  "root_folders": [
+    {
+      "name": "Grok-Agent-Vault",
+      "id": "12AAvBI1Iu6QRFse6FMDkytJJpxF_Qfsp"
+    },
+    {
+      "name": "Investigations",
+      "id": "1rKytz-3Pdy_G_VvbjvP2mhzflJFa20qd"
+    },
+    {
+      "name": "LEARN DISTILL ALL",
+      "id": "1KD7keQaQsBAN5j7On4HyQ5P57u2lmCSL"
+    },
+    {
+      "name": "Untitled folder",
+      "id": "1r1JJBglpT2miT3EPWhpKeyMJG_lnj6o_"
+    }
+  ],
+  "investigations_children": [
+    {
+      "name": "Epstein specific",
+      "id": "1SA5nr41oUDSwOS2bFzVAKj-baWombpaV"
+    },
+    {
+      "name": "Epstein's shit",
+      "id": "15E9DNfYwo2JvnEQsnt_yFvZIgKIUegmD"
+    },
+    {
+      "name": "Hypothesis",
+      "id": "12qvSRkkrryS2h6NcCq9Rw5nflzUwNK3-"
+    },
+    {
+      "name": "recap",
+      "id": "1W-eWIFR5MGh568GrkaxDhVSpzrXNBd9w"
+    }
+  ],
+  "skill_tree": {
+    "id": "12_VD_KWRsrhxLrVMXfXvlTKKQ4e11dmY",
+    "children": [
+      "drive-distill-untitled-2026-09-11",
+      "encyclopedia-2026-09-11",
+      "models",
+      "permanent-agent-swarm"
+    ]
+  },
+  "epstein_specific_sample": {
+    "folders": [
+      "30 swarms",
+      "4 fuckers",
+      "API BUILD",
+      "Middlebury",
+      "Palm Beach Pete",
+      "Recap latest",
+      "Swarm copies"
+    ],
+    "public_text": [
+      "epstein all pdfs archive link.txt \u2192 https://ia600705.us.archive.org/21/items/epsteindocs/",
+      "The Epstein Maxwell True Story CORE.txt / PART1-5"
+    ],
+    "public_pdf_titles_only": [
+      "Epstein-Maxwell-timeline.pdf",
+      "Jeffrey Epstein non-prosecution agreement _ DocumentCloud.PDF",
+      "Robert Maxwell Epstein BARAK CONNECTIONS.pdf",
+      "All Documents - Epstein Archive.PDF",
+      "jeffrey-epstein-documents-full.PDF",
+      "2024SB-00190-R000308-Epstein, Janet-Supports-TMY.PDF"
+    ]
+  },
+  "hypothesis_titles": [
+    "DISCOVERY_METHODS.txt",
+    "INVESTIGATION_PROCEDURES.txt",
+    "theories.txt",
+    "Peter Simel PDFs (CONTRADICTED identity hygiene)",
+    "Epstein-Maxwell-timeline.pdf"
+  ],
+  "recap_titles_sample": [
+    "masterrrrrr.pdf",
+    "swarm api MASTER txt",
+    "start1-10.pdf",
+    "MSPDF.PDF"
+  ],
+  "actions": {
+    "INGEST": "public notes under Investigations/* selective text",
+    "INDEX": "large PDF dumps by title only",
+    "BLOCK": [
+      "keys.env",
+      "god_tier_keys.env",
+      "api-keys-secret-store",
+      "fourth_round.env"
+    ]
+  },
+  "new_skill_packages": [
+    "permanent-agent-swarm v2.2 always-online",
+    "investigation-interactive v2",
+    "always-online-swarm",
+    "drive-delta-distill"
+  ]
+}
