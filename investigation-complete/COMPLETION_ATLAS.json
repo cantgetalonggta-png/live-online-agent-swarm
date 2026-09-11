@@ -1,0 +1,726 @@
+{
+  "as_of": "2026-09-11T08:00Z",
+  "title": "Interactive Investigation Completion Atlas — Epstein/Meridian public-record",
+  "ceiling": "PUBLIC RECORD ONLY · no secrets · no CSAM · no doxx · no H11 contact living people without HITL · claim tags mandatory",
+  "upgrades_this_run": [
+    "U15 always-online heartbeat per agent",
+    "U16 subagent full live tool binding",
+    "U17 logical tool registry expansion",
+    "U18 deploy always-online manifest",
+    "U19 self-learning SkillProposalQueue",
+    "U20 self-control Overseer replan",
+    "U21 self-directed Autopilot goals",
+    "U22 SelfMetrics daemon + Streamlit ops",
+    "U23 atlas enrichment from Drive delta",
+    "U24 interactive completion score multi-tab",
+    "U25 CompletenessAuditor agent",
+    "U26 public evidence linker IA/DocumentCloud",
+    "U27 dual-persist automation",
+    "U28 Drive continuous delta crawl distill"
+  ],
+  "claim_tags": [
+    "SOLID",
+    "MAYBE",
+    "CONTESTED",
+    "CONTRADICTED"
+  ],
+  "public_evidence_index": {
+    "ia_epsteindocs": "https://ia600705.us.archive.org/21/items/epsteindocs/",
+    "foia_guide": "https://www.justice.gov/oip/foia-guide",
+    "notes": "Index titles only for large PDFs; selective public ingest; never secret-store"
+  },
+  "pipelines": [
+    {
+      "id": "E66-01",
+      "name": "East 66 Vault",
+      "status": "active",
+      "summary": "301 E 66 / Indyke / ACRIS / BC-PIPE public-record vault (MASTER DISTILL §2).",
+      "waypoints": [
+        {
+          "stage": "lead",
+          "name": "Dalton School origin",
+          "date": "1974-09-01",
+          "lat": 40.785,
+          "lon": -73.956,
+          "tag": "RS employment era"
+        },
+        {
+          "stage": "field",
+          "name": "301 East 66th Street",
+          "date": "2000-01-01",
+          "lat": 40.7651,
+          "lon": -73.9614,
+          "tag": "RS multi-party/ACRIS"
+        },
+        {
+          "stage": "transit",
+          "name": "9 East 71st Street",
+          "date": "2001-06-01",
+          "lat": 40.7712,
+          "lon": -73.9668,
+          "tag": "MAYBE BC-PIPE"
+        },
+        {
+          "stage": "evidence",
+          "name": "El Brillo Way mansion",
+          "date": "2005-03-15",
+          "lat": 26.7056,
+          "lon": -80.0364,
+          "tag": "RS raid era public"
+        },
+        {
+          "stage": "transit",
+          "name": "JFK / Queens edge",
+          "date": "2019-07-01",
+          "lat": 40.6413,
+          "lon": -73.7781,
+          "tag": "MAYBE driver hinge"
+        },
+        {
+          "stage": "analysis",
+          "name": "IA EpsteinDocs",
+          "date": "2025-11-01",
+          "lat": 37.7749,
+          "lon": -122.4194,
+          "tag": "RS public archive URL"
+        }
+      ],
+      "roles": [
+        {
+          "role": "Estate/attorney orbit",
+          "who": "Darren Indyke",
+          "window": "public filings",
+          "tag": "RS"
+        },
+        {
+          "role": "Unit stack pattern",
+          "who": "301 E66 multi-party",
+          "window": "ACRIS",
+          "tag": "RS/MAYBE units"
+        }
+      ],
+      "timeline": [
+        {
+          "year": "1974-76",
+          "node": "Dalton hire era (Donald Barr head)",
+          "tag": "RS employment era"
+        },
+        {
+          "year": "2000s",
+          "node": "301 E66 multi-party stack notes",
+          "tag": "RS/MAYBE"
+        },
+        {
+          "year": "2005-08",
+          "node": "Palm Beach probe / NPA era link",
+          "tag": "RS DocumentCloud NPA"
+        }
+      ],
+      "exhibits": [
+        "RPT-004 IA/DocumentCloud",
+        "RPT-005 Indyke",
+        "RPT-007 ACRIS roster",
+        "BC-PIPE-001..010",
+        "RS-012 DOJ letter",
+        "MAP-006/007"
+      ],
+      "next": [
+        "FU-020 ACRIS deed PDFs (public)",
+        "FU-019 IA EpsteinDocs selective",
+        "FU-012 unit list public only"
+      ],
+      "completeness_hint": 72
+    },
+    {
+      "id": "EF-02",
+      "name": "Eastern Feeder",
+      "status": "active",
+      "summary": "Recruiter → fixer → pilot → scout → island (public framing). Dialect bleed DM-9. CORE+PART1-5 seed.",
+      "waypoints": [
+        {
+          "stage": "lead",
+          "name": "Košice dialect origin",
+          "date": "1986-01-01",
+          "lat": 48.7164,
+          "lon": 21.2611,
+          "tag": "RS birthplace press / MAYBE dialect method"
+        },
+        {
+          "stage": "lead",
+          "name": "Karin Bratislava",
+          "date": "1996-01-01",
+          "lat": 48.1486,
+          "lon": 17.1077,
+          "tag": "MAYBE recruiter window"
+        },
+        {
+          "stage": "transit",
+          "name": "Kyiv avionics corridor",
+          "date": "1999-06-01",
+          "lat": 50.4501,
+          "lon": 30.5234,
+          "tag": "MAYBE waiver notes"
+        },
+        {
+          "stage": "field",
+          "name": "Karin/MC2 Paris",
+          "date": "2000-01-01",
+          "lat": 48.8566,
+          "lon": 2.3522,
+          "tag": "RS Brunel/MC2 public"
+        },
+        {
+          "stage": "evidence",
+          "name": "Lolita Express Florida base",
+          "date": "2002-01-01",
+          "lat": 26.7056,
+          "lon": -80.0364,
+          "tag": "mix RS/MAYBE pilot legs"
+        },
+        {
+          "stage": "analysis",
+          "name": "Little St. James",
+          "date": "2019-07-01",
+          "lat": 18.3005,
+          "lon": -64.8252,
+          "tag": "RS ownership timeline public"
+        }
+      ],
+      "roles": [
+        {
+          "role": "Recruiter",
+          "who": "Zuzana Nováková / Karin Models",
+          "window": "1996–1999",
+          "tag": "MAYBE Mossad-pull unproven"
+        },
+        {
+          "role": "Fixer",
+          "who": "Peter Marcinko aliases",
+          "window": "1998–2000",
+          "tag": "MAYBE avionics/waiver"
+        },
+        {
+          "role": "Pilot",
+          "who": "Nadia Marcinko / Naďa Marcinková",
+          "window": "O-1 1999; Express legs",
+          "tag": "mix RS/MAYBE"
+        },
+        {
+          "role": "Scout",
+          "who": "Jean-Luc Brunel / MC2",
+          "window": "Paris hinge; d.2022",
+          "tag": "RS death"
+        },
+        {
+          "role": "Island end",
+          "who": "Little St. James",
+          "window": "1998 purchase public",
+          "tag": "RS ownership"
+        }
+      ],
+      "timeline": [
+        {
+          "year": "1986",
+          "node": "Nadia birth Košice (public reports)",
+          "tag": "RS/MAYBE"
+        },
+        {
+          "year": "1996-99",
+          "node": "Karin recruiter window",
+          "tag": "MAYBE"
+        },
+        {
+          "year": "1999",
+          "node": "O-1 visa path (public notes)",
+          "tag": "MAYBE"
+        },
+        {
+          "year": "2002-05",
+          "node": "Express legs era",
+          "tag": "mix"
+        },
+        {
+          "year": "2008",
+          "node": "NPA co-conspirator lists public",
+          "tag": "RS DocumentCloud"
+        },
+        {
+          "year": "2022",
+          "node": "Brunel death",
+          "tag": "RS"
+        },
+        {
+          "year": "2024+",
+          "node": "Nadia missing press",
+          "tag": "RS press existence; facts MAYBE"
+        }
+      ],
+      "exhibits": [
+        "CORE.txt",
+        "PART1-5",
+        "Epstein-Maxwell-timeline.pdf",
+        "flight log cites",
+        "Giuffre unseals public set"
+      ],
+      "next": [
+        "Cross-check O-1 public docket if any",
+        "MC2 Wayback payroll mirrors public",
+        "IA flight-log page titles"
+      ],
+      "completeness_hint": 78
+    },
+    {
+      "id": "MX-03",
+      "name": "Maxwell Line Timeline",
+      "status": "active",
+      "summary": "Inheritance / shield / cleanup / Oversight public anchors.",
+      "waypoints": [],
+      "roles": [
+        {
+          "role": "Heir/associate",
+          "who": "Ghislaine Maxwell",
+          "window": "1991–2022+",
+          "tag": "RS conviction"
+        },
+        {
+          "role": "Media/arms front (seed)",
+          "who": "Robert Maxwell",
+          "window": "1980s–1991",
+          "tag": "RS death 1991; MAYBE Mossad framing"
+        }
+      ],
+      "timeline": [
+        {
+          "year": "1980s",
+          "node": "Robert Maxwell media/arms front",
+          "tag": "MAYBE Mossad framing"
+        },
+        {
+          "year": "1991",
+          "node": "Lady Ghislaine yacht death",
+          "tag": "RS event date"
+        },
+        {
+          "year": "1991",
+          "node": "Wexner PoA + Ghislaine inheritance hinge",
+          "tag": "RS PoA; MAYBE playbook"
+        },
+        {
+          "year": "2008",
+          "node": "Acosta SDFL NPA",
+          "tag": "RS DocumentCloud"
+        },
+        {
+          "year": "2019",
+          "node": "MCC death / SDNY",
+          "tag": "RS OCME/OIG public"
+        },
+        {
+          "year": "2021-22",
+          "node": "Ghislaine conviction/sentence",
+          "tag": "RS"
+        },
+        {
+          "year": "2022",
+          "node": "Brunel death; Middleton AR",
+          "tag": "RS deaths; physics MAYBE"
+        },
+        {
+          "year": "2026-02-26",
+          "node": "House Oversight storm-out coverage",
+          "tag": "RS media"
+        },
+        {
+          "year": "2026",
+          "node": "DOJ page-dump redactions",
+          "tag": "RS dump exists"
+        }
+      ],
+      "exhibits": [
+        "NPA DocumentCloud PDF",
+        "conviction dockets public",
+        "Oversight media 2026"
+      ],
+      "next": [
+        "Index DOJ dump table-of-contents only",
+        "Conviction docket cite list"
+      ],
+      "completeness_hint": 70
+    },
+    {
+      "id": "PBP-04",
+      "name": "Palm Beach Pete Hypothesis",
+      "status": "paused_CONTRADICTED",
+      "summary": "Identity track CONTRADICTED — hygiene only. Never promote Simel=Epstein as rock-solid.",
+      "waypoints": [],
+      "roles": [],
+      "timeline": [],
+      "exhibits": [
+        "Hypothesis/Peter Simel PDFs (index titles only)",
+        "Palm Beach Pete folder"
+      ],
+      "next": [
+        "Keep paused",
+        "Separate cell-death questions from identity"
+      ],
+      "verdict": "CONTRADICTED — identity claim must not be elevated",
+      "rule": "Method validity ≠ claim truth. Hygiene folder only.",
+      "completeness_hint": 35
+    },
+    {
+      "id": "DW-05",
+      "name": "Dalton / Wexner origin",
+      "status": "active",
+      "summary": "DM-1/DM-2 origin methods — public anchors only (Semel interviews era, PoA facts).",
+      "waypoints": [
+        {
+          "stage": "lead",
+          "name": "Dalton School",
+          "date": "1974-09-01",
+          "tag": "RS employment era"
+        },
+        {
+          "stage": "analysis",
+          "name": "Wexner PoA public facts",
+          "date": "1991-01-01",
+          "tag": "RS PoA"
+        }
+      ],
+      "roles": [
+        {
+          "role": "School head (hire era)",
+          "who": "Donald Barr",
+          "window": "1970s",
+          "tag": "RS employment era"
+        },
+        {
+          "role": "PoA / wealth transfer public",
+          "who": "Les Wexner",
+          "window": "1991+",
+          "tag": "RS PoA; MAYBE narratives"
+        }
+      ],
+      "timeline": [
+        {
+          "year": "1974-76",
+          "node": "Dalton teaching hire era",
+          "tag": "RS/MAYBE flashy-access narratives"
+        },
+        {
+          "year": "1991",
+          "node": "Wexner PoA",
+          "tag": "RS"
+        }
+      ],
+      "exhibits": [
+        "DM-1",
+        "DM-2",
+        "Semel 2019 interview cites",
+        "Timeline PDF origin"
+      ],
+      "next": [
+        "Public employment verification notes only"
+      ],
+      "completeness_hint": 55
+    },
+    {
+      "id": "AU-06",
+      "name": "Archive & Unseals",
+      "status": "active",
+      "summary": "IA EpsteinDocs / DocumentCloud / DOJ dump index (titles only for bulk).",
+      "waypoints": [
+        {
+          "stage": "evidence",
+          "name": "IA EpsteinDocs bucket",
+          "date": "2025-11-01",
+          "tag": "RS URL"
+        },
+        {
+          "stage": "evidence",
+          "name": "DocumentCloud NPA",
+          "date": "2008-01-01",
+          "tag": "RS"
+        }
+      ],
+      "roles": [],
+      "timeline": [
+        {
+          "year": "2008",
+          "node": "NPA public DocumentCloud",
+          "tag": "RS"
+        },
+        {
+          "year": "2019+",
+          "node": "Unsealed Giuffre filings public set",
+          "tag": "RS"
+        },
+        {
+          "year": "2025-26",
+          "node": "DOJ dumps / redaction press",
+          "tag": "RS dump exists"
+        }
+      ],
+      "exhibits": [
+        "epstein all pdfs archive link.txt",
+        "All Documents - Epstein Archive.PDF (title)",
+        "jeffrey-epstein-documents-full.PDF (title only)",
+        "NPA PDFs"
+      ],
+      "next": [
+        "Selective title index of large PDFs",
+        "Never bulk secret ingest"
+      ],
+      "public_links": [
+        "https://ia600705.us.archive.org/21/items/epsteindocs/"
+      ],
+      "completeness_hint": 65
+    },
+    {
+      "id": "SW-07",
+      "name": "Swarm Ops",
+      "status": "active",
+      "summary": "Permanent swarm + live-online-agent-swarm + HITL + always-online (24 agents).",
+      "waypoints": [],
+      "roles": [
+        {
+          "role": "Orchestrator",
+          "who": "Supervisor",
+          "window": "always",
+          "tag": "SOLID policy"
+        },
+        {
+          "role": "Ceiling",
+          "who": "Overseer + Compliance",
+          "window": "always",
+          "tag": "SOLID policy"
+        }
+      ],
+      "timeline": [
+        {
+          "year": "2026-09",
+          "node": "Permanent swarm v2.1 + U15-U28 always-online",
+          "tag": "RS system"
+        }
+      ],
+      "exhibits": [
+        "permanent-agent-swarm",
+        "swarm-ops-desk",
+        "hitl-governance",
+        "ALWAYS_ONLINE_MANIFEST"
+      ],
+      "next": [
+        "Keep readiness_check green",
+        "Daemon pulse on"
+      ],
+      "completeness_hint": 90
+    },
+    {
+      "id": "PO-08",
+      "name": "Public OSINT Ceiling",
+      "status": "active",
+      "summary": "Ceiling rules + claim tags + never-list (keys.env, secret-store, H11).",
+      "waypoints": [],
+      "roles": [],
+      "timeline": [],
+      "exhibits": [
+        "osint-public-ceiling",
+        "secret-store-hygiene",
+        "hitl-governance"
+      ],
+      "next": [
+        "Reaffirm on every dual-persist"
+      ],
+      "completeness_hint": 95
+    }
+  ],
+  "associates_public": [
+    {
+      "name": "Ghislaine Maxwell",
+      "role": "associate / convicted",
+      "tag": "RS conviction",
+      "pipelines": [
+        "MX-03",
+        "EF-02"
+      ]
+    },
+    {
+      "name": "Darren Indyke",
+      "role": "estate/attorney orbit public",
+      "tag": "RS public filings",
+      "pipelines": [
+        "E66-01"
+      ]
+    },
+    {
+      "name": "Jean-Luc Brunel",
+      "role": "scout/model agency",
+      "tag": "RS death 2022",
+      "pipelines": [
+        "EF-02",
+        "MX-03"
+      ]
+    },
+    {
+      "name": "Nadia Marcinko",
+      "role": "pilot/associate public record",
+      "tag": "mix RS/MAYBE",
+      "pipelines": [
+        "EF-02"
+      ]
+    },
+    {
+      "name": "Les Wexner",
+      "role": "PoA / wealth transfer public",
+      "tag": "RS PoA facts; MAYBE narratives",
+      "pipelines": [
+        "MX-03",
+        "DW-05"
+      ]
+    },
+    {
+      "name": "Alexander Acosta",
+      "role": "NPA 2008",
+      "tag": "RS DocumentCloud",
+      "pipelines": [
+        "MX-03"
+      ]
+    },
+    {
+      "name": "Donald Barr",
+      "role": "Dalton head (hire era)",
+      "tag": "RS employment era",
+      "pipelines": [
+        "DW-05",
+        "E66-01"
+      ]
+    },
+    {
+      "name": "Robert Maxwell",
+      "role": "media/arms public figure",
+      "tag": "RS death 1991; MAYBE intel framing",
+      "pipelines": [
+        "MX-03"
+      ]
+    },
+    {
+      "name": "Zuzana Nováková",
+      "role": "Karin recruiter node (investigation claim)",
+      "tag": "MAYBE",
+      "pipelines": [
+        "EF-02"
+      ]
+    },
+    {
+      "name": "Peter Marcinko",
+      "role": "fixer/avionics aliases (investigation claim)",
+      "tag": "MAYBE",
+      "pipelines": [
+        "EF-02"
+      ]
+    },
+    {
+      "name": "Mark Middleton",
+      "role": "AR death 2022 public",
+      "tag": "RS death; physics MAYBE",
+      "pipelines": [
+        "MX-03"
+      ]
+    }
+  ],
+  "discovery_methods": [
+    {
+      "id": "DM-1",
+      "name": "Wexner–Maxwell crossover",
+      "note": "method validity ≠ claim truth"
+    },
+    {
+      "id": "DM-2",
+      "name": "Dalton kompromat origin",
+      "note": "public hire-era anchors only"
+    },
+    {
+      "id": "DM-3",
+      "name": "Viral clip zero-trace",
+      "note": "OSINT media hygiene"
+    },
+    {
+      "id": "DM-4",
+      "name": "1996 Middlebury ad",
+      "note": "public ad trail if any"
+    },
+    {
+      "id": "DM-5",
+      "name": "Semel name mashup",
+      "note": "CONTRADICTED identity hygiene when misapplied"
+    },
+    {
+      "id": "DM-6",
+      "name": "Wheatley/Engoron",
+      "note": "court/public docket method"
+    },
+    {
+      "id": "DM-7",
+      "name": "Elwell–Reiter promotion",
+      "note": "public personnel history"
+    },
+    {
+      "id": "DM-8",
+      "name": "Dubai container pivot",
+      "note": "MAYBE logistics narratives"
+    },
+    {
+      "id": "DM-9",
+      "name": "Nadia visa/Karin",
+      "note": "dialect bleed + visa path"
+    },
+    {
+      "id": "DM-10",
+      "name": "Swarm vs refusals",
+      "note": "permanent swarm + HITL"
+    }
+  ],
+  "drive_delta_folders": {
+    "Investigations": "1rKytz-3Pdy_G_VvbjvP2mhzflJFa20qd",
+    "Epstein specific": "1SA5nr41oUDSwOS2bFzVAKj-baWombpaV",
+    "Epstein's shit": "15E9DNfYwo2JvnEQsnt_yFvZIgKIUegmD",
+    "Hypothesis": "12qvSRkkrryS2h6NcCq9Rw5nflzUwNK3-",
+    "recap": "1W-eWIFR5MGh568GrkaxDhVSpzrXNBd9w",
+    "skill-tree": "12_VD_KWRsrhxLrVMXfXvlTKKQ4e11dmY",
+    "Grok-Agent-Vault": "12AAvBI1Iu6QRFse6FMDkytJJpxF_Qfsp"
+  },
+  "drive_epstein_specific_children": [
+    "30 swarms",
+    "4 fuckers",
+    "API BUILD",
+    "Middlebury",
+    "Palm Beach Pete",
+    "Recap latest",
+    "Swarm copies",
+    "epstein all pdfs archive link.txt",
+    "Epstein-Maxwell-timeline.pdf",
+    "NPA DocumentCloud PDFs",
+    "The Epstein Maxwell True Story CORE/PART1-5",
+    "Robert Maxwell Epstein BARAK CONNECTIONS.pdf",
+    "jeffrey-epstein-documents-full.PDF (title index only)",
+    "All Documents - Epstein Archive.PDF (title index only)"
+  ],
+  "interactive_features": [
+    "pipelines",
+    "waypoints",
+    "roles",
+    "timeline",
+    "associates",
+    "DM-1..10",
+    "swarm LIVE",
+    "ACH verify",
+    "completeness score",
+    "export dual-persist"
+  ],
+  "never_list": [
+    "keys.env",
+    "god_tier_keys.env",
+    "api-keys-secret-store",
+    "fourth_round.env",
+    "H11 contact living people without HITL"
+  ]
+}
