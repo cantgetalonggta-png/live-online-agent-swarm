@@ -1,34 +1,22 @@
-"""Planner — decompose goals into parallel/sequential steps."""
+"""Planner — decompose + cost bounds via wired tools."""
 from __future__ import annotations
 from typing import Any, Dict
 from agents.base import BaseAgent
+from tools.registry import REGISTRY
+
 
 class PlannerAgent(BaseAgent):
     plane = "control"
 
     async def execute(self, task: Dict[str, Any]) -> Dict[str, Any]:
         goal = task.get("goal", "")
-        self.log(f"Planning for: {goal[:120]}")
-        plan = {
-            "goal": goal,
-            "parallel_work": [
-                {"agent": "Researcher", "task": {"query": goal, "mode": "public"}},
-                {"agent": "Investigator", "task": {"query": goal, "mode": "leads"}},
-                {"agent": "OSINTCollector", "task": {"query": goal, "mode": "public_search"}},
-                {"agent": "LiveWebScout", "task": {"query": goal, "mode": "live"}},
-                {"agent": "Pattern", "task": {"query": goal}},
-                {"agent": "Anticipation", "task": {"query": goal}},
-            ],
-            "sequential": [
-                "TruthVerifier",
-                "MemoryVault",
-                "Teacher",
-                "Synthesizer",
-                "Auditor",
-            ],
-            "bounds": {
-                "max_parallel": self.config.max_parallel_work,
-                "max_steps": self.config.max_agent_steps,
-            },
+        self.log(f"Plan: {goal[:100]}")
+        plan = REGISTRY.call("decompose", goal=goal)
+        bounds = REGISTRY.call("cost_bounds", max_parallel=self.config.max_parallel_work)
+        return {
+            "status": "ok",
+            "plan": plan,
+            "bounds": bounds,
+            "tools_wired": REGISTRY.tools_for(self.name),
+            "always_online": True,
         }
-        return {"status": "planned", "plan": plan}
