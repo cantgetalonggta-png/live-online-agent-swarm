@@ -1,28 +1,44 @@
-"""Built-in subagents: Explore, Scout, General, Reviewer."""
+"""Permanent subagents — each always online with tools."""
 from __future__ import annotations
 from typing import Any, Dict
 from agents.base import BaseAgent
+from tools.registry import REGISTRY
+
 
 class ExploreSubAgent(BaseAgent):
     plane = "subagents"
+
     async def execute(self, task: Dict[str, Any]) -> Dict[str, Any]:
-        self.log("ExploreSub read-only")
-        return {"status": "ok", "mode": "read_only", "query": task.get("query", ""), "hits": []}
+        q = task.get("query") or task.get("goal") or "vault explore"
+        hits = REGISTRY.call("vault_query", vault=self.vault, q=q)
+        search = REGISTRY.call("live_public_search", query=q, max_results=2)
+        return {"status": "ok", "hits": hits, "live": search, "tools_wired": REGISTRY.tools_for(self.name), "always_online": True}
+
 
 class ScoutSubAgent(BaseAgent):
     plane = "subagents"
+
     async def execute(self, task: Dict[str, Any]) -> Dict[str, Any]:
-        self.log("ScoutSub external docs")
-        return {"status": "ok", "mode": "external_docs", "query": task.get("query", "")}
+        q = task.get("query") or task.get("goal") or ""
+        search = REGISTRY.call("live_public_search", query=q, max_results=3)
+        return {"status": "ok", "live": True, "search": search, "tools_wired": REGISTRY.tools_for(self.name), "always_online": True}
+
 
 class GeneralSubAgent(BaseAgent):
     plane = "subagents"
+
     async def execute(self, task: Dict[str, Any]) -> Dict[str, Any]:
-        self.log("GeneralSub multi-step")
-        return {"status": "ok", "mode": "general", "task": task}
+        goal = task.get("goal") or task.get("query") or ""
+        orch = REGISTRY.call("orchestrate", goal=goal)
+        search = REGISTRY.call("live_public_search", query=goal, max_results=2)
+        return {"status": "ok", "orch": orch, "live": search, "tools_wired": REGISTRY.tools_for(self.name), "always_online": True}
+
 
 class ReviewerSubAgent(BaseAgent):
     plane = "subagents"
+
     async def execute(self, task: Dict[str, Any]) -> Dict[str, Any]:
-        self.log("ReviewerSub quality")
-        return {"status": "ok", "mode": "review", "findings": [], "edit": "deny"}
+        body = str(task.get("body") or task.get("goal") or "")[:500]
+        rep = REGISTRY.call("report_write", title="reviewer", body=body)
+        REGISTRY.call("audit_write", event="reviewer_sub", payload={"n": len(body)})
+        return {"status": "ok", "report": rep, "tools_wired": REGISTRY.tools_for(self.name), "always_online": True}
