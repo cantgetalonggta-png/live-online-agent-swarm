@@ -1,107 +1,37 @@
 ---
 name: permanent-agent-swarm
 description: >
-  Always-on permanent multi-agent swarm: Overseer, Supervisor, Planner, FlagMonitor,
-  Healer, SelfMetrics, Researcher, Investigator, Teacher, Auditor, Compliance,
-  TruthVerifier, MemoryVault, subagents. Use when user wants swarm of agents,
-  permanent swarm, always multi-agent, flag monitors, overseers, planners, healers,
-  self-metrics, researchers, investigators, teachers, auditors. Never single-agent default.
+  Always-on multi-agent swarm (24 agents). Never single-agent default. Always-online
+  tool wiring for every agent/subagent. Live web, Bayesian ACH, SelfMetrics daemon,
+  Streamlit ops, self-learning HITL proposals, self-control Overseer replan,
+  AutopilotDirector, CompletenessAuditor. Public-record ceiling + HITL.
 metadata:
-  short-description: "Permanent always-on multi-agent swarm (all planes)"
+  short-description: "Permanent always-online agent swarm (24 agents)"
   as-of: "2026-09-11"
+  version: "2.2.0"
 user-invocable: true
 ---
 
-# Permanent Agent Swarm
+# Permanent Agent Swarm v2.2
 
-As-of: 2026-09-11  
-Policy: **PERMANENT_SWARM=true** · **NEVER_BYPASS_SUPERVISOR=true**  
-Ceiling: public-record only · HITL for irreversible/external · no secrets
-
-## When to use
-- "swarm of agents", "always multi-agent", "permanent swarm"
-- flag monitors / overseers / planners / healers / self-metrics
-- researchers / investigators / teachers / auditors
-- Any operator goal that must not collapse to a single LLM reply
+## Planes
+Control · Work · Governance · Memory · Subagents (+ AutopilotDirector, CompletenessAuditor)
 
 ## Absolute rules
-1. Every goal enters **only** via Supervisor → full pipeline
-2. `PUBLIC_RECORD_CEILING=true`
-3. HITL for bulk_ingest, external_action, irreversible, dissemination, fee_paid, contact_living_people
-4. Claims tagged **SOLID | MAYBE | CONTESTED | CONTRADICTED** with provenance
-5. No API keys in skill or public git
+1. PERMANENT_SWARM=true — Supervisor never bypassed
+2. ALWAYS_ONLINE=true — every agent/tool wired and readiness-checked
+3. PUBLIC_RECORD_CEILING=true
+4. HITL for bulk/external/irreversible/dissemination
+5. Claims SOLID/MAYBE/CONTESTED/CONTRADICTED
 
-## Planes & roster (22 agents)
-
-### Control (always online)
-| Agent | Role |
-|-------|------|
-| **Overseer** | Constitution, ceiling, escalation, pre/post sign-off |
-| **Supervisor** | Orchestrator — never skipped |
-| **Planner** | Parallel/sequential plan + cost bounds |
-| **FlagMonitor** | HITL / ceiling / fail / quality / rate flags |
-| **Healer** | Retry, circuit-break, degrade failed agents |
-| **SelfMetrics** | Latency, SOLID ratio, health pulse |
-
-### Work
-| Agent | Role |
-|-------|------|
-| Researcher | Broad public research |
-| Investigator | Public-record leads / timelines |
-| OSINTCollector | Passive public OSINT only |
-| LiveWebScout | Live public fetch |
-| Pattern | Cluster detection |
-| Anticipation | Forward risks / next sources |
-| Teacher | Explain + skill proposals (HITL apply) |
-| Synthesizer | Final report |
-
-### Governance
-| Agent | Role |
-|-------|------|
-| Compliance | First gate every run |
-| TruthVerifier | Bayesian ACH stub → SOLID/MAYBE |
-| Auditor | Append-only JSONL decisions |
-
-### Memory
-| Agent | Role |
-|-------|------|
-| MemoryVault | Claim store + Graph RAG hook |
-
-### Subagents
-ExploreSub · ScoutSub · GeneralSub · ReviewerSub
-
-## Default pipeline (every run)
-```
-Compliance → Overseer(pre) → FlagMonitor(arm) → SelfMetrics(start) → Planner
-  → parallel[Researcher, Investigator, OSINT, LiveWebScout, Pattern, Anticipation]
-  → TruthVerifier → MemoryVault → Teacher → Synthesizer → Auditor
-  → Healer → FlagMonitor(scan) → SelfMetrics(end) → Overseer(post)
-```
-
-## Quick ops
+## Quick start
 ```bash
-cd permanent-agent-swarm   # or live-online-agent-swarm/permanent/
+cd permanent-agent-swarm
+python scripts/readiness_check.py
 python main.py --roster
-python main.py "Map public FOIA response deadlines"
+python main.py "Public FOIA EpsteinDocs archive.org index"
+streamlit run dashboard/swarm_ops.py
 ```
 
-Env:
-```
-PERMANENT_SWARM=true
-NEVER_BYPASS_SUPERVISOR=true
-PUBLIC_RECORD_CEILING=true
-HITL_REQUIRED=true
-```
-
-## OpenCode integration
-Install agents from `opencode/agents/*.md` into `.opencode/agents/` or set in `opencode.json` `agent` map with Plan/Build temperatures. Pair with `models` skill for per-agent model IDs.
-
-## Related skills
-swarm-ops-desk · hitl-governance · osint-public-ceiling · nlla-debate-system · models · secret-store-hygiene · meridian-globe-atlas
-
-## References
-- references/workflows.md
-- references/tools.md
-- references/examples.md
-- references/deployments.md
-- config/roster.yaml in package root
+## Upgrades U15–U28
+Always-online matrix · logical tools · self-learning · self-control · autopilot · completeness · dual-persist · Drive delta
