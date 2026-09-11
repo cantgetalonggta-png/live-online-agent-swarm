@@ -1,0 +1,79 @@
+# Per-agent LIVE tool wiring — always deployed
+# Each agent lists tools that must be online for that role.
+version: "2.1.0"
+always_online: true
+
+agents:
+  Overseer:
+    tools: [ceiling_check, flag_read, audit_write, policy_assert]
+    required_online: true
+  Supervisor:
+    tools: [orchestrate, fanout, fanin, hitl_notice]
+    required_online: true
+  Planner:
+    tools: [decompose, cost_bounds]
+    required_online: true
+  FlagMonitor:
+    tools: [flag_arm, flag_scan, flag_raise]
+    required_online: true
+  Healer:
+    tools: [retry, degrade, circuit_break]
+    required_online: true
+  SelfMetrics:
+    tools: [pulse, latency, solid_ratio, health]
+    required_online: true
+  Researcher:
+    tools: [live_public_search, fetch_public_url, claim_write]
+    required_online: true
+  Investigator:
+    tools: [live_public_search, claim_write, lead_open, vault_query]
+    required_online: true
+  OSINTCollector:
+    tools: [live_public_search, claim_write]
+    required_online: true
+  LiveWebScout:
+    tools: [live_public_search, fetch_public_url]
+    required_online: true
+  Pattern:
+    tools: [vault_query, claim_write]
+    required_online: true
+  Anticipation:
+    tools: [vault_query, risk_list, autopilot_suggest]
+    required_online: true
+  Teacher:
+    tools: [lesson_write, skill_propose]
+    required_online: true
+  Synthesizer:
+    tools: [report_write, claim_write]
+    required_online: true
+  Compliance:
+    tools: [ceiling_check, hitl_gate]
+    required_online: true
+  TruthVerifier:
+    tools: [bayesian_ach, claim_write, vault_query]
+    required_online: true
+  Auditor:
+    tools: [audit_write]
+    required_online: true
+  MemoryVault:
+    tools: [vault_snapshot, vault_query, claim_write]
+    required_online: true
+  ExploreSub:
+    tools: [vault_query]
+    required_online: true
+  ScoutSub:
+    tools: [live_public_search, fetch_public_url]
+    required_online: true
+  GeneralSub:
+    tools: [orchestrate]
+    required_online: true
+  ReviewerSub:
+    tools: [report_write]
+    required_online: true
+
+  AutopilotDirector:
+    tools: [autopilot_suggest, orchestrate, skill_propose]
+    required_online: true
+  CompletenessAuditor:
+    tools: [vault_query, report_write, audit_write]
+    required_online: true
