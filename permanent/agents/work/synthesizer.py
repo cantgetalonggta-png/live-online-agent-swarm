@@ -1,35 +1,29 @@
-"""Synthesizer — final coherent report."""
+"""Synthesizer — final report via wired tools."""
 from __future__ import annotations
 from typing import Any, Dict
 from agents.base import BaseAgent
+from tools.registry import REGISTRY
+
 
 class SynthesizerAgent(BaseAgent):
     plane = "work"
 
     async def execute(self, task: Dict[str, Any]) -> Dict[str, Any]:
         goal = task.get("goal", "")
-        collected = task.get("collected", {})
-        vault_snapshot = task.get("vault_snapshot") or self.vault.snapshot()
-        self.log("Synthesizing permanent swarm report")
-        agents_ok = [k for k, v in collected.items() if isinstance(v, dict) and v.get("status") in ("ok", "planned", "armed", "completed", "healed", "clear")]
-        agents_fail = [k for k, v in collected.items() if isinstance(v, dict) and v.get("status") == "failed"]
-        report = {
-            "goal": goal,
-            "permanent_swarm": True,
-            "agents_ok": agents_ok,
-            "agents_fail": agents_fail,
-            "vault": vault_snapshot,
-            "summary": (
-                f"Permanent swarm completed for goal. "
-                f"OK={len(agents_ok)} FAIL={len(agents_fail)} claims={vault_snapshot.get('n_claims', 0)}."
-            ),
-            "claim_policy": "All claims tagged SOLID/MAYBE/CONTESTED/CONTRADICTED with provenance.",
+        collected = task.get("collected") or {}
+        snap = task.get("vault_snapshot") or self.vault.snapshot()
+        self.log(f"Synthesize: {goal[:80]}")
+        body = f"Goal: {goal}\nAgents: {list(collected.keys())}\nClaims: {snap}"
+        rep = REGISTRY.call("report_write", title=f"swarm:{goal[:40]}", body=body)
+        return {
+            "status": "ok",
+            "report": rep,
+            "summary": {
+                "goal": goal,
+                "n_agents_reported": len(collected),
+                "vault": snap,
+                "permanent_swarm": True,
+            },
+            "tools_wired": REGISTRY.tools_for(self.name),
+            "always_online": True,
         }
-        self.vault.add_claim(
-            text=report["summary"],
-            status="MAYBE",
-            sources=["swarm:synthesizer"],
-            agent=self.name,
-            confidence=0.55,
-        )
-        return {"status": "ok", "report": report}
