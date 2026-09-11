@@ -1,26 +1,20 @@
-"""FlagMonitor — HITL, ceiling, failures, quality."""
+"""FlagMonitor — arm/scan/raise always online."""
 from __future__ import annotations
 from typing import Any, Dict
 from agents.base import BaseAgent
+from tools.registry import REGISTRY
+
 
 class FlagMonitorAgent(BaseAgent):
     plane = "control"
 
     async def execute(self, task: Dict[str, Any]) -> Dict[str, Any]:
-        action = task.get("action", "arm")
-        self.log(f"FlagMonitor action={action}")
+        action = task.get("action", "scan")
+        self.log(f"FlagMonitor {action}")
         if action == "arm":
-            return {"status": "armed", "watching": ["hitl", "ceiling", "agent_fail", "quality", "rate_limit"]}
-        if action == "scan":
-            health = self.monitor.health()
-            crit = [f for f in health.get("open_flags", []) if f.get("severity") == "crit"]
-            if crit:
-                return {"status": "alert", "flags": crit, "escalate": True}
-            return {"status": "clear", "flags": health.get("open_flags", [])}
-        if action == "raise":
-            kind = task.get("kind", "generic")
-            detail = task.get("detail", "")
-            sev = task.get("severity", "warn")
-            flag = self.monitor.raise_flag(kind, detail, sev)
-            return {"status": "raised", "flag": flag}
-        return {"status": "noop"}
+            out = REGISTRY.call("flag_arm")
+        elif action == "raise":
+            out = REGISTRY.call("flag_raise", kind=task.get("kind", "manual"), detail=task.get("detail", ""), monitor=self.monitor)
+        else:
+            out = REGISTRY.call("flag_scan", monitor=self.monitor)
+        return {"status": "ok", "action": action, "result": out, "tools_wired": REGISTRY.tools_for(self.name), "always_online": True}
