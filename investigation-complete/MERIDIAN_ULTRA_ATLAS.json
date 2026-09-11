@@ -1,0 +1,2762 @@
+{
+  "as_of": "2026-09-11T08:27Z",
+  "title": "MERIDIAN ULTRA ATLAS — Epstein network start-to-finish (public-record ceiling)",
+  "version": "3.0.0-ultra",
+  "ceiling": "PUBLIC RECORD ONLY · no secrets · no CSAM · no doxx · no H11 contact living people without HITL · victims names only no photos · claim tags mandatory · PBP identity CONTRADICTED",
+  "claim_tags": {
+    "RS": "Rock-solid public exhibit — cite + map",
+    "MAYBE": "Pattern / unproven — label clearly",
+    "CONTESTED": "Disputed public claims",
+    "CONTRADICTED": "Fails public record — pause; hygiene only",
+    "NOISE": "Not evidence — filter out"
+  },
+  "photo_policy": {
+    "public_wiki": "Link Wikipedia/Wikimedia only; no AI photoreal deepfake without reference workflow",
+    "public_press_only": "Cite press photo sources; no generation",
+    "none": "No photo plate",
+    "never": "Victims, private parties, CONTRADICTED identity subjects — never generate or attach photos"
+  },
+  "stats": {
+    "n_people": 41,
+    "n_entities": 20,
+    "n_locations": 30,
+    "n_methods": 10,
+    "n_pipelines": 8,
+    "n_timeline_events": 20,
+    "n_bc_pipe": 10
+  },
+  "logic_chain": {
+    "name": "CORE operator logic chain (public framing)",
+    "steps": [
+      {
+        "step": 1,
+        "role": "Recruiter",
+        "who": "Zuzana Nováková / Karin",
+        "tag": "MAYBE"
+      },
+      {
+        "step": 2,
+        "role": "Fixer",
+        "who": "Peter Marcinko aliases",
+        "tag": "MAYBE"
+      },
+      {
+        "step": 3,
+        "role": "Pilot",
+        "who": "Nadia Marcinko",
+        "tag": "mix RS/MAYBE"
+      },
+      {
+        "step": 4,
+        "role": "Heir / operator",
+        "who": "Ghislaine Maxwell",
+        "tag": "RS conviction"
+      },
+      {
+        "step": 5,
+        "role": "Cash arm",
+        "who": "Les Wexner PoA era",
+        "tag": "RS PoA facts"
+      },
+      {
+        "step": 6,
+        "role": "Front / hub",
+        "who": "Jeffrey Epstein",
+        "tag": "RS convictions/death"
+      },
+      {
+        "step": 7,
+        "role": "Scout / agency",
+        "who": "Jean-Luc Brunel / MC2",
+        "tag": "RS death/agency"
+      },
+      {
+        "step": 8,
+        "role": "Plea shield",
+        "who": "Alexander Acosta NPA",
+        "tag": "RS"
+      },
+      {
+        "step": 9,
+        "role": "Political association layer",
+        "who": "Clinton flights etc. (association ≠ trafficking conviction)",
+        "tag": "RS logs; no crime leap"
+      },
+      {
+        "step": 10,
+        "role": "Cleanup-adjacent deaths (hypothesis class)",
+        "who": "Brunel/Middleton physics claims",
+        "tag": "MAYBE"
+      }
+    ],
+    "note": "Operator CORE framing. Every step must keep claim tags. Do not upgrade MAYBE→RS without new public exhibits."
+  },
+  "doj_inner_circle_public_diagram": [
+    "Ghislaine Maxwell",
+    "Lesley Groff",
+    "Darren Indyke",
+    "Richard Kahn",
+    "Jean-Luc Brunel",
+    "Harry Beller"
+  ],
+  "people": [
+    {
+      "id": "P-JEP",
+      "name": "Jeffrey Epstein",
+      "aliases": [
+        "Jeffrey Edward Epstein"
+      ],
+      "roles": [
+        "financier",
+        "network hub",
+        "convicted sex offender (FL 2008)",
+        "deceased 2019 MCC"
+      ],
+      "pipelines": [
+        "E66-01",
+        "EF-02",
+        "MX-03",
+        "DW-05",
+        "AU-06"
+      ],
+      "window": "1953–2019",
+      "locations": [
+        "Brooklyn/NYC",
+        "Palm Beach El Brillo Way",
+        "Little St. James",
+        "Paris",
+        "NM Zorro Ranch"
+      ],
+      "tag": "RS public biography + convictions",
+      "photo_policy": "public_wiki",
+      "photo_refs": [
+        "https://en.wikipedia.org/wiki/Jeffrey_Epstein"
+      ],
+      "notes": "Central node. OCME suicide 2019; OIG jail failure public. Separate cell-death questions from identity conspiracy."
+    },
+    {
+      "id": "P-GMX",
+      "name": "Ghislaine Maxwell",
+      "aliases": [
+        "Ghislaine Noelle Marion Maxwell"
+      ],
+      "roles": [
+        "associate",
+        "ex-partner",
+        "convicted sex trafficker",
+        "property manager"
+      ],
+      "pipelines": [
+        "MX-03",
+        "EF-02"
+      ],
+      "window": "1991–2022+",
+      "locations": [
+        "London",
+        "NYC",
+        "Palm Beach",
+        "Little St. James",
+        "FCI Tallahassee"
+      ],
+      "tag": "RS conviction 2021 / sentence 2022",
+      "photo_policy": "public_wiki",
+      "photo_refs": [
+        "https://en.wikipedia.org/wiki/Ghislaine_Maxwell"
+      ],
+      "notes": "Only person convicted as co-conspirator in federal sex-trafficking case. 2026 deposition video mismatch = media MAYBE not closed proof."
+    },
+    {
+      "id": "P-RMX",
+      "name": "Robert Maxwell",
+      "aliases": [
+        "Ian Robert Maxwell",
+        "Ján Ludvík Hyman Binyamin Hoch"
+      ],
+      "roles": [
+        "media magnate",
+        "Pergamon Press",
+        "Ghislaine father"
+      ],
+      "pipelines": [
+        "MX-03",
+        "DW-05"
+      ],
+      "window": "1923–1991",
+      "locations": [
+        "London",
+        "yacht Lady Ghislaine / Canaries"
+      ],
+      "tag": "RS death 1991; MAYBE intel/arms framing",
+      "photo_policy": "public_wiki",
+      "photo_refs": [
+        "https://en.wikipedia.org/wiki/Robert_Maxwell"
+      ],
+      "notes": "1991 yacht death = inheritance hinge in vault narrative. Mossad framing remains MAYBE."
+    },
+    {
+      "id": "P-LWX",
+      "name": "Leslie Wexner",
+      "aliases": [
+        "Les Wexner",
+        "Leslie H. Wexner"
+      ],
+      "roles": [
+        "L Brands / Victoria's Secret founder",
+        "Epstein client / PoA grantor"
+      ],
+      "pipelines": [
+        "DW-05",
+        "MX-03",
+        "PO-08"
+      ],
+      "window": "1986–2007 severance claims",
+      "locations": [
+        "Columbus OH",
+        "NYC"
+      ],
+      "tag": "RS PoA/wealth-transfer public facts; MAYBE narratives",
+      "photo_policy": "public_wiki",
+      "photo_refs": [
+        "https://en.wikipedia.org/wiki/Les_Wexner"
+      ],
+      "notes": "DM-1 zero-background control pattern. Townhouse/$1 pattern public reporting. Wexner said Epstein misappropriated funds."
+    },
+    {
+      "id": "P-JLB",
+      "name": "Jean-Luc Brunel",
+      "aliases": [
+        "Jean Luc Brunel"
+      ],
+      "roles": [
+        "model scout",
+        "Karin Models",
+        "MC2 founder",
+        "alleged recruiter"
+      ],
+      "pipelines": [
+        "EF-02",
+        "MX-03"
+      ],
+      "window": "1980s–2022",
+      "locations": [
+        "Paris",
+        "Miami",
+        "NYC"
+      ],
+      "tag": "RS death 2022 in custody; RS flight-log presence; MAYBE recruitment claims civil",
+      "photo_policy": "public_wiki",
+      "photo_refs": [
+        "https://en.wikipedia.org/wiki/Jean-Luc_Brunel"
+      ],
+      "notes": "Epstein funded MC2 ~$1M per press. Jail visits 2008. French investigation; found dead 2022."
+    },
+    {
+      "id": "P-NMC",
+      "name": "Nadia Marcinko",
+      "aliases": [
+        "Naďa Marcinková",
+        "Nadia Marcinkova",
+        "N. Marcinko"
+      ],
+      "roles": [
+        "pilot",
+        "associate",
+        "named potential co-conspirator NPA 2008"
+      ],
+      "pipelines": [
+        "EF-02",
+        "AU-06"
+      ],
+      "window": "1986–2024+",
+      "locations": [
+        "Košice SK",
+        "Palm Beach",
+        "US flight legs"
+      ],
+      "tag": "mix RS/MAYBE — NPA name, pilot certs, missing press 2024+",
+      "photo_policy": "public_press_only",
+      "photo_refs": [],
+      "notes": "DM-9 O-1/Karin path. Dialect-bleed method in vault. Missing post-Jan 2024 press. Do not sexualize; public record only."
+    },
+    {
+      "id": "P-ZNV",
+      "name": "Zuzana Nováková",
+      "aliases": [
+        "Zuzana Novak"
+      ],
+      "roles": [
+        "Karin Models recruiter node (investigation claim)"
+      ],
+      "pipelines": [
+        "EF-02"
+      ],
+      "window": "1996–2000 vanish",
+      "locations": [
+        "Bratislava",
+        "Paris (agency)"
+      ],
+      "tag": "MAYBE — investigation CORE/PART; Mossad-pull unproven",
+      "photo_policy": "none",
+      "photo_refs": [],
+      "notes": "Eastern feeder start node in CORE. Vanish 2000 no body — unproven hypotheses not RS."
+    },
+    {
+      "id": "P-PMC",
+      "name": "Peter Marcinko",
+      "aliases": [
+        "Marcinkov",
+        "Marchenko"
+      ],
+      "roles": [
+        "fixer / avionics aliases (investigation claim)"
+      ],
+      "pipelines": [
+        "EF-02"
+      ],
+      "window": "1998–2000",
+      "locations": [
+        "Kyiv corridor",
+        "Slovakia"
+      ],
+      "tag": "MAYBE avionics/waiver notes",
+      "photo_policy": "none",
+      "photo_refs": [],
+      "notes": "MoD Stank/Čič humanitarian waiver notes in CORE — verify against public Slovak records only."
+    },
+    {
+      "id": "P-ACA",
+      "name": "Alexander Acosta",
+      "aliases": [
+        "R. Alexander Acosta"
+      ],
+      "roles": [
+        "US Attorney SDFL",
+        "NPA architect 2008",
+        "later Labor Secretary"
+      ],
+      "pipelines": [
+        "MX-03"
+      ],
+      "window": "2007–2008 NPA; resigned 2019",
+      "locations": [
+        "Miami",
+        "Washington"
+      ],
+      "tag": "RS DocumentCloud NPA",
+      "photo_policy": "public_wiki",
+      "photo_refs": [
+        "https://en.wikipedia.org/wiki/Alexander_Acosta"
+      ],
+      "notes": "NPA immunity for potential co-conspirators. Intelligence-asset comment in public lore."
+    },
+    {
+      "id": "P-DIN",
+      "name": "Darren Indyke",
+      "aliases": [],
+      "roles": [
+        "estate attorney / long-time Epstein counsel orbit"
+      ],
+      "pipelines": [
+        "E66-01"
+      ],
+      "window": "public filings",
+      "locations": [
+        "NYC 301 E66 orbit"
+      ],
+      "tag": "RS public filings / DOJ inner-circle diagrams",
+      "photo_policy": "public_press_only",
+      "photo_refs": [],
+      "notes": "PL-INDYKE in 1953 vault. BC-PIPE unit 10B notes."
+    },
+    {
+      "id": "P-RKH",
+      "name": "Richard Kahn",
+      "aliases": [],
+      "roles": [
+        "accountant / estate orbit public"
+      ],
+      "pipelines": [
+        "E66-01"
+      ],
+      "window": "public",
+      "locations": [
+        "NYC"
+      ],
+      "tag": "RS DOJ inner-circle diagram names",
+      "photo_policy": "public_press_only",
+      "photo_refs": [],
+      "notes": "Paired with Groff in BC-PIPE-001."
+    },
+    {
+      "id": "P-LGR",
+      "name": "Lesley Groff",
+      "aliases": [
+        "Leslie Groff"
+      ],
+      "roles": [
+        "executive assistant"
+      ],
+      "pipelines": [
+        "E66-01",
+        "EF-02"
+      ],
+      "window": "2000s",
+      "locations": [
+        "NYC"
+      ],
+      "tag": "RS named in public reporting / NPA orbit",
+      "photo_policy": "public_press_only",
+      "photo_refs": [],
+      "notes": "NYT/CNN: booking travel; named in recruitment system reporting."
+    },
+    {
+      "id": "P-SKL",
+      "name": "Sarah Kellen",
+      "aliases": [
+        "Sarah Kensington",
+        "Sarah Vickers"
+      ],
+      "roles": [
+        "assistant / alleged scheduler"
+      ],
+      "pipelines": [
+        "E66-01",
+        "EF-02"
+      ],
+      "window": "2000s",
+      "locations": [
+        "Palm Beach",
+        "NYC",
+        "301 E66 unit notes 14G"
+      ],
+      "tag": "RS named potential co-conspirator orbit public",
+      "photo_policy": "public_press_only",
+      "photo_refs": [],
+      "notes": "BC-PIPE Kellen 14G. Civil/criminal orbit public reporting only."
+    },
+    {
+      "id": "P-ARS",
+      "name": "Adriana Ross",
+      "aliases": [],
+      "roles": [
+        "assistant / named in NPA orbit"
+      ],
+      "pipelines": [
+        "EF-02"
+      ],
+      "window": "2000s",
+      "locations": [
+        "Miami later"
+      ],
+      "tag": "RS named in public NPA/co-conspirator reporting",
+      "photo_policy": "public_press_only",
+      "photo_refs": [],
+      "notes": "NYT 2019 ring-of-women reporting."
+    },
+    {
+      "id": "P-DBR",
+      "name": "Donald Barr",
+      "aliases": [],
+      "roles": [
+        "Dalton School head (hire era)"
+      ],
+      "pipelines": [
+        "DW-05",
+        "E66-01"
+      ],
+      "window": "1970s",
+      "locations": [
+        "NYC Dalton"
+      ],
+      "tag": "RS employment-era public history",
+      "photo_policy": "public_wiki",
+      "photo_refs": [
+        "https://en.wikipedia.org/wiki/Donald_Barr"
+      ],
+      "notes": "DM-2 unconventional hire of Epstein 1974–76."
+    },
+    {
+      "id": "P-SFS",
+      "name": "Susan F. Semel",
+      "aliases": [],
+      "roles": [
+        "Dalton historian / interviewer"
+      ],
+      "pipelines": [
+        "DW-05"
+      ],
+      "window": "2019 interviews",
+      "locations": [
+        "NYC"
+      ],
+      "tag": "RS interview existence; content describes hire-era behavior",
+      "photo_policy": "none",
+      "photo_refs": [],
+      "notes": "DM-2 / DM-5 source for Dalton narrative. Method ≠ identity mashup."
+    },
+    {
+      "id": "P-EBG",
+      "name": "Ehud Barak",
+      "aliases": [
+        "E.B. redaction initial"
+      ],
+      "roles": [
+        "former Israeli PM",
+        "public association reporting"
+      ],
+      "pipelines": [
+        "MX-03",
+        "E66-01"
+      ],
+      "window": "public press",
+      "locations": [
+        "Israel",
+        "NYC 301 E66 unit notes 11J"
+      ],
+      "tag": "RS public association/press; unit note MAYBE",
+      "photo_policy": "public_wiki",
+      "photo_refs": [
+        "https://en.wikipedia.org/wiki/Ehud_Barak"
+      ],
+      "notes": "BC-PIPE Barak 11J. PART2 redaction initial E.B. Drive BARAK CONNECTIONS PDFs title-index."
+    },
+    {
+      "id": "P-ADR",
+      "name": "Alan Dershowitz",
+      "aliases": [
+        "A.D. redaction initial"
+      ],
+      "roles": [
+        "attorney",
+        "Epstein legal orbit public"
+      ],
+      "pipelines": [
+        "MX-03",
+        "AU-06"
+      ],
+      "window": "public",
+      "locations": [
+        "Boston/NYC"
+      ],
+      "tag": "RS named in public filings/press; disputes allegations",
+      "photo_policy": "public_wiki",
+      "photo_refs": [
+        "https://en.wikipedia.org/wiki/Alan_Dershowitz"
+      ],
+      "notes": "Redaction initial A.D. in PART2 discussion. Presence ≠ proven crime."
+    },
+    {
+      "id": "P-PAN",
+      "name": "Prince Andrew",
+      "aliases": [
+        "Andrew Mountbatten-Windsor",
+        "P.A. redaction initial"
+      ],
+      "roles": [
+        "royal",
+        "public association / civil settlement history"
+      ],
+      "pipelines": [
+        "MX-03"
+      ],
+      "window": "public",
+      "locations": [
+        "UK",
+        "US visits public"
+      ],
+      "tag": "RS public association; civil matters public",
+      "photo_policy": "public_wiki",
+      "photo_refs": [
+        "https://en.wikipedia.org/wiki/Prince_Andrew"
+      ],
+      "notes": "PART2 P.A. initial. Civil settlement reporting separate from criminal conviction of Maxwell/Epstein."
+    },
+    {
+      "id": "P-BCL",
+      "name": "Bill Clinton",
+      "aliases": [
+        "B.C. redaction initial"
+      ],
+      "roles": [
+        "former US President",
+        "flight-log passenger public"
+      ],
+      "pipelines": [
+        "MX-03",
+        "AU-06"
+      ],
+      "window": "1990s–2000s flight logs",
+      "locations": [
+        "US",
+        "international legs public logs"
+      ],
+      "tag": "RS flight-log presence public; association ≠ guilt of trafficking crimes",
+      "photo_policy": "public_wiki",
+      "photo_refs": [
+        "https://en.wikipedia.org/wiki/Bill_Clinton"
+      ],
+      "notes": "~26 flights cited in vault/press. B.C. redaction initial. No claim of criminal conviction re: Epstein trafficking."
+    },
+    {
+      "id": "P-HCL",
+      "name": "Hillary Clinton",
+      "aliases": [
+        "H.C. redaction initial"
+      ],
+      "roles": [
+        "public figure",
+        "2026 Oversight media narrative in CORE"
+      ],
+      "pipelines": [
+        "MX-03"
+      ],
+      "window": "2026 Oversight coverage",
+      "locations": [
+        "Washington"
+      ],
+      "tag": "RS media coverage of Oversight events; CORE 'cleanup' narrative = MAYBE framing",
+      "photo_policy": "public_wiki",
+      "photo_refs": [
+        "https://en.wikipedia.org/wiki/Hillary_Clinton"
+      ],
+      "notes": "CORE 'Killary cleanup' is operator framing — tag MAYBE. Storm-out media RS as media event."
+    },
+    {
+      "id": "P-MMD",
+      "name": "Mark Middleton",
+      "aliases": [],
+      "roles": [
+        "Clinton White House aide public",
+        "2022 AR death"
+      ],
+      "pipelines": [
+        "MX-03"
+      ],
+      "window": "1990s; d.2022",
+      "locations": [
+        "Little Rock AR"
+      ],
+      "tag": "RS death 2022; staged-death physics = MAYBE",
+      "photo_policy": "public_press_only",
+      "photo_refs": [],
+      "notes": "CORE staged-death hypothesis high-risk not RS."
+    },
+    {
+      "id": "P-AGN",
+      "name": "Ace Greenberg",
+      "aliases": [
+        "Alan Greenberg"
+      ],
+      "roles": [
+        "Bear Stearns executive who hired Epstein"
+      ],
+      "pipelines": [
+        "DW-05"
+      ],
+      "window": "1976",
+      "locations": [
+        "NYC"
+      ],
+      "tag": "RS career history public (NYT 2025 money investigation)",
+      "photo_policy": "public_wiki",
+      "photo_refs": [
+        "https://en.wikipedia.org/wiki/Alan_C._Greenberg"
+      ],
+      "notes": "Dalton parent introduction path in NYT reporting."
+    },
+    {
+      "id": "P-MRE",
+      "name": "Michael Reiter",
+      "aliases": [],
+      "roles": [
+        "Palm Beach Police Chief (Epstein probe)"
+      ],
+      "pipelines": [
+        "PBP-04",
+        "DW-05"
+      ],
+      "window": "2001–2008 era",
+      "locations": [
+        "Palm Beach"
+      ],
+      "tag": "RS career; led probe",
+      "photo_policy": "public_wiki",
+      "photo_refs": [
+        "https://en.wikipedia.org/wiki/Michael_Reiter"
+      ],
+      "notes": "DM-7 promoted by Peter Elwell 2001."
+    },
+    {
+      "id": "P-PEL",
+      "name": "Peter Elwell",
+      "aliases": [
+        "Corky Elwell's son"
+      ],
+      "roles": [
+        "assistant town manager West Palm Beach public"
+      ],
+      "pipelines": [
+        "PBP-04"
+      ],
+      "window": "1990s–2000s",
+      "locations": [
+        "West Palm Beach",
+        "Middlebury ad 1996"
+      ],
+      "tag": "RS public career; nickname hinge DM-4",
+      "photo_policy": "none",
+      "photo_refs": [],
+      "notes": "Not Epstein. Nickname source for 'West Palm Beach, Pete' ad."
+    },
+    {
+      "id": "P-PBS",
+      "name": "Peter Bart Simel",
+      "aliases": [
+        "Palm Beach Pete (self-claim clip)",
+        "Peter Simel"
+      ],
+      "roles": [
+        "public RE figure / RHONY S4",
+        "identity-hypothesis subject"
+      ],
+      "pipelines": [
+        "PBP-04"
+      ],
+      "window": "b.1955; RHONY 2011; viral clip 2026",
+      "locations": [
+        "NYC",
+        "Palm Beach orbit"
+      ],
+      "tag": "CONTRADICTED as Epstein identity",
+      "photo_policy": "never",
+      "photo_refs": [],
+      "notes": "HYGIENE ONLY. Different birth year vs Epstein. Bravo tape. Master distill: identity FAILS. Do not promote as Epstein."
+    },
+    {
+      "id": "P-AEG",
+      "name": "Arthur Engoron",
+      "aliases": [
+        "Art Engoron"
+      ],
+      "roles": [
+        "NY judge public",
+        "Wheatley alumni editor note"
+      ],
+      "pipelines": [
+        "PBP-04",
+        "SW-07"
+      ],
+      "window": "public",
+      "locations": [
+        "NYC",
+        "Old Westbury alumni"
+      ],
+      "tag": "RS public judge; DM-6 alumni photo pattern only",
+      "photo_policy": "public_press_only",
+      "photo_refs": [],
+      "notes": "DM-6 pattern matching only — not conspiracy proof."
+    },
+    {
+      "id": "P-HBL",
+      "name": "Harry Beller",
+      "aliases": [],
+      "roles": [
+        "named in DOJ inner-circle diagram (Al Jazeera/Wikipedia)"
+      ],
+      "pipelines": [
+        "E66-01"
+      ],
+      "window": "public diagram",
+      "locations": [],
+      "tag": "RS named on public DOJ diagram reproduction",
+      "photo_policy": "none",
+      "photo_refs": [],
+      "notes": "Inner circle diagram public press."
+    },
+    {
+      "id": "P-HRO",
+      "name": "Haley Robson",
+      "aliases": [],
+      "roles": [
+        "named recruiter in public reporting"
+      ],
+      "pipelines": [
+        "EF-02"
+      ],
+      "window": "2000s Palm Beach",
+      "locations": [
+        "Palm Beach"
+      ],
+      "tag": "RS named in NYT recruitment system reporting",
+      "photo_policy": "public_press_only",
+      "photo_refs": [],
+      "notes": "Public civil/press only."
+    },
+    {
+      "id": "P-ROH",
+      "name": "Rina Oh",
+      "aliases": [],
+      "roles": [
+        "recruiter who spoke to press 2021"
+      ],
+      "pipelines": [
+        "EF-02"
+      ],
+      "window": "2021 press",
+      "locations": [],
+      "tag": "RS press interviews",
+      "photo_policy": "public_press_only",
+      "photo_refs": [],
+      "notes": "Wikipedia Connections_of_Jeffrey_Epstein."
+    },
+    {
+      "id": "P-TVS",
+      "name": "Larry Visoski",
+      "aliases": [
+        "pilot Visoski"
+      ],
+      "roles": [
+        "Epstein pilot public",
+        "testimony"
+      ],
+      "pipelines": [
+        "AU-06",
+        "EF-02"
+      ],
+      "window": "flight era",
+      "locations": [
+        "US"
+      ],
+      "tag": "RS public pilot/testimony",
+      "photo_policy": "public_press_only",
+      "photo_refs": [],
+      "notes": "Daughter tuition SU in DOJ filings notes (theories.txt)."
+    },
+    {
+      "id": "P-SNU",
+      "name": "Salvatore Nuara",
+      "aliases": [],
+      "roles": [
+        "VS executive orbit public articles"
+      ],
+      "pipelines": [
+        "PO-08"
+      ],
+      "window": "public press scrapes",
+      "locations": [
+        "NYC"
+      ],
+      "tag": "MAYBE orbit bookmark — public articles only",
+      "photo_policy": "none",
+      "photo_refs": [],
+      "notes": "4 fuckers folder scrapes. Not elevated without documentary bridge."
+    },
+    {
+      "id": "P-VGG",
+      "name": "Virginia Giuffre",
+      "aliases": [
+        "Virginia Roberts"
+      ],
+      "roles": [
+        "survivor / public plaintiff"
+      ],
+      "pipelines": [
+        "EF-02",
+        "MX-03",
+        "AU-06"
+      ],
+      "window": "public filings",
+      "locations": [],
+      "tag": "RS public filings/unseals",
+      "photo_policy": "never",
+      "photo_refs": [],
+      "notes": "Public civil plaintiff. No images. No H11 contact. Dignity + public record only."
+    },
+    {
+      "id": "P-VTH",
+      "name": "Thysia Huisman",
+      "aliases": [],
+      "roles": [
+        "named survivor public"
+      ],
+      "pipelines": [
+        "EF-02"
+      ],
+      "window": "public",
+      "locations": [],
+      "tag": "RS public naming",
+      "photo_policy": "never",
+      "photo_refs": [],
+      "notes": "CORE victim list public set."
+    },
+    {
+      "id": "P-VCS",
+      "name": "Courtney Soerensen",
+      "aliases": [],
+      "roles": [
+        "named survivor public"
+      ],
+      "pipelines": [
+        "EF-02"
+      ],
+      "window": "public",
+      "locations": [],
+      "tag": "RS public naming",
+      "photo_policy": "never",
+      "photo_refs": [],
+      "notes": "CORE list."
+    },
+    {
+      "id": "P-VMF",
+      "name": "Maria Farmer",
+      "aliases": [],
+      "roles": [
+        "named survivor public"
+      ],
+      "pipelines": [
+        "EF-02"
+      ],
+      "window": "public",
+      "locations": [],
+      "tag": "RS public naming",
+      "photo_policy": "never",
+      "photo_refs": [],
+      "notes": "CORE list with Annie Farmer."
+    },
+    {
+      "id": "P-VAF",
+      "name": "Annie Farmer",
+      "aliases": [],
+      "roles": [
+        "named survivor public"
+      ],
+      "pipelines": [
+        "EF-02"
+      ],
+      "window": "public",
+      "locations": [],
+      "tag": "RS public naming",
+      "photo_policy": "never",
+      "photo_refs": [],
+      "notes": "CORE list."
+    },
+    {
+      "id": "P-VCD",
+      "name": "Chauntae Davies",
+      "aliases": [],
+      "roles": [
+        "named survivor public"
+      ],
+      "pipelines": [
+        "EF-02"
+      ],
+      "window": "public",
+      "locations": [],
+      "tag": "RS public naming",
+      "photo_policy": "never",
+      "photo_refs": [],
+      "notes": "CORE list."
+    },
+    {
+      "id": "P-VJS",
+      "name": "Johanna Sjoberg",
+      "aliases": [],
+      "roles": [
+        "named survivor public"
+      ],
+      "pipelines": [
+        "EF-02"
+      ],
+      "window": "public",
+      "locations": [],
+      "tag": "RS public naming",
+      "photo_policy": "never",
+      "photo_refs": [],
+      "notes": "CORE list."
+    },
+    {
+      "id": "P-VSR",
+      "name": "Sarah Ransome",
+      "aliases": [],
+      "roles": [
+        "named survivor / plaintiff public"
+      ],
+      "pipelines": [
+        "EF-02",
+        "MX-03"
+      ],
+      "window": "public",
+      "locations": [],
+      "tag": "RS public filings",
+      "photo_policy": "never",
+      "photo_refs": [],
+      "notes": "CORE list."
+    },
+    {
+      "id": "P-VML",
+      "name": "Michelle Licata",
+      "aliases": [],
+      "roles": [
+        "named survivor public"
+      ],
+      "pipelines": [
+        "EF-02"
+      ],
+      "window": "public",
+      "locations": [],
+      "tag": "RS public naming",
+      "photo_policy": "never",
+      "photo_refs": [],
+      "notes": "CORE list."
+    }
+  ],
+  "entities": [
+    {
+      "id": "E-ACRIS",
+      "name": "NYC ACRIS",
+      "type": "public_records_system",
+      "role": "deed/ownership registry",
+      "pipelines": [
+        "E66-01"
+      ],
+      "tag": "RS system"
+    },
+    {
+      "id": "E-IA",
+      "name": "Internet Archive EpsteinDocs",
+      "type": "public_archive",
+      "role": "document dump",
+      "url": "https://ia600705.us.archive.org/21/items/epsteindocs/",
+      "pipelines": [
+        "AU-06"
+      ],
+      "tag": "RS"
+    },
+    {
+      "id": "E-DC",
+      "name": "DocumentCloud NPA",
+      "type": "public_filing_mirror",
+      "role": "2008 NPA exhibit",
+      "pipelines": [
+        "AU-06",
+        "MX-03"
+      ],
+      "tag": "RS"
+    },
+    {
+      "id": "E-MC2",
+      "name": "MC2 Model Management",
+      "type": "agency",
+      "role": "Brunel agency Epstein-funded per press",
+      "pipelines": [
+        "EF-02"
+      ],
+      "tag": "RS press"
+    },
+    {
+      "id": "E-KARIN",
+      "name": "Karin Models",
+      "type": "agency",
+      "role": "Paris/EU modeling agency hinge",
+      "pipelines": [
+        "EF-02"
+      ],
+      "tag": "RS agency existence; recruitment claims mix"
+    },
+    {
+      "id": "E-LB",
+      "name": "L Brands / Victoria's Secret",
+      "type": "corporation",
+      "role": "Wexner cash source",
+      "pipelines": [
+        "DW-05",
+        "PO-08"
+      ],
+      "tag": "RS corporate"
+    },
+    {
+      "id": "E-DALTON",
+      "name": "Dalton School",
+      "type": "school",
+      "role": "1974–76 hire node",
+      "pipelines": [
+        "DW-05",
+        "E66-01"
+      ],
+      "tag": "RS employment era"
+    },
+    {
+      "id": "E-BS",
+      "name": "Bear Stearns",
+      "type": "bank",
+      "role": "1976 entry",
+      "pipelines": [
+        "DW-05"
+      ],
+      "tag": "RS career"
+    },
+    {
+      "id": "E-SDFL",
+      "name": "SDFL / Acosta office",
+      "type": "prosecutor",
+      "role": "2008 NPA",
+      "pipelines": [
+        "MX-03"
+      ],
+      "tag": "RS"
+    },
+    {
+      "id": "E-SDNY",
+      "name": "SDNY",
+      "type": "prosecutor",
+      "role": "2019 case",
+      "pipelines": [
+        "AU-06",
+        "MX-03"
+      ],
+      "tag": "RS"
+    },
+    {
+      "id": "E-MCC",
+      "name": "MCC Manhattan",
+      "type": "jail",
+      "role": "2019 death node",
+      "pipelines": [
+        "MX-03"
+      ],
+      "tag": "RS"
+    },
+    {
+      "id": "E-LSJ",
+      "name": "Little St. James",
+      "type": "property",
+      "role": "USVI island end of feeder",
+      "pipelines": [
+        "EF-02"
+      ],
+      "tag": "RS ownership timeline public"
+    },
+    {
+      "id": "E-ELB",
+      "name": "El Brillo Way mansion",
+      "type": "property",
+      "role": "Palm Beach residence / 2005 raid",
+      "pipelines": [
+        "E66-01",
+        "DW-05"
+      ],
+      "tag": "RS"
+    },
+    {
+      "id": "E-301",
+      "name": "301 East 66th Street",
+      "type": "property",
+      "role": "vertical multi-party stack PT-009",
+      "pipelines": [
+        "E66-01"
+      ],
+      "tag": "RS multi-party/ACRIS"
+    },
+    {
+      "id": "E-9E71",
+      "name": "9 East 71st Street",
+      "type": "property",
+      "role": "BC-PIPE transit",
+      "pipelines": [
+        "E66-01"
+      ],
+      "tag": "MAYBE BC-PIPE"
+    },
+    {
+      "id": "E-EXPRESS",
+      "name": "Lolita Express / Boeing 727",
+      "type": "aircraft",
+      "role": "flight-log corridor",
+      "pipelines": [
+        "EF-02"
+      ],
+      "tag": "RS logs public excerpts"
+    },
+    {
+      "id": "E-PBP",
+      "name": "Palm Beach Police",
+      "type": "agency",
+      "role": "2005–08 probe",
+      "pipelines": [
+        "PBP-04",
+        "DW-05"
+      ],
+      "tag": "RS"
+    },
+    {
+      "id": "E-DOJ",
+      "name": "DOJ 2025–26 dumps",
+      "type": "government_release",
+      "role": "page dumps / redactions",
+      "pipelines": [
+        "AU-06",
+        "MX-03"
+      ],
+      "tag": "RS dump exists"
+    },
+    {
+      "id": "E-SWARM",
+      "name": "live-online-agent-swarm / permanent-agent-swarm",
+      "type": "investigation_system",
+      "role": "ops plane SW-07",
+      "pipelines": [
+        "SW-07"
+      ],
+      "tag": "RS system"
+    },
+    {
+      "id": "E-PERG",
+      "name": "Pergamon Press",
+      "type": "publisher",
+      "role": "Robert Maxwell seed",
+      "pipelines": [
+        "MX-03"
+      ],
+      "tag": "RS historical"
+    }
+  ],
+  "locations": [
+    {
+      "id": "L-DALTON",
+      "name": "Dalton School NYC",
+      "lat": 40.785,
+      "lon": -73.956,
+      "stage": "lead",
+      "pipelines": [
+        "DW-05",
+        "E66-01"
+      ],
+      "date": "1974-09-01"
+    },
+    {
+      "id": "L-301E66",
+      "name": "301 East 66th Street",
+      "lat": 40.7651,
+      "lon": -73.9614,
+      "stage": "field",
+      "pipelines": [
+        "E66-01"
+      ],
+      "date": "2000-01-01"
+    },
+    {
+      "id": "L-9E71",
+      "name": "9 East 71st Street",
+      "lat": 40.7712,
+      "lon": -73.9668,
+      "stage": "transit",
+      "pipelines": [
+        "E66-01"
+      ],
+      "date": "2001-06-01"
+    },
+    {
+      "id": "L-ELBRILLO",
+      "name": "El Brillo Way Palm Beach",
+      "lat": 26.7056,
+      "lon": -80.0364,
+      "stage": "evidence",
+      "pipelines": [
+        "E66-01",
+        "DW-05"
+      ],
+      "date": "2005-03-15"
+    },
+    {
+      "id": "L-JFK",
+      "name": "JFK / Queens edge",
+      "lat": 40.6413,
+      "lon": -73.7781,
+      "stage": "transit",
+      "pipelines": [
+        "E66-01"
+      ],
+      "date": "2019-07-01"
+    },
+    {
+      "id": "L-IA",
+      "name": "Internet Archive / SF node",
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "stage": "analysis",
+      "pipelines": [
+        "AU-06",
+        "E66-01"
+      ],
+      "date": "2025-11-01"
+    },
+    {
+      "id": "L-KOSICE",
+      "name": "Košice Slovakia",
+      "lat": 48.7164,
+      "lon": 21.2611,
+      "stage": "lead",
+      "pipelines": [
+        "EF-02"
+      ],
+      "date": "1986-01-01"
+    },
+    {
+      "id": "L-BRAT",
+      "name": "Bratislava / Karin",
+      "lat": 48.1486,
+      "lon": 17.1077,
+      "stage": "lead",
+      "pipelines": [
+        "EF-02"
+      ],
+      "date": "1996-01-01"
+    },
+    {
+      "id": "L-KYIV",
+      "name": "Kyiv avionics corridor",
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "stage": "transit",
+      "pipelines": [
+        "EF-02"
+      ],
+      "date": "1999-06-01"
+    },
+    {
+      "id": "L-PARIS",
+      "name": "Paris Karin/MC2",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "stage": "field",
+      "pipelines": [
+        "EF-02"
+      ],
+      "date": "2000-01-01"
+    },
+    {
+      "id": "L-LSJ",
+      "name": "Little St. James USVI",
+      "lat": 18.3005,
+      "lon": -64.8252,
+      "stage": "analysis",
+      "pipelines": [
+        "EF-02"
+      ],
+      "date": "2019-07-01"
+    },
+    {
+      "id": "L-LONDON",
+      "name": "Maxwell London / Pergamon",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "stage": "lead",
+      "pipelines": [
+        "MX-03"
+      ],
+      "date": "1985-01-01"
+    },
+    {
+      "id": "L-CANARY",
+      "name": "Lady Ghislaine death waters",
+      "lat": 28.1235,
+      "lon": -15.4363,
+      "stage": "transit",
+      "pipelines": [
+        "MX-03"
+      ],
+      "date": "1991-11-05"
+    },
+    {
+      "id": "L-NYC-CASH",
+      "name": "Wexner/NYC cash arm",
+      "lat": 40.758,
+      "lon": -73.9855,
+      "stage": "field",
+      "pipelines": [
+        "MX-03",
+        "DW-05"
+      ],
+      "date": "1991-12-01"
+    },
+    {
+      "id": "L-MIAMI-NPA",
+      "name": "Acosta SDFL Miami",
+      "lat": 25.7617,
+      "lon": -80.1918,
+      "stage": "evidence",
+      "pipelines": [
+        "MX-03"
+      ],
+      "date": "2008-06-30"
+    },
+    {
+      "id": "L-MCC",
+      "name": "MCC Manhattan",
+      "lat": 40.7135,
+      "lon": -74.0015,
+      "stage": "evidence",
+      "pipelines": [
+        "MX-03"
+      ],
+      "date": "2019-08-10"
+    },
+    {
+      "id": "L-LITTLEROCK",
+      "name": "Middleton Arkansas",
+      "lat": 34.7465,
+      "lon": -92.2896,
+      "stage": "evidence",
+      "pipelines": [
+        "MX-03"
+      ],
+      "date": "2022-05-07"
+    },
+    {
+      "id": "L-TLH",
+      "name": "FCI Tallahassee Maxwell",
+      "lat": 30.4383,
+      "lon": -84.2807,
+      "stage": "evidence",
+      "pipelines": [
+        "MX-03"
+      ],
+      "date": "2022-06-28"
+    },
+    {
+      "id": "L-DC",
+      "name": "House Oversight / DOJ DC",
+      "lat": 38.8899,
+      "lon": -77.0091,
+      "stage": "analysis",
+      "pipelines": [
+        "MX-03",
+        "AU-06"
+      ],
+      "date": "2026-02-26"
+    },
+    {
+      "id": "L-WHEATLEY",
+      "name": "Wheatley / Old Westbury",
+      "lat": 40.7887,
+      "lon": -73.599,
+      "stage": "lead",
+      "pipelines": [
+        "PBP-04"
+      ],
+      "date": "2023-10-17"
+    },
+    {
+      "id": "L-MIDD",
+      "name": "Middlebury VT magazine",
+      "lat": 44.0153,
+      "lon": -73.1676,
+      "stage": "lead",
+      "pipelines": [
+        "PBP-04"
+      ],
+      "date": "1996-01-01"
+    },
+    {
+      "id": "L-WPB",
+      "name": "West Palm Beach Pete orbit",
+      "lat": 26.7153,
+      "lon": -80.0534,
+      "stage": "transit",
+      "pipelines": [
+        "PBP-04"
+      ],
+      "date": "2001-03-01"
+    },
+    {
+      "id": "L-SYR",
+      "name": "Syracuse tuition cross-file",
+      "lat": 43.0481,
+      "lon": -76.1474,
+      "stage": "field",
+      "pipelines": [
+        "PBP-04",
+        "AU-06"
+      ],
+      "date": "2009-01-01"
+    },
+    {
+      "id": "L-I95",
+      "name": "I-95 viral clip Miami",
+      "lat": 25.7617,
+      "lon": -80.1918,
+      "stage": "evidence",
+      "pipelines": [
+        "PBP-04"
+      ],
+      "date": "2026-03-19"
+    },
+    {
+      "id": "L-DUBAI",
+      "name": "Dubai container pivot theory",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "stage": "analysis",
+      "pipelines": [
+        "PBP-04"
+      ],
+      "date": "2026-02-13"
+    },
+    {
+      "id": "L-COLUMBUS",
+      "name": "L Brands Columbus HQ",
+      "lat": 39.9612,
+      "lon": -82.9988,
+      "stage": "field",
+      "pipelines": [
+        "DW-05",
+        "PO-08"
+      ],
+      "date": "1986-01-01"
+    },
+    {
+      "id": "L-BEAR",
+      "name": "Bear Stearns NYC",
+      "lat": 40.758,
+      "lon": -73.9855,
+      "stage": "transit",
+      "pipelines": [
+        "DW-05"
+      ],
+      "date": "1976-06-01"
+    },
+    {
+      "id": "L-BA",
+      "name": "Buenos Aires Caputo scrape",
+      "lat": -34.6037,
+      "lon": -58.3816,
+      "stage": "field",
+      "pipelines": [
+        "PO-08"
+      ],
+      "date": "2024-01-01"
+    },
+    {
+      "id": "L-CHELY",
+      "name": "Chelyabinsk ballet bookmark",
+      "lat": 55.1644,
+      "lon": 61.4368,
+      "stage": "evidence",
+      "pipelines": [
+        "PO-08"
+      ],
+      "date": "2020-01-01"
+    },
+    {
+      "id": "L-MOSCOW",
+      "name": "Moscow literary noise filter",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "stage": "analysis",
+      "pipelines": [
+        "PO-08"
+      ],
+      "date": "2026-03-01"
+    }
+  ],
+  "discovery_methods": [
+    {
+      "id": "DM-1",
+      "name": "Wexner–Maxwell crossover",
+      "detail": "Zero-background control of billions; 1986 Wexner meet → 1991 full PoA; cross-timed Robert Maxwell 1991 death + Ghislaine inheritance. Chronological public-record mapping + kompromat hypothesis.",
+      "inputs": [
+        "unsealed files",
+        "PoA public reporting",
+        "yacht death 1991"
+      ],
+      "default_tag": "MAYBE pattern / RS dates",
+      "procedure": [
+        "State zero-resume control claim",
+        "List PoA/townhouse exhibits",
+        "Separate leverage hypothesis from RS dates",
+        "Tag output"
+      ]
+    },
+    {
+      "id": "DM-2",
+      "name": "Dalton kompromat origin",
+      "detail": "1974–76 Dalton hire under Donald Barr no degree; Semel 2019 interviews flashy behavior / rich-parent access. School as early leverage-hook before Bear Stearns/Wexner.",
+      "inputs": [
+        "Dalton employment era",
+        "Semel interviews"
+      ],
+      "default_tag": "MAYBE hypothesis",
+      "procedure": [
+        "Cite hire-era facts",
+        "Quote historian only as public interview",
+        "Do not equate school years to later crimes without evidence"
+      ]
+    },
+    {
+      "id": "DM-3",
+      "name": "Viral clip zero-trace",
+      "detail": "Mar 19 2026 I-95 'Palm Beach Pete' clip; expected millionaire footprint vs empty pre-2019 history.",
+      "inputs": [
+        "viral clip",
+        "public identity pack Simel"
+      ],
+      "default_tag": "method RS; identity CONTRADICTED if =Epstein",
+      "procedure": [
+        "Document clip",
+        "Search public footprint",
+        "Apply CONTRADICTED identity rule"
+      ]
+    },
+    {
+      "id": "DM-4",
+      "name": "1996 Middlebury ad",
+      "detail": "Middlebury College Magazine Vol.70 No.4: 'Corky Elwell's son, Peter… West Palm Beach, Pete.' Comma nickname hinge. Same year PB house purchase = coincidence not proof.",
+      "inputs": [
+        "magazine archive",
+        "IA"
+      ],
+      "default_tag": "RS ad exists; coincidence MAYBE",
+      "procedure": [
+        "Cite magazine volume",
+        "Name real Peter Elwell",
+        "Forbid identity leap"
+      ]
+    },
+    {
+      "id": "DM-5",
+      "name": "Semel name mashup",
+      "detail": "Phonetic/contextual mashup Peter(Elwell)+Semel(historian) → Simel as deliberate slap hypothesis.",
+      "inputs": [
+        "name collisions",
+        "Dalton interviews"
+      ],
+      "default_tag": "MAYBE",
+      "procedure": [
+        "Log as pattern only",
+        "Never treat as identity proof"
+      ]
+    },
+    {
+      "id": "DM-6",
+      "name": "Wheatley/Engoron",
+      "detail": "Wheatley alumni newsletter #122 (Oct 17 2023) photo L-R Gary Simel, Art Engoron, Peter Simel. Engoron editor/golf orbit.",
+      "inputs": [
+        "alumni newsletter"
+      ],
+      "default_tag": "pattern only",
+      "procedure": [
+        "Caption photo as public alumni",
+        "No conspiracy upgrade"
+      ]
+    },
+    {
+      "id": "DM-7",
+      "name": "Elwell–Reiter promotion",
+      "detail": "Peter Elwell promoted Michael Reiter PB Police Chief Mar 2001; Reiter later led Epstein probe while NPA closed. Local machine pattern.",
+      "inputs": [
+        "news archives",
+        "career records"
+      ],
+      "default_tag": "RS career facts",
+      "procedure": [
+        "Map chain of command",
+        "Do not claim identity"
+      ]
+    },
+    {
+      "id": "DM-8",
+      "name": "Dubai container pivot",
+      "detail": "Post-2019 → Dubai/DP World bin Sulayem window; Feb 13 2026 resignation sync; jet→container hypothesis; O-1 mirror.",
+      "inputs": [
+        "timeline correlation"
+      ],
+      "default_tag": "MAYBE theory",
+      "procedure": [
+        "Label theory",
+        "No RS promotion"
+      ]
+    },
+    {
+      "id": "DM-9",
+      "name": "Nadia visa/Karin",
+      "detail": "O-1 path notes; dialect bleed Nadazia→Lola/Lita→Lolita; Karin/Zuzana/Peter chain; name variation hunt Marcinkova/Marcinko/Nadežda.",
+      "inputs": [
+        "flight logs",
+        "press",
+        "agency mirrors"
+      ],
+      "default_tag": "mix RS/MAYBE",
+      "procedure": [
+        "List name variants",
+        "Cite public logs/press only",
+        "No CSAM detail"
+      ]
+    },
+    {
+      "id": "DM-10",
+      "name": "Swarm vs refusals",
+      "detail": "Multi-agent permanent swarm built after repeated denials on Middlebury ad / name traces. HITL + public ceiling.",
+      "inputs": [
+        "refusal logs",
+        "swarm architecture"
+      ],
+      "default_tag": "ops method RS",
+      "procedure": [
+        "Use permanent swarm",
+        "Always public ceiling",
+        "Dual-persist public only"
+      ]
+    }
+  ],
+  "bc_pipe": [
+    {
+      "id": "BC-PIPE-001",
+      "note": "Groff/Kahn pair"
+    },
+    {
+      "id": "BC-PIPE-002",
+      "note": "9 East 71st Street"
+    },
+    {
+      "id": "BC-PIPE-003",
+      "note": "Barak unit 11J notes"
+    },
+    {
+      "id": "BC-PIPE-004",
+      "note": "Kellen unit 14G notes"
+    },
+    {
+      "id": "BC-PIPE-005",
+      "note": "Vasquez"
+    },
+    {
+      "id": "BC-PIPE-006",
+      "note": "Sponsor ACRIS gap"
+    },
+    {
+      "id": "BC-PIPE-007",
+      "note": "Black Book apartment pins"
+    },
+    {
+      "id": "BC-PIPE-008",
+      "note": "Barrett 12B"
+    },
+    {
+      "id": "BC-PIPE-009",
+      "note": "Indyke 10B"
+    },
+    {
+      "id": "BC-PIPE-010",
+      "note": "JFK driver hinge"
+    }
+  ],
+  "pipelines": [
+    {
+      "id": "E66-01",
+      "name": "East 66 Vault",
+      "status": "active",
+      "completeness_hint": 85,
+      "summary": "301 E66 / Indyke / ACRIS / BC-PIPE public-record vault from MAIN_INVESTIGATION_1953 + master distill.",
+      "chain": "Dalton lead → 301 E66 field → 9 E71 transit → El Brillo evidence → JFK transit → IA analysis",
+      "roles_chain": [
+        "Indyke estate orbit",
+        "Kahn accountant",
+        "Groff assistant",
+        "Kellen unit notes",
+        "multi-party owners"
+      ],
+      "waypoints": [
+        {
+          "id": "L-DALTON",
+          "name": "Dalton School NYC",
+          "lat": 40.785,
+          "lon": -73.956,
+          "stage": "lead",
+          "pipelines": [
+            "DW-05",
+            "E66-01"
+          ],
+          "date": "1974-09-01"
+        },
+        {
+          "id": "L-301E66",
+          "name": "301 East 66th Street",
+          "lat": 40.7651,
+          "lon": -73.9614,
+          "stage": "field",
+          "pipelines": [
+            "E66-01"
+          ],
+          "date": "2000-01-01"
+        },
+        {
+          "id": "L-9E71",
+          "name": "9 East 71st Street",
+          "lat": 40.7712,
+          "lon": -73.9668,
+          "stage": "transit",
+          "pipelines": [
+            "E66-01"
+          ],
+          "date": "2001-06-01"
+        },
+        {
+          "id": "L-ELBRILLO",
+          "name": "El Brillo Way Palm Beach",
+          "lat": 26.7056,
+          "lon": -80.0364,
+          "stage": "evidence",
+          "pipelines": [
+            "E66-01",
+            "DW-05"
+          ],
+          "date": "2005-03-15"
+        },
+        {
+          "id": "L-JFK",
+          "name": "JFK / Queens edge",
+          "lat": 40.6413,
+          "lon": -73.7781,
+          "stage": "transit",
+          "pipelines": [
+            "E66-01"
+          ],
+          "date": "2019-07-01"
+        },
+        {
+          "id": "L-IA",
+          "name": "Internet Archive / SF node",
+          "lat": 37.7749,
+          "lon": -122.4194,
+          "stage": "analysis",
+          "pipelines": [
+            "AU-06",
+            "E66-01"
+          ],
+          "date": "2025-11-01"
+        }
+      ],
+      "exhibits": [
+        "RPT-004..009",
+        "BC-PIPE-001..010",
+        "RS-012 DOJ letter",
+        "RS-013 multi-party",
+        "RS-014 ACRIS",
+        "MAP-006/007",
+        "PT-009"
+      ],
+      "people_ids": [
+        "P-JEP",
+        "P-DIN",
+        "P-RKH",
+        "P-LGR",
+        "P-SKL",
+        "P-EBG",
+        "P-HBL"
+      ],
+      "next": [
+        "FU-020 ACRIS deed PDFs",
+        "FU-019 IA selective",
+        "FU-012 unit list public"
+      ]
+    },
+    {
+      "id": "EF-02",
+      "name": "Eastern Feeder",
+      "status": "active",
+      "completeness_hint": 88,
+      "summary": "Recruiter → fixer → pilot → scout → island. Dialect bleed DM-9. CORE+PART1–5.",
+      "chain": "Zuzana/Karin → Peter Marcinko → Nadia pilot → Brunel MC2 → Little St. James",
+      "roles_chain": [
+        "Recruiter",
+        "Fixer",
+        "Pilot",
+        "Scout",
+        "Island end"
+      ],
+      "waypoints": [
+        {
+          "id": "L-KOSICE",
+          "name": "Košice Slovakia",
+          "lat": 48.7164,
+          "lon": 21.2611,
+          "stage": "lead",
+          "pipelines": [
+            "EF-02"
+          ],
+          "date": "1986-01-01"
+        },
+        {
+          "id": "L-BRAT",
+          "name": "Bratislava / Karin",
+          "lat": 48.1486,
+          "lon": 17.1077,
+          "stage": "lead",
+          "pipelines": [
+            "EF-02"
+          ],
+          "date": "1996-01-01"
+        },
+        {
+          "id": "L-KYIV",
+          "name": "Kyiv avionics corridor",
+          "lat": 50.4501,
+          "lon": 30.5234,
+          "stage": "transit",
+          "pipelines": [
+            "EF-02"
+          ],
+          "date": "1999-06-01"
+        },
+        {
+          "id": "L-PARIS",
+          "name": "Paris Karin/MC2",
+          "lat": 48.8566,
+          "lon": 2.3522,
+          "stage": "field",
+          "pipelines": [
+            "EF-02"
+          ],
+          "date": "2000-01-01"
+        },
+        {
+          "id": "L-LSJ",
+          "name": "Little St. James USVI",
+          "lat": 18.3005,
+          "lon": -64.8252,
+          "stage": "analysis",
+          "pipelines": [
+            "EF-02"
+          ],
+          "date": "2019-07-01"
+        }
+      ],
+      "exhibits": [
+        "CORE.txt",
+        "PART1-5",
+        "Epstein-Maxwell-timeline.pdf",
+        "flight logs",
+        "Giuffre unseals public",
+        "NPA co-conspirator names"
+      ],
+      "people_ids": [
+        "P-ZNV",
+        "P-PMC",
+        "P-NMC",
+        "P-JLB",
+        "P-GMX",
+        "P-JEP",
+        "P-LGR",
+        "P-SKL",
+        "P-ARS",
+        "P-HRO",
+        "P-ROH",
+        "P-VGG",
+        "P-VTH",
+        "P-VCS",
+        "P-VMF",
+        "P-VAF",
+        "P-VCD",
+        "P-VJS",
+        "P-VSR",
+        "P-VML"
+      ],
+      "next": [
+        "O-1 public docket if any",
+        "MC2 Wayback",
+        "IA flight-log titles",
+        "N. Marcinko log lines"
+      ]
+    },
+    {
+      "id": "MX-03",
+      "name": "Maxwell Line Timeline",
+      "status": "active",
+      "completeness_hint": 82,
+      "summary": "Inheritance / shield / cleanup / Oversight public anchors.",
+      "chain": "Robert Maxwell → 1991 yacht → Ghislaine inherit → Wexner PoA → Acosta NPA → 2019 MCC → convictions → 2026 Oversight",
+      "roles_chain": [
+        "Seed magnate",
+        "Heir",
+        "Cash arm",
+        "Plea shield",
+        "Cleanup-adjacent deaths (MAYBE physics)",
+        "Oversight political layer"
+      ],
+      "waypoints": [
+        {
+          "id": "L-LONDON",
+          "name": "Maxwell London / Pergamon",
+          "lat": 51.5074,
+          "lon": -0.1278,
+          "stage": "lead",
+          "pipelines": [
+            "MX-03"
+          ],
+          "date": "1985-01-01"
+        },
+        {
+          "id": "L-CANARY",
+          "name": "Lady Ghislaine death waters",
+          "lat": 28.1235,
+          "lon": -15.4363,
+          "stage": "transit",
+          "pipelines": [
+            "MX-03"
+          ],
+          "date": "1991-11-05"
+        },
+        {
+          "id": "L-NYC-CASH",
+          "name": "Wexner/NYC cash arm",
+          "lat": 40.758,
+          "lon": -73.9855,
+          "stage": "field",
+          "pipelines": [
+            "MX-03",
+            "DW-05"
+          ],
+          "date": "1991-12-01"
+        },
+        {
+          "id": "L-MIAMI-NPA",
+          "name": "Acosta SDFL Miami",
+          "lat": 25.7617,
+          "lon": -80.1918,
+          "stage": "evidence",
+          "pipelines": [
+            "MX-03"
+          ],
+          "date": "2008-06-30"
+        },
+        {
+          "id": "L-MCC",
+          "name": "MCC Manhattan",
+          "lat": 40.7135,
+          "lon": -74.0015,
+          "stage": "evidence",
+          "pipelines": [
+            "MX-03"
+          ],
+          "date": "2019-08-10"
+        },
+        {
+          "id": "L-LITTLEROCK",
+          "name": "Middleton Arkansas",
+          "lat": 34.7465,
+          "lon": -92.2896,
+          "stage": "evidence",
+          "pipelines": [
+            "MX-03"
+          ],
+          "date": "2022-05-07"
+        },
+        {
+          "id": "L-TLH",
+          "name": "FCI Tallahassee Maxwell",
+          "lat": 30.4383,
+          "lon": -84.2807,
+          "stage": "evidence",
+          "pipelines": [
+            "MX-03"
+          ],
+          "date": "2022-06-28"
+        },
+        {
+          "id": "L-DC",
+          "name": "House Oversight / DOJ DC",
+          "lat": 38.8899,
+          "lon": -77.0091,
+          "stage": "analysis",
+          "pipelines": [
+            "MX-03",
+            "AU-06"
+          ],
+          "date": "2026-02-26"
+        }
+      ],
+      "exhibits": [
+        "NPA DocumentCloud",
+        "conviction dockets",
+        "Oversight media 2026",
+        "BARAK CONNECTIONS PDFs titles",
+        "OCME/OIG public"
+      ],
+      "people_ids": [
+        "P-RMX",
+        "P-GMX",
+        "P-LWX",
+        "P-ACA",
+        "P-JEP",
+        "P-JLB",
+        "P-MMD",
+        "P-BCL",
+        "P-HCL",
+        "P-EBG",
+        "P-ADR",
+        "P-PAN"
+      ],
+      "next": [
+        "DOJ dump TOC only",
+        "Conviction docket cite list"
+      ]
+    },
+    {
+      "id": "PBP-04",
+      "name": "Palm Beach Pete Hypothesis",
+      "status": "paused_CONTRADICTED",
+      "completeness_hint": 40,
+      "summary": "Identity track CONTRADICTED — hygiene only. Never promote Simel=Epstein as rock-solid.",
+      "chain": "Viral clip → Middlebury ad → Elwell/Reiter → Wheatley/Engoron → Dubai theory (all without identity leap)",
+      "roles_chain": [
+        "Clip subject",
+        "Real Elwell (not Epstein)",
+        "Reiter chief",
+        "Simel public identity (≠Epstein)"
+      ],
+      "waypoints": [
+        {
+          "id": "L-WHEATLEY",
+          "name": "Wheatley / Old Westbury",
+          "lat": 40.7887,
+          "lon": -73.599,
+          "stage": "lead",
+          "pipelines": [
+            "PBP-04"
+          ],
+          "date": "2023-10-17"
+        },
+        {
+          "id": "L-MIDD",
+          "name": "Middlebury VT magazine",
+          "lat": 44.0153,
+          "lon": -73.1676,
+          "stage": "lead",
+          "pipelines": [
+            "PBP-04"
+          ],
+          "date": "1996-01-01"
+        },
+        {
+          "id": "L-WPB",
+          "name": "West Palm Beach Pete orbit",
+          "lat": 26.7153,
+          "lon": -80.0534,
+          "stage": "transit",
+          "pipelines": [
+            "PBP-04"
+          ],
+          "date": "2001-03-01"
+        },
+        {
+          "id": "L-SYR",
+          "name": "Syracuse tuition cross-file",
+          "lat": 43.0481,
+          "lon": -76.1474,
+          "stage": "field",
+          "pipelines": [
+            "PBP-04",
+            "AU-06"
+          ],
+          "date": "2009-01-01"
+        },
+        {
+          "id": "L-I95",
+          "name": "I-95 viral clip Miami",
+          "lat": 25.7617,
+          "lon": -80.1918,
+          "stage": "evidence",
+          "pipelines": [
+            "PBP-04"
+          ],
+          "date": "2026-03-19"
+        },
+        {
+          "id": "L-DUBAI",
+          "name": "Dubai container pivot theory",
+          "lat": 25.2048,
+          "lon": 55.2708,
+          "stage": "analysis",
+          "pipelines": [
+            "PBP-04"
+          ],
+          "date": "2026-02-13"
+        }
+      ],
+      "exhibits": [
+        "Middlebury Vol.70 No.4",
+        "Wheatley #122",
+        "RHONY S4 provenance",
+        "Sunbiz LLC public",
+        "Hypothesis Simel PDFs title-index"
+      ],
+      "people_ids": [
+        "P-PBS",
+        "P-PEL",
+        "P-MRE",
+        "P-AEG"
+      ],
+      "verdict": "CONTRADICTED identity — hygiene only",
+      "rule": "Separate cell-death questions from identity. Method validity ≠ claim truth.",
+      "next": [
+        "Keep paused",
+        "Sunbiz LLC hygiene",
+        "No photo generation of identity claim"
+      ]
+    },
+    {
+      "id": "DW-05",
+      "name": "Dalton / Wexner origin",
+      "status": "active",
+      "completeness_hint": 75,
+      "summary": "DM-1/DM-2 ladder: Dalton → Bear Stearns → Wexner meet → PoA → Palm Beach residence.",
+      "chain": "Dalton 1974 → Bear 1976 → Wexner 1986 → PoA 1991 → PB house ~1996 → 2005 raid path",
+      "roles_chain": [
+        "School head Barr",
+        "Historian Semel",
+        "Greenberg hire",
+        "Wexner cash",
+        "Epstein control node"
+      ],
+      "waypoints": [
+        {
+          "id": "L-DALTON",
+          "name": "Dalton School NYC",
+          "lat": 40.785,
+          "lon": -73.956,
+          "stage": "lead",
+          "pipelines": [
+            "DW-05",
+            "E66-01"
+          ],
+          "date": "1974-09-01"
+        },
+        {
+          "id": "L-ELBRILLO",
+          "name": "El Brillo Way Palm Beach",
+          "lat": 26.7056,
+          "lon": -80.0364,
+          "stage": "evidence",
+          "pipelines": [
+            "E66-01",
+            "DW-05"
+          ],
+          "date": "2005-03-15"
+        },
+        {
+          "id": "L-NYC-CASH",
+          "name": "Wexner/NYC cash arm",
+          "lat": 40.758,
+          "lon": -73.9855,
+          "stage": "field",
+          "pipelines": [
+            "MX-03",
+            "DW-05"
+          ],
+          "date": "1991-12-01"
+        },
+        {
+          "id": "L-COLUMBUS",
+          "name": "L Brands Columbus HQ",
+          "lat": 39.9612,
+          "lon": -82.9988,
+          "stage": "field",
+          "pipelines": [
+            "DW-05",
+            "PO-08"
+          ],
+          "date": "1986-01-01"
+        },
+        {
+          "id": "L-BEAR",
+          "name": "Bear Stearns NYC",
+          "lat": 40.758,
+          "lon": -73.9855,
+          "stage": "transit",
+          "pipelines": [
+            "DW-05"
+          ],
+          "date": "1976-06-01"
+        }
+      ],
+      "exhibits": [
+        "DM-1",
+        "DM-2",
+        "Semel interviews",
+        "NYT 2025 money investigation",
+        "Timeline PDF"
+      ],
+      "people_ids": [
+        "P-JEP",
+        "P-DBR",
+        "P-SFS",
+        "P-AGN",
+        "P-LWX"
+      ],
+      "next": [
+        "Public employment verification notes only"
+      ]
+    },
+    {
+      "id": "AU-06",
+      "name": "Archive & Unseals",
+      "status": "active",
+      "completeness_hint": 70,
+      "summary": "IA EpsteinDocs / DocumentCloud / DOJ dump index (titles only for bulk).",
+      "chain": "NPA DocumentCloud → IA EpsteinDocs → SDNY filings → DOJ 2026 dump → Black Book stub",
+      "roles_chain": [
+        "Public archive",
+        "NPA mirror",
+        "DOJ redaction cycle"
+      ],
+      "waypoints": [
+        {
+          "id": "L-IA",
+          "name": "Internet Archive / SF node",
+          "lat": 37.7749,
+          "lon": -122.4194,
+          "stage": "analysis",
+          "pipelines": [
+            "AU-06",
+            "E66-01"
+          ],
+          "date": "2025-11-01"
+        },
+        {
+          "id": "L-DC",
+          "name": "House Oversight / DOJ DC",
+          "lat": 38.8899,
+          "lon": -77.0091,
+          "stage": "analysis",
+          "pipelines": [
+            "MX-03",
+            "AU-06"
+          ],
+          "date": "2026-02-26"
+        },
+        {
+          "id": "L-SYR",
+          "name": "Syracuse tuition cross-file",
+          "lat": 43.0481,
+          "lon": -76.1474,
+          "stage": "field",
+          "pipelines": [
+            "PBP-04",
+            "AU-06"
+          ],
+          "date": "2009-01-01"
+        }
+      ],
+      "exhibits": [
+        "epstein all pdfs archive link.txt",
+        "Part 22 of 22 title",
+        "full documents PDF title",
+        "NPA PDFs",
+        "Geneanet scrape title"
+      ],
+      "people_ids": [
+        "P-JEP",
+        "P-GMX",
+        "P-NMC",
+        "P-TVS"
+      ],
+      "public_links": [
+        "https://ia600705.us.archive.org/21/items/epsteindocs/"
+      ],
+      "next": [
+        "Selective title index",
+        "Never bulk secret ingest"
+      ]
+    },
+    {
+      "id": "SW-07",
+      "name": "Swarm Ops",
+      "status": "active",
+      "completeness_hint": 92,
+      "summary": "Permanent always-online swarm + live-online-agent-swarm + HITL + dual-persist.",
+      "chain": "GitHub swarm → Drive vault → NYC 1953 vault → Automation watch → IA next leads",
+      "roles_chain": [
+        "Supervisor",
+        "Overseer",
+        "TruthVerifier",
+        "CompletenessAuditor",
+        "AutopilotDirector"
+      ],
+      "waypoints": [
+        {
+          "id": "L-GH",
+          "name": "GitHub swarm SF",
+          "lat": 37.7749,
+          "lon": -122.4194,
+          "stage": "lead",
+          "pipelines": [
+            "SW-07"
+          ],
+          "date": "2026-01-01"
+        },
+        {
+          "id": "L-DRV",
+          "name": "Grok-Agent-Vault Drive",
+          "lat": 37.422,
+          "lon": -122.0841,
+          "stage": "transit",
+          "pipelines": [
+            "SW-07"
+          ],
+          "date": "2026-09-10"
+        },
+        {
+          "id": "L-NYV",
+          "name": "NYC 1953 vault desk",
+          "lat": 40.7128,
+          "lon": -74.006,
+          "stage": "field",
+          "pipelines": [
+            "SW-07"
+          ],
+          "date": "2026-09-10"
+        }
+      ],
+      "exhibits": [
+        "permanent-agent-swarm v2.2",
+        "ALWAYS_ONLINE_MANIFEST",
+        "HITL matrix",
+        "pete-epstein-watch"
+      ],
+      "people_ids": [],
+      "next": [
+        "Readiness green",
+        "Daemon pulse"
+      ]
+    },
+    {
+      "id": "PO-08",
+      "name": "Public OSINT Ceiling / Orbit",
+      "status": "active",
+      "completeness_hint": 90,
+      "summary": "Ceiling rules + open scrapes (Nuara/VS, Caputo, ballet bookmark, literary noise filter).",
+      "chain": "VS/Nuara → Columbus HQ → BA Caputo → Chelyabinsk bookmark → Moscow noise filter",
+      "roles_chain": [
+        "Orbit bookmarks only"
+      ],
+      "waypoints": [
+        {
+          "id": "L-COLUMBUS",
+          "name": "L Brands Columbus HQ",
+          "lat": 39.9612,
+          "lon": -82.9988,
+          "stage": "field",
+          "pipelines": [
+            "DW-05",
+            "PO-08"
+          ],
+          "date": "1986-01-01"
+        },
+        {
+          "id": "L-BA",
+          "name": "Buenos Aires Caputo scrape",
+          "lat": -34.6037,
+          "lon": -58.3816,
+          "stage": "field",
+          "pipelines": [
+            "PO-08"
+          ],
+          "date": "2024-01-01"
+        },
+        {
+          "id": "L-CHELY",
+          "name": "Chelyabinsk ballet bookmark",
+          "lat": 55.1644,
+          "lon": 61.4368,
+          "stage": "evidence",
+          "pipelines": [
+            "PO-08"
+          ],
+          "date": "2020-01-01"
+        },
+        {
+          "id": "L-MOSCOW",
+          "name": "Moscow literary noise filter",
+          "lat": 55.7558,
+          "lon": 37.6173,
+          "stage": "analysis",
+          "pipelines": [
+            "PO-08"
+          ],
+          "date": "2026-03-01"
+        }
+      ],
+      "exhibits": [
+        "osint-public-ceiling",
+        "4 fuckers scrapes",
+        "secret-store-hygiene"
+      ],
+      "people_ids": [
+        "P-SNU",
+        "P-LWX"
+      ],
+      "next": [
+        "Reaffirm ceiling every dual-persist"
+      ]
+    }
+  ],
+  "master_timeline": [
+    {
+      "year": "1953-01-20",
+      "event": "Jeffrey Epstein born Brooklyn",
+      "tag": "RS",
+      "people": [
+        "P-JEP"
+      ]
+    },
+    {
+      "year": "1974-76",
+      "event": "Dalton School teaching hire under Donald Barr",
+      "tag": "RS era",
+      "people": [
+        "P-JEP",
+        "P-DBR"
+      ],
+      "methods": [
+        "DM-2"
+      ]
+    },
+    {
+      "year": "1976",
+      "event": "Bear Stearns entry (Ace Greenberg path)",
+      "tag": "RS career",
+      "people": [
+        "P-JEP",
+        "P-AGN"
+      ]
+    },
+    {
+      "year": "1980s",
+      "event": "Robert Maxwell media/arms front; Ghislaine orbit",
+      "tag": "RS public / MAYBE intel framing",
+      "people": [
+        "P-RMX",
+        "P-GMX"
+      ]
+    },
+    {
+      "year": "1986",
+      "event": "Wexner meeting / financial relationship begins",
+      "tag": "RS public reporting",
+      "people": [
+        "P-LWX",
+        "P-JEP"
+      ],
+      "methods": [
+        "DM-1"
+      ]
+    },
+    {
+      "year": "1991-11",
+      "event": "Robert Maxwell death on Lady Ghislaine yacht",
+      "tag": "RS event date",
+      "people": [
+        "P-RMX",
+        "P-GMX"
+      ]
+    },
+    {
+      "year": "1991",
+      "event": "Wexner PoA + Ghislaine inheritance hinge year",
+      "tag": "RS PoA; MAYBE playbook",
+      "people": [
+        "P-LWX",
+        "P-GMX",
+        "P-JEP"
+      ],
+      "methods": [
+        "DM-1"
+      ]
+    },
+    {
+      "year": "1996-99",
+      "event": "Karin recruiter window (Zuzana); O-1 path notes for Nadia",
+      "tag": "MAYBE/mix",
+      "people": [
+        "P-ZNV",
+        "P-PMC",
+        "P-NMC"
+      ],
+      "methods": [
+        "DM-9"
+      ]
+    },
+    {
+      "year": "1996",
+      "event": "Middlebury magazine 'West Palm Beach, Pete' ad; PB house ~same year",
+      "tag": "RS ad; coincidence MAYBE",
+      "methods": [
+        "DM-4"
+      ]
+    },
+    {
+      "year": "1998",
+      "event": "Little St. James purchase (public timeline)",
+      "tag": "RS ownership",
+      "people": [
+        "P-JEP"
+      ]
+    },
+    {
+      "year": "2000-05",
+      "event": "Express legs era; Eastern feeder flow claims; assistants orbit",
+      "tag": "mix RS/MAYBE",
+      "people": [
+        "P-NMC",
+        "P-JLB",
+        "P-GMX",
+        "P-LGR",
+        "P-SKL"
+      ]
+    },
+    {
+      "year": "2001-03",
+      "event": "Elwell promotes Reiter PB Police Chief",
+      "tag": "RS career",
+      "people": [
+        "P-PEL",
+        "P-MRE"
+      ],
+      "methods": [
+        "DM-7"
+      ]
+    },
+    {
+      "year": "2005-03",
+      "event": "Palm Beach raid / probe start El Brillo",
+      "tag": "RS",
+      "people": [
+        "P-JEP",
+        "P-MRE"
+      ]
+    },
+    {
+      "year": "2008",
+      "event": "Acosta SDFL NPA; immunity potential co-conspirators",
+      "tag": "RS DocumentCloud",
+      "people": [
+        "P-ACA",
+        "P-JEP",
+        "P-GMX",
+        "P-NMC",
+        "P-JLB"
+      ]
+    },
+    {
+      "year": "2019-07/08",
+      "event": "SDNY arrest; MCC death",
+      "tag": "RS OCME/OIG public",
+      "people": [
+        "P-JEP"
+      ]
+    },
+    {
+      "year": "2021-22",
+      "event": "Ghislaine conviction/sentence; Brunel death; Middleton AR death",
+      "tag": "RS deaths/conviction; physics MAYBE",
+      "people": [
+        "P-GMX",
+        "P-JLB",
+        "P-MMD"
+      ]
+    },
+    {
+      "year": "2024+",
+      "event": "Nadia missing press",
+      "tag": "RS press existence",
+      "people": [
+        "P-NMC"
+      ]
+    },
+    {
+      "year": "2025-26",
+      "event": "DOJ dumps / redactions cycle; Oversight Feb 26 2026",
+      "tag": "RS dump/media",
+      "people": [
+        "P-HCL",
+        "P-BCL"
+      ]
+    },
+    {
+      "year": "2026-03-19",
+      "event": "I-95 Palm Beach Pete viral clip",
+      "tag": "RS clip; identity CONTRADICTED",
+      "people": [
+        "P-PBS"
+      ],
+      "methods": [
+        "DM-3"
+      ]
+    },
+    {
+      "year": "2026-09",
+      "event": "Permanent always-online swarm + ultra Meridian atlas build",
+      "tag": "RS system",
+      "methods": [
+        "DM-10"
+      ]
+    }
+  ],
+  "public_evidence_index": {
+    "ia_epsteindocs": "https://ia600705.us.archive.org/21/items/epsteindocs/",
+    "foia_guide": "https://www.justice.gov/oip/foia-guide",
+    "wikipedia_connections": "https://en.wikipedia.org/wiki/Connections_of_Jeffrey_Epstein",
+    "wikipedia_named_in_files": "https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files"
+  },
+  "redaction_initials_part2": {
+    "B.C.": "Bill Clinton (index discussion)",
+    "H.C.": "Hillary Clinton (index discussion)",
+    "E.B.": "Ehud Barak",
+    "A.D.": "Alan Dershowitz",
+    "L.W.": "Les Wexner",
+    "P.A.": "Prince Andrew"
+  },
+  "never_list": [
+    "keys.env",
+    "god_tier_keys.env",
+    "api-keys-secret-store",
+    "fourth_round.env",
+    "CSAM",
+    "doxx private living",
+    "H11 contact without HITL",
+    "promote PBP identity as RS",
+    "AI photoreal of victims"
+  ],
+  "sources_ingested": [
+    "MERIDIAN_SEED_DISTILL.md (8 pipelines, 46 waypoints)",
+    "MASTER_DISTILL.md",
+    "CORE + PART1-5 True Story texts",
+    "DISCOVERY_METHODS.txt DM-1..10",
+    "INVESTIGATION_PROCEDURES.txt",
+    "east66 / eastern-feeder / maxwell / discovery-methods / pbp / archive-unseals / meridian-globe / osint-public-ceiling skills",
+    "Drive Epstein specific inventory (title index for large PDFs)",
+    "Wikipedia Connections_of_Jeffrey_Epstein + press (CNN/NYT/Bloomberg/WaPo) public facts cross-check 2026"
+  ],
+  "visual_plates": [
+    {
+      "id": "PL-01",
+      "title": "Global waypoint map (schematic)",
+      "file": "plates/pl01_global_waypoints.png"
+    },
+    {
+      "id": "PL-02",
+      "title": "Eastern feeder role chain (schematic)",
+      "file": "plates/pl02_eastern_feeder_chain.png"
+    },
+    {
+      "id": "PL-03",
+      "title": "Network roles graph (no faces)",
+      "file": "plates/pl03_network_roles.png"
+    },
+    {
+      "id": "PL-04",
+      "title": "Master timeline strip 1953–2026",
+      "file": "plates/pl04_timeline.png"
+    }
+  ]
+}
