@@ -1,0 +1,107 @@
+{
+  "C01": {
+    "label": "Origins / host / serology",
+    "start": "2019-09-01",
+    "end": "2025-06-30",
+    "anchors": [
+      "WIV illness reports Fall 2019",
+      "SAGO 2025",
+      "CIA 2025 lean"
+    ]
+  },
+  "C02": {
+    "label": "Proximal Origin / NIH influence",
+    "start": "2020-01-31",
+    "end": "2020-04-30",
+    "anchors": [
+      "Feb 1 2020 call",
+      "Nature Med March 2020",
+      "FOIA emails"
+    ]
+  },
+  "C03": {
+    "label": "EcoHealth grant / debarment",
+    "start": "2014-06-01",
+    "end": "2025-01-31",
+    "anchors": [
+      "R01AI110964",
+      "year-5 late report",
+      "HHS debarment Jan 2025"
+    ]
+  },
+  "C04": {
+    "label": "FOIA culture / Morens / NIH oversight",
+    "start": "2020-01-01",
+    "end": "2024-12-31",
+    "anchors": [
+      "Morens emails",
+      "Fauci TI",
+      "Oversight productions"
+    ]
+  },
+  "C05": {
+    "label": "Six-foot distancing policy basis",
+    "start": "2020-02-01",
+    "end": "2020-06-30",
+    "anchors": [
+      "Fauci TI sort of just appeared",
+      "Collins TI"
+    ]
+  },
+  "C06": {
+    "label": "Mask guidance evolution",
+    "start": "2020-02-01",
+    "end": "2023-12-31",
+    "anchors": [
+      "CDC early no-mask",
+      "later mandate guidance",
+      "RCT mixed literature"
+    ]
+  },
+  "C07": {
+    "label": "Lockdown collateral harms",
+    "start": "2020-03-01",
+    "end": "2024-12-31",
+    "anchors": [
+      "NAEP learning loss",
+      "excess non-COVID"
+    ]
+  },
+  "C08": {
+    "label": "NY March 25 nursing home directive",
+    "start": "2020-03-01",
+    "end": "2021-12-31",
+    "anchors": [
+      "March 25 2020 directive",
+      "July 6 drafts"
+    ]
+  },
+  "C09": {
+    "label": "WHO / IHR / China notification",
+    "start": "2019-12-01",
+    "end": "2025-06-30",
+    "anchors": [
+      "IHR timelines",
+      "WHO joint study",
+      "SAGO 2025"
+    ]
+  },
+  "C10": {
+    "label": "Pandemic relief fraud / improper payments",
+    "start": "2020-03-01",
+    "end": "2025-12-31",
+    "anchors": [
+      "GAO UI estimates",
+      "SBA OIG"
+    ]
+  },
+  "C11": {
+    "label": "HHS production delays / selective EcoHealth releases",
+    "start": "2021-01-01",
+    "end": "2025-12-31",
+    "anchors": [
+      "HHS production logs",
+      "EcoHealth release compare"
+    ]
+  }
+}

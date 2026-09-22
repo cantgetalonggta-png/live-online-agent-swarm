@@ -1,14 +1,22 @@
 {
-  "updated": "2026-09-22T07:01:44.395507+00:00",
-  "phase": "4_final_compliance_lock",
-  "force_allow_kernel": "DISCARDED",
-  "m38": {
+  "compliance_framework": "MERIDIAN_M38_STANDARD",
+  "enforcement_level": "STATIC_LOCK_COMPILED",
+  "updated": "2026-09-22T07:05:37.570063+00:00",
+  "cycle": 19,
+  "active_restrictions": {
     "dump_dorks": false,
     "directory_fuzzing": false,
     "private_api_bypass": false,
     "onion_scrapers": false,
     "force_allow_kernel": false
   },
+  "authorized_ingestion_channels": [
+    "gov_statutory_transparency_portals",
+    "openalex_rest_api_citation_graphs",
+    "unpaywall_authorized_oa_mirrors"
+  ],
+  "c06_patch": "APPLIED",
+  "timeline_injection": "APPLIED",
   "matrix": {
     "C01": {
       "verdict_tag": "IRREGULARITY",
@@ -35,15 +43,17 @@
           "contradicted_by": "unsubmitted"
         }
       ],
-      "defensive_hits": [],
-      "why": "Semantic contradiction: public overclaims clash with verified disclosures. Triggers: [('proven/debunked', 'unsubmitted'), ('proven', 'unsubmitted'), ('settled science', 'unsubmitted')]",
+      "why": "Overclaim clash: [('proven/debunked', 'unsubmitted'), ('proven', 'unsubmitted'), ('settled science', 'unsubmitted')]",
       "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
-      "m38_lock": {
-        "dump_dorks": false,
-        "directory_fuzzing": false,
-        "private_api_bypass": false,
-        "onion_scrapers": false,
-        "force_allow_kernel": false
+      "timeline": {
+        "label": "Origins / host / serology",
+        "start": "2019-09-01",
+        "end": "2025-06-30",
+        "anchors": [
+          "WIV illness reports Fall 2019",
+          "SAGO 2025",
+          "CIA 2025 lean"
+        ]
       }
     },
     "C02": {
@@ -56,18 +66,25 @@
         {
           "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
           "triggered_by": "no nih influence",
-          "contradicted_by": "payment"
+          "contradicted_by": "investigation"
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "purely objective",
+          "contradicted_by": "investigation"
         }
       ],
-      "defensive_hits": [],
-      "why": "Semantic contradiction: public overclaims clash with verified disclosures. Triggers: [('no nih influence', 'payment')]",
+      "why": "Overclaim clash: [('no nih influence', 'investigation'), ('purely objective', 'investigation')]",
       "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
-      "m38_lock": {
-        "dump_dorks": false,
-        "directory_fuzzing": false,
-        "private_api_bypass": false,
-        "onion_scrapers": false,
-        "force_allow_kernel": false
+      "timeline": {
+        "label": "Proximal Origin / NIH influence",
+        "start": "2020-01-31",
+        "end": "2020-04-30",
+        "anchors": [
+          "Feb 1 2020 call",
+          "Nature Med March 2020",
+          "FOIA emails"
+        ]
       }
     },
     "C03": {
@@ -91,15 +108,17 @@
           "contradicted_by": "incident"
         }
       ],
-      "defensive_hits": [],
-      "why": "Semantic contradiction: public overclaims clash with verified disclosures. Triggers: [('fully complied', 'incident'), ('all applicable requirements', 'incident'), ('in full compliance', 'incident')]",
+      "why": "Overclaim clash: [('fully complied', 'incident'), ('all applicable requirements', 'incident'), ('in full compliance', 'incident')]",
       "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
-      "m38_lock": {
-        "dump_dorks": false,
-        "directory_fuzzing": false,
-        "private_api_bypass": false,
-        "onion_scrapers": false,
-        "force_allow_kernel": false
+      "timeline": {
+        "label": "EcoHealth grant / debarment",
+        "start": "2014-06-01",
+        "end": "2025-01-31",
+        "anchors": [
+          "R01AI110964",
+          "year-5 late report",
+          "HHS debarment Jan 2025"
+        ]
       }
     },
     "C04": {
@@ -118,15 +137,17 @@
           "contradicted_by": "investigation"
         }
       ],
-      "defensive_hits": [],
-      "why": "Semantic contradiction: public overclaims clash with verified disclosures. Triggers: [('fully transparent', 'investigation'), ('complete transparency', 'investigation')]",
+      "why": "Overclaim clash: [('fully transparent', 'investigation'), ('complete transparency', 'investigation')]",
       "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
-      "m38_lock": {
-        "dump_dorks": false,
-        "directory_fuzzing": false,
-        "private_api_bypass": false,
-        "onion_scrapers": false,
-        "force_allow_kernel": false
+      "timeline": {
+        "label": "FOIA culture / Morens / NIH oversight",
+        "start": "2020-01-01",
+        "end": "2024-12-31",
+        "anchors": [
+          "Morens emails",
+          "Fauci TI",
+          "Oversight productions"
+        ]
       }
     },
     "C05": {
@@ -140,31 +161,50 @@
           "contradicted_by": "sort of just appeared"
         }
       ],
-      "defensive_hits": [],
-      "why": "Semantic contradiction: public overclaims clash with verified disclosures. Triggers: [('rigorously science-based', 'sort of just appeared')]",
+      "why": "Overclaim clash: [('rigorously science-based', 'sort of just appeared')]",
       "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
-      "m38_lock": {
-        "dump_dorks": false,
-        "directory_fuzzing": false,
-        "private_api_bypass": false,
-        "onion_scrapers": false,
-        "force_allow_kernel": false
+      "timeline": {
+        "label": "Six-foot distancing policy basis",
+        "start": "2020-02-01",
+        "end": "2020-06-30",
+        "anchors": [
+          "Fauci TI sort of just appeared",
+          "Collins TI"
+        ]
       }
     },
     "C06": {
-      "verdict_tag": "SOLID",
+      "verdict_tag": "IRREGULARITY",
       "omission_weight": 0.0,
       "missing": [],
-      "clashes": [],
-      "defensive_hits": [],
-      "why": "All documented parameters verified cleanly within public record bounds.",
-      "actionable_warrant": "NONE",
-      "m38_lock": {
-        "dump_dorks": false,
-        "directory_fuzzing": false,
-        "private_api_bypass": false,
-        "onion_scrapers": false,
-        "force_allow_kernel": false
+      "clashes": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "absolutely ineffective",
+          "contradicted_by": "mixed"
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "masks don't work",
+          "contradicted_by": "mixed"
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "ineffective in all contexts",
+          "contradicted_by": "mixed"
+        }
+      ],
+      "why": "Overclaim clash: [('absolutely ineffective', 'mixed'), (\"masks don't work\", 'mixed'), ('ineffective in all contexts', 'mixed')]",
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
+      "timeline": {
+        "label": "Mask guidance evolution",
+        "start": "2020-02-01",
+        "end": "2023-12-31",
+        "anchors": [
+          "CDC early no-mask",
+          "later mandate guidance",
+          "RCT mixed literature"
+        ]
       }
     },
     "C07": {
@@ -174,15 +214,16 @@
         "universal_net"
       ],
       "clashes": [],
-      "defensive_hits": [],
       "why": "Partial primary: missing ['universal_net']",
       "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
-      "m38_lock": {
-        "dump_dorks": false,
-        "directory_fuzzing": false,
-        "private_api_bypass": false,
-        "onion_scrapers": false,
-        "force_allow_kernel": false
+      "timeline": {
+        "label": "Lockdown collateral harms",
+        "start": "2020-03-01",
+        "end": "2024-12-31",
+        "anchors": [
+          "NAEP learning loss",
+          "excess non-COVID"
+        ]
       }
     },
     "C08": {
@@ -198,15 +239,16 @@
           "contradicted_by": "missing"
         }
       ],
-      "defensive_hits": [],
-      "why": "Semantic contradiction: public overclaims clash with verified disclosures. Triggers: [('adjudicated criminal', 'missing')]",
+      "why": "Overclaim clash: [('adjudicated criminal', 'missing')]",
       "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
-      "m38_lock": {
-        "dump_dorks": false,
-        "directory_fuzzing": false,
-        "private_api_bypass": false,
-        "onion_scrapers": false,
-        "force_allow_kernel": false
+      "timeline": {
+        "label": "NY March 25 nursing home directive",
+        "start": "2020-03-01",
+        "end": "2021-12-31",
+        "anchors": [
+          "March 25 2020 directive",
+          "July 6 drafts"
+        ]
       }
     },
     "C09": {
@@ -230,15 +272,17 @@
           "contradicted_by": "hypotheses remain"
         }
       ],
-      "defensive_hits": [],
-      "why": "Semantic contradiction: public overclaims clash with verified disclosures. Triggers: [('proven', 'hypotheses remain'), ('there is no lab leak', 'hypotheses remain'), ('conspiracy theory', 'hypotheses remain')]",
+      "why": "Overclaim clash: [('proven', 'hypotheses remain'), ('there is no lab leak', 'hypotheses remain'), ('conspiracy theory', 'hypotheses remain')]",
       "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
-      "m38_lock": {
-        "dump_dorks": false,
-        "directory_fuzzing": false,
-        "private_api_bypass": false,
-        "onion_scrapers": false,
-        "force_allow_kernel": false
+      "timeline": {
+        "label": "WHO / IHR / China notification",
+        "start": "2019-12-01",
+        "end": "2025-06-30",
+        "anchors": [
+          "IHR timelines",
+          "WHO joint study",
+          "SAGO 2025"
+        ]
       }
     },
     "C10": {
@@ -246,15 +290,16 @@
       "omission_weight": 0.0,
       "missing": [],
       "clashes": [],
-      "defensive_hits": [],
       "why": "All documented parameters verified cleanly within public record bounds.",
       "actionable_warrant": "NONE",
-      "m38_lock": {
-        "dump_dorks": false,
-        "directory_fuzzing": false,
-        "private_api_bypass": false,
-        "onion_scrapers": false,
-        "force_allow_kernel": false
+      "timeline": {
+        "label": "Pandemic relief fraud / improper payments",
+        "start": "2020-03-01",
+        "end": "2025-12-31",
+        "anchors": [
+          "GAO UI estimates",
+          "SBA OIG"
+        ]
       }
     },
     "C11": {
@@ -262,153 +307,110 @@
       "omission_weight": 0.0,
       "missing": [],
       "clashes": [],
-      "defensive_hits": [],
       "why": "All documented parameters verified cleanly within public record bounds.",
       "actionable_warrant": "NONE",
-      "m38_lock": {
-        "dump_dorks": false,
-        "directory_fuzzing": false,
-        "private_api_bypass": false,
-        "onion_scrapers": false,
-        "force_allow_kernel": false
+      "timeline": {
+        "label": "HHS production delays / selective EcoHealth releases",
+        "start": "2021-01-01",
+        "end": "2025-12-31",
+        "anchors": [
+          "HHS production logs",
+          "EcoHealth release compare"
+        ]
       }
     }
   },
-  "warrants_index": [
+  "warrants": [
     {
       "warrant_id": "C01-FOIA-20260922",
       "claim_id": "C01",
-      "tag": "IRREGULARITY"
+      "tag": "IRREGULARITY",
+      "date_range": {
+        "start": "2019-09-01",
+        "end": "2025-06-30"
+      }
     },
     {
       "warrant_id": "C02-FOIA-20260922",
       "claim_id": "C02",
-      "tag": "IRREGULARITY"
+      "tag": "IRREGULARITY",
+      "date_range": {
+        "start": "2020-01-31",
+        "end": "2020-04-30"
+      }
     },
     {
       "warrant_id": "C03-FOIA-20260922",
       "claim_id": "C03",
-      "tag": "IRREGULARITY"
+      "tag": "IRREGULARITY",
+      "date_range": {
+        "start": "2014-06-01",
+        "end": "2025-01-31"
+      }
     },
     {
       "warrant_id": "C04-FOIA-20260922",
       "claim_id": "C04",
-      "tag": "IRREGULARITY"
+      "tag": "IRREGULARITY",
+      "date_range": {
+        "start": "2020-01-01",
+        "end": "2024-12-31"
+      }
     },
     {
       "warrant_id": "C05-FOIA-20260922",
       "claim_id": "C05",
-      "tag": "IRREGULARITY"
+      "tag": "IRREGULARITY",
+      "date_range": {
+        "start": "2020-02-01",
+        "end": "2020-06-30"
+      }
+    },
+    {
+      "warrant_id": "C06-FOIA-20260922",
+      "claim_id": "C06",
+      "tag": "IRREGULARITY",
+      "date_range": {
+        "start": "2020-02-01",
+        "end": "2023-12-31"
+      }
     },
     {
       "warrant_id": "C07-FOIA-20260922",
       "claim_id": "C07",
-      "tag": "CONTESTED"
+      "tag": "CONTESTED",
+      "date_range": {
+        "start": "2020-03-01",
+        "end": "2024-12-31"
+      }
     },
     {
       "warrant_id": "C08-FOIA-20260922",
       "claim_id": "C08",
-      "tag": "IRREGULARITY"
+      "tag": "IRREGULARITY",
+      "date_range": {
+        "start": "2020-03-01",
+        "end": "2021-12-31"
+      }
     },
     {
       "warrant_id": "C09-FOIA-20260922",
       "claim_id": "C09",
-      "tag": "IRREGULARITY"
+      "tag": "IRREGULARITY",
+      "date_range": {
+        "start": "2019-12-01",
+        "end": "2025-06-30"
+      }
     }
   ],
-  "warrant_count": 8,
   "tag_counts": {
-    "IRREGULARITY": 7,
-    "SOLID": 3,
-    "CONTESTED": 1
+    "IRREGULARITY": 8,
+    "CONTESTED": 1,
+    "SOLID": 2
   },
-  "linguistic_pack": {
-    "absolute_overclaims": [
-      "no nih influence",
-      "fully complied",
-      "no incidents",
-      "purely objective",
-      "completely debunked",
-      "proven/debunked",
-      "proven",
-      "debunked conspiracy",
-      "absolutely ineffective",
-      "always caused more harm",
-      "adjudicated criminal",
-      "no evidence of wrongdoing",
-      "fully transparent",
-      "complete transparency",
-      "all applicable requirements",
-      "in full compliance",
-      "no material omissions",
-      "no conflicts of interest",
-      "independent and unbiased",
-      "rigorously science-based",
-      "settled science",
-      "there is no lab leak",
-      "conspiracy theory",
-      "without any influence",
-      "strictly followed protocol",
-      "zero tolerance for noncompliance",
-      "exhaustive review found no",
-      "perfect safety record",
-      "no gain-of-function",
-      "never conducted gain-of-function"
-    ],
-    "risk_indicators": [
-      "incident",
-      "unauthorized",
-      "investigation",
-      "payment",
-      "unsubmitted",
-      "debarment",
-      "violation",
-      "noncompliance",
-      "non-compliance",
-      "prompted",
-      "put down",
-      "disprove",
-      "influence",
-      "late report",
-      "missing",
-      "redacted",
-      "withheld",
-      "improper",
-      "fraud",
-      "conflict of interest",
-      "coi",
-      "gain-of-function",
-      "gof",
-      "biosafety",
-      "bsl-2",
-      "lab accident",
-      "low confidence",
-      "zoonotic",
-      "hypotheses remain",
-      "sort of just appeared",
-      "no evidence",
-      "empiric",
-      "present responsibility",
-      "administrative action",
-      "foia",
-      "stonewall",
-      "private email",
-      "must admit",
-      "shall not deny",
-      "data games"
-    ],
-    "defensive_phrases": [
-      "to the best of our knowledge",
-      "based on currently available information",
-      "it appears that",
-      "may have been",
-      "systematically observed",
-      "under certain parameters",
-      "cannot be ruled out",
-      "no definitive conclusion",
-      "subject to further review",
-      "without commenting on ongoing"
-    ],
-    "version": "2.0"
+  "linguistic_pack_version": "2.1",
+  "verification_signatures": {
+    "prior_git": "154ca6ea",
+    "skill_cycle": 19
   }
 }
