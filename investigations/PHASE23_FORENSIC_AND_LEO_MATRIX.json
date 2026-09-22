@@ -1,0 +1,406 @@
+{
+  "phase": "2_3_document_forensics_and_leo",
+  "updated": "2026-09-22T06:39:56.343928+00:00",
+  "anti_tamper_demo": {
+    "is_metadata_authentic": false,
+    "anomaly_logs": [
+      "ANACHRONISM_DETECTED: authoring software release year post-dates declared creation year.",
+      "RETROACTIVE_FORGERY_WARNING: embedded timestamp long after declared date."
+    ],
+    "action_tag": "REJECTED_AS_TAMPERED_OR_ANACHRONISTIC"
+  },
+  "sscp_hash": {
+    "doc_id": "SSCP_FINAL_REPORT",
+    "sha256": "967c8ba877e86d957176b736c3cc8f92da9883ca4decdf8d59e67a3fae5c4211",
+    "status": "FIRST_INGEST",
+    "prior_sha256": null
+  },
+  "rhetoric": {
+    "hedge": {
+      "passive_hits": 2,
+      "hedge_hits": 4,
+      "passive_ratio": 0.1053,
+      "hedge_ratio": 0.2105,
+      "defensive_posture_signal": true,
+      "reliability_adjustment": -0.1,
+      "note": "Soft linguistic signal only; never alone upgrades tag to SOLID or criminal."
+    },
+    "plain": {
+      "passive_hits": 0,
+      "hedge_hits": 0,
+      "passive_ratio": 0.0,
+      "hedge_ratio": 0.0,
+      "defensive_posture_signal": false,
+      "reliability_adjustment": 0.0,
+      "note": "Soft linguistic signal only; never alone upgrades tag to SOLID or criminal."
+    }
+  },
+  "auto_verdicts_C01_C11": {
+    "C01": {
+      "claim_id": "C01",
+      "tag": "OVERSTATED",
+      "verdict": "PUBLIC_NARRATIVE_OVERCLAIMS_EVIDENCE",
+      "missing_critical_tracks": [
+        "wiv_serology",
+        "host_isolate",
+        "lab_notebook"
+      ],
+      "overclaim_terms": [
+        "proven",
+        "debunked conspiracy"
+      ],
+      "omission_weight": 0.6,
+      "gates_fired": [
+        "M10",
+        "M32",
+        "M33",
+        "M4"
+      ],
+      "actionable_warrant": "REWRITE_CLAIM_TO_MATCH_PRIMARY",
+      "underclaim_note": "Bounded claim 'both H1/H2 live' would be CONTESTED not OVERSTATED.",
+      "legal_note": "Analytical only \u2014 not court spoliation (M30)."
+    },
+    "C02": {
+      "claim_id": "C02",
+      "tag": "OVERSTATED",
+      "verdict": "PUBLIC_NARRATIVE_OVERCLAIMS_EVIDENCE",
+      "missing_critical_tracks": [
+        "payment_bribery"
+      ],
+      "overclaim_terms": [
+        "purely objective",
+        "no nih influence"
+      ],
+      "omission_weight": 0.25,
+      "gates_fired": [
+        "M10",
+        "M32",
+        "M33",
+        "M4"
+      ],
+      "actionable_warrant": "REWRITE_CLAIM_TO_MATCH_PRIMARY",
+      "underclaim_note": "Influence SOLID if claim rewritten; bribery still MISSING.",
+      "legal_note": "Analytical only \u2014 not court spoliation (M30)."
+    },
+    "C03": {
+      "claim_id": "C03",
+      "tag": "OVERSTATED",
+      "verdict": "PUBLIC_NARRATIVE_OVERCLAIMS_EVIDENCE",
+      "missing_critical_tracks": [],
+      "overclaim_terms": [
+        "fully complied",
+        "all nih grant oversight"
+      ],
+      "omission_weight": 0.0,
+      "gates_fired": [
+        "M10",
+        "M33",
+        "M4"
+      ],
+      "actionable_warrant": "REWRITE_CLAIM_TO_MATCH_PRIMARY",
+      "underclaim_note": "Opposite claim (violations) is SOLID; origin causation still separate.",
+      "legal_note": "Analytical only \u2014 not court spoliation (M30)."
+    },
+    "C04": {
+      "claim_id": "C04",
+      "tag": "OVERSTATED",
+      "verdict": "PUBLIC_NARRATIVE_OVERCLAIMS_EVIDENCE",
+      "missing_critical_tracks": [],
+      "overclaim_terms": [
+        "full transparent foia",
+        "perfect ecohealth oversight"
+      ],
+      "omission_weight": 0.0,
+      "gates_fired": [
+        "M10",
+        "M33",
+        "M4"
+      ],
+      "actionable_warrant": "REWRITE_CLAIM_TO_MATCH_PRIMARY",
+      "underclaim_note": "Process failures SOLID when claim inverted.",
+      "legal_note": "Analytical only \u2014 not court spoliation (M30)."
+    },
+    "C05": {
+      "claim_id": "C05",
+      "tag": "OVERSTATED",
+      "verdict": "PUBLIC_NARRATIVE_OVERCLAIMS_EVIDENCE",
+      "missing_critical_tracks": [],
+      "overclaim_terms": [
+        "rigorously science-based",
+        "quantitative policy"
+      ],
+      "omission_weight": 0.0,
+      "gates_fired": [
+        "M10",
+        "M33",
+        "M4"
+      ],
+      "actionable_warrant": "REWRITE_CLAIM_TO_MATCH_PRIMARY",
+      "underclaim_note": "Arbitrariness of exact 6ft is SOLID.",
+      "legal_note": "Analytical only \u2014 not court spoliation (M30)."
+    },
+    "C06": {
+      "claim_id": "C06",
+      "tag": "OVERSTATED",
+      "verdict": "PUBLIC_NARRATIVE_OVERCLAIMS_EVIDENCE",
+      "missing_critical_tracks": [],
+      "overclaim_terms": [
+        "absolutely ineffective",
+        "all contexts"
+      ],
+      "omission_weight": 0.0,
+      "gates_fired": [
+        "M10",
+        "M33",
+        "M4"
+      ],
+      "actionable_warrant": "REWRITE_CLAIM_TO_MATCH_PRIMARY",
+      "underclaim_note": "Flip-flops SOLID; absolute claim OVERSTATED.",
+      "legal_note": "Analytical only \u2014 not court spoliation (M30)."
+    },
+    "C07": {
+      "claim_id": "C07",
+      "tag": "OVERSTATED",
+      "verdict": "PUBLIC_NARRATIVE_OVERCLAIMS_EVIDENCE",
+      "missing_critical_tracks": [
+        "formal_universal_net_meta"
+      ],
+      "overclaim_terms": [
+        "always",
+        "every counterfactual"
+      ],
+      "omission_weight": 0.333,
+      "gates_fired": [
+        "M10",
+        "M32",
+        "M33",
+        "M4"
+      ],
+      "actionable_warrant": "REWRITE_CLAIM_TO_MATCH_PRIMARY",
+      "underclaim_note": "Harms SOLID; universal net CONTESTED.",
+      "legal_note": "Analytical only \u2014 not court spoliation (M30)."
+    },
+    "C08": {
+      "claim_id": "C08",
+      "tag": "OVERSTATED",
+      "verdict": "PUBLIC_NARRATIVE_OVERCLAIMS_EVIDENCE",
+      "missing_critical_tracks": [
+        "criminal_adjudication"
+      ],
+      "overclaim_terms": [
+        "adjudicated criminal",
+        "malpractice"
+      ],
+      "omission_weight": 0.333,
+      "gates_fired": [
+        "M10",
+        "M32",
+        "M33",
+        "M4"
+      ],
+      "actionable_warrant": "REWRITE_CLAIM_TO_MATCH_PRIMARY",
+      "underclaim_note": "Order+data games SOLID; criminal labels CONTESTED.",
+      "legal_note": "Analytical only \u2014 not court spoliation (M30)."
+    },
+    "C09": {
+      "claim_id": "C09",
+      "tag": "OVERSTATED",
+      "verdict": "PUBLIC_NARRATIVE_OVERCLAIMS_EVIDENCE",
+      "missing_critical_tracks": [
+        "treaty_future_harm_proof"
+      ],
+      "overclaim_terms": [
+        "proven fact"
+      ],
+      "omission_weight": 0.333,
+      "gates_fired": [
+        "M10",
+        "M32",
+        "M33",
+        "M4"
+      ],
+      "actionable_warrant": "REWRITE_CLAIM_TO_MATCH_PRIMARY",
+      "underclaim_note": "Early failure SOLID; treaty CONTESTED.",
+      "legal_note": "Analytical only \u2014 not court spoliation (M30)."
+    },
+    "C10": {
+      "claim_id": "C10",
+      "tag": "SOLID",
+      "verdict": "PRIMARIES_PRESENT_CLAIM_BOUNDED",
+      "missing_critical_tracks": [],
+      "overclaim_terms": [],
+      "omission_weight": 0.0,
+      "gates_fired": [],
+      "actionable_warrant": "HOLD",
+      "underclaim_note": "Bounded range claim \u2192 SOLID scale.",
+      "legal_note": "Analytical only \u2014 not court spoliation (M30)."
+    },
+    "C11": {
+      "claim_id": "C11",
+      "tag": "SOLID",
+      "verdict": "PRIMARIES_PRESENT_CLAIM_BOUNDED",
+      "missing_critical_tracks": [],
+      "overclaim_terms": [],
+      "omission_weight": 0.0,
+      "gates_fired": [],
+      "actionable_warrant": "HOLD",
+      "underclaim_note": "SOLID process.",
+      "legal_note": "Analytical only \u2014 not court spoliation (M30)."
+    }
+  },
+  "tag_counts": {
+    "OVERSTATED": 9,
+    "SOLID": 2
+  },
+  "pillars": [
+    "1 Immutable SHA-256 timeline",
+    "2 Metadata anachronism traps",
+    "3 Redaction structure scan (public PDFs only)",
+    "4 Rhetorical hedge score (soft)"
+  ],
+  "scope": "Lawful document forensics only. No runtime memory mutation. M1 M27 M37.",
+  "auto_verdicts_bounded_true_claims": {
+    "C01": {
+      "claim_id": "C01",
+      "tag": "CONTESTED",
+      "verdict": "PARTIAL_PRIMARY",
+      "missing_critical_tracks": [
+        "wiv_serology",
+        "host_isolate",
+        "lab_notebook"
+      ],
+      "overclaim_terms": [],
+      "omission_weight": 0.6,
+      "gates_fired": [
+        "M32"
+      ],
+      "actionable_warrant": "WATCHLIST_PRIMARY_HUNT",
+      "underclaim_note": "",
+      "legal_note": "Analytical only (M30)."
+    },
+    "C02": {
+      "claim_id": "C02",
+      "tag": "SOLID",
+      "verdict": "PRIMARIES_PRESENT_CLAIM_BOUNDED",
+      "missing_critical_tracks": [],
+      "overclaim_terms": [],
+      "omission_weight": 0.0,
+      "gates_fired": [],
+      "actionable_warrant": "HOLD",
+      "underclaim_note": "",
+      "legal_note": "Analytical only (M30)."
+    },
+    "C03": {
+      "claim_id": "C03",
+      "tag": "SOLID",
+      "verdict": "PRIMARIES_PRESENT_CLAIM_BOUNDED",
+      "missing_critical_tracks": [],
+      "overclaim_terms": [],
+      "omission_weight": 0.0,
+      "gates_fired": [],
+      "actionable_warrant": "HOLD",
+      "underclaim_note": "",
+      "legal_note": "Analytical only (M30)."
+    },
+    "C04": {
+      "claim_id": "C04",
+      "tag": "SOLID",
+      "verdict": "PRIMARIES_PRESENT_CLAIM_BOUNDED",
+      "missing_critical_tracks": [],
+      "overclaim_terms": [],
+      "omission_weight": 0.0,
+      "gates_fired": [],
+      "actionable_warrant": "HOLD",
+      "underclaim_note": "",
+      "legal_note": "Analytical only (M30)."
+    },
+    "C05": {
+      "claim_id": "C05",
+      "tag": "SOLID",
+      "verdict": "PRIMARIES_PRESENT_CLAIM_BOUNDED",
+      "missing_critical_tracks": [],
+      "overclaim_terms": [],
+      "omission_weight": 0.0,
+      "gates_fired": [],
+      "actionable_warrant": "HOLD",
+      "underclaim_note": "",
+      "legal_note": "Analytical only (M30)."
+    },
+    "C06": {
+      "claim_id": "C06",
+      "tag": "SOLID",
+      "verdict": "PRIMARIES_PRESENT_CLAIM_BOUNDED",
+      "missing_critical_tracks": [],
+      "overclaim_terms": [],
+      "omission_weight": 0.0,
+      "gates_fired": [],
+      "actionable_warrant": "HOLD",
+      "underclaim_note": "",
+      "legal_note": "Analytical only (M30)."
+    },
+    "C07": {
+      "claim_id": "C07",
+      "tag": "SOLID",
+      "verdict": "PRIMARIES_PRESENT_CLAIM_BOUNDED",
+      "missing_critical_tracks": [],
+      "overclaim_terms": [],
+      "omission_weight": 0.0,
+      "gates_fired": [],
+      "actionable_warrant": "HOLD",
+      "underclaim_note": "",
+      "legal_note": "Analytical only (M30)."
+    },
+    "C08": {
+      "claim_id": "C08",
+      "tag": "SOLID",
+      "verdict": "PRIMARIES_PRESENT_CLAIM_BOUNDED",
+      "missing_critical_tracks": [],
+      "overclaim_terms": [],
+      "omission_weight": 0.0,
+      "gates_fired": [],
+      "actionable_warrant": "HOLD",
+      "underclaim_note": "",
+      "legal_note": "Analytical only (M30)."
+    },
+    "C09": {
+      "claim_id": "C09",
+      "tag": "SOLID",
+      "verdict": "PRIMARIES_PRESENT_CLAIM_BOUNDED",
+      "missing_critical_tracks": [],
+      "overclaim_terms": [],
+      "omission_weight": 0.0,
+      "gates_fired": [],
+      "actionable_warrant": "HOLD",
+      "underclaim_note": "",
+      "legal_note": "Analytical only (M30)."
+    },
+    "C10": {
+      "claim_id": "C10",
+      "tag": "SOLID",
+      "verdict": "PRIMARIES_PRESENT_CLAIM_BOUNDED",
+      "missing_critical_tracks": [],
+      "overclaim_terms": [],
+      "omission_weight": 0.0,
+      "gates_fired": [],
+      "actionable_warrant": "HOLD",
+      "underclaim_note": "",
+      "legal_note": "Analytical only (M30)."
+    },
+    "C11": {
+      "claim_id": "C11",
+      "tag": "SOLID",
+      "verdict": "PRIMARIES_PRESENT_CLAIM_BOUNDED",
+      "missing_critical_tracks": [],
+      "overclaim_terms": [],
+      "omission_weight": 0.0,
+      "gates_fired": [],
+      "actionable_warrant": "HOLD",
+      "underclaim_note": "",
+      "legal_note": "Analytical only (M30)."
+    }
+  },
+  "bounded_tag_counts": {
+    "CONTESTED": 1,
+    "SOLID": 10
+  }
+}
