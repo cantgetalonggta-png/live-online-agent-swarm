@@ -1,0 +1,426 @@
+{
+  "report_title": "After Action Review of the COVID-19 Pandemic (Select Subcommittee, Dec 4 2024)",
+  "pdf_pages": 557,
+  "pdf_sha256": "967c8ba877e86d957176b736c3cc8f92da9883ca4decdf8d59e67a3fae5c4211",
+  "ingestion_timestamp": "2026-09-22T03:45:16.975430Z",
+  "method": "Full PDF download + pdfplumber section extraction + claim distillation + prior IC/SAGO/peer-review cross-check. HITL=YES. Public-record ceiling.",
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "COVID-19 most likely emerged from a laboratory/research-related accident at WIV",
+      "report_section": "origins_lab_leak / proximal_origin",
+      "tag": "CONTESTED (plausible hypothesis)",
+      "report_evidence": "5 circumstantial arguments listed (FCS 'not found in nature', single introduction, WIV GoF + biosafety, WIV illnesses Fall 2019, absence of natural intermediate). Proximal Origin prompted by Fauci.",
+      "cross_check": "IC divided (CIA 2025 low-conf lab-leak; FBI/DOE earlier lab; others natural/undecided). SAGO 2025 leans zoonotic. Peer-reviewed (Worobey/Pekar) strong market clustering. No smoking-gun sample or notebook. EcoHealth viruses genetically distant. FCS has natural analogs (BANAL). SOLID as hypothesis; NOT SOLID as settled fact.",
+      "primary_docs_cited": "Emails Fauci/Andersen Feb 2020; EcoHealth Year 5 report; DEFUSE proposal; State cables; intelligence assessments",
+      "primary_doc_engine": {
+        "updated": "2026-09-22T05:25:36.315014+00:00",
+        "needs_primary_docs": true,
+        "status_refined": "CONTESTED \u2014 hypothesis only",
+        "primary_docs_found": [
+          {
+            "title": "CIA statement Jan 2025 (low confidence lab-related more likely)",
+            "type": "IC",
+            "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/cia-now-says-covid-19-more-likely-have-come-lab-2025-01-25/",
+            "note": "Low confidence; both scenarios remain plausible; no new intel per multiple outlets"
+          },
+          {
+            "title": "ODNI/IC assessments 2021\u20132023 (divided)",
+            "type": "IC",
+            "url": "https://www.dni.gov/",
+            "note": "FBI moderate lab; DOE low-conf lab; others natural/undecided; no bioweapon"
+          },
+          {
+            "title": "SSCP final report origins section (Dec 2024)",
+            "type": "Congressional",
+            "url": "https://www.whitehouse.gov/wp-content/uploads/2025/04/2024.12.04-SSCP-FINAL-REPORT-ANS.pdf",
+            "note": "Circumstantial case; no smoking-gun sample"
+          },
+          {
+            "title": "Worobey/Pekar market phylogeny (peer review)",
+            "type": "peer",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/",
+            "note": "Supports multi-intro market scenario \u2014 against single-lab certainty"
+          }
+        ],
+        "still_missing": "WIV notebooks; early 2019 patient samples; definitive intermediate host; sequence matching EcoHealth chimeras to SARS-CoV-2",
+        "best_structured_attempt": "Keep H1 plausible with CIA low-conf lean; do NOT elevate to SOLID. Separate process failures (SOLID) from origin (CONTESTED). M5/M8.",
+        "modifiers": [
+          "M1",
+          "M4",
+          "M5",
+          "M8",
+          "M14"
+        ]
+      }
+    },
+    {
+      "id": "C02",
+      "claim": "Proximal Origin paper was prompted by Fauci to disprove lab leak",
+      "report_section": "proximal_origin",
+      "tag": "DOCUMENTED (influence) / CONTESTED (motive intensity)",
+      "report_evidence": "Emails show Fauci suggested paper, Collins pushed publication, authors called them 'Bethesda Boys', Nature rejected initial for not ruling out lab strongly enough, language strengthened.",
+      "cross_check": "Emails and Slack public via FOIA. Authors deny bribery/cover-up; say data drove conclusions. Democrats counter-report calls conspiracy baseless. Influence and political sensitivity = SOLID. Full 'orchestrated fabrication' = CONTESTED.",
+      "primary_docs_cited": "Feb 1 2020 conference call notes, Andersen emails, Nature submission history",
+      "primary_doc_engine": {
+        "updated": "2026-09-22T05:25:36.315014+00:00",
+        "needs_primary_docs": false,
+        "status_refined": "SOLID influence / CONTESTED full cover-up",
+        "primary_docs_found": [
+          {
+            "title": "Proximal Origin Nature Medicine Mar 2020",
+            "type": "peer",
+            "url": "https://www.nature.com/articles/s41591-020-0820-9",
+            "note": "Public paper"
+          },
+          {
+            "title": "FOIA/Intercept emails Fauci\u2013Andersen\u2013Farrar Feb 2020",
+            "type": "FOIA",
+            "url": "https://theintercept.com/2023/01/19/covid-origin-nih-emails",
+            "note": "Fauci call; Andersen 'engineered' concerns; later paper"
+          },
+          {
+            "title": "Senate HSGAC Slack release (Paul Reading Room) 2026",
+            "type": "Congressional",
+            "url": "https://www.hsgac.senate.gov/media/reps/new-doc-drop-slack-messages-reveal-proximal-origin-authors-privately-doubted-the-science-behind-their-own-paper-coordinated-with-intelligence-community-and-nih/",
+            "note": "Private odds for lab; FOI curation talk"
+          }
+        ],
+        "still_missing": "Full unredacted Feb 1 conference call transcript if exists",
+        "best_structured_attempt": "Documented coordination + private doubt = SOLID process irregularity; 'fabrication ordered by Fauci' remains CONTESTED.",
+        "modifiers": [
+          "M1",
+          "M4",
+          "M5",
+          "M8",
+          "M14"
+        ]
+      }
+    },
+    {
+      "id": "C03",
+      "claim": "EcoHealth facilitated GoF research at WIV with US taxpayer funds and violated grant terms",
+      "report_section": "ecohealth",
+      "tag": "SOLID / DOCUMENTED",
+      "report_evidence": "Year 5 progress report nearly 2 years late; failed to report dangerous experiment; failed to provide taxpayer-funded research materials; misled NIH on sample locations for reinstatement; DEFUSE rejected by DARPA for lacking GoF/DURC plan. HHS debarment proceedings started. DOJ grand jury interest.",
+      "cross_check": "HHS debarment is public fact. Grant records, progress reports, and FOIA emails confirm late reporting and oversight failures. Whether the specific experiments created SARS-CoV-2 is separate and CONTESTED (genetic distance).",
+      "primary_docs_cited": "NIH grant R01AI110964, Year 5 report, HHS debarment notice, DEFUSE proposal, Daszak testimony",
+      "primary_doc_engine": {
+        "updated": "2026-09-22T05:25:36.315014+00:00",
+        "needs_primary_docs": false,
+        "status_refined": "SOLID process/grant; CONTESTED causal origin link",
+        "primary_docs_found": [
+          {
+            "title": "HHS Notice of Suspension and Proposed Debarment EcoHealth (May 2024)",
+            "type": "gov",
+            "url": "https://web.archive.org/web/20240518072523if_/https:/s3.documentcloud.org/documents/24664308/hhs-debarment.pdf",
+            "note": "2 C.F.R. Part 180; grant R01AI110964 record"
+          },
+          {
+            "title": "NIH Lauer letters Jul 8 2020 / Oct 23 2020 re R01AI110964",
+            "type": "gov",
+            "url": "https://s3.documentcloud.org/documents/23809805/conditions.pdf",
+            "note": "Suspend activities; WIV biosafety concerns; records demands"
+          },
+          {
+            "title": "USAspending R01AI110964 award",
+            "type": "gov",
+            "url": "https://www.usaspending.gov/award/ASST_NON_R01AI110964_7529",
+            "note": "Understanding Risk of Bat Coronavirus Emergence"
+          },
+          {
+            "title": "SSCP EcoHealth staff report May 2024",
+            "type": "Congressional",
+            "url": "https://oversight.house.gov/wp-content/uploads/2024/04/2024.05.01-SSCP-Report_FINAL.pdf",
+            "note": "Late Year 5 report; GoF facilitation claims"
+          }
+        ],
+        "still_missing": "Full WIV laboratory notebooks; complete sequence archive from funded work",
+        "best_structured_attempt": "Debarment + late reporting + subaward monitoring failure = SOLID. Direct creation of SARS-CoV-2 = CONTESTED (genetic distance).",
+        "modifiers": [
+          "M1",
+          "M4"
+        ]
+      }
+    },
+    {
+      "id": "C04",
+      "claim": "NIH/NIAID failed to oversee EcoHealth; Fauci played semantics with GoF definition; FOIA evasion culture (Morens)",
+      "report_section": "nih_fauci",
+      "tag": "SOLID for oversight failures & Morens; CONTESTED for 'semantics' characterization",
+      "report_evidence": "Morens used private email, deleted records, shared nonpublic info with Daszak, 'FOIA Lady' involvement. Fauci distinguished regulatory GoF of concern vs broad definition in testimony.",
+      "cross_check": "Morens emails and FOIA abuses well-documented in prior Oversight releases. Fauci's GoF testimony is definitional (P3CO framework vs colloquial); critics call it evasion, supporters call it precise. Oversight failure = SOLID.",
+      "primary_docs_cited": "Morens emails, FOIA logs, Fauci transcribed interviews, NIAID grant files",
+      "primary_doc_engine": {
+        "updated": "2026-09-22T05:25:36.315014+00:00",
+        "needs_primary_docs": true,
+        "status_refined": "SOLID Morens FOIA; CONTESTED GoF semantics intent",
+        "primary_docs_found": [
+          {
+            "title": "Select Subcommittee Morens/Fauci interview releases",
+            "type": "Congressional",
+            "url": "https://oversight.house.gov/",
+            "note": "FOIA evasion narrative documented in SSCP"
+          },
+          {
+            "title": "NIH GPS / P3CO framework",
+            "type": "policy",
+            "url": "https://www.nih.gov/",
+            "note": "Regulatory GoF-of-concern definitions"
+          }
+        ],
+        "still_missing": "Complete Morens private email corpus in one public archive",
+        "best_structured_attempt": "Treat FOIA evasion as SOLID process; keep 'semantics = cover-up' CONTESTED without full intent proof.",
+        "modifiers": [
+          "M1",
+          "M4"
+        ]
+      }
+    },
+    {
+      "id": "C05",
+      "claim": "6-foot social distancing was arbitrary / not science-based; Fauci: 'sort of just appeared'",
+      "report_section": "distancing_masks_lockdowns",
+      "tag": "SOLID",
+      "report_evidence": "Fauci closed-door testimony: guidance 'sort of just appeared'. No quantitative scientific support cited for exactly 6 feet in many settings.",
+      "cross_check": "Public Fauci transcript confirms the phrase. CDC guidance evolved; original 6-ft often traced to droplet studies that were incomplete for aerosols. Arbitrary component = SOLID.",
+      "primary_docs_cited": "Fauci transcribed interview (Select Subcommittee)",
+      "primary_doc_engine": {
+        "updated": "2026-09-22T05:25:36.315014+00:00",
+        "needs_primary_docs": false,
+        "status_refined": "SOLID (phrase + arbitrariness component)",
+        "primary_docs_found": [
+          {
+            "title": "Fauci Select Subcommittee closed-door transcript (6-ft 'sort of just appeared')",
+            "type": "Congressional",
+            "url": "https://oversight.house.gov/",
+            "note": "Cited repeatedly in SSCP final report"
+          }
+        ],
+        "still_missing": "Full public transcript URL with page pin if not already on oversight.house.gov",
+        "best_structured_attempt": "Phrase is solid as testimony; policy still had some droplet-science basis historically \u2014 tag: solid for admission, not 'zero science ever'.",
+        "modifiers": [
+          "M1",
+          "M4"
+        ]
+      }
+    },
+    {
+      "id": "C06",
+      "claim": "Masks/mask mandates ineffective; flip-flops without full transparency; child masking harmed more than helped",
+      "report_section": "distancing_masks_lockdowns",
+      "tag": "MOSTLY SOLID on flip-flops & weak early evidence; CONTESTED on absolute 'ineffective'",
+      "report_evidence": "Officials flip-flopped; CDC relied on flawed studies; forced masking of ages 2+ caused more harm.",
+      "cross_check": "Early 'don't wear' then 'must wear' is documented. Community RCTs (e.g. Bangladesh, DANMASK) mixed/weak for cloth masks. Surgical masks some benefit in high-risk. Absolute ineffectiveness overstated; transparency failure SOLID.",
+      "primary_docs_cited": "CDC guidance archive, Fauci/Redfield statements, Cochrane reviews",
+      "primary_doc_engine": {
+        "updated": "2026-09-22T05:25:36.315014+00:00",
+        "needs_primary_docs": true,
+        "status_refined": "SOLID flip-flops; CONTESTED absolute ineffectiveness",
+        "primary_docs_found": [
+          {
+            "title": "CDC guidance archive (early no-mask \u2192 universal mask)",
+            "type": "gov",
+            "url": "https://www.cdc.gov/",
+            "note": "Timeline of flips"
+          },
+          {
+            "title": "Cochrane acute respiratory infection mask review updates",
+            "type": "peer",
+            "url": "https://www.cochranelibrary.com/",
+            "note": "Uncertain community effect for many mask types"
+          }
+        ],
+        "still_missing": "Single gold table of all CDC mask guidance dates with primary PDFs",
+        "best_structured_attempt": "Document flip + weak early evidence SOLID; 'masks never work' OVERSTATED.",
+        "modifiers": [
+          "M1",
+          "M4"
+        ]
+      }
+    },
+    {
+      "id": "C07",
+      "claim": "Prolonged lockdowns caused more harm than good (economy, mental health, children, physical health)",
+      "report_section": "distancing_masks_lockdowns",
+      "tag": "SOLID on harms; CONTESTED on net 'more harm than good' (depends on counterfactual)",
+      "report_evidence": "Detailed on economic damage, mental health, child development, delayed care, vaccine passports as de-facto lockdown.",
+      "cross_check": "Excess non-COVID deaths, learning loss (NAEP), mental health crises, small-business destruction are well-documented. Net benefit calculation still debated by modelers vs empiricists. Harms SOLID.",
+      "primary_docs_cited": "CDC excess death data, education studies, economic analyses cited in report",
+      "primary_doc_engine": {
+        "updated": "2026-09-22T05:25:36.315014+00:00",
+        "needs_primary_docs": true,
+        "status_refined": "SOLID harms; CONTESTED universal net-harm claim",
+        "primary_docs_found": [
+          {
+            "title": "CDC excess death / NAEP learning loss cited in SSCP",
+            "type": "gov",
+            "url": "https://www.cdc.gov/",
+            "note": "Harms documented"
+          }
+        ],
+        "still_missing": "Counterfactual meta-analysis accepted across camps",
+        "best_structured_attempt": "List specific harms as SOLID; net 'more harm than good always' stays CONTESTED.",
+        "modifiers": [
+          "M1",
+          "M4"
+        ]
+      }
+    },
+    {
+      "id": "C08",
+      "claim": "Cuomo March 25 nursing-home order was medical malpractice + cover-up of out-of-facility deaths; false statements to Congress",
+      "report_section": "cuomo_nursing",
+      "tag": "SOLID on order + data manipulation / privilege abuse; CONTESTED on 'medical malpractice' legal conclusion & 'false statements' (would require adjudication)",
+      "report_evidence": "Order forced COVID+ patients into nursing homes; July 6 report edited by Cuomo to downplay; out-of-facility deaths removed; Executive Chamber excessive redactions/privilege claims; Cuomo allegedly influenced witness.",
+      "cross_check": "Order is public. AG Letitia James investigation and contemporaneous reporting confirm data undercounting. Cover-up elements documented via emails and privilege logs. Criminal 'false statement' requires court. Documented failures SOLID.",
+      "primary_docs_cited": "March 25 Directive, July 6 Report drafts, privilege logs, transcribed interviews, NY DOH data",
+      "primary_doc_engine": {
+        "updated": "2026-09-22T05:25:36.315014+00:00",
+        "needs_primary_docs": true,
+        "status_refined": "CONTESTED legal characterization of Cuomo order outcomes",
+        "primary_docs_found": [
+          {
+            "title": "NYS March 25 2020 directive (nursing homes)",
+            "type": "state",
+            "url": "https://www.governor.ny.gov/",
+            "note": "Order text exists in public record"
+          }
+        ],
+        "still_missing": "Full DOH data revision trail + independent mortality attribution",
+        "best_structured_attempt": "Order existence SOLID; criminal/medical-malpractice labels require adjudication \u2014 keep CONTESTED.",
+        "modifiers": [
+          "M1",
+          "M4"
+        ]
+      }
+    },
+    {
+      "id": "C09",
+      "claim": "WHO caved to CCP, incomplete origins report, IHR violations by China unpunished; Pandemic Treaty risks US",
+      "report_section": "who_stockpile",
+      "tag": "SOLID on China influence & early failures; CONTESTED on Treaty future harm",
+      "report_evidence": "WHO delayed PHEIC, praised China, joint origins study heavily China-controlled and incomplete.",
+      "cross_check": "Widely acknowledged even by WHO reform advocates. IHR Articles 6/7 notification failures by China documented. Treaty text is public and debated. Early WHO performance SOLID failure.",
+      "primary_docs_cited": "WHO joint study, IHR text, emails, timeline of statements",
+      "primary_doc_engine": {
+        "updated": "2026-09-22T05:25:36.315014+00:00",
+        "needs_primary_docs": true,
+        "status_refined": "SOLID large fraud magnitude; CONTESTED exact total",
+        "primary_docs_found": [
+          {
+            "title": "GAO / IG reports on COVID relief fraud (PPP/UI/EIDL)",
+            "type": "gov",
+            "url": "https://www.gao.gov/",
+            "note": "Billions documented"
+          }
+        ],
+        "still_missing": "Final reconciled total across all programs",
+        "best_structured_attempt": "Fraud existence and weak controls SOLID; pin number only to named GAO/IG figures.",
+        "modifiers": [
+          "M1",
+          "M4",
+          "M5",
+          "M8",
+          "M14"
+        ]
+      }
+    },
+    {
+      "id": "C10",
+      "claim": "Massive fraud in PPP (~$64B+), UI (>$191B), EIDL; transnational organized crime including Chinese APT41",
+      "report_section": "fraud_relief",
+      "tag": "SOLID (order-of-magnitude)",
+      "report_evidence": "SBA/OIG/GAO numbers; APT41 $20M example; siloed agencies, weak ID verification, outdated systems.",
+      "cross_check": "GAO, DOJ, Secret Service, OIG reports confirm tens to hundreds of billions in improper payments/fraud. Exact totals estimates, but scale SOLID.",
+      "primary_docs_cited": "GAO reports, SBA OIG, DOJ cases, USSS investigations",
+      "primary_doc_engine": {
+        "updated": "2026-09-22T05:25:36.315014+00:00",
+        "needs_primary_docs": true,
+        "status_refined": "SOLID early China deference patterns; CONTESTED malice",
+        "primary_docs_found": [
+          {
+            "title": "WHO SAGO reports 2023/2025",
+            "type": "intl",
+            "url": "https://www.who.int/",
+            "note": "Origins investigation incomplete; China data gaps"
+          }
+        ],
+        "still_missing": "Full China early-case line lists",
+        "best_structured_attempt": "Incomplete investigation SOLID; intentional cover-up by WHO CONTESTED.",
+        "modifiers": [
+          "M1",
+          "M4"
+        ]
+      }
+    },
+    {
+      "id": "C11",
+      "claim": "Biden HHS multi-year obstruction of Select Subcommittee; EcoHealth doctored documents; Morens deleted records",
+      "report_section": "multiple",
+      "tag": "SOLID (process failures)",
+      "report_evidence": "Delayed/incomplete productions, under-resourced FOIA/oversight component; Daszak doctored email releases; Morens FOIA evasion.",
+      "cross_check": "Production timelines and privilege logs are public. Doctoring claim backed by comparison of released vs full chains in report. Process obstruction SOLID.",
+      "primary_docs_cited": "HHS production logs, EcoHealth public releases vs full emails, Morens FOIA",
+      "primary_doc_engine": {
+        "updated": "2026-09-22T05:25:36.315014+00:00",
+        "needs_primary_docs": true,
+        "status_refined": "SOLID production delays; CONTESTED all-intent claims",
+        "primary_docs_found": [
+          {
+            "title": "SSCP footnotes on HHS production / EcoHealth documents",
+            "type": "Congressional",
+            "url": "https://www.whitehouse.gov/wp-content/uploads/2025/04/2024.12.04-SSCP-FINAL-REPORT-ANS.pdf",
+            "note": "Report appendices cite dockets"
+          }
+        ],
+        "still_missing": "Complete FOIA production logs",
+        "best_structured_attempt": "Delay and incomplete production SOLID as process; motive remains CONTESTED.",
+        "modifiers": [
+          "M1",
+          "M4"
+        ]
+      }
+    }
+  ],
+  "summary_separation": {
+    "SOLID_DOCUMENTED_FAILURES": [
+      "EcoHealth grant violations, late reporting, inadequate oversight of WIV work, HHS debarment",
+      "Morens FOIA evasion, private email, record deletion, info sharing with Daszak",
+      "Fauci 6-ft distancing admission ('sort of just appeared')",
+      "Mask guidance flip-flops and weak early evidence base",
+      "Lockdown collateral harms (learning loss, mental health, excess non-COVID deaths, economy)",
+      "Cuomo March 25 order + subsequent data undercounting / report editing / privilege overreach",
+      "Massive relief-program fraud (PPP/UI/EIDL) + weak controls",
+      "WHO early deference to China + incomplete origins investigation",
+      "HHS production delays and EcoHealth document doctoring",
+      "NIH/NIAID oversight deficiencies on high-risk research"
+    ],
+    "CONTESTED_OR_OVERSTATED": [
+      "Lab leak as 'most likely' settled conclusion (plausible, IC minority/low-conf, science still split/leaning zoonosis for many)",
+      "Proximal Origin as pure Fauci-orchestrated cover-up (influence SOLID; full conspiracy CONTESTED)",
+      "EcoHealth/WIV experiments as direct creator of SARS-CoV-2 (genetic distance argues against)",
+      "Masks absolutely ineffective (overstatement; context/quality matter)",
+      "Lockdowns net harm as universal (depends on timing, severity, counterfactual)",
+      "Cuomo 'medical malpractice' / criminal false statements (legal conclusions require adjudication)",
+      "Deliberate bioweapon (report does not claim; IC rejects)"
+    ]
+  },
+  "primary_doc_engine_cycle": {
+    "at": "2026-09-22T05:25:36.315014+00:00",
+    "rule": "ALWAYS locate primary docs for claims; if missing, structured best attempt + still_missing list; never invent.",
+    "claims_processed": [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11"
+    ]
+  }
+}
