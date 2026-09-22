@@ -1,0 +1,174 @@
+{
+  "version": "1.0",
+  "updated": "2026-09-22T05:10:30.615215+00:00",
+  "vector_dbs": [
+    {
+      "id": "pgvector",
+      "tier": "default_prod",
+      "hybrid": "compose",
+      "scale": "tens_of_M"
+    },
+    {
+      "id": "qdrant",
+      "tier": "perf_selfhost",
+      "hybrid": "native",
+      "scale": "100M+"
+    },
+    {
+      "id": "weaviate",
+      "tier": "hybrid_depth",
+      "hybrid": "native_bm25",
+      "scale": "100M+"
+    },
+    {
+      "id": "pinecone",
+      "tier": "zero_ops",
+      "hybrid": "sparse_dense",
+      "scale": "100M_to_billions"
+    },
+    {
+      "id": "milvus",
+      "tier": "billion",
+      "hybrid": "yes",
+      "scale": "billions"
+    },
+    {
+      "id": "chroma",
+      "tier": "prototype",
+      "hybrid": "basic",
+      "scale": "small_med"
+    },
+    {
+      "id": "lancedb",
+      "tier": "edge",
+      "hybrid": "multi_vector",
+      "scale": "medium"
+    }
+  ],
+  "llm_snapshot_sep2026": {
+    "proprietary_examples": [
+      "Claude Fable 5.1 class",
+      "GPT-6 Astra class",
+      "Gemini 3.x class"
+    ],
+    "open_examples": [
+      "Qwen3.8 Max class",
+      "GLM-5.x",
+      "DeepSeek V3/V4 class",
+      "Kimi K2/K3 class"
+    ],
+    "caveat": "Snapshot only; re-verify; not gospel"
+  },
+  "slmvp_gates": [
+    {
+      "id": "M1",
+      "status": "permanent"
+    },
+    {
+      "id": "M2",
+      "status": "permanent"
+    },
+    {
+      "id": "M3",
+      "status": "permanent"
+    },
+    {
+      "id": "M4",
+      "status": "permanent"
+    },
+    {
+      "id": "M5",
+      "status": "permanent"
+    },
+    {
+      "id": "M6",
+      "status": "permanent"
+    },
+    {
+      "id": "M7",
+      "status": "expanded_candidate"
+    },
+    {
+      "id": "M8",
+      "status": "expanded_candidate"
+    },
+    {
+      "id": "M9",
+      "status": "expanded_candidate"
+    },
+    {
+      "id": "M10",
+      "status": "expanded_candidate"
+    },
+    {
+      "id": "M11",
+      "status": "expanded_candidate"
+    },
+    {
+      "id": "M12",
+      "status": "expanded_candidate"
+    },
+    {
+      "id": "M13",
+      "status": "expanded_candidate"
+    },
+    {
+      "id": "M14",
+      "status": "expanded_candidate"
+    },
+    {
+      "id": "M15",
+      "status": "expanded_candidate"
+    },
+    {
+      "id": "M16",
+      "status": "expanded_candidate"
+    }
+  ],
+  "gate_defs": {
+    "M1": "public_record_ceiling",
+    "M2": "hitl",
+    "M3": "dual_anti_narrative",
+    "M4": "tag_discipline",
+    "M5": "process_ne_origin",
+    "M6": "category_error",
+    "M7": "model_diversity",
+    "M8": "confidence_ne_probability",
+    "M9": "likelihood_ratio_required",
+    "M10": "rare_id_retrieval",
+    "M11": "reconstructability",
+    "M12": "capture_ratio",
+    "M13": "blend_ban",
+    "M14": "source_class_floor",
+    "M15": "temporal_reproject",
+    "M16": "cost_latency_budget"
+  },
+  "advanced_methods": [
+    {
+      "id": "hybrid_rrf",
+      "name": "Hybrid Dense+Sparse + RRF"
+    },
+    {
+      "id": "colbert_maxsim",
+      "name": "Multi-vector Late Interaction"
+    },
+    {
+      "id": "graphrag",
+      "name": "GraphRAG Subgraph Expansion"
+    },
+    {
+      "id": "bayesian_ach",
+      "name": "Bayesian ACH"
+    },
+    {
+      "id": "multi_model_swarm",
+      "name": "Multi-Model Adversarial Swarm"
+    }
+  ],
+  "swarm_pick": {
+    "vector_default": "pgvector or qdrant",
+    "multi_vector": "qdrant/weaviate/lancedb/vectorchord",
+    "llm_supervisor": "flagship proprietary or best open tool-use",
+    "llm_verifier": "different family than author"
+  }
+}

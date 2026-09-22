@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Research Pack — Vectors · LLMs · SLMVP · 5 Methods</title>
+<style>
+:root{--bg:#0a0c0b;--fg:#e8ebe4;--muted:#8b9488;--pri:#c4a35a;--solid:#3d9a6a;--bd:#2a312c;--sf:#141816;--sf2:#1c211e}
+body{font-family:IBM Plex Sans,system-ui,sans-serif;background:var(--bg);color:var(--fg);margin:0;padding:24px;max-width:1000px;margin-inline:auto;line-height:1.5}
+h1{font-size:1.6rem} h2{color:var(--pri);margin-top:1.8rem;font-size:1.15rem}
+.tag{font-family:IBM Plex Mono,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--pri)}
+.card{background:var(--sf);border:1px solid var(--bd);border-radius:8px;padding:14px;margin:10px 0}
+table{width:100%;border-collapse:collapse;font-size:.85rem} th,td{border:1px solid var(--bd);padding:6px 8px;text-align:left;vertical-align:top} th{background:var(--sf2)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.pill{border:1px solid var(--pri);border-radius:999px;padding:4px 10px;font-size:12px;display:inline-block;margin:2px}
+.muted{color:var(--muted)} .banner{border:1px solid var(--pri);background:#1a1810;padding:12px;border-radius:8px}
+</style></head><body>
+<p class="tag">RESEARCH PACK v1 · 2026-09-22 · PERMANENT CORPUS</p>
+<h1>Vectors · LLMs · SLMVP Gates · 5 Methods</h1>
+<div class="banner">Fits LVS→SLMVP→AAO. Leaderboards = Sep 2026 snapshot. Chat is index; this file + skill atoms + GitHub/Drive are product.</div>
+
+<h2>A. Vector DBs — pick by constraint</h2>
+<table>
+<tr><th>DB</th><th>Best when</th></tr>
+<tr><td>pgvector</td><td>Default if on Postgres / ACID claims</td></tr>
+<tr><td>Qdrant</td><td>Filter latency + self-host cost/perf</td></tr>
+<tr><td>Weaviate</td><td>Deep hybrid + multi-modal</td></tr>
+<tr><td>Pinecone</td><td>Zero ops, scale budget OK</td></tr>
+<tr><td>Chroma / LanceDB</td><td>Prototype / edge</td></tr>
+<tr><td>Milvus</td><td>Billion-scale</td></tr>
+</table>
+<p class="muted">Multi-vector (ColBERT MaxSim) for rare IDs: Qdrant, Weaviate, LanceDB, VectorChord.</p>
+
+<h2>B. LLMs — route by role (snapshot)</h2>
+<div class="grid">
+<div class="card"><strong>Supervisor / ACH</strong><br>Flagship closed or best open tool-use</div>
+<div class="card"><strong>Bulk tagger</strong><br>Fast mid-tier / strong open</div>
+<div class="card"><strong>TruthVerifier</strong><br>Different model family (M7)</div>
+<div class="card"><strong>Air-gap</strong><br>Open weights only; log hash</div>
+</div>
+<p class="muted">Examples Sep 2026: Claude Fable 5.x / GPT-6 Astra / Gemini 3.x · open: Qwen3.8 Max, GLM-5.x, DeepSeek, Kimi.</p>
+
+<h2>C. SLMVP gates M1–M16</h2>
+<p>
+<span class="pill">M1 public-record</span>
+<span class="pill">M2 HITL</span>
+<span class="pill">M3 dual-anti-narrative</span>
+<span class="pill">M4 tag discipline</span>
+<span class="pill">M5 process≠origin</span>
+<span class="pill">M6 category-error</span>
+<span class="pill">M7 model-diversity</span>
+<span class="pill">M8 conf≠prob</span>
+<span class="pill">M9 likelihood-ratio</span>
+<span class="pill">M10 rare-ID retrieval</span>
+<span class="pill">M11 reconstructability</span>
+<span class="pill">M12 capture-ratio</span>
+<span class="pill">M13 blend ban</span>
+<span class="pill">M14 source-class floor</span>
+<span class="pill">M15 temporal re-project</span>
+<span class="pill">M16 cost/latency budget</span>
+</p>
+
+<h2>D. Five advanced methods (autonomous)</h2>
+<ol>
+<li><strong>Hybrid dense+sparse + RRF</strong> — baseline enterprise retrieval</li>
+<li><strong>ColBERT multi-vector MaxSim</strong> — claim-grain LVS fidelity</li>
+<li><strong>GraphRAG</strong> — multi-hop entity/relation expansion</li>
+<li><strong>Bayesian ACH</strong> — priors, LRs, posteriors; least-inconsistent + quantified</li>
+<li><strong>Multi-model adversarial swarm</strong> — cross-family verifier</li>
+</ol>
+
+<h2>E. Swarm default stack</h2>
+<div class="card">
+<strong>Vectors:</strong> pgvector <em>or</em> Qdrant + multi-vector path<br>
+<strong>Retrieval:</strong> hybrid RRF → ColBERT/cross-encoder rerank → GraphRAG for multi-hop<br>
+<strong>Judgment:</strong> M1–M16 fire log + Bayesian ACH<br>
+<strong>Models:</strong> multi-family routing · log model_id on every ClaimAtom<br>
+<strong>Ship:</strong> AAO multi-channel (M11)
+</div>
+<p class="muted">Full prose: RESEARCH_VECTORS_LLMS_SLMVP_METHODS.md · catalog: research_catalog.json</p>
+</body></html>

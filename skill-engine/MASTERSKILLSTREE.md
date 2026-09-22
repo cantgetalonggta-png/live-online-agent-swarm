@@ -2,18 +2,29 @@
 
 - **Master Skills**
   - **Research Synthesis**
-    - **Public Record Claim Tagging**
-    - **Lab Leak Epistemology**
-    - **Latent Vector Space Ingest**
-    - **Blended Claim Splitter**
+    - **Public Record Claim Tagging** — Tag every factual claim from a long primary document as SOLID (primary-doc backe
+    - **Lab Leak Epistemology** — Evaluate origin hypotheses (lab accident vs zoonosis) under public-record ceilin
+    - **Latent Vector Space Ingest** — Map investigation objects (Document, Chunk, Entity, Claim, Hypothesis, Agent, Mo
+    - **Blended Claim Splitter** — Detect and split claims that glue process failures to origin conclusions in one 
+    - **Agentic Graphrag** — GraphRAG / vector-graph retrieval: extract entities and relations, expand subgra
+    - **Hybrid Late Interaction Retrieval** — Combine BM25 + dense hybrid with late-interaction multi-vector scoring for rare 
+    - **Hybrid Rrf Retrieval** — Hybrid dense+sparse (BM25/SPLADE) first-stage retrieval fused with Reciprocal Ra
+    - **Colbert Late Interaction** — Multi-vector late interaction (ColBERT-style): one vector per token; MaxSim scor
+    - **Bayesian Ach** — Heuer ACH upgraded with Bayesian priors, likelihood ratios, and posteriors; grad
   - **Governance**
-    - **Grant Oversight Failure Audit**
-    - **Policy By Fiat Detection**
-    - **System Level Modifier Validation**
-    - **Modifier Capture Audit**
+    - **Grant Oversight Failure Audit** — Audit high-risk research grants (e.g. EcoHealth/WIV) for late progress reports, 
+    - **Policy By Fiat Detection** — Identify public-health rules (6-ft distancing, mask mandates, lockdowns) whose q
+    - **System Level Modifier Validation** — Register named modifiers M1–M6 (public-record ceiling, HITL, dual-anti-narrative
+    - **Modifier Capture Audit** — Audit OVERSTATED/IRREGULARITY fire ratios across narrative poles; flag M3 dual-a
+    - **Slmvp M7 M12 Gates** — Operate expanded modifier set M7 reconstructability, M8 confidence≠probability, 
+    - **Slmvp Gate Catalog M1 M16** — Full modifier gate catalog M1–M16: public-record, HITL, dual-anti-narrative, tag
   - **Infrastructure**
-    - **Agent Swarm Document Distill**
-    - **Atomized Artifact Output**
-    - **Doctrine V2 Enforcement**
+    - **Agent Swarm Document Distill** — End-to-end: download long PDF → section extract → claim tag → Drive + GitHub pus
+    - **Atomized Artifact Output** — Emit versioned ClaimAtoms, SkillAtoms, agent reports, ACH posteriors, HTML dashb
+    - **Doctrine V2 Enforcement** — Enforce permanent LVS→SLMVP→AAO v2.0 operating procedure on every investigation 
+    - **Vector Store Selection** — Select vector substrate for LVS by constraint: pgvector default on Postgres/ACID
+    - **Llm Role Routing** — Route swarm roles to model classes: flagship for supervisor/ACH; fast mid for bu
+    - **Llm Role Routing** — Route swarm roles to model classes: flagship for supervisor/ACH; fast mid for bu
+    - **Multi Model Adversarial Swarm** — Orchestrate multi-agent investigation with model-family diversity: author tagger
   - **Pedagogy**
-    - **Educator Macro Micro Guide**
+    - **Educator Macro Micro Guide** — Mandatory pedagogical wrapper: for every step emit Phase Header, Step Title, Why
