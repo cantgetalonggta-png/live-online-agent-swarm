@@ -1,0 +1,44 @@
+{
+  "cycle": "DEV-2",
+  "generated_utc": "2026-09-22T15:09:21.526565+00:00",
+  "probate": {
+    "case": "ST-2019-PB-00080",
+    "aliases": ["SX-2019-PR-00011", "ST-19-PB-80"],
+    "court": "USVI Superior Court St. Thomas/St. John",
+    "filed": "2019-08-15",
+    "judge": "Simone M. VanHolten-Turnbull",
+    "status": "OPEN",
+    "portal": "https://usvipublicportal.vicourts.org/"
+  },
+  "instruments": [
+    {"date": "2019-01-18", "doc": "Jeffrey E. Epstein 2019 Trust", "tag": "SOLID"},
+    {"date": "2019-02-04", "doc": "Amended and Restated 2019 Trust", "tag": "SOLID", "bates": "EFTA 00128921"},
+    {"date": "2019-08-08", "doc": "THE 1953 TRUST", "tag": "SOLID", "bates": "EFTA 00099303"},
+    {"date": "2019-08-08", "doc": "Last Will and Testament", "tag": "SOLID", "bates": "EFTA00027979 pack"},
+    {"date": "2019-08-15", "doc": "Petition for Probate", "tag": "SOLID", "case": "ST-2019-PB-00080"},
+    {"date": "2019-08-26", "doc": "Certificate of Trust", "tag": "SOLID"},
+    {"date": "2019-09-06", "doc": "Letters Testamentary", "tag": "SOLID"},
+    {"date": "2026-07-31", "doc": "27th Quarterly Accounting cover", "tag": "SOLID_docket_entry"}
+  ],
+  "roles": [
+    {"name": "Jeffrey E. Epstein", "role": "Grantor / Decedent", "tag": "SOLID"},
+    {"name": "Darren K. Indyke", "role": "Co-executor; Co-trustee; Beneficiary $50M intended", "tag": "SOLID_role_MAYBE_payout"},
+    {"name": "Richard D. Kahn", "role": "Co-executor; Co-trustee; Beneficiary $25M intended", "tag": "SOLID_role_MAYBE_payout"},
+    {"name": "Karyna Shuliak", "role": "Top residual ~$100M intended", "tag": "SOLID_role_MAYBE_payout"},
+    {"name": "Mark Epstein", "role": "Heir named in will; 301 E 66 ownership orbit", "tag": "SOLID_heir_SOLID_property_pattern"}
+  ],
+  "entities": ["Southern Trust Company, Inc.", "Plan D, LLC", "Great St. Jim, LLC", "Nautilus, Inc.", "Hyperion Air, LLC", "Poplar, Inc.", "Cypress, Inc.", "Maple, Inc.", "Laurel, Inc.", "Butterfly Trust", "301 66 Owners Corp", "Ossa Properties", "DKI PLLC", "HBRK"],
+  "acris_probe": {
+    "indyke_party_hits": "multiple first-name mismatch — LEAD_ONLY",
+    "southern_trust_hit": "SOUTHERN TRUST CORP FT_1930005123993 — LEAD_ONLY"
+  },
+  "negatives": [{"claim": "Engoron direct instrument edge", "tag": "NEGATIVE"}],
+  "warrants": ["W1_portal_PDFs", "W2_EFTA_hash", "W3_ACRIS_exact", "W4_Butterfly_decant", "W5_Q27_dollars", "W6_class_settlement"],
+  "money_snapshot": {
+    "petition_2019": 577672654,
+    "accounting_2021_02": 240782955,
+    "public_2026_band": "~127e6 residual assets reported",
+    "evcp": ">121e6",
+    "gvi_settlement": ">105e6"
+  }
+}
