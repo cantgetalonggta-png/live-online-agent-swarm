@@ -1,0 +1,30 @@
+{
+  "report_title": "After Action Review of the COVID-19 Pandemic (Select Subcommittee, Dec 4 2024)",
+  "pdf_pages": 557,
+  "pdf_sha256": "967c8ba877e86d95...",
+  "ingestion_timestamp": "2026-09-22T03:45:16.975430Z",
+  "method": "Full PDF download + pdfplumber section extraction + claim distillation + prior IC/SAGO/peer-review cross-check. HITL=YES. Public-record ceiling.",
+  "summary_separation": {
+    "SOLID_DOCUMENTED_FAILURES": [
+      "EcoHealth grant violations, late reporting, inadequate oversight of WIV work, HHS debarment",
+      "Morens FOIA evasion, private email, record deletion, info sharing with Daszak",
+      "Fauci 6-ft distancing admission ('sort of just appeared')",
+      "Mask guidance flip-flops and weak early evidence base",
+      "Lockdown collateral harms (learning loss, mental health, excess non-COVID deaths, economy)",
+      "Cuomo March 25 order + subsequent data undercounting / report editing / privilege overreach",
+      "Massive relief-program fraud (PPP/UI/EIDL) + weak controls",
+      "WHO early deference to China + incomplete origins investigation",
+      "HHS production delays and EcoHealth document doctoring",
+      "NIH/NIAID oversight deficiencies on high-risk research"
+    ],
+    "CONTESTED_OR_OVERSTATED": [
+      "Lab leak as 'most likely' settled conclusion (plausible, IC minority/low-conf, science still split/leaning zoonosis for many)",
+      "Proximal Origin as pure Fauci-orchestrated cover-up (influence SOLID; full conspiracy CONTESTED)",
+      "EcoHealth/WIV experiments as direct creator of SARS-CoV-2 (genetic distance argues against)",
+      "Masks absolutely ineffective (overstatement; context/quality matter)",
+      "Lockdowns net harm as universal (depends on timing, severity, counterfactual)",
+      "Cuomo 'medical malpractice' / criminal false statements (legal conclusions require adjudication)",
+      "Deliberate bioweapon (report does not claim; IC rejects)"
+    ]
+  }
+}
