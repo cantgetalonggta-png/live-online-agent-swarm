@@ -1,0 +1,108 @@
+{
+  "updated": "2026-09-22T05:51:34.747834+00:00",
+  "schema": [
+    "doc_id",
+    "title",
+    "url",
+    "source_class",
+    "redaction_ratio",
+    "claim_links",
+    "key_quotes",
+    "status"
+  ],
+  "documents": [
+    {
+      "doc_id": "FOIA_ANDERSEN_LETTER_2022",
+      "title": "Oversight letter to Andersen (Proximal Origin timeline)",
+      "url": "https://oversight.house.gov/wp-content/uploads/2022/02/Letter-to-Dr-Andersen.pdf",
+      "source_class": "HEARING_OVERSIGHT",
+      "redaction_ratio": "partial",
+      "claim_links": [
+        "C02"
+      ],
+      "key_quotes": [
+        "features potentially look engineered",
+        "Proximal Origin drafting timeline"
+      ],
+      "status": "FOUND"
+    },
+    {
+      "doc_id": "SSCP_PROXIMAL_MEMO_2023",
+      "title": "SSCP memo new evidence Proximal Origin",
+      "url": "https://oversight.house.gov/wp-content/uploads/2023/03/2023.03.05-SSCP-Memo-Re.-New-Evidence.Proximal-Origin.pdf",
+      "source_class": "HEARING_OVERSIGHT",
+      "redaction_ratio": "partial",
+      "claim_links": [
+        "C02"
+      ],
+      "key_quotes": [
+        "Prompted by Jeremy Farrah, Tony Fauci, and Francis Collins",
+        "trying to disprove any type of lab theory"
+      ],
+      "status": "FOUND"
+    },
+    {
+      "doc_id": "HHS_DASZAK_DEBAR_2025",
+      "title": "HHS Notice of Debarment Daszak Jan 17 2025",
+      "url": "https://oversight.house.gov/wp-content/uploads/2025/01/Dr.-Peter-Daszak-HHS-Notice_Jan-17-2025_Redacted.pdf",
+      "source_class": "OPERATIVE_ACT",
+      "redaction_ratio": "partial",
+      "claim_links": [
+        "C03"
+      ],
+      "key_quotes": [
+        "five-year debarment",
+        "protect Federal Government business interests"
+      ],
+      "status": "FOUND"
+    },
+    {
+      "doc_id": "HHS_EHA_ARM_2025",
+      "title": "HHS ARM EcoHealth Alliance Jan 17 2025",
+      "url": "https://oversight.house.gov/wp-content/uploads/2025/01/ARM_EHA_1.17.2025_Redacted.pdf",
+      "source_class": "OPERATIVE_ACT",
+      "redaction_ratio": "partial",
+      "claim_links": [
+        "C03"
+      ],
+      "key_quotes": [
+        "Daszak terminated Jan 6 2025",
+        "present responsibility"
+      ],
+      "status": "FOUND"
+    },
+    {
+      "doc_id": "SAGO_2025",
+      "title": "WHO SAGO independent assessment origins Jun 2025",
+      "url": "https://www.who.int/publications/m/item/independent-assessment-of-the-origins-of-sars-cov-2-from-the-scientific-advisory-group-for-the-origins-of-novel-pathogens",
+      "source_class": "SCIENTIFIC_PANEL",
+      "redaction_ratio": "none_known",
+      "claim_links": [
+        "C01",
+        "C09"
+      ],
+      "key_quotes": [
+        "weight of available evidence suggests zoonotic",
+        "all hypotheses remain on the table"
+      ],
+      "status": "FOUND"
+    }
+  ],
+  "metrics": {
+    "docs_indexed": 5,
+    "operative_acts": 2,
+    "oversight_memos": 2,
+    "scientific_panels": 1,
+    "claims_covered": [
+      "C01",
+      "C02",
+      "C03",
+      "C09"
+    ],
+    "still_need_urls": [
+      "full Fauci TI PDF if public",
+      "WIV serology primary",
+      "payment trail if C02 escalated"
+    ]
+  }
+}
