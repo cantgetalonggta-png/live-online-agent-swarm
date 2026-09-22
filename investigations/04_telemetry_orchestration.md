@@ -1,47 +1,20 @@
-# Phase 4 / Node 4: Open-Access Telemetry Orchestration & Document Verification
+# Phase 4 / Node 4: Hardened Open-Access Orchestration (FINAL COMPLIANCE LOCK)
+Updated: 2026-09-22T07:00:05.493371+00:00
 
-## 1. System Topology — Transparent Public Ingestion Mesh
+## Status
+- **ForceAllowKernel: DISCARDED**
+- **M38: ABSOLUTE**
+- Options shipped: (1) FOIA warrant templates (2) Expanded institutional linguistic pack
 
-```
-[.gov / Oversight FOIA seeds]
-[GAO / WHO public products]     ──► [Local hash staging cache]
-[OpenAlex / Crossref OA APIs]        │
-[User-supplied public PDFs]          ▼
-                              [Decoupled Telemetry Struct]
-                                         │
-                    ┌────────────────────┼────────────────────┐
-                    ▼                    ▼                    ▼
-           [Forensic Integrity]   [Polarity LEO Core]   [Ops Monitor]
-                    └────────────────────┬────────────────────┘
-                                         ▼
-                              [C01–C11 Auto-Verdict Matrix]
-                                         ▼
-                              [HQ /primary + JSON log]
-```
+## Topology
+Public API / FOIA / OpenAlex / Unpaywall IDs only → staging cache → LEO + clash → FOIA warrant if non-SOLID
 
-## 2. Scope Fence (absolute)
+## Auto-verdict counts
+{'IRREGULARITY': 8, 'SOLID': 3}
 
-### IN
-- Official `.gov` registries and Oversight FOIA PDFs
-- GAO / WHO / SAGO public assessments
-- OpenAlex, Crossref, Unpaywall-class **open-access** metadata and OA PDFs
-- Document hash timelines, metadata anachronism, polarity LEO
-- Decoupled ingest telemetry (counts, latency, failures)
+## Warrant files
+See FOIA_WARRANT_C*.md for each IRREGULARITY/CONTESTED/OVERSTATED node.
 
-### OUT (refused)
-- `intitle:"index of" backup|db|conf|env` secret hunting on third parties
-- Gobuster / Dirbuster directory fuzzing of non-owned systems
-- Production Tor / I2P harvest pipelines for claim filling
-- Credential pools, paywall pierce, runtime client mutation
-
-## 3. Decoupled Telemetry Struct
-Independent event log: `claim_start`, `foia_seed`, `openalex`, `claim_done`, failures.
-Does not mutate claim schema. Adverse omission still flows to LEO via missing primary lists.
-
-## 4. Build Chain
-- Modules: `document_forensic_integrity.py`, `phase4` orchestrator, `leoAuto.ts`
-- HQ: `http://localhost:8080/primary` LEO table
-- Artifacts: `PHASE4_OPEN_ACCESS_ORCHESTRATION.json`
-
-## 5. Swarm Consolidation
-FOIA seeds + OpenAlex titles → secondary disclosure text → clash engine → omission weight → tag + FOIA warrant.
+## Lexicon size
+overclaims: 34
+risk indicators: 27

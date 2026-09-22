@@ -1,0 +1,383 @@
+{
+  "updated": "2026-09-22T07:00:05.493371+00:00",
+  "m38": true,
+  "force_allow_kernel": "DISCARDED",
+  "options_shipped": [
+    "FOIA_warrant_templates",
+    "expanded_linguistic_pack"
+  ],
+  "verdicts": {
+    "C01": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.6,
+      "missing": [
+        "serology",
+        "host_data",
+        "notebook_logs"
+      ],
+      "clashes": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "proven",
+          "contradicted_by": "low confidence",
+          "score": 0.63
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "proven",
+          "contradicted_by": "unsubmitted",
+          "score": 0.54
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "proven",
+          "contradicted_by": "missing",
+          "score": 0.54
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "proven",
+          "contradicted_by": "zoonotic",
+          "score": 0.54
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "proven/debunked",
+          "contradicted_by": "low confidence",
+          "score": 0.49
+        }
+      ],
+      "why": "Overclaim 'proven' vs risk 'low confidence' (score=0.63); n_clashes=8",
+      "openalex_work_id": "W4234567890",
+      "unpaywall_doi": null,
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA"
+    },
+    "C02": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.5,
+      "missing": [
+        "payment_ledger"
+      ],
+      "clashes": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "no nih influence",
+          "contradicted_by": "payment",
+          "score": 0.9
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "no nih influence",
+          "contradicted_by": "prompted",
+          "score": 0.85
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "total objectivity",
+          "contradicted_by": "payment",
+          "score": 0.63
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "no nih influence",
+          "contradicted_by": "investigation",
+          "score": 0.6
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "total objectivity",
+          "contradicted_by": "prompted",
+          "score": 0.595
+        }
+      ],
+      "why": "Overclaim 'no nih influence' vs risk 'payment' (score=0.9); n_clashes=6",
+      "openalex_work_id": null,
+      "unpaywall_doi": "10.1038/s41586-020-2012-7",
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA"
+    },
+    "C03": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.0,
+      "missing": [],
+      "clashes": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "fully complied",
+          "contradicted_by": "debarment",
+          "score": 1.0
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "fully complied",
+          "contradicted_by": "present responsibility",
+          "score": 0.95
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "fully complied",
+          "contradicted_by": "incident",
+          "score": 0.6
+        }
+      ],
+      "why": "Overclaim 'fully complied' vs risk 'debarment' (score=1.0); n_clashes=3",
+      "openalex_work_id": null,
+      "unpaywall_doi": null,
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA"
+    },
+    "C04": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.0,
+      "missing": [],
+      "clashes": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "perfect oversight",
+          "contradicted_by": "unauthorized",
+          "score": 0.42
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "perfect oversight",
+          "contradicted_by": "investigation",
+          "score": 0.42
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "fully transparent",
+          "contradicted_by": "unauthorized",
+          "score": 0.42
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "fully transparent",
+          "contradicted_by": "investigation",
+          "score": 0.42
+        }
+      ],
+      "why": "Overclaim 'perfect oversight' vs risk 'unauthorized' (score=0.42); n_clashes=4",
+      "openalex_work_id": null,
+      "unpaywall_doi": null,
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA"
+    },
+    "C05": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.0,
+      "missing": [],
+      "clashes": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "purely objective",
+          "contradicted_by": "sort of just appeared",
+          "score": 0.765
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "rigorously quantitative",
+          "contradicted_by": "sort of just appeared",
+          "score": 0.63
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "purely objective",
+          "contradicted_by": "no evidence",
+          "score": 0.51
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "rigorously quantitative",
+          "contradicted_by": "no evidence",
+          "score": 0.42
+        }
+      ],
+      "why": "Overclaim 'purely objective' vs risk 'sort of just appeared' (score=0.765); n_clashes=4",
+      "openalex_work_id": null,
+      "unpaywall_doi": null,
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA"
+    },
+    "C06": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.0,
+      "missing": [],
+      "clashes": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "absolutely ineffective",
+          "contradicted_by": "flip",
+          "score": 0.42
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "absolutely ineffective",
+          "contradicted_by": "mixed evidence",
+          "score": 0.42
+        }
+      ],
+      "why": "Overclaim 'absolutely ineffective' vs risk 'flip' (score=0.42); n_clashes=2",
+      "openalex_work_id": null,
+      "unpaywall_doi": null,
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA"
+    },
+    "C07": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.333,
+      "missing": [
+        "universal_net_meta"
+      ],
+      "clashes": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "always caused more harm",
+          "contradicted_by": "missing",
+          "score": 0.42
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "every counterfactual",
+          "contradicted_by": "missing",
+          "score": 0.42
+        }
+      ],
+      "why": "Overclaim 'always caused more harm' vs risk 'missing' (score=0.42); n_clashes=2",
+      "openalex_work_id": null,
+      "unpaywall_doi": null,
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA"
+    },
+    "C08": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.333,
+      "missing": [
+        "criminal_judgment"
+      ],
+      "clashes": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "adjudicated criminal",
+          "contradicted_by": "missing",
+          "score": 0.6
+        }
+      ],
+      "why": "Overclaim 'adjudicated criminal' vs risk 'missing' (score=0.6); n_clashes=1",
+      "openalex_work_id": null,
+      "unpaywall_doi": null,
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA"
+    },
+    "C09": {
+      "verdict_tag": "SOLID",
+      "omission_weight": 0.0,
+      "missing": [],
+      "clashes": [],
+      "why": "All documented parameters verified cleanly within public record bounds.",
+      "openalex_work_id": null,
+      "unpaywall_doi": null,
+      "actionable_warrant": "NONE"
+    },
+    "C10": {
+      "verdict_tag": "SOLID",
+      "omission_weight": 0.0,
+      "missing": [],
+      "clashes": [],
+      "why": "All documented parameters verified cleanly within public record bounds.",
+      "openalex_work_id": null,
+      "unpaywall_doi": null,
+      "actionable_warrant": "NONE"
+    },
+    "C11": {
+      "verdict_tag": "SOLID",
+      "omission_weight": 0.0,
+      "missing": [],
+      "clashes": [],
+      "why": "All documented parameters verified cleanly within public record bounds.",
+      "openalex_work_id": null,
+      "unpaywall_doi": null,
+      "actionable_warrant": "NONE"
+    }
+  },
+  "warrants_index": {
+    "C01": {
+      "status": "ESCALATE_TO_TARGETED_FOIA",
+      "filename": "FOIA_WARRANT_C01.md",
+      "agencies": [
+        "HHS/NIH",
+        "State Department",
+        "ODNI public products"
+      ]
+    },
+    "C02": {
+      "status": "ESCALATE_TO_TARGETED_FOIA",
+      "filename": "FOIA_WARRANT_C02.md",
+      "agencies": [
+        "NIH/NIAID",
+        "HHS OIG",
+        "House Oversight production"
+      ]
+    },
+    "C03": {
+      "status": "ESCALATE_TO_TARGETED_FOIA",
+      "filename": "FOIA_WARRANT_C03.md",
+      "agencies": [
+        "HHS",
+        "NIH",
+        "EcoHealth Alliance (if recipient of federal funds)"
+      ]
+    },
+    "C04": {
+      "status": "ESCALATE_TO_TARGETED_FOIA",
+      "filename": "FOIA_WARRANT_C04.md",
+      "agencies": [
+        "NIH",
+        "HHS FOIA office"
+      ]
+    },
+    "C05": {
+      "status": "ESCALATE_TO_TARGETED_FOIA",
+      "filename": "FOIA_WARRANT_C05.md",
+      "agencies": [
+        "CDC",
+        "NIH"
+      ]
+    },
+    "C06": {
+      "status": "ESCALATE_TO_TARGETED_FOIA",
+      "filename": "FOIA_WARRANT_C06.md",
+      "agencies": [
+        "CDC",
+        "HHS"
+      ]
+    },
+    "C07": {
+      "status": "ESCALATE_TO_TARGETED_FOIA",
+      "filename": "FOIA_WARRANT_C07.md",
+      "agencies": [
+        "HHS",
+        "ED (NAEP-related already public)"
+      ]
+    },
+    "C08": {
+      "status": "ESCALATE_TO_TARGETED_FOIA",
+      "filename": "FOIA_WARRANT_C08.md",
+      "agencies": [
+        "NY DOH (state FOIL)",
+        "CMS"
+      ]
+    },
+    "C09": {
+      "status": "NONE",
+      "filename": null,
+      "agencies": null
+    },
+    "C10": {
+      "status": "NONE",
+      "filename": null,
+      "agencies": null
+    },
+    "C11": {
+      "status": "NONE",
+      "filename": null,
+      "agencies": null
+    }
+  },
+  "tag_counts": {
+    "IRREGULARITY": 8,
+    "SOLID": 3
+  }
+}
