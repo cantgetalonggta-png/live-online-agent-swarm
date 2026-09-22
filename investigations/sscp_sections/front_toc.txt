@@ -1,0 +1,941 @@
+
+===== PDF_PAGE 1 =====
+December 4, 2024
+AFTER ACTION REVIEW OF THE COVID-19 PANDEMIC:
+The Lessons Learned and a Path Forward
+Final Report of the
+Select Subcommittee on the Coronavirus Pandemic
+Committee on Oversight and Accountability
+U.S. House of Representatives
+
+===== PDF_PAGE 2 =====
+
+
+===== PDF_PAGE 3 =====
+5) Former New York Governor Andrew Cuomo participated in medical malpractice and
+publicly covered up the total number of nursing home fatalities in New York.
+In addition to these notable bipartisan successes, the Select Subcommittee developed
+extensive findings, some of which include:
+1) The U.S. National Institutes of Health funded gain-of-function research at the Wuhan
+Institute of Virology.
+2) The Chinese government, agencies within the U.S. Government, and some members of
+the international scientific community sought to cover-up facts concerning the origins of
+the pandemic.
+3) Operation Warp Speed was a tremendous success and a model to build upon in the future.
+The vaccines, which are now probably better characterized as therapeutics, undoubtedly
+saved millions of lives by diminishing likelihood of severe disease and death.
+4) Rampant fraud, waste, and abuse plagued the COVID-19 pandemic response.
+5) Pandemic-era school closures will have enduring impact on generations of America’s
+children and these closures were enabled by groups meant to serve those children.
+6) The Constitution cannot be suspended in times of crisis and restrictions on freedoms sow
+distrust in public health.
+7) The prescription cannot be worse than the disease, such as strict and overly broad
+lockdowns that led to predictable anguish and avoidable consequences.
+Chairing the Select Subcommittee for the 118th Congress has been my honor. I said from
+the beginning, this work is the single most impactful responsibility I have undertaken in 12 years
+in Congress, and it has been. This work will help the United States, and the world, predict the
+next pandemic, prepare for the next pandemic, protect ourselves from the next pandemic, and
+hopefully prevent the next pandemic. Members of the 119th Congress should continue and build
+off this work, there is more information to find and honest actions to be taken.
+The COVID-19 pandemic highlighted a distrust in leadership. Trust is earned.
+Accountability, transparency, honesty, and integrity will regain this trust. A future pandemic
+requires a whole of America response managed by those without personal benefit or bias. We can
+always do better, and for the sake of future generations of Americans, we must. It can be done!
+Sincerely,
+Brad Wenstrup, D.P.M.
+Chairman
+
+===== PDF_PAGE 4 =====
+Table of Contents
+Preface
+I. List of Key Names and Institutions ..................................................................................... i
+II. List of Hearings and Meetings ........................................................................................... xi
+III. List of Transcribed Interviews and Depositions .............................................................. xix
+IV. On-the-Ground Oversight .............................................................................................. xxiii
+The Origins of the Coronavirus Pandemic, Including but Not Limited to the Federal
+Government’s Funding of Gain-of-Function Research
+I. The Unknown Origins of COVID-19 ..................................................................................1
+A. SARS-CoV-2, the Virus that Causes COVID-19, Likely Emerged Because of a
+Laboratory or Research Related Accident .....................................................................1
+B. “The Proximal Origin of SARS-CoV-2” Was “Prompted” by Dr. Anthony Fauci to
+“Disprove” the Lab Leak Theory ...................................................................................5
+II. The Failures of EcoHealth Alliance, Inc. ...........................................................................58
+A. EcoHealth Alliance, Inc. Facilitated Gain-of-Function Research at the Wuhan
+Institute of Virology .....................................................................................................58
+B. EcoHealth Alliance, Inc. Submitted its Year 5 Annual Progress Report Nearly Two
+Years Late ....................................................................................................................68
+C. EcoHealth Alliance, Inc. Failed to Timely Report a Dangerous Experiment to the U.S.
+National Institutes of Health ........................................................................................78
+D. EcoHealth Alliance, Inc. Failed to Provide the U.S. National Institutes of Health with
+Research the U.S. Taxpayer Funded ............................................................................84
+E. To Get a Grant Reinstated, EcoHealth Alliance, Inc. Misled the U.S. National
+Institutes of Health Regarding the Physical Locations of U.S. Funded Samples ......102
+F. The Defense Advanced Research Projects Agency Rejected EcoHealth Alliance,
+Inc.’s DEFUSE Proposal Because of a Lack of Gain-of-Function or Dual Use
+Research of Concern Plan ..........................................................................................108
+G. The Department of Justice Empaneled a Criminal Grand Jury to Investigate the
+Origins of COVID-19 ................................................................................................ 119
+
+===== PDF_PAGE 5 =====
+III. The Failures of the National Institutes of Health and National Institute of Allergy and
+Infectious Diseases ...........................................................................................................123
+A. The U.S. National Institutes of Health and National Institute of Allergy and Infectious
+Diseases Failed to Oversee EcoHealth Alliance, Inc. ................................................123
+B. Dr. Anthony Fauci Played Semantics with the Definition of Gain-of-Function
+Research .....................................................................................................................133
+C. The U.S. National Institutes of Health and National Institute of Allergy and Infectious
+Diseases Granted U.S. Taxpayer Funds to the Chinese People’s Liberation Army ...139
+D. Senior National Institute of Allergy and Infectious Diseases Leadership Fostered an
+Environment That Promoted Evading the Freedom of Information Act ...................140
+E. A National Institute of Allergy and Infectious Diseases Freedom of Information Act
+Official Apparently Aided Others in Efforts to Evade the Freedom of Information Act
+....................................................................................................................................143
+The Efficacy, Effectiveness, and Transparency of the Use of Taxpayer Funds and Relief
+Programs to Address the Coronavirus Pandemic, Including Any Reports of Waste, Fraud,
+or Abuse
+I. The Paycheck Protection Program ...................................................................................146
+F. The Paycheck Protection Program Was Rife with Fraudulent Claims Resulting in at
+Least $64 Billion of Taxpayers’ Dollars Lost to Fraudsters and Criminals ...............148
+G. The U.S. Small Business Administration Did Not Properly Define Critical Internal
+Roles and Responsibilities and Failed to Provide Actionable Guidance to External
+Stakeholders to Manage Fraud Risk and Combat Paycheck Protection Program
+Abuse. ........................................................................................................................149
+II. Enhanced Unemployment Insurance ...............................................................................152
+A. Fraudulent Unemployment Insurance Payments Total More Than $191 Billion ..... 153
+B. States Failed to Improve Their Preparedness and Implement Data-Driven Oversight,
+Leading to Increased Fraud Across All Pandemic-Related Unemployment Insurance
+Programs ....................................................................................................................157
+III. Economic Injury Disaster Loan Program ........................................................................159
+
+===== PDF_PAGE 6 =====
+A. The U.S. Small Business Administration Disaster Programs, Including COVID-19
+Economic Injury Disaster Loans, Suffered Increased Vulnerability to Fraud and
+Unnecessary Losses of at Least $200 Million. ..........................................................159
+B. U.S. Small Business Administration Did Not Implement Proper Oversight Controls to
+Prevent Fraudulent Economic Injury Disaster Loans ................................................161
+IV. Transnational Fraud .........................................................................................................163
+A. Lackluster Oversight Resulted in Transnational Criminal Organizations and
+Fraudsters Stealing U.S. Taxpayer Money from Pandemic Relief Funds .................164
+B. Domestic and International Fraudsters that Stole from Pandemic Relief Programs
+were also Connected to Other Organized Crimes ......................................................165
+V. Flaws in Pandemic Program Oversight ............................................................................166
+A. Federal Agencies Overseeing Pandemic Relief Funds were Needlessly “Siloed Off”
+from Each Other, Which Prevented Wholistic Tracking and Disbursing of Funds to
+Prevent Fraud .............................................................................................................166
+B. Federal Agencies Did Not Require and Failed to Validate Information Provided by
+Applicants to Properly Verify Eligibility ...................................................................168
+C. Federal and State Agencies Lacked Up-to-Date Financial Management Systems,
+Failing to Meet Federally Mandated Modernization Requirements, Leading to
+Billions of Dollars of American Taxpayer Money Improperly Paid or Stolen ..........169
+The Implementation or Effectiveness of Any Federal Law or Regulation Applied, Enacted,
+or Under Consideration to Address the Coronavirus Pandemic and Prepare for Future
+Pandemics
+I. Overreliance on the World Health Organization ..............................................................171
+A. The World Health Organization Failed to Uphold Its Mission and Caved to Chinese
+Communist Party Pressure .........................................................................................173
+B. The Chinese Communist Party Violated Articles Six and Seven of the International
+Health Regulations with No Repercussions ...............................................................180
+C. The World Health Organization’s Report Regarding the Origins of COVID-19 Was
+Incomplete, Misleading, and Parroted Chinese Communist Party Propaganda ........182
+D. The World Health Organization’s Draft “Pandemic Treaty” Does Not Solve the
+Organization’s Underlying Problems and May Affirmatively Harm the United States
+....................................................................................................................................187
+
+===== PDF_PAGE 7 =====
+II. The Strategic National Stockpile Was Not Prepared to Address a Nationwide Viral
+Pandemic ..........................................................................................................................189
+A. Dating Back to the Obama Administration, the Strategic National Stockpile Was Not
+Prepared for a National Public Health Emergency ....................................................190
+B. States Must Mainatain Their Own Stockpile of Emergency Medical Supplies .........192
+III. The United States’ Unsecure Supply Chain Risks a Future Failed Pandemic Response .......
+..........................................................................................................................................194
+A. The United States Must Reduce Its Reliance on Other Countries, Particularly China,
+for Pharmaceuticals and Medical Supplies ................................................................195
+IV. The Six-Foot Social Distancing Requirement Was Not Supported by Science ...............198
+A. There Was No Quantitative Scientific Support for Six Feet of Social Distancing ....198
+V. Masks and Mask Mandates Were Ineffective at Controlling the Spread of COVID-19 ........
+..........................................................................................................................................203
+A. Public Health Officials Flip Flopping on the Efficacy and Use of Face Masks Without
+Full Scientific Transparency Caused Mistrust in Public Health Establishments .......204
+B. The Biden Administration Exceeded its Authority by Mandating Masks .................206
+C. The U.S. Centers for Disease Control and Prevention Relied on Flawed Studies to
+Support the Issuance of Mask Mandates ...................................................................207
+D. Forcibly Masking Young Children, Ages Two and Older, Caused More Harm than
+Good ...........................................................................................................................212
+VI. Unscientific COVID-19 Lockdowns Caused More Harm Than Good ............................214
+A. Enduring COVID-19 Lockdowns Unnecessarily Harmed the U.S. Economy ..........215
+B. Enduring COVID-19 Lockdowns Unnecessarily Damaged American’s Mental Health
+....................................................................................................................................215
+C. Enduring COVID-19 Lockdowns Disrupted the Development of American Children
+and Young Adults .......................................................................................................216
+D. Enduring COVID-19 Lockdowns Unnecessarily had Severe Consequences for
+Americans’ Physical Health .......................................................................................218
+
+===== PDF_PAGE 8 =====
+E. Despite Lacking Scientific Basis, Vaccine Passports Became a De Facto Lockdown
+for Unvaccinated Americans ......................................................................................218
+VII. Former New York Governor Andrew Cuomo’s March 25 Order Was Medical
+Malpractice, and the New York Executive Chamber Attempted to Cover it Up .............221
+A. The Cuomo Administration’s March 25 Directive Was Antithetical to Known Science
+....................................................................................................................................221
+B. Contrary to Denials, Mr. Andrew Cuomo and the New York Executive Chamber Were
+Directly Involved in the Decision that Led to the March 25 Directive .....................222
+C. The New York Executive Chamber Reviewed and Approved the March 25 Directive
+....................................................................................................................................225
+D. The March 25 Directive Was Inconsistent with Applicable Federal Guidance
+Regarding Hospital to Nursing Home Transfers and COVID-19 Related Infection
+Control .......................................................................................................................230
+E. The Cuomo Administration Terminated the March 25 Directive in Response to Public
+Pressure, not a Change in Applicable Science ...........................................................234
+F. Cuomo Administration Officials Believed Mr. Cuomo Directed the Issuance of the
+“July 6 Report” to Combat Criticism of the March 25 Directive ..............................237
+G. The July 6 Report Was Not Independently Drafted by the New York State Department
+of Health nor Peer Reviewed .....................................................................................238
+H. Mr. Andrew Cuomo Reviewed and Edited the July 6 Report, and His Edits Were to
+Make the Report’s Findings More Causal .................................................................243
+I. Mr. Andrew Cuomo Was Involved in the “Peer Review” Process and Directed
+Individuals Outside of the New York State Government to Review the July 6 Report
+....................................................................................................................................252
+J. The Executive Chamber Decided to Remove Out-of-Facility Death Data from the
+July 6 Report ..............................................................................................................253
+K. The New York Executive Chamber Made the Decision to Not Publicly Report Out-of-
+Facility Deaths ...........................................................................................................259
+L. Mr. Andrew Cuomo Acted in a Manner Consistent with an Attempt to Inappropriately
+Influence the Testimony of a Witness and Obstruct the Select Subcommittee’s
+Investigation ...............................................................................................................265
+
+===== PDF_PAGE 9 =====
+M. Mr. Andrew Cuomo Likely Gave False Statements to the Select Subcommittee in
+Violation of 18 U.S.C. 1001 .......................................................................................274
+VIII. While Testing for COVID-19 Was Flawed, Utilizing Public-Private Partnerships Resulted
+in Readily Available and Accurate Tests ..........................................................................276
+A. Career Scientists at the U.S. Centers for Disease Control and Prevention Undermined
+Trust in Public Health by Overpromising and Underdelivering Early Testing Kits,
+Including Knowingly Putting Tests with a High Failure Rate on the Market Without
+Appropriate Disclosures .............................................................................................277
+B. Public-Private Partnerships Were More Effective in Increasing Testing Production,
+Distribution, and Capacity than Career Government Bureaucrats .............................280
+IX. Rapidly Implemented Travel Restrictions Can Save Lives .............................................283
+A. International Travel Restrictions Delayed the Spread of COVID-19 Early in the
+Pandemic ....................................................................................................................283
+B. But for the Chinese Communist Party Blatantly Downplaying and Lying Concerning
+the Serious Threat Posed by COVID-19, Travel Restrictions Would Have Been
+Imposed Earlier and Been More Effective .................................................................288
+X. Government Perpetrated COVID-19 Misinformation .....................................................290
+A. Public Health Officials Incorrectly Characterized the Lab-Leak Theory as a
+“Conspiracy Theory” .................................................................................................290
+B. The Biden Administration Employed Undemocratic and Likely Unconstitutional
+Methods to Fight What It Deemed to Be Misinformation .........................................292
+C. The Biden Administration and Many Public Health Officials Exaggerated the Power
+of COVID-19 Vaccines ..............................................................................................296
+D. The U.S. Food and Drug Administration and Other Public Health Officials Falsely
+Implied that Ivermectin Was Only for Horses and Cows ..........................................300
+The Development of Vaccines and Treatments, and the Development and Implementation
+of Vaccination Policies for Federal Employees and Members of the Armed Forces
+I. The Success of Operation Warp Speed ............................................................................301
+A. Operation Warp Speed Was a Great Success and Helped Save Millions of Lives ....301
+
+===== PDF_PAGE 10 =====
+B. Then Presidential Candidate Joe Biden and Vice-Presidential Candidate Kamala
+Harris May Have Contributed to Early Distrust of Operation Warp Speed and
+COVID-19 Vaccines ..................................................................................................303
+II. The Decision to Override the Advisory Committee on Immunization Practices .............305
+A. The Biden Administration Arbitrarily and Without Scientific Support Announced
+COVID-19 Vaccine Boosters Would be Available to All Americans .........................305
+B. U.S. Centers for Disease Control and Prevention Director Rochelle Walensky
+Overruled Expert Advisors in an Apparent Attempt to Satisfy President Joe Biden’s
+Arbitrary Vaccine Approval Goals .............................................................................309
+III. The Review of Pfizer’s Biologics License Application .................................................. 311
+A. The Biden Administration Sidelined Senior Scientists After They Expressed Concern
+Regarding the Rapid Pace of Review of Pfizer’s Biologics Approval Application ...312
+B. The Biden Administration Accelerated the Approval of Pfizer’s Biologics Approval
+Application to Impose Vaccine Mandates ..................................................................322
+C. U.S. Food and Drug Administration Officials Refused to Rebut Allegations the Biden
+White House Was Involved in the Pfizer Biologics Approval Application ...............326
+IV. Public Health Officials Disregarded Natural Immunity, Despite Its Proven Effectiveness
+and Durability ..................................................................................................................331
+A. Those Who Recovered From COVID-19 Were Conferred Infection Acquired
+Immunity ....................................................................................................................331
+B. Herd Immunity is a Real Concept and Occurrence supported by public health leaders
+such as Dr. Fauci. There Was a Coordinated Effort from Public Health Officials to
+Ignore Natural Immunity and Suppress Dissenting Opinions ...................................332
+V. Vaccine Mandates Were Not Supported by Science and Caused More Harm than Good
+..........................................................................................................................................336
+A. COVID-19 Vaccine Mandates Caused Massive Collateral Damage and Were Very
+Likely Counterproductive ..........................................................................................340
+B. COVID-19 Vaccine Mandates Were Not Supported by Science ...............................346
+C. COVID-19 Vaccine Mandates Hampered U.S. Military Readiness ..........................347
+VI. The COVID-19 Vaccine, While Largely Safe and Effective, Had Adverse Events That
+Must be Thoroughly Investigated ....................................................................................349
+
+===== PDF_PAGE 11 =====
+A. The Vaccine Adverse Event Reporting System is Insufficient and Not Transparent .......
+....................................................................................................................................349
+B. Existing Vaccine Safety Systems May Be Missing Important Safety Signals,
+Especially Related to Neurological Conditions .........................................................353
+C. The U.S. Centers for Disease Control and Prevention Created a new Surveillance
+System Specifically for COVID-19 Vaccines but Has Not Been Fully Transparent in
+Sharing the Data Collected in it .................................................................................355
+VII. The U.S. Government’s Insufficient Systems for Compensating COVID-19 Vaccine
+Injuries .............................................................................................................................357
+A. The U.S. Government Is Failing to Efficiently, Fairly, and Transparently Adjudicate
+Claims for COVID-19 Vaccine Injuries .....................................................................359
+B. The Countermeasure Injury Compensation Program Failed to Handle a Mass-
+Vaccination Program ..................................................................................................361
+C. A Robust and Transparent Vaccine Injury Compensation Program Is Necessary for
+Promoting Trust in Vaccines ......................................................................................363
+D. Debating or Discussing Vaccine Injury Compensation is Not “Anti-Vax,” and
+Implications Otherwise Are Counterproductive to Protecting Public Health ............364
+VIII. The Erosion of the Doctor-Patient Relationship During the COVID-19 Pandemic ........366
+A. Pandemic-Era Policy Often Disregarded or Outright Violated the Sanctity of the
+Doctor-Patient Relationship .......................................................................................367
+B. The Use of Off-Label Prescriptions Was Unjustly Demonized and Further Eroded the
+Doctor-Patient Relationship .......................................................................................371
+The Economic Impact of the Coronavirus Pandemic and Associated Government Response
+on Individuals, Communities, Small Businesses, Health Care Providers, States, and Local
+Government Entities
+I. The COVID-19 Pandemic’s Impact on American Business ............................................376
+C. Government Imposed Mandatory Lockdowns Were the Primary Cause of Temporary
+and Permanent Business Closures, but Other Factors Contributed as Well ...............377
+D. Business Closures Disproportionately Impacted Rural and Low-Income Areas and
+Have Led to Long-Term Changes in These Areas .....................................................379
+
+===== PDF_PAGE 12 =====
+E. The Lack of Supply Chain Diversity Exacerbated Economic and Business Recovery
+....................................................................................................................................383
+II. The COVID-19 Pandemic’s Impact on American Workers .............................................387
+E. Public Health Officials’ Arbitrary and Overly Broad Mitigation Measures and
+Aggressive Efforts to Squash Legitimate Scientific Debate Unnecessarily
+Exacerbated Unemployment ......................................................................................389
+F. Pandemic Unemployment Disproportionately Impacted Sectors with Lower Wage
+Earners Compared to Higher Wage Earners, Such as Those in Professional Services,
+and Lower Wage Earners Continue to Remain Unemployed at Higher Rates and Will
+Likely Remain So Over the Next Decade ..................................................................393
+III. The Federal Reserve’s Efforts to Mitigate the Economic Impacts of the COVID-19
+Pandemic ..........................................................................................................................397
+A. The Federal Reserve’s Aggressive, Early Actions Blunted Economic Damage of the
+Pandemic but Contributed to Staggering Inflation in Late 2021 Through 2022 .......405
+B. After Immediate Actions to Stabilize the Economy and Financial Markets, the Federal
+Reserve Should Have Placed More Emphasis on Monitoring and Addressing Long-
+Term Risks Associated with Prolonged Low Interest Rates and Increased Government
+Debt and Ensuring that Policies Did Not Lead to Future Financial Instability .........407
+C. The Federal Reserve Likely Exceeded Its Role and Responsibilities to Provide
+Market Liquidity and Acting as a “Lender of Last Resort” by Assuming the Role and
+Responsibilities of the Department of the Treasury by Acting as a Spender to Prevent
+Market Insolvency .....................................................................................................408
+The Societal Impact of Decisions to Close Schools, How the Decisions Were Made and
+Whether There is Evidence of Widespread Learning Loss or Other Negative Effects as a
+Result of These Decisions
+I. COVID-19 Pandemic-Era School Closures ..................................................................... 411
+A. Long Term School Closures Were Not Supported by Available Science and Evidence
+....................................................................................................................................412
+II. The American Federation of Teachers’ Influence ............................................................415
+A. The American Federation of Teachers Is Not a Scientific or Medical Organization .......
+....................................................................................................................................415
+B. The American Federation of Teachers Did Not Support Reopening Schools and
+Predicated Its Support for Reopening Schools on Non-Scientific Policies ...............416
+
+===== PDF_PAGE 13 =====
+C. The Biden Administration’s U.S. Centers for Disease Control and Prevention Broke
+Precedent and Shared a Draft Guidance with the American Federation of Teachers ......
+....................................................................................................................................420
+D. The American Federation of Teachers Advocated for Mitigation Measures that Were
+Overly Broad and Not Scientific, including Closure Triggers, Delaying the U.S.
+Centers for Disease Control and Prevention’s Issuance of the Operational Strategy ......
+....................................................................................................................................422
+E. The U.S. Centers for Disease Control and Prevention Accepted American Federation
+of Teachers Edits to the Operational Strategy ............................................................428
+III. The Harmful Impacts from School Closures ...................................................................438
+A. Pandemic-era School Closures Adversely Impacted Academic Performance that Will
+Continue for Years .....................................................................................................438
+B. School Closures Significantly Contributed to Increased Instances of Mental and
+Behavioral Health Issues ............................................................................................440
+C. School Closures Made an Already Alarming Trend in Declining Physical Health
+Worse .........................................................................................................................441
+Cooperation By the Executive Branch and Others with Congress, the Inspectors General,
+the Government Accountability Office, and Others in Connection with Oversight of the
+Preparedness for and Response to the Coronavirus Pandemic
+I. The Biden Administration’s U.S. Department of Health and Human Services Obstructed
+the Select Subcommittee’s Investigation .........................................................................443
+A. The Biden Administration’s U.S. Department of Health and Human Services
+Deliberately Obfuscated Evidence that Could Incriminate or Embarrass Senior Public
+Health Officials ..........................................................................................................444
+B. The Biden Administration’s U.S. Department of Health and Human Services
+Unreasonably and Possibly Illegally Limited Access to Key Witnesses ...................449
+II. EcoHealth Alliance, Inc. and Dr. Peter Daszak Obstructed the Select Subcommittee’s
+Investigation and Misled the Public .................................................................................456
+A. EcoHealth Alliance, Inc. Obstructed a Congressional Investigation .........................456
+B. EcoHealth Alliance, Inc. Doctored Documents It Released to the Public .................462
+
+===== PDF_PAGE 14 =====
+C. Dr. Peter Daszak Made False Statements to Congress in Violation of 18 U.S.C. 1001
+and 18 U.SC. 1621 .....................................................................................................466
+III. Dr. David Morens Likely Destroyed Evidence, Used Personal Email to Hide from
+Accountability, and Acted Unbecoming of a Federal Employee .....................................467
+A. Dr. David Morens Used Personal E-Mail Accounts to Avoid the Freedom of
+Information Act and Accountability ...........................................................................467
+B. Dr. David Morens Deleted Federal Records in Violation of 18 U.S.C. 2071 ............474
+C. Dr. David Morens Shared Internal U.S. National Institutes of Health Information with
+Dr. Peter Daszak and EcoHealth Alliance, Inc ..........................................................481
+D. Dr. David Morens Used His Position as a Federal Employee and Assisted Dr. Peter
+Daszak and EcoHealth Alliance, Inc Avoid Oversight ..............................................491
+E. Dr. David Morens’ Actions Violated U.S. National Institutes of Health Policy ........497
+F. Dr. David Morens Acted in a Manner Unbecoming of a Federal Public Health Official
+....................................................................................................................................501
+G. Dr. David Morens Likely Provided False Statements to Congress in Violation of 18
+U.S.C. 1001 and 18 U.S.C. 1621 ...............................................................................508
+IV. New York Governor Kathy Hochul’s Administration Withheld Key Documents from the
+Select Subcommittee Based on Claimed Privilege ..........................................................512
+A. The Executive Chamber’s Production Is Incomplete, Overly Redacted, and Withheld
+Thousands of Responsive Records Without Apparent Legal Basis ...........................513
+
+===== PDF_PAGE 15 =====
+Preface
+I. List of Key Names and Institutions (by order of appearance)
+U.S. Department of State [hereinafter “State Department”]
+Wuhan Institute of Virology [hereinafter “WIV”]
+Office of Director of National Intelligence [hereinafter “ODNI”]
+U.S. Department of Energy [hereinafter “DOE”]
+Federal Bureau of Investigation [hereinafter “FBI”]
+Dr. Robert Redfield [hereinafter “Dr. Redfield”]
+Director
+U.S. Centers for Disease Control and Prevention
+The Honorable John Ratcliffe [hereinafter “Mr. Ratcliffe”]
+Director
+Central Intelligence Agency
+Mr. Nicholas Wade [hereinafter “Mr. Wade”]
+Former Science Editor
+The New York Times
+EcoHealth Alliance, Inc [hereinafter “EcoHealth”]
+Defense Advanced Research Projects Agency [hereinafter “DARPA”]
+Biosafety Level [hereinafter “BSL”]
+Dr. Alina Chan [hereinafter “Dr. Chan”]
+Molecular Biologist
+The Broad Institute
+Dr. Zhengli Shi [hereinafter “Dr. Shi”]
+Senior Virologist
+Wuhan Institute of Virology
+Dr. Peter Daszak [hereinafter “Dr. Daszak”]
+President
+EcoHealth Alliance Inc.
+Dr. W. Ian Lipkin [hereinafter “Dr. Lipkin”]
+John Snow Professor of Epidemiology
+i
+
+===== PDF_PAGE 16 =====
+Columbia University
+Dr. Ralph Baric [hereinafter “Dr. Baric”]
+Professor, Department of Epidemiology
+University of North Carolina at Chapel Hill
+Dr. Andrew Rambaut [hereinafter “Dr. Rambaut”]
+Professor
+University of Edinburgh
+Dr. Kristian Andersen [hereinafter “Dr. Andersen”]
+Professor
+Scripps Research
+Dr. Edward Holmes [hereinafter “Dr. Holmes”]
+Professor of Biology
+University of Sydney
+Dr. Robert Garry [hereinafter “Dr. Garry”]
+Professor
+Tulane University School of Medicine
+Dr. Jeremy Farrar [hereinafter “Dr. Farrar”]
+Chief Scientist
+World Health Organization
+Former Director
+Wellcome Trust
+Dr. Francis Collins [hereinafter “Dr. Collins”]
+Former Director
+National Institutes of Health
+Dr. Anthony Fauci [hereinafter “Dr. Fauci”]
+Former Director
+National Institute of Allergy and Infectious Diseases
+Receptor Binding Domain [hereinafter “RBD”]
+Mr. Greg Folkers [hereinafter “Mr. Folkers”]
+Former Chief of Staff, Office of the Director
+National Institute of Allery and Infectious Diseases
+Dr. Lawrence Tabak [hereinafter Dr. Tabak”]
+Principal Deputy Director
+National Institutes of Health
+ii
+
+===== PDF_PAGE 17 =====
+Defense Intelligence Agency [hereinafter “DIA”]
+CDR Jean-Paul Chretien [hereinafter “CDR Chretien”]
+Program Manager, Biological Technologies Office
+Defense Advanced Research Projects Agency
+U.S. National Institutes of Health [hereinafter “NIH”]
+National Institute of Allergy and Infectious Diseases [hereinafter “NIAID”]
+The Honorable James Comer [hereinafter “Mr. Comer”]
+Chairman
+House Oversight & Accountability Committee
+Dr. Erik Stemmy [hereinafter “Dr. Stemmy”]
+Team Lead, Influenza Research and Response
+National Institute of Allergy and Infectious Disease
+President Donald J. Trump [hereinafter “President Trump”]
+Dr. Michael Lauer [hereinafter “Dr. Lauer”]
+Deputy Director for Extramural Research
+National Institutes of Health
+U.S. Department of Justice [hereinafter “DOJ”]
+Mr. F. Gray Handley [hereinafter “Mr. Handley”]
+Associate Director
+National Institute of Allery and Infectious Diseases
+Freedom of Information Act [hereinafter “FOIA”]
+Dr. David Morens [hereinafter “Dr. Morens”]
+Senior Scientific Advisor to the Director
+National Institute of Allergy and Infectious Diseases
+Ms. Maragret Moore [hereinafter “Ms. Moore”]
+Former Freedom of Information Act Public Liaison
+National Institute of Allergy and Infectious Diseases
+Coronavirus Aid, Relief, and Economic Security Act [hereinafter “CARES Act”]
+Paycheck Protection Program [hereinafter “PPP”]
+Economic Injury Disaster Loan Program [hereinafter “EIDL”]
+iii
+
+===== PDF_PAGE 18 =====
+Unemployment Insurance [hereinafter “UI”]
+Pandemic Response Accountability Committee [hereinafter “PRAC”]
+Inspector General [hereinafter “IG”]
+American Rescue Plan Act [hereinafter “ARPA”]
+President Joseph R. Biden [hereinafter “President Biden”]
+U.S. Small Business Administration [hereinafter “SBA”]
+Government Accountability Office [hereinafter “GAO”]
+Personally Identifiable Information [hereinafter “PII”]
+Social Security Number [hereinafter “SSN”]
+U.S. Department of Homeland Security [hereinafter “DHA”]
+Internal Revenue Service [hereinafter IRS”]
+U.S. Department of Labor [hereinafter “DOL”]
+Families First Coronavirus Response Act [hereinafter “FFCA”]
+Federal Pandemic Unemployment Compensation [hereinafter “FPUC”]
+Pandemic Emergency Unemployment Compensation [hereinafter “PEUC”]
+Pandemic Unemployment Assistance [hereinafter “PUA”]
+Employment and Training Administration [hereinafter “ETA”]
+Coronavirus Preparedness and Response Supplemental Appropriations Act [hereinafter “CVPR”]
+Employer Identification Numbers [hereinafter “EIN”]
+U.S. Secret Service [hereinafter “USSS”]
+U.S. Department of Treasury [hereinafter “Treasury”]
+U.S. Department of Health and Human Services [hereinafter “HHS”]
+Treasury Do Not Pay List [hereinafter “DNP list”]
+iv
+
+===== PDF_PAGE 19 =====
+Social Security Administration [hereinafter “SSA”]
+Death Master File [hereinafter “DMF”]
+Information Technology [hereinafter “IT”]
+World Health Organization [hereinafter “WHO”]
+United Nations [hereinafter “UN”]
+Chinese Communist Party [hereinafter “CCP”]
+Dr. Tedros Adhanom Ghebreyesus [hereinafter “Dr. Tedros”]
+Director-General
+World Health Organization
+International Health Regulations [hereinafter “IHR”]
+Strategic National Stockpile [hereinafter “SNS”]
+Personal Protective Equipment [hereinafter “PPE”]
+Department of Defense [hereinafter “DOD”]
+Dr. Hillary Marston [hereinafter “Dr. Marston”]
+Chief Medical Officer
+U.S. Food and Drug Administration
+The Honorable John Nkengasong [hereinafter “Ambassador Nkengasong”]
+Ambassador-at-Large
+U.S. Global AIDS Coordinator
+Senior Bureau Official for Global Health Security and Diplomacy
+U.S. Department of State
+U.S. Centers for Disease Control and Prevention [hereinafter “CDC”]
+Dr. Rochelle Walensky [hereinafter “Dr. Walensky”]
+Director
+U.S. Centers for Disease Control and Prevention
+Randomized Control Trial [hereinafter “RCT”]
+Dr. Deborah Birx [hereinafter “Dr. Birx”]
+Coordinator
+White House Coronavirus Response
+v
+
+===== PDF_PAGE 20 =====
+U.S. Food and Drug Administration [hereinafter “FDA”]
+Emergency Use Authorization [hereinafter “EUA”]
+Mr. Mark Zuckerberg [hereinafter “Mr. Zuckerburg”]
+CEO
+Meta
+The Honorable Andrew Bailey [hereinafter “Mr. Bailey”]
+Attorney General
+State of Missouri
+Operation Warp Speed [hereinafter “OWS”]
+Dr. Janet Woodcock [hereinafter “Dr. Woodcock”]
+Former Principal Deputy Commissioner
+U.S. Food and Drug Administration
+Vice President Kamala Harris [hereinafter “Vice President Harris”]
+Vaccines and Related Biological Products Advisory Committee [hereinafter “VRBPAC”]
+Mr. Andrew Cuomo [hereinafter “Mr. Cuomo”]
+Former Governor
+New York
+Dr. Howard Zucker [hereinafter “Dr. Zucker”]
+Former Commissioner
+New York State Department of Health
+Greater New York Hospital Association [hereinafter “GNYHA”]
+Ms. Melissa DeRosa [hereinafter “Ms. DeRosa”]
+Former Secretary to the Governor
+State of New York
+New York State Department of Health [hereinafter “NYSDOH”]
+Mr. Brad Hutton [hereinafter “Mr. Hutton”]
+Former Deputy Commissioner
+New York State Department of Health
+Ms. Beth Garvey [hereinafter “Ms. Garvey”]
+Former Counsel to the Governor
+State of New York
+vi
+
+===== PDF_PAGE 21 =====
+Ms. Linda Lacewell [hereinafter “Ms. Lacewell”]
+Former Superintendent
+New York State Department of Financial Services
+Mr. Larry Schwartz [hereinafter “Mr. Schwartz”]
+Former Senior Advisor to the Governor
+State of New York
+The Honorable Seema Verma [hereinafter “Ms. Verma”]
+Former Administrator
+Centers for Disease Control & Prevention
+U.S. Centers for Medicare and Medicaid Services [hereinafter “CMS”]
+Ms. Stephanie Benton [hereinafter “Ms. Benton”]
+Former Executive Assistant to the Governor
+State of New York
+Dr. James Malatras [hereinafter “Dr. Malatras”]
+Former Advisor to Governor Andrew Cuomo
+State of New York
+Mr. Garreth Rhodes [hereinafter “Mr. Rhodes”]
+Former Deputy Superintendent
+New York State Department of Financial Services
+Dr. Eleanor Adams [hereinafter “Dr. Adams”]
+Special Advisor
+New York State Department of Health
+Mr. Kenneth Raske [hereinafter “Mr. Raske”]
+President & Chief Executive Officer
+Greater New York Hospital Association
+Mr. Michael Dowling [hereinafter “Mr. Dowling”]
+President & Chief Executive Officer
+Norwell Health
+Ms. Farrah Kennedy [hereinafter “Ms. Kennedy”]
+Former Executive Assistant to the Governor
+New York State
+The Honorable Brad Wenstrup [hereinafter “Chairman Wenstrup”]
+Chairman
+Select Subcommittee on the Coronavirus Pandemic
+vii
+
+===== PDF_PAGE 22 =====
+Advisory Committee on Immunization Practices [hereinafter “ACIP”]
+Dr. Marion Gruber [hereinafter “Dr. Gruber”]
+Former Director
+Office of Vaccines Research and Review
+U.S. Food and Drug Administration
+Dr. Philip Krause [hereinafter “Dr. Krause”]
+Former Director
+Office of Vaccines Research and Review
+U.S. Food and Drug Administration
+Biologics License Application [hereinafter “BLA”]
+Action Due Date [hereinafter “ADD”]
+Dr. Peter Marks [hereinafter “Dr. Marks”]
+Director
+Center for Biologics Evaluation and Research
+U.S. Food and Drug Administration
+Office of Vaccine Research and Review [hereinafter “OVRR”]
+The Honorable Lloyd Austin [hereinafter “Secretary Austin”]
+Secretary
+U.S. Department of Defense
+Dr. Cliff Lane [hereinafter “Dr. Lane”]
+Deputy Director, Clinical Research
+National Institutes of Health
+Occupational Health and Safety Administration [hereinafter “OSHA”]
+Dr. Kevin Bardosh [hereinafter “Dr. Bardosh”]
+Affiliate Assistant Professor
+University of Washington
+Vaccine Adverse Event Reporting System [hereinafter “VAERS”]
+Center for Biologics Evaluation and Research [hereinafter “CBER”]
+Biologics Effectiveness and Safety [hereinafter “BEST”]
+Vaccine Safety Datalink [hereinafter “VSD”]
+Dr. Patrick Whelan [hereinafter “Dr. Whelan”]
+viii
+
+===== PDF_PAGE 23 =====
+Associate Clinical Professor of Pediatrics
+Division of Rheumatology
+University of California – Los Angeles
+Informed Consent Action Network [hereinafter “ICAN”]
+Vaccine Injury Compensation Program [hereinafter “VICP”]
+Public Readiness and Emergency Preparedness [hereinafter “PREP”]
+Countermeasures Injury Compensation Program [hereinafter “CICP”]
+Health Resources and Services Administration [hereinafter “HRSA”]
+Commander George Reed Grimes [hereinafter “CDR Grimes”]
+Director
+Division of Injury Compensation Programs
+U.S. Health Resource & Services Administration
+Small and Medium Enterprise [hereinafter “SME”]
+Federal Reserve Board of Governors [hereinafter “Board of Governors”]
+Federal Reserve Banks [hereinafter “Reserve Banks’]
+Federal Reserve Open Market Committee [hereinafter “FOMC”]
+American Federation of Teachers [hereinafter “AFT”]
+Ms. Randi Weingarten [hereinafter “Ms. Weingarten”]
+President
+American Federation of Teachers
+Ms. Marla Ucelli-Kashyap [hereinafter “Ms. Ucelli-Kashyap”]
+Director, Educational Issues
+American Federation of Teachers
+Dr. Greta Massetti [hereinafter “Dr. Massetti”]
+Principal Deputy Director, Injury Center
+Centers for Disease Control and Prevention
+Ms. Kelly Nedrow (Trautner) [hereinafter “Ms. Nedrow (Trautner)”]
+Director, Health Issues
+American Federation of Teachers
+Ms. Carole Johnson [hereinafter “Ms. Johnson”]
+ix
+
+===== PDF_PAGE 24 =====
+Administrator
+Health Resources and Services Administration
+National Education Association [hereinafter “NEA”]
+The Honorable Melanie Egorin [hereinafter “Ms. Egorin”]
+Assistant Secretary for Legislation
+U.S. Department of Health and Human Services
+Dr. Gerald Keusch [hereinafter “Dr. Keusch”]
+Professor of Medicine and International Health
+Boston University
+Dr. Robert Kessler [hereinafter “Dr. Kessler”]
+Communications Manager
+EcoHealth Alliance, Inc.
+x
+
+===== PDF_PAGE 25 =====
+II. List of Hearings and Meetings
+February 28, 2023
+“Preparing for the Future by Learning From the Past: Examining COVID Policy Decisions”
+Witnesses: 1) Dr. Jay Bhattacharya M.D., Ph.D.
+Professor of Medicine
+Stanford University
+2)Dr. Martin Kulldorff Ph.D.
+Professor of Medicine
+Harvard University
+3) Dr. Martin Makary M.D., M.P.H.
+Chief, Islet Transplant Surgery / Professor of Surgery
+Johns Hopkins University
+4) Dr. Georges Benjamin M.D. (Minority Witness)
+Executive Director
+American Public Health Association
+March 8, 2023
+“Investigating the Origins of COVID-19”
+Witnesses: 1) Dr. Jamie Metzl
+Senior Fellow
+Atlantic Council
+2) Dr. Robert Redfield
+Former Director
+U.S. Centers for Disease Control and Prevention
+3) Mr. Nicholas Wade
+Former Editor for Nature and Science
+Former Science Editor for The New York Times
+4) Dr. Paul Atwater (Minority Witness)
+Clinical Director, Division of Infectious Diseases
+Sherrilyn and Ken Fisher Professor of Medicine
+Johns Hopkins School of Medicine
+March 28, 2023
+“The Consequences of School Closures: Intended and Unintended”
+Witnesses: 1) Mr. David Zweig
+Author and Investigative Journalist
+The Atlantic, New York Magazine, and The Free Press
+xi
+
+===== PDF_PAGE 26 =====
+2) Dr. Tracy Høeg
+Physical Medicine & Rehabilitation Specialist
+Epidemiologist
+Private Practice Physician
+3) Ms. Virginia Gentles
+Director, Education Freedom Center
+Inpednant Women’s Forum
+4) Ms. Donna Mazyck (Minority Witness)
+Executive Director
+National Association of School Nurses
+April 18, 2023
+“Investigating the Origins of COVID-19, Part 2: China and the Available Intelligence”
+Witnesses: 1) The Honorable John Ratcliffe
+Former Director of National Intelligence
+Office of the Director of National Intelligence
+2) Mr. David Feith
+Former Deputy Assistant Secretary of State, East Asian and Pacific Affairs
+U.S. Department of State
+3) Dr. Mark Lowenthal (Minority Witness)
+Former Assistant Director of Central Intelligence of Analysis and
+Production
+Former Vice Chairman for Evaluation for the National Intelligence
+Council
+Former Deputy Assistant Secretary of State for Intelligence and Research
+April 26, 2023
+“The Consequences of School Closures, Part 2: The President of the American Federation of
+Teachers Ms. Randi Weingarten”
+Witness: 1) Ms. Randi Weingarten
+President
+American Federation of Teachers
+May 11, 2023
+“Investigating Pandemic Immunity: Acquired, Therapeutic, or both”
+Witnesses: 1) Dr. Marty Makary
+Chief, Islet Transplant Surgery
+Professor of Surgery
+Johns Hopkins University
+2) Dr. Margery Smelkinson
+xii
+
+===== PDF_PAGE 27 =====
+3) Dr. Tina Tan (Minority Witness)
+Professor of Pediatric Infectious Diseases
+Feinberg School of Medicine
+Northwestern University
+May 17, 2023
+“‘Like Fire Through Dry Grass’: Nursing Home Mortality & COVID-19 Policies”
+Witnesses: 1) Ms. Janice Dean
+2) Mr. Bill Hammond
+Senior Fellow for Health Policy
+Empire Center
+3) Ms. Vivian Zayas
+Voices for Seniors
+4) Dr. David Grabowski (Minority Witness)
+Professor of Health Care Policy
+Harvard Medical School
+June 13, 2023
+“Oversight of CDC Policies and Decisions During the COVID-19 Pandemic”
+Witness: 1) Dr. Rochelle Walensky
+Director
+U.S. Centers for Disease Control and Prevention
+June 21, 2023
+“Churches vs. Casinos: The Constitution is Not Suspended in Times of Crisis”
+Witnesses: 1) The Honorable Andrew Bailey
+Attorney General
+Missouri
+2) The Honorable Elizabeth Murrill
+Solicitor General
+Louisiana
+3) Mr. Misha Tseytlin
+Partner
+Troutman Pepper Hamilton Sanders LLP
+4) Mr. Micah Schwartzman (Minority Witness)
+Hardly Cross Dillard Professor of Law
+Director, Karsh Center for Law and Democracy
+University of Virginia School of Law
+xiii
+
+===== PDF_PAGE 28 =====
+July 11, 2023
+“Investigating the Proximal Origin of a Cover Up”
+Witnesses: 1) Dr. Kristian Andersen
+Professor
+Scripps Research
+2) Dr. Robert Garry
+Professor
+Tulane University School of Medicine
+3) Dr. W. Ian Lipkin (Attendance Excused)
+John Snow Professor of Epidemiology
+Columbia University
+4) Dr. Andrew Rambaut (Declined to Attend)
+Professor
+University of Edinburgh
+5) Dr. Edward Holmes (Declined to Attend)
+Professor of Virology
+University of Sydney
+July 27, 2023
+“Because I Said So: Examining the Science and Impact of COVID-19 Vaccine Mandates”
+Witnesses: 1) Dr. Kevin Bardosh
+Affiliate Assistant Professor
+University of Washington
+2) Ms. Allison Williams
+Reporter
+Fox Sports
+3) Ms. Danielle Runyan
+Senior Counsel
+First Liberty
+4) Dr. John Lynch (Minority Witness)
+Associate Professor of Medicine and Allergy and Infectious Diseases
+University of Washington School of Medicine
+September 14, 2023
+“Oh Doctor, Where Art Thou? Pandemic Erosion of the Doctor-Patient Relationship”
+Witnesses: 1) Dr. Azedeh Khatibi
+Physician
+Medical Ethics and Freedom Advocate
+xiv
+
+===== PDF_PAGE 29 =====
+2) Dr. Jeffrey Singer
+Surgeon
+Senior Fellow
+CATO Institute, Department of Health Policy Studies
+3) Dr. Jerry Williams
+Founder
+Urgent Care 24/7
+4) Dr. Andrea Shane (Minority Witness)
+Professor of Pediatrics
+Division of Infectious Disease
+Emory University School of Medicine
+September 19, 2023
+“The Strategic National Stockpile” **Classified**
+Witnesses: 1) The Honorable Dawn O’Connell
+Assistant Secretary for Preparedness and Response
+U.S. Department of Health and Human Services
+2) Mr. Steven Adams
+Deputy Assistant Secretary
+Center for the Strategic National Stockpile
+U.S. Department of Health and Human Services
+3) Ms. Julia Limage
+Director
+Office of Strategy, Policy, and Requirements
+Administration for Strategic Preparedness and Response
+U.S. Department of Health and Human Services
+December 13, 2023
+“Reforming the WHO: Ensuring Global Health Security and Accountability”
+Witnesses: 1) The Honorable Atul Gawande
+Assistant Administrator for Global Health
+U.S. Agency for International Development
+2) The Honorable John Nkengasong
+Ambassador-at-Large
+U.S. Global AIDS Coordinator
+Senior Bureau Official for Global Health Security and Diplomacy
+U.S. Department of State
+3) Ms. Loyce Pace
+Assistant Secretary for Global Affairs
+U.S. Department of Health and Human Services
+xv
+
+===== PDF_PAGE 30 =====
+January 31, 2024
+“Overseeing the Department of Health and Human Services’ Compliance with Congress”
+Witness: 1) The Honorbale Melanie Egorin
+Assistant Secretary for Legislation
+U.S. Department of Health and Human Services
+February 15, 2024
+“Assessing America’s Vaccine Safety Systems, Part 1”
+Witnesses: 1) Dr. Daniel Jernigan
+Director
+National Center for Emerging and Zoonotic Infectious Diseases
+U.S. Centers for Disease Control and Prevention
+2) CDR George Reed Grimes
+Director
+Division of Injury Compensation Programs
+U.S. Health Resource & Services Administration
+3) Dr. Peter Marks
+Director
+Center for Biologics Evaluation and Research
+U.S. Food and Drug Administration
+March 6, 2024
+“Examining the White House’s Role in Pandemic Preparedness and Response”
+Witness: 1) Maj. Gen. (ret.) Paul Friedrichs
+Director
+Office of Pandemic Preparedness and Response Policy
+The White House
+March 21, 2024
+“Assessing America’s Vaccine Safety Systems, Part 2”
+Witnesses: 1) Ms. Renee Gentry
+Director, Vaccine Injury Litigation Clinic
+George Washington University
+2) Dr. David Gortler
+Senior Research Fellow
+Public Health Policy and Regulation
+The Heritage Foundation
+3) Dr. Patrick Whelan
+Associate Clinical Professor of Pediatrics
+Division of Rheumatology
+University of California – Los Angeles
+xvi

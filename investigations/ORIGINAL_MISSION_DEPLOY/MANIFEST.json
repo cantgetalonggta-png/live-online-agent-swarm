@@ -1,0 +1,35 @@
+{
+  "updated": "2026-09-22T07:53:36.773153+00:00",
+  "mission": "SSCP_ORIGINAL_DEPLOY",
+  "files": {
+    "sections": [
+      "cuomo_nursing.txt",
+      "distancing_masks_lockdowns.txt",
+      "ecohealth.txt",
+      "footnotes_appendices_end.txt",
+      "fraud_relief.txt",
+      "front_toc.txt",
+      "nih_fauci.txt",
+      "origins_lab_leak.txt",
+      "proximal_origin.txt",
+      "testing_travel.txt",
+      "who_stockpile.txt"
+    ],
+    "core_json": [
+      "ORIGINAL_MISSION.json",
+      "LEO_AUTO_VERDICT_METRICS_DB.json",
+      "OPEN_ACCESS_LIVE.json",
+      "VAUGHN_PRODUCTION_WAVE_TRACKER.json",
+      "SSCP_CLAIM_TIMELINES.json",
+      "INSTITUTIONAL_LINGUISTIC_PACK_V2_1.json",
+      "PHASE4_FINAL_COMPLIANCE.json"
+    ],
+    "hq": [
+      "src/routes/primary.tsx",
+      "src/data/leoAuto.ts",
+      "src/data/primaryProof.ts",
+      "src/data/doctrine.ts"
+    ],
+    "dashboard": "sscp_ingest/dashboard/ORIGINAL_MISSION.html"
+  }
+}

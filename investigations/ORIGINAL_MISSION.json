@@ -1,0 +1,320 @@
+{
+  "mission_id": "SSCP_ORIGINAL_DEPLOY",
+  "updated": "2026-09-22T07:53:36.773153+00:00",
+  "source_report": {
+    "title": "SSCP Final Report (White House / House Oversight COVID origins & pandemic response)",
+    "url_hint": "whitehouse.gov / oversight SSCP FINAL REPORT PDF",
+    "pages_claimed_user": "520+",
+    "sections_ingested_bytes": 1043283,
+    "sections": {
+      "cuomo_nursing.txt": {
+        "bytes": 227683,
+        "lines": 3259
+      },
+      "distancing_masks_lockdowns.txt": {
+        "bytes": 119863,
+        "lines": 1821
+      },
+      "ecohealth.txt": {
+        "bytes": 99862,
+        "lines": 1750
+      },
+      "footnotes_appendices_end.txt": {
+        "bytes": 63081,
+        "lines": 1031
+      },
+      "fraud_relief.txt": {
+        "bytes": 122187,
+        "lines": 1807
+      },
+      "front_toc.txt": {
+        "bytes": 53543,
+        "lines": 941
+      },
+      "nih_fauci.txt": {
+        "bytes": 81466,
+        "lines": 1369
+      },
+      "origins_lab_leak.txt": {
+        "bytes": 68602,
+        "lines": 1301
+      },
+      "proximal_origin.txt": {
+        "bytes": 65756,
+        "lines": 1148
+      },
+      "testing_travel.txt": {
+        "bytes": 53956,
+        "lines": 840
+      },
+      "who_stockpile.txt": {
+        "bytes": 87284,
+        "lines": 1458
+      }
+    }
+  },
+  "original_requirements": [
+    "Ingest complete report including footnotes/appendices",
+    "Separate documented process failures from contested origin conclusions",
+    "Cross-check primary documents",
+    "GitHub live agent swarm backups",
+    "HTML dashboards per agents",
+    "HITL alignment",
+    "Avoid narrative control; primary-doc truth seeking",
+    "LVS \u2192 SLMVP \u2192 AAO educator pipeline",
+    "M38 lawful open-access only (no invasive recon)"
+  ],
+  "separation_rule": {
+    "M30": "Analytical tags only \u2014 not court findings",
+    "process_ne_origin": "EcoHealth debarment / Proximal Origin process failures DO NOT alone prove lab origin",
+    "origin": "Lab leak plausible; zoonosis has peer weight; no smoking gun either side in public record"
+  },
+  "claim_matrix": {
+    "C01": {
+      "title": "SARS-CoV-2 origin (lab-related vs zoonotic)",
+      "sscp_section": "origins_lab_leak.txt",
+      "class": "ORIGIN_CONTESTED",
+      "documented_failures": [
+        "Missing intermediate host / infected animal in market supply chain (SSCP argument; still no public smoking-gun host isolate).",
+        "WIV proximity + GOF history + early researcher illness reports cited as investigative leads (not legal adjudication).",
+        "IC split: CIA 2025 low-confidence research-related lean vs other IC/SAGO zoonotic weight \u2014 no consensus smoking gun."
+      ],
+      "contested_conclusions": [
+        "SSCP majority staff: lab origin more likely \u2014 minority IC view + inference, not settled science.",
+        "Peer literature still supports zoonosis as weight-of-evidence for many virologists; no final adjudicated origin."
+      ],
+      "leo_bounded": "CONTESTED",
+      "leo_slogan": "IRREGULARITY",
+      "primary_status": "PARTIAL \u2014 CIA/SAGO/public oversight present; serology notebooks / full WIV records missing",
+      "warrant": "ESCALATE_TO_TARGETED_FOIA"
+    },
+    "C02": {
+      "title": "Proximal Origin / NIH influence narrative",
+      "sscp_section": "proximal_origin.txt",
+      "class": "PROCESS_DOCUMENTED",
+      "documented_failures": [
+        "FOIA/oversight record: Andersen et al. prompted after Fauci/Collins engagement; 'disprove lab' framing appears in emails.",
+        "Paper used publicly to discredit lab-leak as conspiracy while private doubts existed (process/comms failure)."
+      ],
+      "contested_conclusions": [
+        "Whether paper is 'fraud' or scientific judgment under pressure is contested; influence \u2260 automatic scientific falsity."
+      ],
+      "leo_bounded": "SOLID (process chain)",
+      "leo_slogan": "IRREGULARITY if claim 'no NIH influence'",
+      "primary_status": "STRONG on process FOIA; payment trail partial",
+      "warrant": "ESCALATE_TO_TARGETED_FOIA (slogan overclaim) / NONE (bounded process)",
+      "oa": "Unpaywall OA PDF for Proximal Origin DOI 10.1038/s41591-020-0820-9"
+    },
+    "C03": {
+      "title": "EcoHealth / Daszak grant compliance & debarment",
+      "sscp_section": "ecohealth.txt",
+      "class": "PROCESS_DOCUMENTED",
+      "documented_failures": [
+        "HHS debarment / ARM actions (operative administrative acts) for grant noncompliance / present responsibility.",
+        "Late year-5 reports and compliance issues documented in oversight productions."
+      ],
+      "contested_conclusions": [
+        "Debarment \u2260 proof of lab origin; process failure is independent of origin hypothesis."
+      ],
+      "leo_bounded": "SOLID",
+      "leo_slogan": "IRREGULARITY if 'fully complied'",
+      "primary_status": "STRONG \u2014 HHS debarment PDFs / ARM",
+      "warrant": "NONE (bounded) / FOIA if overclaim"
+    },
+    "C04": {
+      "title": "NIH FOIA culture / Morens / oversight stonewalling",
+      "sscp_section": "nih_fauci.txt",
+      "class": "PROCESS_DOCUMENTED",
+      "documented_failures": [
+        "Morens FOIA evasion culture documented in oversight releases (private email, delete/circumvent themes).",
+        "HHS production delays / selective releases as process failures (C11 overlap)."
+      ],
+      "contested_conclusions": [],
+      "leo_bounded": "SOLID",
+      "leo_slogan": "IRREGULARITY if 'fully transparent'",
+      "primary_status": "STRONG on process",
+      "warrant": "FOIA if transparency absolute claimed"
+    },
+    "C05": {
+      "title": "Six-foot distancing scientific basis",
+      "sscp_section": "distancing_masks_lockdowns.txt",
+      "class": "PROCESS_DOCUMENTED",
+      "documented_failures": [
+        "Fauci TI: six-foot rule 'sort of just appeared' \u2014 not rigorous quantitative derivation as publicly sold.",
+        "Collins TI: limited empiric evidence themes."
+      ],
+      "contested_conclusions": [
+        "Whether some distancing helped in some contexts remains open; absolute 'always useless' is overclaim."
+      ],
+      "leo_bounded": "SOLID (process/TI)",
+      "leo_slogan": "IRREGULARITY if 'rigorously science-based absolute'",
+      "primary_status": "STRONG TI anchors",
+      "warrant": "NONE bounded"
+    },
+    "C06": {
+      "title": "Mask guidance evolution",
+      "sscp_section": "distancing_masks_lockdowns.txt",
+      "class": "PROCESS_DOCUMENTED",
+      "documented_failures": [
+        "CDC/public guidance flip-flops (early discourage public masks \u2192 later mandates).",
+        "Evidence mixed by setting; absolute slogans fail LEO pack v2.1 (mixed/flip)."
+      ],
+      "contested_conclusions": [
+        "Net community benefit still debated by setting/quality; not 'always zero' or 'always decisive'."
+      ],
+      "leo_bounded": "SOLID when bounded",
+      "leo_slogan": "IRREGULARITY for absolute ineffectiveness",
+      "primary_status": "CDC archive + mixed literature",
+      "warrant": "FOIA if absolute slogan"
+    },
+    "C07": {
+      "title": "Lockdown collateral harms vs benefits",
+      "sscp_section": "distancing_masks_lockdowns.txt",
+      "class": "CONTESTED_COUNTERFACTUAL",
+      "documented_failures": [
+        "NAEP learning loss, excess non-COVID harms series are documented harm tracks."
+      ],
+      "contested_conclusions": [
+        "Universal net 'always more harm than good' requires counterfactuals not fully adjudicated \u2014 CONTESTED."
+      ],
+      "leo_bounded": "CONTESTED",
+      "leo_slogan": "CONTESTED/IRREGULARITY if absolute",
+      "primary_status": "PARTIAL \u2014 harms solid; net universal meta missing",
+      "warrant": "ESCALATE_TO_TARGETED_FOIA / research"
+    },
+    "C08": {
+      "title": "Cuomo March 25 nursing home directive",
+      "sscp_section": "cuomo_nursing.txt",
+      "class": "PROCESS_DOCUMENTED",
+      "documented_failures": [
+        "March 25 directive language (must/shall admit) documented; July 6 draft issues; data-reporting controversies."
+      ],
+      "contested_conclusions": [
+        "Criminal adjudication of 'false statement' not established as primary in matrix \u2014 missing criminal_judgment."
+      ],
+      "leo_bounded": "CONTESTED if criminal claim",
+      "leo_slogan": "IRREGULARITY for 'adjudicated criminal'",
+      "primary_status": "PARTIAL \u2014 directive primary; criminal judgment missing",
+      "warrant": "FOIL/FOIA escalate"
+    },
+    "C09": {
+      "title": "WHO / IHR / China early performance",
+      "sscp_section": "who_stockpile.txt",
+      "class": "PROCESS_DOCUMENTED_PARTIAL_ORIGIN_LINK",
+      "documented_failures": [
+        "IHR notification failures / constrained joint study themes in public record."
+      ],
+      "contested_conclusions": [
+        "Future treaty 'completely proven harm' is overclaim; lab-leak denial as settled is overclaim."
+      ],
+      "leo_bounded": "SOLID when bounded to early performance",
+      "leo_slogan": "IRREGULARITY for absolute origin/treaty claims",
+      "primary_status": "IHR/WHO public docs",
+      "warrant": "FOIA State/HHS; WHO not FOIA"
+    },
+    "C10": {
+      "title": "Pandemic relief fraud / improper payments",
+      "sscp_section": "fraud_relief.txt",
+      "class": "PROCESS_DOCUMENTED",
+      "documented_failures": [
+        "GAO UI improper payment / fraud estimate ranges; SBA OIG potential fraud scales \u2014 method-dependent billions."
+      ],
+      "contested_conclusions": [
+        "Exact dollar totals vary by methodology; order-of-magnitude failure is documented."
+      ],
+      "leo_bounded": "SOLID (bounded ranges)",
+      "leo_slogan": "SOLID if ranges not absolute single number",
+      "primary_status": "STRONG GAO/OIG",
+      "warrant": "NONE"
+    },
+    "C11": {
+      "title": "HHS production delays / selective EcoHealth releases",
+      "sscp_section": "nih_fauci.txt + ecohealth",
+      "class": "PROCESS_DOCUMENTED",
+      "documented_failures": [
+        "Production delays and selective EcoHealth-related releases as process failures in oversight narrative."
+      ],
+      "contested_conclusions": [],
+      "leo_bounded": "SOLID",
+      "leo_slogan": "SOLID when bounded",
+      "primary_status": "STRONG process",
+      "warrant": "NONE"
+    }
+  },
+  "counts": {
+    "claims": 11,
+    "documented_failure_bullets": 18,
+    "contested_conclusion_bullets": 10,
+    "class_histogram": {
+      "ORIGIN_CONTESTED": 1,
+      "PROCESS_DOCUMENTED": 8,
+      "CONTESTED_COUNTERFACTUAL": 1,
+      "PROCESS_DOCUMENTED_PARTIAL_ORIGIN_LINK": 1
+    },
+    "section_bytes": 1043283
+  },
+  "leo": {
+    "schema": "1.4",
+    "slogan_tags": {
+      "C01": "IRREGULARITY",
+      "C02": "IRREGULARITY",
+      "C03": "IRREGULARITY",
+      "C04": "IRREGULARITY",
+      "C05": "IRREGULARITY",
+      "C06": "IRREGULARITY",
+      "C07": "CONTESTED",
+      "C08": "IRREGULARITY",
+      "C09": "IRREGULARITY",
+      "C10": "SOLID",
+      "C11": "SOLID"
+    }
+  },
+  "open_access": {
+    "c02_unpaywall": {
+      "status": "OK",
+      "doi": "10.1038/s41591-020-0820-9",
+      "title": "The proximal origin of SARS-CoV-2",
+      "is_oa": true,
+      "oa_status": "bronze",
+      "best_oa_url": "https://www.nature.com/articles/s41591-020-0820-9.pdf",
+      "host_type": "publisher",
+      "version": "publishedVersion",
+      "oa_source": "unpaywall",
+      "journal": "Nature Medicine",
+      "year": 2020
+    },
+    "c01_openalex_n": 5
+  },
+  "vaughn_tracker": {
+    "claims_in_tracker": 9,
+    "waves_per_claim": 3,
+    "filed_count": 0,
+    "template_ready": 9,
+    "productions_received": 0,
+    "vaughn_indexes_received": 0
+  },
+  "m38": {
+    "dump_dorks": false,
+    "directory_fuzzing": false,
+    "private_api_bypass": false,
+    "onion_scrapers": false,
+    "force_allow_kernel": false,
+    "authorized": [
+      "gov_foia_oversight",
+      "openalex",
+      "unpaywall",
+      "document_forensics",
+      "leo_polarity"
+    ]
+  },
+  "skill_engine": {
+    "note": "see skill-engine/state.json"
+  },
+  "deliverables": {
+    "master_dashboard": "sscp_ingest/dashboard/ORIGINAL_MISSION.html",
+    "mission_json": "ORIGINAL_MISSION_DEPLOY/MISSION.json",
+    "mission_md": "ORIGINAL_MISSION_DEPLOY/MISSION_REPORT.md",
+    "hq_route": "/primary",
+    "github_repo": "cantgetalonggta-png/live-online-agent-swarm"
+  }
+}

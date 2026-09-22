@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>SSCP Original Mission Deploy — Meridian</title>
+<style>
+:root { --bg:#0a0c0b; --card:#141816; --border:#2a312c; --text:#e8ebe4; --muted:#8a928a;
+  --brass:#c4a35a; --ok:#3d9a6a; --warn:#c4a35a; --bad:#c45c4a; }
+body { margin:0; font-family:system-ui,sans-serif; background:var(--bg); color:var(--text); line-height:1.45; }
+header { padding:22px 24px; border-bottom:1px solid var(--border); background:linear-gradient(180deg,#121512,#0a0c0b); }
+h1 { margin:0; font-size:1.4rem; }
+.meta { color:var(--muted); font-size:12px; font-family:ui-monospace,monospace; margin-top:6px; }
+main { max-width:1100px; margin:0 auto; padding:20px 24px 48px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:10px; margin:16px 0; }
+.stat { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:12px; }
+.stat .k { font-size:10px; color:var(--muted); text-transform:uppercase; letter-spacing:.08em; }
+.stat .v { font-size:1.4rem; color:var(--brass); font-weight:600; }
+section { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px; margin:14px 0; }
+h2 { margin:0 0 10px; font-size:.8rem; letter-spacing:.1em; text-transform:uppercase; color:var(--brass); }
+table { width:100%; border-collapse:collapse; font-size:13px; }
+th,td { border-bottom:1px solid var(--border); padding:7px 6px; text-align:left; vertical-align:top; }
+th { color:var(--muted); font-size:11px; text-transform:uppercase; }
+.PROCESS_DOCUMENTED { color:var(--ok); }
+.ORIGIN_CONTESTED,.CONTESTED_COUNTERFACTUAL { color:var(--warn); }
+.PROCESS_DOCUMENTED_PARTIAL_ORIGIN_LINK { color:var(--warn); }
+ul { margin:6px 0; padding-left:18px; }
+a { color:var(--brass); }
+.footer { color:var(--muted); font-size:11px; font-family:ui-monospace,monospace; margin-top:20px; }
+.badge { display:inline-block; border:1px solid var(--ok); color:var(--ok); border-radius:999px; padding:2px 8px; font-size:11px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>SSCP Original Mission Deploy</h1>
+  <div class="meta">Meridian Swarm · documented failures ≠ origin proof · M38 · LEO · FOIA · OpenAlex/Unpaywall · 2026-09-22T07:53:36Z
+  · <span class="badge">DEPLOYED</span></div>
+</header>
+<main>
+  <div class="grid">
+    <div class="stat"><div class="k">Section bytes</div><div class="v">1043k</div></div>
+    <div class="stat"><div class="k">Claims</div><div class="v">11</div></div>
+    <div class="stat"><div class="k">Doc failure bullets</div><div class="v">18</div></div>
+    <div class="stat"><div class="k">Contested bullets</div><div class="v">10</div></div>
+    <div class="stat"><div class="k">FOIA warrants</div><div class="v">9</div></div>
+    <div class="stat"><div class="k">M38 invasive</div><div class="v" style="color:var(--ok)">OFF</div></div>
+  </div>
+
+  <section>
+    <h2>Original task → deploy map</h2>
+    <table>
+      <tr><th>Requirement</th><th>Status</th></tr>
+      <tr><td>Ingest SSCP + footnotes</td><td class="PROCESS_DOCUMENTED">YES — 11 section files · footnotes extract</td></tr>
+      <tr><td>Separate process failures vs origin</td><td class="PROCESS_DOCUMENTED">YES — claim class matrix + M30/process≠origin</td></tr>
+      <tr><td>Primary cross-check</td><td class="PROCESS_DOCUMENTED">YES — LEO + FOIA warrants + OpenAlex/Unpaywall</td></tr>
+      <tr><td>GitHub agent swarm</td><td class="PROCESS_DOCUMENTED">YES — live-online-agent-swarm</td></tr>
+      <tr><td>HTML dashboards</td><td class="PROCESS_DOCUMENTED">YES — this page + /primary + cycle boards</td></tr>
+      <tr><td>Lawful only (M38)</td><td class="PROCESS_DOCUMENTED">YES — no dork/fuzz/onion/ForceAllow</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>C01–C11 separation matrix</h2>
+    <table>
+      <thead><tr><th>ID</th><th>Title</th><th>Class</th><th>Primary</th></tr></thead>
+      <tbody>
+<tr><td><code>C01</code></td><td>SARS-CoV-2 origin (lab-related vs zoonotic)</td><td class='ORIGIN_CONTESTED'>ORIGIN_CONTESTED</td><td style='color:var(--muted);font-size:12px'>PARTIAL — CIA/SAGO/public oversight present; serology notebooks / full WIV records missing</td></tr>
+<tr><td><code>C02</code></td><td>Proximal Origin / NIH influence narrative</td><td class='PROCESS_DOCUMENTED'>PROCESS_DOCUMENTED</td><td style='color:var(--muted);font-size:12px'>STRONG on process FOIA; payment trail partial</td></tr>
+<tr><td><code>C03</code></td><td>EcoHealth / Daszak grant compliance & debarment</td><td class='PROCESS_DOCUMENTED'>PROCESS_DOCUMENTED</td><td style='color:var(--muted);font-size:12px'>STRONG — HHS debarment PDFs / ARM</td></tr>
+<tr><td><code>C04</code></td><td>NIH FOIA culture / Morens / oversight stonewalling</td><td class='PROCESS_DOCUMENTED'>PROCESS_DOCUMENTED</td><td style='color:var(--muted);font-size:12px'>STRONG on process</td></tr>
+<tr><td><code>C05</code></td><td>Six-foot distancing scientific basis</td><td class='PROCESS_DOCUMENTED'>PROCESS_DOCUMENTED</td><td style='color:var(--muted);font-size:12px'>STRONG TI anchors</td></tr>
+<tr><td><code>C06</code></td><td>Mask guidance evolution</td><td class='PROCESS_DOCUMENTED'>PROCESS_DOCUMENTED</td><td style='color:var(--muted);font-size:12px'>CDC archive + mixed literature</td></tr>
+<tr><td><code>C07</code></td><td>Lockdown collateral harms vs benefits</td><td class='CONTESTED_COUNTERFACTUAL'>CONTESTED_COUNTERFACTUAL</td><td style='color:var(--muted);font-size:12px'>PARTIAL — harms solid; net universal meta missing</td></tr>
+<tr><td><code>C08</code></td><td>Cuomo March 25 nursing home directive</td><td class='PROCESS_DOCUMENTED'>PROCESS_DOCUMENTED</td><td style='color:var(--muted);font-size:12px'>PARTIAL — directive primary; criminal judgment missing</td></tr>
+<tr><td><code>C09</code></td><td>WHO / IHR / China early performance</td><td class='PROCESS_DOCUMENTED_PARTIAL_ORIGIN_LINK'>PROCESS_DOCUMENTED_PARTIAL_ORIGIN_LINK</td><td style='color:var(--muted);font-size:12px'>IHR/WHO public docs</td></tr>
+<tr><td><code>C10</code></td><td>Pandemic relief fraud / improper payments</td><td class='PROCESS_DOCUMENTED'>PROCESS_DOCUMENTED</td><td style='color:var(--muted);font-size:12px'>STRONG GAO/OIG</td></tr>
+<tr><td><code>C11</code></td><td>HHS production delays / selective EcoHealth releases</td><td class='PROCESS_DOCUMENTED'>PROCESS_DOCUMENTED</td><td style='color:var(--muted);font-size:12px'>STRONG process</td></tr>
+
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Documented process failures (sample)</h2>
+    <ul>
+      <li><strong>C02</strong> — Proximal Origin prompted/comms pressure (FOIA process)</li>
+      <li><strong>C03</strong> — EcoHealth/Daszak HHS debarment (operative act)</li>
+      <li><strong>C04</strong> — Morens FOIA culture / stonewall themes</li>
+      <li><strong>C05</strong> — Six-foot rule empiric weakness (TI)</li>
+      <li><strong>C06</strong> — Mask guidance flip / mixed evidence</li>
+      <li><strong>C08</strong> — March 25 nursing-home directive language</li>
+      <li><strong>C10</strong> — GAO/OIG relief fraud / improper payment scale</li>
+      <li><strong>C11</strong> — HHS production delays / selective releases</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contested (do not call “proven”)</h2>
+    <ul>
+      <li><strong>C01</strong> — Lab origin vs zoonosis: plausible vs peer weight; <em>no smoking gun</em></li>
+      <li><strong>C07</strong> — Lockdown net universal harm counterfactual</li>
+      <li><strong>C08</strong> — Criminal adjudication of Cuomo statements</li>
+      <li><strong>C09</strong> — Treaty future harm / absolute origin denial</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Open access · FOIA · HQ</h2>
+    <ul>
+      <li>Proximal Origin OA: <a href="https://www.nature.com/articles/s41591-020-0820-9.pdf" target="_blank" rel="noreferrer">Nature PDF</a></li>
+      <li>Vaughn tracker: {'claims_in_tracker': 9, 'waves_per_claim': 3, 'filed_count': 0, 'template_ready': 9, 'productions_received': 0, 'vaughn_indexes_received': 0}</li>
+      <li>HQ UI: <code>/primary</code></li>
+      <li>Sub-boards: <a href="phase4_open_access.html">Phase4</a> · <a href="phase23_forensic_leo.html">Forensics+LEO</a> · <a href="doctrine_lvs_slmvp_aao.html">Doctrine</a></li>
+    </ul>
+  </section>
+
+  <p class="footer">ORIGINAL_MISSION_DEPLOY · M38 · process≠origin · 2026-09-22T07:53:36.773153+00:00</p>
+</main>
+</body>
+</html>
