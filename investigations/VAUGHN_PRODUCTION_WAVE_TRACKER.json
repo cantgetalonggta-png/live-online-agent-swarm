@@ -1,0 +1,476 @@
+{
+  "schema_version": "1.0",
+  "updated": "2026-09-22T07:48:40.870219+00:00",
+  "purpose": "Track FOIA production waves + Vaughn completeness per claim (ops log, not a filing system)",
+  "m30": "Analytical / investigator aid only",
+  "m38": true,
+  "claims": {
+    "C01": {
+      "claim_id": "C01",
+      "leo_tag": "IRREGULARITY",
+      "omission_weight": 0.6,
+      "date_range": {
+        "start": "2019-09-01",
+        "end": "2025-06-30"
+      },
+      "status": "TEMPLATE_READY",
+      "waves": [
+        {
+          "wave": 1,
+          "label": "Initial FOIA/FOIL filing (draft)",
+          "status": "NOT_FILED",
+          "requested": [
+            "serology",
+            "host_data",
+            "notebook_logs"
+          ],
+          "vaughn_required": true,
+          "native_email_required": true,
+          "received_docs": [],
+          "withheld_count": null,
+          "exemptions_seen": [],
+          "notes": "Template only \u2014 investigator must file via agency portal"
+        },
+        {
+          "wave": 2,
+          "label": "Rolling production + interim Vaughn",
+          "status": "PENDING_WAVE1",
+          "requested": [
+            "interim_vaughn_index",
+            "segregable_releases"
+          ],
+          "vaughn_required": true,
+          "received_docs": [],
+          "notes": "Activate after wave-1 acknowledgment"
+        },
+        {
+          "wave": 3,
+          "label": "Appeal / still-missing primaries",
+          "status": "PENDING_WAVE2",
+          "requested": [
+            "still_missing_vs_m32_watchlist"
+          ],
+          "vaughn_required": true,
+          "received_docs": [],
+          "notes": "Compare production to M32 still-need list"
+        }
+      ],
+      "m32_still_open": [
+        "serology",
+        "host_data",
+        "notebook_logs"
+      ],
+      "warrant_ref": "C01-FOIA-LATEST.md"
+    },
+    "C02": {
+      "claim_id": "C02",
+      "leo_tag": "IRREGULARITY",
+      "omission_weight": 0.5,
+      "date_range": {
+        "start": "2020-01-31",
+        "end": "2020-04-30"
+      },
+      "status": "TEMPLATE_READY",
+      "waves": [
+        {
+          "wave": 1,
+          "label": "Initial FOIA/FOIL filing (draft)",
+          "status": "NOT_FILED",
+          "requested": [
+            "payment_ledger"
+          ],
+          "vaughn_required": true,
+          "native_email_required": true,
+          "received_docs": [],
+          "withheld_count": null,
+          "exemptions_seen": [],
+          "notes": "Template only \u2014 investigator must file via agency portal"
+        },
+        {
+          "wave": 2,
+          "label": "Rolling production + interim Vaughn",
+          "status": "PENDING_WAVE1",
+          "requested": [
+            "interim_vaughn_index",
+            "segregable_releases"
+          ],
+          "vaughn_required": true,
+          "received_docs": [],
+          "notes": "Activate after wave-1 acknowledgment"
+        },
+        {
+          "wave": 3,
+          "label": "Appeal / still-missing primaries",
+          "status": "PENDING_WAVE2",
+          "requested": [
+            "still_missing_vs_m32_watchlist"
+          ],
+          "vaughn_required": true,
+          "received_docs": [],
+          "notes": "Compare production to M32 still-need list"
+        }
+      ],
+      "m32_still_open": [
+        "payment_ledger"
+      ],
+      "warrant_ref": "C02-FOIA-LATEST.md"
+    },
+    "C03": {
+      "claim_id": "C03",
+      "leo_tag": "IRREGULARITY",
+      "omission_weight": 0.0,
+      "date_range": {
+        "start": "2014-06-01",
+        "end": "2025-01-31"
+      },
+      "status": "TEMPLATE_READY",
+      "waves": [
+        {
+          "wave": 1,
+          "label": "Initial FOIA/FOIL filing (draft)",
+          "status": "NOT_FILED",
+          "requested": [],
+          "vaughn_required": true,
+          "native_email_required": true,
+          "received_docs": [],
+          "withheld_count": null,
+          "exemptions_seen": [],
+          "notes": "Template only \u2014 investigator must file via agency portal"
+        },
+        {
+          "wave": 2,
+          "label": "Rolling production + interim Vaughn",
+          "status": "PENDING_WAVE1",
+          "requested": [
+            "interim_vaughn_index",
+            "segregable_releases"
+          ],
+          "vaughn_required": true,
+          "received_docs": [],
+          "notes": "Activate after wave-1 acknowledgment"
+        },
+        {
+          "wave": 3,
+          "label": "Appeal / still-missing primaries",
+          "status": "PENDING_WAVE2",
+          "requested": [
+            "still_missing_vs_m32_watchlist"
+          ],
+          "vaughn_required": true,
+          "received_docs": [],
+          "notes": "Compare production to M32 still-need list"
+        }
+      ],
+      "m32_still_open": [],
+      "warrant_ref": "C03-FOIA-LATEST.md"
+    },
+    "C04": {
+      "claim_id": "C04",
+      "leo_tag": "IRREGULARITY",
+      "omission_weight": 0.0,
+      "date_range": {
+        "start": "2020-01-01",
+        "end": "2024-12-31"
+      },
+      "status": "TEMPLATE_READY",
+      "waves": [
+        {
+          "wave": 1,
+          "label": "Initial FOIA/FOIL filing (draft)",
+          "status": "NOT_FILED",
+          "requested": [],
+          "vaughn_required": true,
+          "native_email_required": true,
+          "received_docs": [],
+          "withheld_count": null,
+          "exemptions_seen": [],
+          "notes": "Template only \u2014 investigator must file via agency portal"
+        },
+        {
+          "wave": 2,
+          "label": "Rolling production + interim Vaughn",
+          "status": "PENDING_WAVE1",
+          "requested": [
+            "interim_vaughn_index",
+            "segregable_releases"
+          ],
+          "vaughn_required": true,
+          "received_docs": [],
+          "notes": "Activate after wave-1 acknowledgment"
+        },
+        {
+          "wave": 3,
+          "label": "Appeal / still-missing primaries",
+          "status": "PENDING_WAVE2",
+          "requested": [
+            "still_missing_vs_m32_watchlist"
+          ],
+          "vaughn_required": true,
+          "received_docs": [],
+          "notes": "Compare production to M32 still-need list"
+        }
+      ],
+      "m32_still_open": [],
+      "warrant_ref": "C04-FOIA-LATEST.md"
+    },
+    "C05": {
+      "claim_id": "C05",
+      "leo_tag": "IRREGULARITY",
+      "omission_weight": 0.0,
+      "date_range": {
+        "start": "2020-02-01",
+        "end": "2020-06-30"
+      },
+      "status": "TEMPLATE_READY",
+      "waves": [
+        {
+          "wave": 1,
+          "label": "Initial FOIA/FOIL filing (draft)",
+          "status": "NOT_FILED",
+          "requested": [],
+          "vaughn_required": true,
+          "native_email_required": true,
+          "received_docs": [],
+          "withheld_count": null,
+          "exemptions_seen": [],
+          "notes": "Template only \u2014 investigator must file via agency portal"
+        },
+        {
+          "wave": 2,
+          "label": "Rolling production + interim Vaughn",
+          "status": "PENDING_WAVE1",
+          "requested": [
+            "interim_vaughn_index",
+            "segregable_releases"
+          ],
+          "vaughn_required": true,
+          "received_docs": [],
+          "notes": "Activate after wave-1 acknowledgment"
+        },
+        {
+          "wave": 3,
+          "label": "Appeal / still-missing primaries",
+          "status": "PENDING_WAVE2",
+          "requested": [
+            "still_missing_vs_m32_watchlist"
+          ],
+          "vaughn_required": true,
+          "received_docs": [],
+          "notes": "Compare production to M32 still-need list"
+        }
+      ],
+      "m32_still_open": [],
+      "warrant_ref": "C05-FOIA-LATEST.md"
+    },
+    "C06": {
+      "claim_id": "C06",
+      "leo_tag": "IRREGULARITY",
+      "omission_weight": 0.0,
+      "date_range": {
+        "start": "2020-02-01",
+        "end": "2023-12-31"
+      },
+      "status": "TEMPLATE_READY",
+      "waves": [
+        {
+          "wave": 1,
+          "label": "Initial FOIA/FOIL filing (draft)",
+          "status": "NOT_FILED",
+          "requested": [],
+          "vaughn_required": true,
+          "native_email_required": true,
+          "received_docs": [],
+          "withheld_count": null,
+          "exemptions_seen": [],
+          "notes": "Template only \u2014 investigator must file via agency portal"
+        },
+        {
+          "wave": 2,
+          "label": "Rolling production + interim Vaughn",
+          "status": "PENDING_WAVE1",
+          "requested": [
+            "interim_vaughn_index",
+            "segregable_releases"
+          ],
+          "vaughn_required": true,
+          "received_docs": [],
+          "notes": "Activate after wave-1 acknowledgment"
+        },
+        {
+          "wave": 3,
+          "label": "Appeal / still-missing primaries",
+          "status": "PENDING_WAVE2",
+          "requested": [
+            "still_missing_vs_m32_watchlist"
+          ],
+          "vaughn_required": true,
+          "received_docs": [],
+          "notes": "Compare production to M32 still-need list"
+        }
+      ],
+      "m32_still_open": [],
+      "warrant_ref": "C06-FOIA-LATEST.md"
+    },
+    "C07": {
+      "claim_id": "C07",
+      "leo_tag": "CONTESTED",
+      "omission_weight": 0.333,
+      "date_range": {
+        "start": "2020-03-01",
+        "end": "2024-12-31"
+      },
+      "status": "TEMPLATE_READY",
+      "waves": [
+        {
+          "wave": 1,
+          "label": "Initial FOIA/FOIL filing (draft)",
+          "status": "NOT_FILED",
+          "requested": [
+            "universal_net"
+          ],
+          "vaughn_required": true,
+          "native_email_required": true,
+          "received_docs": [],
+          "withheld_count": null,
+          "exemptions_seen": [],
+          "notes": "Template only \u2014 investigator must file via agency portal"
+        },
+        {
+          "wave": 2,
+          "label": "Rolling production + interim Vaughn",
+          "status": "PENDING_WAVE1",
+          "requested": [
+            "interim_vaughn_index",
+            "segregable_releases"
+          ],
+          "vaughn_required": true,
+          "received_docs": [],
+          "notes": "Activate after wave-1 acknowledgment"
+        },
+        {
+          "wave": 3,
+          "label": "Appeal / still-missing primaries",
+          "status": "PENDING_WAVE2",
+          "requested": [
+            "still_missing_vs_m32_watchlist"
+          ],
+          "vaughn_required": true,
+          "received_docs": [],
+          "notes": "Compare production to M32 still-need list"
+        }
+      ],
+      "m32_still_open": [
+        "universal_net"
+      ],
+      "warrant_ref": "C07-FOIA-LATEST.md"
+    },
+    "C08": {
+      "claim_id": "C08",
+      "leo_tag": "IRREGULARITY",
+      "omission_weight": 0.333,
+      "date_range": {
+        "start": "2020-03-01",
+        "end": "2021-12-31"
+      },
+      "status": "TEMPLATE_READY",
+      "waves": [
+        {
+          "wave": 1,
+          "label": "Initial FOIA/FOIL filing (draft)",
+          "status": "NOT_FILED",
+          "requested": [
+            "criminal_judgment"
+          ],
+          "vaughn_required": true,
+          "native_email_required": true,
+          "received_docs": [],
+          "withheld_count": null,
+          "exemptions_seen": [],
+          "notes": "Template only \u2014 investigator must file via agency portal"
+        },
+        {
+          "wave": 2,
+          "label": "Rolling production + interim Vaughn",
+          "status": "PENDING_WAVE1",
+          "requested": [
+            "interim_vaughn_index",
+            "segregable_releases"
+          ],
+          "vaughn_required": true,
+          "received_docs": [],
+          "notes": "Activate after wave-1 acknowledgment"
+        },
+        {
+          "wave": 3,
+          "label": "Appeal / still-missing primaries",
+          "status": "PENDING_WAVE2",
+          "requested": [
+            "still_missing_vs_m32_watchlist"
+          ],
+          "vaughn_required": true,
+          "received_docs": [],
+          "notes": "Compare production to M32 still-need list"
+        }
+      ],
+      "m32_still_open": [
+        "criminal_judgment"
+      ],
+      "warrant_ref": "C08-FOIA-LATEST.md"
+    },
+    "C09": {
+      "claim_id": "C09",
+      "leo_tag": "IRREGULARITY",
+      "omission_weight": 0.0,
+      "date_range": {
+        "start": "2019-12-01",
+        "end": "2025-06-30"
+      },
+      "status": "TEMPLATE_READY",
+      "waves": [
+        {
+          "wave": 1,
+          "label": "Initial FOIA/FOIL filing (draft)",
+          "status": "NOT_FILED",
+          "requested": [],
+          "vaughn_required": true,
+          "native_email_required": true,
+          "received_docs": [],
+          "withheld_count": null,
+          "exemptions_seen": [],
+          "notes": "Template only \u2014 investigator must file via agency portal"
+        },
+        {
+          "wave": 2,
+          "label": "Rolling production + interim Vaughn",
+          "status": "PENDING_WAVE1",
+          "requested": [
+            "interim_vaughn_index",
+            "segregable_releases"
+          ],
+          "vaughn_required": true,
+          "received_docs": [],
+          "notes": "Activate after wave-1 acknowledgment"
+        },
+        {
+          "wave": 3,
+          "label": "Appeal / still-missing primaries",
+          "status": "PENDING_WAVE2",
+          "requested": [
+            "still_missing_vs_m32_watchlist"
+          ],
+          "vaughn_required": true,
+          "received_docs": [],
+          "notes": "Compare production to M32 still-need list"
+        }
+      ],
+      "m32_still_open": [],
+      "warrant_ref": "C09-FOIA-LATEST.md"
+    }
+  },
+  "summary": {
+    "claims_in_tracker": 9,
+    "waves_per_claim": 3,
+    "filed_count": 0,
+    "template_ready": 9
+  }
+}

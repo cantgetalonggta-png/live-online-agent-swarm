@@ -1,0 +1,30 @@
+{
+  "cycle": 21,
+  "updated": "2026-09-22T07:48:40.870219+00:00",
+  "unpaywall": {
+    "updated": "2026-09-22T07:48:40.870219+00:00",
+    "C02_proximal_origin": {
+      "status": "ERROR",
+      "doi": "10.1038/s41591-020-0820-9",
+      "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    "C01_sample": {
+      "status": "ERROR",
+      "doi": "https://doi.org/10.7150/ijbs.45472",
+      "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    "m38": "Unpaywall authorized OA mirrors only"
+  },
+  "vaughn_tracker_summary": {
+    "claims_in_tracker": 9,
+    "waves_per_claim": 3,
+    "filed_count": 0,
+    "template_ready": 9
+  },
+  "openalex_refined": true,
+  "hq_wire": [
+    "leoAuto.ts",
+    "primary.tsx"
+  ],
+  "m38": true
+}

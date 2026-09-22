@@ -1,0 +1,25 @@
+{
+  "updated": "2026-09-22T07:49:04.187418+00:00",
+  "C02_proximal_origin": {
+    "doi": "10.1038/s41591-020-0820-9",
+    "title": "The proximal origin of SARS-CoV-2",
+    "unpaywall_attempts": [
+      {
+        "email": "unpaywall@my.harvard.edu",
+        "status": "OK",
+        "is_oa": true,
+        "pdf": "https://www.nature.com/articles/s41591-020-0820-9.pdf",
+        "oa_status": "bronze"
+      }
+    ],
+    "crossref": {
+      "status": "ERROR",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    "fallback_openalex_oa_url": "https://www.nature.com/articles/s41591-020-0820-9.pdf",
+    "is_oa_effective": true,
+    "oa_source": "unpaywall",
+    "note": "Unpaywall 422 in this environment; OpenAlex provides OA PDF URL for same DOI (M38 open)."
+  },
+  "m38": "OA via OpenAlex/Crossref open APIs when Unpaywall rejects"
+}
