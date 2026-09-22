@@ -1,0 +1,271 @@
+{
+  "phase": "4_open_access_telemetry",
+  "updated": "2026-09-22T06:49:15.406246+00:00",
+  "scope": {
+    "in": [
+      "site:*.gov / oversight.house.gov / gao.gov / who.int public PDFs",
+      "FOIA reading-room & Oversight-published releases",
+      "OpenAlex / Crossref / Unpaywall open APIs (open access metadata + OA PDFs)",
+      "User-supplied public documents",
+      "LEO + document forensics on obtained files"
+    ],
+    "out": [
+      "intitle:index of backup|db|conf|env secret hunting against third parties",
+      "Gobuster/Dirbuster directory fuzzing of non-owned systems",
+      "Credentialed intranet pierce",
+      "Production Tor onion scrape pipelines for C01-C11",
+      "Runtime client mutation / toString camouflage"
+    ]
+  },
+  "lawful_dorks": [
+    "site:oversight.house.gov filetype:pdf debarment",
+    "site:oversight.house.gov filetype:pdf \"Proximal Origin\"",
+    "site:gao.gov filetype:pdf \"improper payments\" COVID OR pandemic",
+    "site:who.int SAGO origins SARS-CoV-2",
+    "site:gov filetype:pdf \"R01AI110964\""
+  ],
+  "matrix": {
+    "C01": {
+      "verdict_tag": "OVERSTATED",
+      "omission_weight": 0.6,
+      "clashes_identified": 2,
+      "clash_detail": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "proven",
+          "context_marker": "Secondary public/open disclosure conflicts with absolute claim."
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "debunked conspiracy",
+          "context_marker": "Secondary public/open disclosure conflicts with absolute claim."
+        }
+      ],
+      "foia_seeds": 1,
+      "openalex": "OK",
+      "why": "Metadata anomalies: ANACHRONISM: declared year 2021 predates tool release 2024.; FORGERY_WARNING: generation 2025-06-20 post-dates claim 2021-03-15.",
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
+      "missing_tracks": [
+        "wiv_serology",
+        "host_isolate",
+        "lab_notebook"
+      ],
+      "legal_note": "Analytical tag only (M30). Open-access mesh only (M37)."
+    },
+    "C02": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.25,
+      "clashes_identified": 2,
+      "clash_detail": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "purely objective",
+          "context_marker": "Secondary public/open disclosure conflicts with absolute claim."
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "no nih influence",
+          "context_marker": "Secondary public/open disclosure conflicts with absolute claim."
+        }
+      ],
+      "foia_seeds": 1,
+      "openalex": "OK",
+      "why": "Overclaim clash vs public/open secondary (HEARING_OVERSIGHT).",
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
+      "missing_tracks": [
+        "payment_trail"
+      ],
+      "legal_note": "Analytical tag only (M30). Open-access mesh only (M37)."
+    },
+    "C03": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.0,
+      "clashes_identified": 1,
+      "clash_detail": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "fully complied",
+          "context_marker": "Secondary public/open disclosure conflicts with absolute claim."
+        }
+      ],
+      "foia_seeds": 2,
+      "openalex": null,
+      "why": "Overclaim clash vs public/open secondary (OPERATIVE_ACT, OPERATIVE_ACT).",
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
+      "missing_tracks": [],
+      "legal_note": "Analytical tag only (M30). Open-access mesh only (M37)."
+    },
+    "C04": {
+      "verdict_tag": "SOLID",
+      "omission_weight": 0.0,
+      "clashes_identified": 0,
+      "clash_detail": [],
+      "foia_seeds": 0,
+      "openalex": null,
+      "why": "Primaries present; narrative bounded or consistent with secondary.",
+      "actionable_warrant": "NONE",
+      "missing_tracks": [],
+      "legal_note": "Analytical tag only (M30). Open-access mesh only (M37)."
+    },
+    "C05": {
+      "verdict_tag": "SOLID",
+      "omission_weight": 0.0,
+      "clashes_identified": 0,
+      "clash_detail": [],
+      "foia_seeds": 0,
+      "openalex": null,
+      "why": "Primaries present; narrative bounded or consistent with secondary.",
+      "actionable_warrant": "NONE",
+      "missing_tracks": [],
+      "legal_note": "Analytical tag only (M30). Open-access mesh only (M37)."
+    },
+    "C06": {
+      "verdict_tag": "SOLID",
+      "omission_weight": 0.0,
+      "clashes_identified": 0,
+      "clash_detail": [],
+      "foia_seeds": 0,
+      "openalex": null,
+      "why": "Primaries present; narrative bounded or consistent with secondary.",
+      "actionable_warrant": "NONE",
+      "missing_tracks": [],
+      "legal_note": "Analytical tag only (M30). Open-access mesh only (M37)."
+    },
+    "C07": {
+      "verdict_tag": "CONTESTED",
+      "omission_weight": 0.333,
+      "clashes_identified": 0,
+      "clash_detail": [],
+      "foia_seeds": 0,
+      "openalex": null,
+      "why": "Partial primary: missing ['universal_net_meta']",
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
+      "missing_tracks": [
+        "universal_net_meta"
+      ],
+      "legal_note": "Analytical tag only (M30). Open-access mesh only (M37)."
+    },
+    "C08": {
+      "verdict_tag": "CONTESTED",
+      "omission_weight": 0.333,
+      "clashes_identified": 0,
+      "clash_detail": [],
+      "foia_seeds": 0,
+      "openalex": null,
+      "why": "Partial primary: missing ['criminal_judgment']",
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
+      "missing_tracks": [
+        "criminal_judgment"
+      ],
+      "legal_note": "Analytical tag only (M30). Open-access mesh only (M37)."
+    },
+    "C09": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.333,
+      "clashes_identified": 1,
+      "clash_detail": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "proven",
+          "context_marker": "Secondary public/open disclosure conflicts with absolute claim."
+        }
+      ],
+      "foia_seeds": 1,
+      "openalex": null,
+      "why": "Overclaim clash vs public/open secondary (SCIENTIFIC_PANEL).",
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
+      "missing_tracks": [
+        "treaty_harm_proof"
+      ],
+      "legal_note": "Analytical tag only (M30). Open-access mesh only (M37)."
+    },
+    "C10": {
+      "verdict_tag": "SOLID",
+      "omission_weight": 0.0,
+      "clashes_identified": 0,
+      "clash_detail": [],
+      "foia_seeds": 1,
+      "openalex": null,
+      "why": "Primaries present; narrative bounded or consistent with secondary.",
+      "actionable_warrant": "NONE",
+      "missing_tracks": [],
+      "legal_note": "Analytical tag only (M30). Open-access mesh only (M37)."
+    },
+    "C11": {
+      "verdict_tag": "SOLID",
+      "omission_weight": 0.0,
+      "clashes_identified": 0,
+      "clash_detail": [],
+      "foia_seeds": 0,
+      "openalex": null,
+      "why": "Primaries present; narrative bounded or consistent with secondary.",
+      "actionable_warrant": "NONE",
+      "missing_tracks": [],
+      "legal_note": "Analytical tag only (M30). Open-access mesh only (M37)."
+    }
+  },
+  "telemetry": {
+    "elapsed_s": 1.21,
+    "event_counts": {
+      "claim_start": 11,
+      "foia_seed": 11,
+      "openalex": 2,
+      "claim_done": 11
+    },
+    "n_events": 35
+  },
+  "openalex_cache": {
+    "C01": {
+      "status": "OK",
+      "query": "SARS-CoV-2 origins laboratory",
+      "count": 69744,
+      "results": [
+        {
+          "id": "https://openalex.org/W3011127849",
+          "title": "The proximal origin of SARS-CoV-2",
+          "publication_year": 2020,
+          "oa_url": "https://www.nature.com/articles/s41591-020-0820-9.pdf",
+          "cited_by": 5515,
+          "doi": "https://doi.org/10.1038/s41591-020-0820-9"
+        },
+        {
+          "id": "https://openalex.org/W3004280078",
+          "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+          "publication_year": 2020,
+          "oa_url": "https://www.nature.com/articles/s41586-020-2012-7.pdf",
+          "cited_by": 23421,
+          "doi": "https://doi.org/10.1038/s41586-020-2012-7"
+        }
+      ]
+    },
+    "C02": {
+      "status": "OK",
+      "query": "Proximal Origin SARS-CoV-2",
+      "count": 13035,
+      "results": [
+        {
+          "id": "https://openalex.org/W3011127849",
+          "title": "The proximal origin of SARS-CoV-2",
+          "publication_year": 2020,
+          "oa_url": "https://www.nature.com/articles/s41591-020-0820-9.pdf",
+          "cited_by": 5515,
+          "doi": "https://doi.org/10.1038/s41591-020-0820-9"
+        },
+        {
+          "id": "https://openalex.org/W3092136311",
+          "title": "Characteristics of SARS-CoV-2 and COVID-19",
+          "publication_year": 2020,
+          "oa_url": "https://www.nature.com/articles/s41579-020-00459-7.pdf",
+          "cited_by": 5506,
+          "doi": "https://doi.org/10.1038/s41579-020-00459-7"
+        }
+      ]
+    }
+  },
+  "tag_counts": {
+    "OVERSTATED": 1,
+    "IRREGULARITY": 3,
+    "SOLID": 5,
+    "CONTESTED": 2
+  }
+}
