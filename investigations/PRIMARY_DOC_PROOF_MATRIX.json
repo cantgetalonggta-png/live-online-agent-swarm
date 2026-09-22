@@ -1,0 +1,271 @@
+{
+  "engine": "PrimaryDocProofEngine_v1",
+  "updated": "2026-09-22T05:27:07.465934+00:00",
+  "rule": "M1 public-record ceiling. SOLID only with primary or official .gov/FOIA/IC/court. Gap \u2260 invent.",
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Lab accident most likely (WIV)",
+      "tag": "CONTESTED",
+      "primary_need": "HIGH \u2014 smoking gun sample/notebook never public; IC products partial",
+      "docs_located": [
+        {
+          "doc": "CIA spokesperson statement 2025-01-25",
+          "status": "FOUND",
+          "url": "AP/Reuters/CNN same-day quotes of CIA: research-related more likely, LOW confidence, both plausible, no claim of new intel"
+        },
+        {
+          "doc": "ODNI assessments 2021/2023",
+          "status": "FOUND_REF",
+          "note": "Split IC; bioweapon rejected unanimously"
+        },
+        {
+          "doc": "DEFUSE proposal + DARPA reject",
+          "status": "IN_SSCP",
+          "note": "FCS insertion proposed; not proof of SARS-CoV-2 creation"
+        },
+        {
+          "doc": "Worobey/Pekar market papers",
+          "status": "FOUND_REF",
+          "note": "Peer-review lean H2"
+        },
+        {
+          "doc": "WIV Fall 2019 illness serology",
+          "status": "MISSING",
+          "note": "Intelligence claims; no public serology"
+        }
+      ],
+      "proof_attempt": "Best structured: cluster circumstantial (WIV location+GoF+DEFUSE+opacity) raises H1 prior; CIA 2025 low-conf lean. Still no isolate. Keep CONTESTED. M5/M8.",
+      "action": "Never upgrade to SOLID without primary lab sample or notebook."
+    },
+    {
+      "id": "C02",
+      "claim": "Proximal Origin prompted to kill lab leak",
+      "tag": "SOLID influence / CONTESTED full conspiracy",
+      "primary_need": "MED \u2014 FOIA emails exist; full motive intensity contested",
+      "docs_located": [
+        {
+          "doc": "Feb 1 2020 conference call + Andersen emails",
+          "status": "IN_SSCP",
+          "note": "FOIA chain in Proximal Origin chapter"
+        },
+        {
+          "doc": "Nature submission history",
+          "status": "IN_SSCP",
+          "note": "Language hardened to rule out lab"
+        },
+        {
+          "doc": "Payment/bribery trail",
+          "status": "MISSING",
+          "note": "No public payment evidence"
+        }
+      ],
+      "proof_attempt": "Influence + private doubt vs public certainty SOLID from FOIA. Orchestrated fabrication CONTESTED. Split claim.",
+      "action": "Keep dual tag; do not blend (M10)."
+    },
+    {
+      "id": "C03",
+      "claim": "EcoHealth grant violations",
+      "tag": "SOLID",
+      "primary_need": "LOW \u2014 debarment is official HHS action",
+      "docs_located": [
+        {
+          "doc": "HHS Notice of Debarment Daszak 2025-01-17",
+          "status": "FOUND",
+          "url": "https://oversight.house.gov/wp-content/uploads/2025/01/Dr.-Peter-Daszak-HHS-Notice_Jan-17-2025_Redacted.pdf"
+        },
+        {
+          "doc": "HHS ARM EcoHealth 2025-01-17",
+          "status": "FOUND",
+          "url": "https://oversight.house.gov/wp-content/uploads/2025/01/ARM_EHA_1.17.2025_Redacted.pdf"
+        },
+        {
+          "doc": "Grant R01AI110964 + Year 5 late report",
+          "status": "IN_SSCP",
+          "note": "Cited as cause for debarment"
+        },
+        {
+          "doc": "Daszak termination effective 2026-01-06? wait 2025-01-06",
+          "status": "FOUND",
+          "note": "ARM: terminated Jan 6 2025; debarred 5 years through ~May 2029"
+        }
+      ],
+      "proof_attempt": "HHS itself: debarment necessary to protect federal interests; late report, unreported experiments, present responsibility failure. SOLID process. Origin causation still CONTESTED (M5).",
+      "action": "Primary proof LOCKED for grant/process failure."
+    },
+    {
+      "id": "C04",
+      "claim": "NIH oversight + Morens FOIA",
+      "tag": "SOLID process",
+      "primary_need": "LOW-MED \u2014 emails in SSCP; more FOIA dumps strengthen",
+      "docs_located": [
+        {
+          "doc": "Morens emails FOIA",
+          "status": "IN_SSCP",
+          "note": "Private email, deletion coaching"
+        },
+        {
+          "doc": "Fauci/Baric/Tabak TIs",
+          "status": "IN_SSCP",
+          "note": "GoF definitional fog"
+        }
+      ],
+      "proof_attempt": "Morens FOIA culture SOLID. Fauci 'funded pandemic' slogan remains OVERSTATED until progenitor shown.",
+      "action": "Maintain SOLID process / CONTESTED causal slogan split."
+    },
+    {
+      "id": "C05",
+      "claim": "6-ft distancing arbitrary",
+      "tag": "SOLID",
+      "primary_need": "LOW \u2014 TI transcript public via Oversight",
+      "docs_located": [
+        {
+          "doc": "Fauci TI: 'sort of just appeared' / empiric",
+          "status": "FOUND",
+          "url": "oversight.house.gov releases + Poynter transcript quote pages ~183"
+        },
+        {
+          "doc": "Collins TI: no evidence for 6 feet",
+          "status": "FOUND",
+          "url": "oversight.house.gov Collins transcript memo 2024-05"
+        }
+      ],
+      "proof_attempt": "Primary transcript confirms empiric appearance without cited study for exactly 6 ft. SOLID.",
+      "action": "LOCKED."
+    },
+    {
+      "id": "C06",
+      "claim": "Masks absolutely ineffective",
+      "tag": "OVERSTATED absolute / SOLID flip-flops",
+      "primary_need": "MED \u2014 need RCT/meta context not slogan",
+      "docs_located": [
+        {
+          "doc": "CDC guidance archive flip",
+          "status": "FOUND_REF"
+        },
+        {
+          "doc": "Cochrane / DANMASK / Bangladesh cluster",
+          "status": "FOUND_REF",
+          "note": "Mixed; cloth weak; context matters"
+        }
+      ],
+      "proof_attempt": "Flip-flop SOLID. Absolute ineffective OVERSTATED. Split.",
+      "action": "Keep OVERSTATED on absolute claim."
+    },
+    {
+      "id": "C07",
+      "claim": "Lockdown collateral harm",
+      "tag": "SOLID harms / CONTESTED net",
+      "primary_need": "MED \u2014 NAEP, excess non-COVID, economic series",
+      "docs_located": [
+        {
+          "doc": "SSCP chapters + CDC excess death series",
+          "status": "IN_SSCP"
+        },
+        {
+          "doc": "NAEP learning loss",
+          "status": "FOUND_REF"
+        }
+      ],
+      "proof_attempt": "Harms SOLID. Net 'always more harm than good' needs counterfactual = CONTESTED.",
+      "action": "Split harm vs net."
+    },
+    {
+      "id": "C08",
+      "claim": "Cuomo NH order + data games",
+      "tag": "SOLID order+data / CONTESTED criminal labels",
+      "primary_need": "LOW-MED",
+      "docs_located": [
+        {
+          "doc": "March 25 2020 Directive",
+          "status": "FOUND_REF",
+          "note": "Public NY DOH directive"
+        },
+        {
+          "doc": "July 6 report drafts",
+          "status": "IN_SSCP"
+        },
+        {
+          "doc": "NY AG investigation",
+          "status": "FOUND_REF"
+        }
+      ],
+      "proof_attempt": "Order + undercounting SOLID. Malpractice/1001 CONTESTED legal conclusions.",
+      "action": "Split process vs legal conclusion."
+    },
+    {
+      "id": "C09",
+      "claim": "WHO/CCP opacity",
+      "tag": "SOLID early failure / CONTESTED treaty future",
+      "primary_need": "MED",
+      "docs_located": [
+        {
+          "doc": "IHR Arts 6-7",
+          "status": "FOUND_REF"
+        },
+        {
+          "doc": "WHO joint origins study constraints",
+          "status": "IN_SSCP"
+        }
+      ],
+      "proof_attempt": "Early WHO/China timeline SOLID failure. Treaty harm CONTESTED future policy.",
+      "action": "Split."
+    },
+    {
+      "id": "C10",
+      "claim": "Relief fraud scale",
+      "tag": "SOLID order-of-magnitude",
+      "primary_need": "LOW \u2014 GAO/OIG public",
+      "docs_located": [
+        {
+          "doc": "GAO UI fraud estimate $100-135B pandemic",
+          "status": "FOUND",
+          "url": "GAO-26-109093 and related GAO products"
+        },
+        {
+          "doc": "SBA OIG ~$200B potentially fraudulent pandemic business loans (as of May 2023 method)",
+          "status": "FOUND",
+          "url": "SBA OIG White Paper 23-09 cited in GAO"
+        },
+        {
+          "doc": "APT41 ~$20M USSS",
+          "status": "IN_SSCP"
+        },
+        {
+          "doc": "Exact $64B PPP single number",
+          "status": "PARTIAL",
+          "note": "Multiple estimates differ by method; use ranges + cite method"
+        }
+      ],
+      "proof_attempt": "Scale SOLID as tens\u2013hundreds of billions improper/fraud across programs. Prefer GAO ranges over single meme numbers. M4.",
+      "action": "Update claim language to ranges + OIG/GAO cites; LOCKED as SOLID scale."
+    },
+    {
+      "id": "C11",
+      "claim": "HHS obstruction / doctored emails",
+      "tag": "SOLID process",
+      "primary_need": "MED \u2014 production logs in SSCP",
+      "docs_located": [
+        {
+          "doc": "HHS production timelines",
+          "status": "IN_SSCP"
+        },
+        {
+          "doc": "EcoHealth doctored release comparisons",
+          "status": "IN_SSCP"
+        }
+      ],
+      "proof_attempt": "Process delays + selective release SOLID from SSCP record.",
+      "action": "LOCKED process; keep primary in appendix harvest."
+    }
+  ],
+  "still_need_primary_or_stronger": [
+    "C01: WIV illness serology; lab notebooks; intermediate host isolate (either side)",
+    "C02: payment/bribery trail if conspiracy claim escalated",
+    "C06: domain-specific RCTs for each mask type/setting if absolute claim reopened",
+    "C07: formal counterfactual net lockdown meta if 'always net harm' asserted",
+    "C08: adjudicated false-statement findings if criminal claim made",
+    "C10: single reconciled PPP figure if exact $ demanded (prefer ranges)"
+  ],
+  "autonomous_engine_rule": "On every cycle: scan claims where tag is CONTESTED or primary_need HIGH/MED; search public .gov/FOIA/IC; attach doc status FOUND/IN_SSCP/MISSING; never invent; fire M1-M4-M5-M8-M10."
+}

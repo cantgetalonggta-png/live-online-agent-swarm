@@ -1,0 +1,18 @@
+# Encyclopedia Index (15 permanent entries)
+Updated: 2026-09-22T05:27:07.465934+00:00
+
+- [Primary Document Hierarchy](enc_01_primary_doc_hierarchy.md)
+- [Public Record Ceiling](enc_02_public_record_ceiling.md)
+- [Tag Discipline SOLID CONTESTED OVERSTATED IRREGULARITY](enc_03_tag_discipline.md)
+- [Process ≠ Origin (M5)](enc_04_process_ne_origin.md)
+- [Bayesian ACH Field Guide](enc_05_bayesian_ach.md)
+- [EcoHealth Debarment Primary Pack](enc_06_ecohealth_debarment.md)
+- [CIA January 2025 Origin Assessment](enc_07_cia_2025_assessment.md)
+- [Six-Foot Distancing Primary Transcript](enc_08_six_foot_transcript.md)
+- [Pandemic Relief Fraud Ranges](enc_09_fraud_ranges.md)
+- [LVS Claim Grain Geometry](enc_10_lvs_claim_grain.md)
+- [SLMVP Full Gate Catalog M1–M18](enc_11_slmvp_full.md)
+- [AAO Atomized Artifact Output](enc_12_aao_ship.md)
+- [Hybrid Retrieval and Rerank](enc_13_hybrid_retrieval.md)
+- [GraphRAG Entity Expansion](enc_14_graphrag_entities.md)
+- [Autonomous Forever Reasoning Engine](enc_15_autonomous_forever_engine.md)
