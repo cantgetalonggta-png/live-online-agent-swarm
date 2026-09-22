@@ -1,6 +1,6 @@
 {
   "engine": "PrimaryDocProofEngine_v1",
-  "updated": "2026-09-22T05:27:07.465934+00:00",
+  "updated": "2026-09-22T05:45:10.439328+00:00",
   "rule": "M1 public-record ceiling. SOLID only with primary or official .gov/FOIA/IC/court. Gap \u2260 invent.",
   "claims": [
     {
@@ -33,34 +33,61 @@
           "doc": "WIV Fall 2019 illness serology",
           "status": "MISSING",
           "note": "Intelligence claims; no public serology"
+        },
+        {
+          "doc": "WHO SAGO independent assessment 27 Jun 2025",
+          "status": "FOUND",
+          "url": "https://www.who.int/publications/m/item/independent-assessment-of-the-origins-of-sars-cov-2-from-the-scientific-advisory-group-for-the-origins-of-novel-pathogens",
+          "note": "Weight of available peer-reviewed evidence suggests zoonotic; all hypotheses remain on table; China not sharing requested data; no exact when/where/how"
+        },
+        {
+          "doc": "SAGO members Nature commentary: most peer-review supports zoonotic; incomplete without China data",
+          "status": "FOUND_REF"
         }
       ],
-      "proof_attempt": "Best structured: cluster circumstantial (WIV location+GoF+DEFUSE+opacity) raises H1 prior; CIA 2025 low-conf lean. Still no isolate. Keep CONTESTED. M5/M8.",
+      "proof_attempt": "CIA 2025 low-conf H1 lean FOUND + SAGO 2025 weight-of-evidence H2 lean FOUND. Both say incomplete. Serology/notebooks/host isolate still MISSING. Stay CONTESTED. Log both IC and SAGO (M31).",
       "action": "Never upgrade to SOLID without primary lab sample or notebook."
     },
     {
       "id": "C02",
       "claim": "Proximal Origin prompted to kill lab leak",
       "tag": "SOLID influence / CONTESTED full conspiracy",
-      "primary_need": "MED \u2014 FOIA emails exist; full motive intensity contested",
+      "primary_need": "LOW for influence; HIGH only if conspiracy/payment escalated",
       "docs_located": [
         {
-          "doc": "Feb 1 2020 conference call + Andersen emails",
-          "status": "IN_SSCP",
-          "note": "FOIA chain in Proximal Origin chapter"
+          "doc": "Oversight letter Andersen Feb 2022 + FOIA quotes",
+          "status": "FOUND",
+          "url": "https://oversight.house.gov/wp-content/uploads/2022/02/Letter-to-Dr-Andersen.pdf"
         },
         {
-          "doc": "Nature submission history",
-          "status": "IN_SSCP",
-          "note": "Language hardened to rule out lab"
+          "doc": "SSCP Proximal Origin memo Mar 2023",
+          "status": "FOUND",
+          "url": "https://oversight.house.gov/wp-content/uploads/2023/03/2023.03.05-SSCP-Memo-Re.-New-Evidence.Proximal-Origin.pdf"
+        },
+        {
+          "doc": "Andersen email: Prompted by Farrar, Fauci, Collins (Nature submission)",
+          "status": "FOUND",
+          "note": "Andersen wrote he was prompted by Farrah/Fauci/Collins"
+        },
+        {
+          "doc": "Andersen Feb 8: main work focused on trying to disprove lab theory",
+          "status": "FOUND"
+        },
+        {
+          "doc": "Collins Apr 16 2020: hoped Proximal Origin settle; 'Anything more NIH can do?'",
+          "status": "FOUND"
+        },
+        {
+          "doc": "Farrar 50-50 / Holmes 60-40 lab private splits (USRTK FOIA reporting)",
+          "status": "FOUND_REF",
+          "url": "https://usrtk.org/covid-19-origins/timeline-the-proximal-origin-of-sars-cov-2/"
         },
         {
           "doc": "Payment/bribery trail",
-          "status": "MISSING",
-          "note": "No public payment evidence"
+          "status": "MISSING"
         }
       ],
-      "proof_attempt": "Influence + private doubt vs public certainty SOLID from FOIA. Orchestrated fabrication CONTESTED. Split claim.",
+      "proof_attempt": "SOLID influence/prompting: Andersen's own email says prompted by Farrar/Fauci/Collins; private engineering concern \u2192 public dismissal in days; Collins put-down language. Full criminal conspiracy / bribery still MISSING. Dual-tag holds (M10).",
       "action": "Keep dual tag; do not blend (M10)."
     },
     {
@@ -177,20 +204,25 @@
       "primary_need": "LOW-MED",
       "docs_located": [
         {
-          "doc": "March 25 2020 Directive",
+          "doc": "March 25 2020 NY DOH nursing home advisory (quoted in hearings/PolitiFact/Newsday)",
           "status": "FOUND_REF",
-          "note": "Public NY DOH directive"
+          "note": "must expedited receipt; no denial solely for COVID diagnosis; no require COVID test if medically stable"
         },
         {
-          "doc": "July 6 report drafts",
-          "status": "IN_SSCP"
+          "doc": "House hearing transcript Cuomo Mar 25 directive language",
+          "status": "FOUND_REF",
+          "url": "https://www.congress.gov/event/118th-congress/house-event/LC73283/text"
         },
         {
-          "doc": "NY AG investigation",
+          "doc": "NY AG interpretation that advisory did not 'require' admission solely\u2014contested reading vs shall/must language",
           "status": "FOUND_REF"
+        },
+        {
+          "doc": "Criminal false-statement adjudication",
+          "status": "MISSING"
         }
       ],
-      "proof_attempt": "Order + undercounting SOLID. Malpractice/1001 CONTESTED legal conclusions.",
+      "proof_attempt": "Directive text SOLID as public advisory with shall/must/prohibit language re COVID+ admissions. Legal 'required' vs AG gloss remains CONTESTED. Criminal labels MISSING adjudication.",
       "action": "Split process vs legal conclusion."
     },
     {
@@ -260,12 +292,12 @@
     }
   ],
   "still_need_primary_or_stronger": [
-    "C01: WIV illness serology; lab notebooks; intermediate host isolate (either side)",
-    "C02: payment/bribery trail if conspiracy claim escalated",
-    "C06: domain-specific RCTs for each mask type/setting if absolute claim reopened",
-    "C07: formal counterfactual net lockdown meta if 'always net harm' asserted",
-    "C08: adjudicated false-statement findings if criminal claim made",
-    "C10: single reconciled PPP figure if exact $ demanded (prefer ranges)"
+    "C01: WIV illness serology; lab notebooks; intermediate host isolate",
+    "C02: payment/bribery trail ONLY if conspiracy claim escalated (influence now better-documented)",
+    "C06: setting-specific RCTs if absolute mask claim reopened",
+    "C07: formal counterfactual net lockdown meta if universal net-harm asserted",
+    "C08: adjudicated false-statement findings if criminal claim made"
   ],
-  "autonomous_engine_rule": "On every cycle: scan claims where tag is CONTESTED or primary_need HIGH/MED; search public .gov/FOIA/IC; attach doc status FOUND/IN_SSCP/MISSING; never invent; fire M1-M4-M5-M8-M10."
+  "autonomous_engine_rule": "On every cycle: scan claims where tag is CONTESTED or primary_need HIGH/MED; search public .gov/FOIA/IC; attach doc status FOUND/IN_SSCP/MISSING; never invent; fire M1-M4-M5-M8-M10.",
+  "cycle": "C9_primary_hunt"
 }
