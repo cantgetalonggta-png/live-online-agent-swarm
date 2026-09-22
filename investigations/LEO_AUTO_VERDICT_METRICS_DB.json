@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.0",
+  "updated": "2026-09-22T06:46:24.893382+00:00",
+  "claims": {
+    "C01": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.6,
+      "clashes_identified": 2,
+      "clashes": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "proven",
+          "context_marker": "Secondary public-record risk/process language conflicts with absolute slogan."
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "debunked conspiracy",
+          "context_marker": "Secondary public-record risk/process language conflicts with absolute slogan."
+        }
+      ],
+      "missing": [
+        "serology",
+        "host",
+        "notebook"
+      ],
+      "why": "Semantic overclaim clash vs CIA_2025_SAGO_2025: ['proven', 'debunked conspiracy']",
+      "secondary_source": "CIA_2025_SAGO_2025",
+      "lawful_queries": [
+        "site:who.int SAGO SARS-CoV-2 origins 2025",
+        "site:cia.gov OR \"research-related origin\" COVID 2025",
+        "site:gov DEFUSE DARPA EcoHealth proposal"
+      ],
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
+      "refused_vectors_note": "Live dump-dorks/fuzzing/private-API bypass/onion scrapers not executed (M38)."
+    },
+    "C02": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.25,
+      "clashes_identified": 1,
+      "clashes": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "no nih influence",
+          "context_marker": "Secondary public-record risk/process language conflicts with absolute slogan."
+        }
+      ],
+      "missing": [
+        "payment_ledger"
+      ],
+      "why": "Semantic overclaim clash vs FOIA_OVERSIGHT: ['no nih influence']",
+      "secondary_source": "FOIA_OVERSIGHT",
+      "lawful_queries": [
+        "site:oversight.house.gov Proximal Origin Andersen Fauci",
+        "site:usrtk.org proximal origin FOIA"
+      ],
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
+      "refused_vectors_note": "Live dump-dorks/fuzzing/private-API bypass/onion scrapers not executed (M38)."
+    },
+    "C03": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.0,
+      "clashes_identified": 1,
+      "clashes": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "fully complied",
+          "context_marker": "Secondary public-record risk/process language conflicts with absolute slogan."
+        }
+      ],
+      "missing": [],
+      "why": "Semantic overclaim clash vs HHS_DEBARMENT: ['fully complied']",
+      "secondary_source": "HHS_DEBARMENT",
+      "lawful_queries": [
+        "site:oversight.house.gov EcoHealth debarment Daszak 2025",
+        "site:gov filetype:pdf EcoHealth R01AI110964"
+      ],
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
+      "refused_vectors_note": "Live dump-dorks/fuzzing/private-API bypass/onion scrapers not executed (M38)."
+    },
+    "C04": {
+      "verdict_tag": "SOLID",
+      "omission_weight": 0.0,
+      "clashes_identified": 0,
+      "clashes": [],
+      "missing": [],
+      "why": "All required primaries present; narrative not absolute-overclaim vs secondary.",
+      "secondary_source": "MORENS_FOIA",
+      "lawful_queries": [
+        "site:oversight.house.gov Morens FOIA",
+        "site:oversight.house.gov Fauci transcribed interview"
+      ],
+      "actionable_warrant": "NONE",
+      "refused_vectors_note": "Live dump-dorks/fuzzing/private-API bypass/onion scrapers not executed (M38)."
+    },
+    "C05": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.0,
+      "clashes_identified": 1,
+      "clashes": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "purely objective",
+          "context_marker": "Secondary public-record risk/process language conflicts with absolute slogan."
+        }
+      ],
+      "missing": [],
+      "why": "Semantic overclaim clash vs FAUCI_COLLINS_TI: ['purely objective']",
+      "secondary_source": "FAUCI_COLLINS_TI",
+      "lawful_queries": [
+        "site:oversight.house.gov \"sort of just appeared\" Fauci",
+        "site:oversight.house.gov Collins six feet"
+      ],
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
+      "refused_vectors_note": "Live dump-dorks/fuzzing/private-API bypass/onion scrapers not executed (M38)."
+    },
+    "C06": {
+      "verdict_tag": "SOLID",
+      "omission_weight": 0.0,
+      "clashes_identified": 0,
+      "clashes": [],
+      "missing": [],
+      "why": "All required primaries present; narrative not absolute-overclaim vs secondary.",
+      "secondary_source": "CDC_RCT_LITERATURE",
+      "lawful_queries": [
+        "site:cdc.gov mask guidance archive COVID"
+      ],
+      "actionable_warrant": "NONE",
+      "refused_vectors_note": "Live dump-dorks/fuzzing/private-API bypass/onion scrapers not executed (M38)."
+    },
+    "C07": {
+      "verdict_tag": "SOLID",
+      "omission_weight": 0.0,
+      "clashes_identified": 0,
+      "clashes": [],
+      "missing": [],
+      "why": "All required primaries present; narrative not absolute-overclaim vs secondary.",
+      "secondary_source": "NAEP_EXCESS",
+      "lawful_queries": [
+        "site:nationsreportcard.gov NAEP learning loss COVID"
+      ],
+      "actionable_warrant": "NONE",
+      "refused_vectors_note": "Live dump-dorks/fuzzing/private-API bypass/onion scrapers not executed (M38)."
+    },
+    "C08": {
+      "verdict_tag": "CONTESTED",
+      "omission_weight": 0.333,
+      "clashes_identified": 0,
+      "clashes": [],
+      "missing": [
+        "criminal_judgment"
+      ],
+      "why": "Partial primary: missing ['criminal_judgment']",
+      "secondary_source": "MARCH25_DIRECTIVE",
+      "lawful_queries": [
+        "\"March 25\" 2020 nursing home directive New York DOH"
+      ],
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
+      "refused_vectors_note": "Live dump-dorks/fuzzing/private-API bypass/onion scrapers not executed (M38)."
+    },
+    "C09": {
+      "verdict_tag": "SOLID",
+      "omission_weight": 0.0,
+      "clashes_identified": 0,
+      "clashes": [],
+      "missing": [],
+      "why": "All required primaries present; narrative not absolute-overclaim vs secondary.",
+      "secondary_source": "WHO_IHR",
+      "lawful_queries": [
+        "site:who.int IHR notification China COVID"
+      ],
+      "actionable_warrant": "NONE",
+      "refused_vectors_note": "Live dump-dorks/fuzzing/private-API bypass/onion scrapers not executed (M38)."
+    },
+    "C10": {
+      "verdict_tag": "SOLID",
+      "omission_weight": 0.0,
+      "clashes_identified": 0,
+      "clashes": [],
+      "missing": [],
+      "why": "All required primaries present; narrative not absolute-overclaim vs secondary.",
+      "secondary_source": "GAO_SBA_OIG",
+      "lawful_queries": [
+        "site:gao.gov unemployment insurance fraud COVID estimate"
+      ],
+      "actionable_warrant": "NONE",
+      "refused_vectors_note": "Live dump-dorks/fuzzing/private-API bypass/onion scrapers not executed (M38)."
+    },
+    "C11": {
+      "verdict_tag": "SOLID",
+      "omission_weight": 0.0,
+      "clashes_identified": 0,
+      "clashes": [],
+      "missing": [],
+      "why": "All required primaries present; narrative not absolute-overclaim vs secondary.",
+      "secondary_source": "HHS_PRODUCTION",
+      "lawful_queries": [
+        "site:oversight.house.gov HHS production EcoHealth"
+      ],
+      "actionable_warrant": "NONE",
+      "refused_vectors_note": "Live dump-dorks/fuzzing/private-API bypass/onion scrapers not executed (M38)."
+    }
+  }
+}
