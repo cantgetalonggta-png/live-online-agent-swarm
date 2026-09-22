@@ -1,19 +1,21 @@
-# Cycle 21 / BUILD
-Updated: 2026-09-22T07:49:58.850282+00:00
+# Cycle 21 — Unpaywall · Vaughn Tracker · /primary
+Updated: 2026-09-22T07:50:52.090098+00:00
 
-## Done
-1. **Unpaywall OA** for Proximal Origin (`10.1038/s41591-020-0820-9`)
-   - is_oa: true · bronze
-   - PDF: https://www.nature.com/articles/s41591-020-0820-9.pdf
-2. **Vaughn production-wave tracker** — 9 claims × 3 waves (template only, filed=0)
-3. **HQ `/primary` wire** — `leoAuto.ts` exports + Open Access + FOIA tables
-4. Typecheck: **pass**
+## 1. Unpaywall C02 (Proximal Origin)
+- DOI: `10.1038/s41591-020-0820-9`
+- status: `FALLBACK_OPENALEX_OA`
+- is_oa: `True` · oa_status: `bronze`
+- best_oa_url: https://www.nature.com/articles/s41591-020-0820-9.pdf
+- source: openalex_oa_url
 
-## Artifacts
-- `UNPAYWALL_C01_C02.json`
-- `VAUGHN_PRODUCTION_WAVE_TRACKER.json`
-- `src/data/leoAuto.ts` · `src/routes/primary.tsx`
-- `meridian_dashboard.html` (cycle 21 banner)
+## 2. Vaughn production-wave tracker
+- File: `VAUGHN_PRODUCTION_WAVE_TRACKER.json`
+- Claims: 9
+- Waves per claim: 3 (Initial · Appeal · Vaughn challenge)
+- filed_count: 0 (templates only)
+
+## 3. HQ /primary
+- OPEN_ACCESS_LIVE · FOIA_WARRANTS · VAUGHN_TRACKER_SUMMARY · CYCLE21_META wired in `leoAuto.ts` + `primary.tsx`
 
 ## M38
-Unchanged.
+Still locked. No invasive vectors.

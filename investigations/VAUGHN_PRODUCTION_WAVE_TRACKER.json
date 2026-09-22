@@ -1,476 +1,646 @@
 {
   "schema_version": "1.0",
-  "updated": "2026-09-22T07:48:40.870219+00:00",
-  "purpose": "Track FOIA production waves + Vaughn completeness per claim (ops log, not a filing system)",
-  "m30": "Analytical / investigator aid only",
+  "updated": "2026-09-22T07:50:52.090098+00:00",
   "m38": true,
-  "claims": {
-    "C01": {
-      "claim_id": "C01",
-      "leo_tag": "IRREGULARITY",
-      "omission_weight": 0.6,
-      "date_range": {
-        "start": "2019-09-01",
-        "end": "2025-06-30"
-      },
-      "status": "TEMPLATE_READY",
-      "waves": [
-        {
-          "wave": 1,
-          "label": "Initial FOIA/FOIL filing (draft)",
-          "status": "NOT_FILED",
-          "requested": [
-            "serology",
-            "host_data",
-            "notebook_logs"
-          ],
-          "vaughn_required": true,
-          "native_email_required": true,
-          "received_docs": [],
-          "withheld_count": null,
-          "exemptions_seen": [],
-          "notes": "Template only \u2014 investigator must file via agency portal"
-        },
-        {
-          "wave": 2,
-          "label": "Rolling production + interim Vaughn",
-          "status": "PENDING_WAVE1",
-          "requested": [
-            "interim_vaughn_index",
-            "segregable_releases"
-          ],
-          "vaughn_required": true,
-          "received_docs": [],
-          "notes": "Activate after wave-1 acknowledgment"
-        },
-        {
-          "wave": 3,
-          "label": "Appeal / still-missing primaries",
-          "status": "PENDING_WAVE2",
-          "requested": [
-            "still_missing_vs_m32_watchlist"
-          ],
-          "vaughn_required": true,
-          "received_docs": [],
-          "notes": "Compare production to M32 still-need list"
-        }
-      ],
-      "m32_still_open": [
-        "serology",
-        "host_data",
-        "notebook_logs"
-      ],
-      "warrant_ref": "C01-FOIA-LATEST.md"
-    },
-    "C02": {
-      "claim_id": "C02",
-      "leo_tag": "IRREGULARITY",
-      "omission_weight": 0.5,
-      "date_range": {
-        "start": "2020-01-31",
-        "end": "2020-04-30"
-      },
-      "status": "TEMPLATE_READY",
-      "waves": [
-        {
-          "wave": 1,
-          "label": "Initial FOIA/FOIL filing (draft)",
-          "status": "NOT_FILED",
-          "requested": [
-            "payment_ledger"
-          ],
-          "vaughn_required": true,
-          "native_email_required": true,
-          "received_docs": [],
-          "withheld_count": null,
-          "exemptions_seen": [],
-          "notes": "Template only \u2014 investigator must file via agency portal"
-        },
-        {
-          "wave": 2,
-          "label": "Rolling production + interim Vaughn",
-          "status": "PENDING_WAVE1",
-          "requested": [
-            "interim_vaughn_index",
-            "segregable_releases"
-          ],
-          "vaughn_required": true,
-          "received_docs": [],
-          "notes": "Activate after wave-1 acknowledgment"
-        },
-        {
-          "wave": 3,
-          "label": "Appeal / still-missing primaries",
-          "status": "PENDING_WAVE2",
-          "requested": [
-            "still_missing_vs_m32_watchlist"
-          ],
-          "vaughn_required": true,
-          "received_docs": [],
-          "notes": "Compare production to M32 still-need list"
-        }
-      ],
-      "m32_still_open": [
-        "payment_ledger"
-      ],
-      "warrant_ref": "C02-FOIA-LATEST.md"
-    },
-    "C03": {
-      "claim_id": "C03",
-      "leo_tag": "IRREGULARITY",
-      "omission_weight": 0.0,
-      "date_range": {
-        "start": "2014-06-01",
-        "end": "2025-01-31"
-      },
-      "status": "TEMPLATE_READY",
-      "waves": [
-        {
-          "wave": 1,
-          "label": "Initial FOIA/FOIL filing (draft)",
-          "status": "NOT_FILED",
-          "requested": [],
-          "vaughn_required": true,
-          "native_email_required": true,
-          "received_docs": [],
-          "withheld_count": null,
-          "exemptions_seen": [],
-          "notes": "Template only \u2014 investigator must file via agency portal"
-        },
-        {
-          "wave": 2,
-          "label": "Rolling production + interim Vaughn",
-          "status": "PENDING_WAVE1",
-          "requested": [
-            "interim_vaughn_index",
-            "segregable_releases"
-          ],
-          "vaughn_required": true,
-          "received_docs": [],
-          "notes": "Activate after wave-1 acknowledgment"
-        },
-        {
-          "wave": 3,
-          "label": "Appeal / still-missing primaries",
-          "status": "PENDING_WAVE2",
-          "requested": [
-            "still_missing_vs_m32_watchlist"
-          ],
-          "vaughn_required": true,
-          "received_docs": [],
-          "notes": "Compare production to M32 still-need list"
-        }
-      ],
-      "m32_still_open": [],
-      "warrant_ref": "C03-FOIA-LATEST.md"
-    },
-    "C04": {
-      "claim_id": "C04",
-      "leo_tag": "IRREGULARITY",
-      "omission_weight": 0.0,
-      "date_range": {
-        "start": "2020-01-01",
-        "end": "2024-12-31"
-      },
-      "status": "TEMPLATE_READY",
-      "waves": [
-        {
-          "wave": 1,
-          "label": "Initial FOIA/FOIL filing (draft)",
-          "status": "NOT_FILED",
-          "requested": [],
-          "vaughn_required": true,
-          "native_email_required": true,
-          "received_docs": [],
-          "withheld_count": null,
-          "exemptions_seen": [],
-          "notes": "Template only \u2014 investigator must file via agency portal"
-        },
-        {
-          "wave": 2,
-          "label": "Rolling production + interim Vaughn",
-          "status": "PENDING_WAVE1",
-          "requested": [
-            "interim_vaughn_index",
-            "segregable_releases"
-          ],
-          "vaughn_required": true,
-          "received_docs": [],
-          "notes": "Activate after wave-1 acknowledgment"
-        },
-        {
-          "wave": 3,
-          "label": "Appeal / still-missing primaries",
-          "status": "PENDING_WAVE2",
-          "requested": [
-            "still_missing_vs_m32_watchlist"
-          ],
-          "vaughn_required": true,
-          "received_docs": [],
-          "notes": "Compare production to M32 still-need list"
-        }
-      ],
-      "m32_still_open": [],
-      "warrant_ref": "C04-FOIA-LATEST.md"
-    },
-    "C05": {
-      "claim_id": "C05",
-      "leo_tag": "IRREGULARITY",
-      "omission_weight": 0.0,
-      "date_range": {
-        "start": "2020-02-01",
-        "end": "2020-06-30"
-      },
-      "status": "TEMPLATE_READY",
-      "waves": [
-        {
-          "wave": 1,
-          "label": "Initial FOIA/FOIL filing (draft)",
-          "status": "NOT_FILED",
-          "requested": [],
-          "vaughn_required": true,
-          "native_email_required": true,
-          "received_docs": [],
-          "withheld_count": null,
-          "exemptions_seen": [],
-          "notes": "Template only \u2014 investigator must file via agency portal"
-        },
-        {
-          "wave": 2,
-          "label": "Rolling production + interim Vaughn",
-          "status": "PENDING_WAVE1",
-          "requested": [
-            "interim_vaughn_index",
-            "segregable_releases"
-          ],
-          "vaughn_required": true,
-          "received_docs": [],
-          "notes": "Activate after wave-1 acknowledgment"
-        },
-        {
-          "wave": 3,
-          "label": "Appeal / still-missing primaries",
-          "status": "PENDING_WAVE2",
-          "requested": [
-            "still_missing_vs_m32_watchlist"
-          ],
-          "vaughn_required": true,
-          "received_docs": [],
-          "notes": "Compare production to M32 still-need list"
-        }
-      ],
-      "m32_still_open": [],
-      "warrant_ref": "C05-FOIA-LATEST.md"
-    },
-    "C06": {
-      "claim_id": "C06",
-      "leo_tag": "IRREGULARITY",
-      "omission_weight": 0.0,
-      "date_range": {
-        "start": "2020-02-01",
-        "end": "2023-12-31"
-      },
-      "status": "TEMPLATE_READY",
-      "waves": [
-        {
-          "wave": 1,
-          "label": "Initial FOIA/FOIL filing (draft)",
-          "status": "NOT_FILED",
-          "requested": [],
-          "vaughn_required": true,
-          "native_email_required": true,
-          "received_docs": [],
-          "withheld_count": null,
-          "exemptions_seen": [],
-          "notes": "Template only \u2014 investigator must file via agency portal"
-        },
-        {
-          "wave": 2,
-          "label": "Rolling production + interim Vaughn",
-          "status": "PENDING_WAVE1",
-          "requested": [
-            "interim_vaughn_index",
-            "segregable_releases"
-          ],
-          "vaughn_required": true,
-          "received_docs": [],
-          "notes": "Activate after wave-1 acknowledgment"
-        },
-        {
-          "wave": 3,
-          "label": "Appeal / still-missing primaries",
-          "status": "PENDING_WAVE2",
-          "requested": [
-            "still_missing_vs_m32_watchlist"
-          ],
-          "vaughn_required": true,
-          "received_docs": [],
-          "notes": "Compare production to M32 still-need list"
-        }
-      ],
-      "m32_still_open": [],
-      "warrant_ref": "C06-FOIA-LATEST.md"
-    },
-    "C07": {
-      "claim_id": "C07",
-      "leo_tag": "CONTESTED",
-      "omission_weight": 0.333,
-      "date_range": {
-        "start": "2020-03-01",
-        "end": "2024-12-31"
-      },
-      "status": "TEMPLATE_READY",
-      "waves": [
-        {
-          "wave": 1,
-          "label": "Initial FOIA/FOIL filing (draft)",
-          "status": "NOT_FILED",
-          "requested": [
-            "universal_net"
-          ],
-          "vaughn_required": true,
-          "native_email_required": true,
-          "received_docs": [],
-          "withheld_count": null,
-          "exemptions_seen": [],
-          "notes": "Template only \u2014 investigator must file via agency portal"
-        },
-        {
-          "wave": 2,
-          "label": "Rolling production + interim Vaughn",
-          "status": "PENDING_WAVE1",
-          "requested": [
-            "interim_vaughn_index",
-            "segregable_releases"
-          ],
-          "vaughn_required": true,
-          "received_docs": [],
-          "notes": "Activate after wave-1 acknowledgment"
-        },
-        {
-          "wave": 3,
-          "label": "Appeal / still-missing primaries",
-          "status": "PENDING_WAVE2",
-          "requested": [
-            "still_missing_vs_m32_watchlist"
-          ],
-          "vaughn_required": true,
-          "received_docs": [],
-          "notes": "Compare production to M32 still-need list"
-        }
-      ],
-      "m32_still_open": [
-        "universal_net"
-      ],
-      "warrant_ref": "C07-FOIA-LATEST.md"
-    },
-    "C08": {
-      "claim_id": "C08",
-      "leo_tag": "IRREGULARITY",
-      "omission_weight": 0.333,
-      "date_range": {
-        "start": "2020-03-01",
-        "end": "2021-12-31"
-      },
-      "status": "TEMPLATE_READY",
-      "waves": [
-        {
-          "wave": 1,
-          "label": "Initial FOIA/FOIL filing (draft)",
-          "status": "NOT_FILED",
-          "requested": [
-            "criminal_judgment"
-          ],
-          "vaughn_required": true,
-          "native_email_required": true,
-          "received_docs": [],
-          "withheld_count": null,
-          "exemptions_seen": [],
-          "notes": "Template only \u2014 investigator must file via agency portal"
-        },
-        {
-          "wave": 2,
-          "label": "Rolling production + interim Vaughn",
-          "status": "PENDING_WAVE1",
-          "requested": [
-            "interim_vaughn_index",
-            "segregable_releases"
-          ],
-          "vaughn_required": true,
-          "received_docs": [],
-          "notes": "Activate after wave-1 acknowledgment"
-        },
-        {
-          "wave": 3,
-          "label": "Appeal / still-missing primaries",
-          "status": "PENDING_WAVE2",
-          "requested": [
-            "still_missing_vs_m32_watchlist"
-          ],
-          "vaughn_required": true,
-          "received_docs": [],
-          "notes": "Compare production to M32 still-need list"
-        }
-      ],
-      "m32_still_open": [
-        "criminal_judgment"
-      ],
-      "warrant_ref": "C08-FOIA-LATEST.md"
-    },
-    "C09": {
-      "claim_id": "C09",
-      "leo_tag": "IRREGULARITY",
-      "omission_weight": 0.0,
-      "date_range": {
-        "start": "2019-12-01",
-        "end": "2025-06-30"
-      },
-      "status": "TEMPLATE_READY",
-      "waves": [
-        {
-          "wave": 1,
-          "label": "Initial FOIA/FOIL filing (draft)",
-          "status": "NOT_FILED",
-          "requested": [],
-          "vaughn_required": true,
-          "native_email_required": true,
-          "received_docs": [],
-          "withheld_count": null,
-          "exemptions_seen": [],
-          "notes": "Template only \u2014 investigator must file via agency portal"
-        },
-        {
-          "wave": 2,
-          "label": "Rolling production + interim Vaughn",
-          "status": "PENDING_WAVE1",
-          "requested": [
-            "interim_vaughn_index",
-            "segregable_releases"
-          ],
-          "vaughn_required": true,
-          "received_docs": [],
-          "notes": "Activate after wave-1 acknowledgment"
-        },
-        {
-          "wave": 3,
-          "label": "Appeal / still-missing primaries",
-          "status": "PENDING_WAVE2",
-          "requested": [
-            "still_missing_vs_m32_watchlist"
-          ],
-          "vaughn_required": true,
-          "received_docs": [],
-          "notes": "Compare production to M32 still-need list"
-        }
-      ],
-      "m32_still_open": [],
-      "warrant_ref": "C09-FOIA-LATEST.md"
-    }
-  },
+  "legal_note": "Tracker for investigator workflow only. Not a filed FOIA. Templates ready \u2260 filed.",
   "summary": {
     "claims_in_tracker": 9,
     "waves_per_claim": 3,
     "filed_count": 0,
-    "template_ready": 9
+    "template_ready": 9,
+    "productions_received": 0,
+    "vaughn_indexes_received": 0
+  },
+  "claims": {
+    "C01": {
+      "claim_id": "C01",
+      "leo_tag_slogan": "IRREGULARITY",
+      "date_window": {
+        "start": "2019-09-01",
+        "end": "2025-06-30",
+        "label": "Origins / host / serology"
+      },
+      "warrant_file": "C01-FOIA-LATEST.md",
+      "vaughn_checklist_embedded": true,
+      "openalex_attached": true,
+      "unpaywall_attached": false,
+      "waves": [
+        {
+          "wave": 1,
+          "label": "Initial FOIA/FOIL request",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        },
+        {
+          "wave": 2,
+          "label": "Follow-up / constructive denial appeal",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        },
+        {
+          "wave": 3,
+          "label": "Vaughn challenge / segregability push",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        }
+      ],
+      "checklist": {
+        "document_control_or_bates": false,
+        "date": false,
+        "author_recipient": false,
+        "document_type": false,
+        "exemption_claimed": false,
+        "segregability": false,
+        "non_conclusory_description": false,
+        "classification_or_privilege_flag": false
+      }
+    },
+    "C02": {
+      "claim_id": "C02",
+      "leo_tag_slogan": "IRREGULARITY",
+      "date_window": {
+        "start": "2020-01-31",
+        "end": "2020-04-30",
+        "label": "Proximal Origin / NIH influence"
+      },
+      "warrant_file": "C02-FOIA-LATEST.md",
+      "vaughn_checklist_embedded": true,
+      "openalex_attached": true,
+      "unpaywall_attached": true,
+      "waves": [
+        {
+          "wave": 1,
+          "label": "Initial FOIA/FOIL request",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        },
+        {
+          "wave": 2,
+          "label": "Follow-up / constructive denial appeal",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        },
+        {
+          "wave": 3,
+          "label": "Vaughn challenge / segregability push",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        }
+      ],
+      "checklist": {
+        "document_control_or_bates": false,
+        "date": false,
+        "author_recipient": false,
+        "document_type": false,
+        "exemption_claimed": false,
+        "segregability": false,
+        "non_conclusory_description": false,
+        "classification_or_privilege_flag": false
+      }
+    },
+    "C03": {
+      "claim_id": "C03",
+      "leo_tag_slogan": "IRREGULARITY",
+      "date_window": {
+        "start": "2014-06-01",
+        "end": "2025-01-31",
+        "label": "EcoHealth grant / debarment"
+      },
+      "warrant_file": "C03-FOIA-LATEST.md",
+      "vaughn_checklist_embedded": true,
+      "openalex_attached": false,
+      "unpaywall_attached": false,
+      "waves": [
+        {
+          "wave": 1,
+          "label": "Initial FOIA/FOIL request",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        },
+        {
+          "wave": 2,
+          "label": "Follow-up / constructive denial appeal",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        },
+        {
+          "wave": 3,
+          "label": "Vaughn challenge / segregability push",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        }
+      ],
+      "checklist": {
+        "document_control_or_bates": false,
+        "date": false,
+        "author_recipient": false,
+        "document_type": false,
+        "exemption_claimed": false,
+        "segregability": false,
+        "non_conclusory_description": false,
+        "classification_or_privilege_flag": false
+      }
+    },
+    "C04": {
+      "claim_id": "C04",
+      "leo_tag_slogan": "IRREGULARITY",
+      "date_window": {
+        "start": "2020-01-01",
+        "end": "2024-12-31",
+        "label": "FOIA culture / Morens / NIH oversight"
+      },
+      "warrant_file": "C04-FOIA-LATEST.md",
+      "vaughn_checklist_embedded": true,
+      "openalex_attached": false,
+      "unpaywall_attached": false,
+      "waves": [
+        {
+          "wave": 1,
+          "label": "Initial FOIA/FOIL request",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        },
+        {
+          "wave": 2,
+          "label": "Follow-up / constructive denial appeal",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        },
+        {
+          "wave": 3,
+          "label": "Vaughn challenge / segregability push",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        }
+      ],
+      "checklist": {
+        "document_control_or_bates": false,
+        "date": false,
+        "author_recipient": false,
+        "document_type": false,
+        "exemption_claimed": false,
+        "segregability": false,
+        "non_conclusory_description": false,
+        "classification_or_privilege_flag": false
+      }
+    },
+    "C05": {
+      "claim_id": "C05",
+      "leo_tag_slogan": "IRREGULARITY",
+      "date_window": {
+        "start": "2020-02-01",
+        "end": "2020-06-30",
+        "label": "Six-foot distancing policy basis"
+      },
+      "warrant_file": "C05-FOIA-LATEST.md",
+      "vaughn_checklist_embedded": true,
+      "openalex_attached": false,
+      "unpaywall_attached": false,
+      "waves": [
+        {
+          "wave": 1,
+          "label": "Initial FOIA/FOIL request",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        },
+        {
+          "wave": 2,
+          "label": "Follow-up / constructive denial appeal",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        },
+        {
+          "wave": 3,
+          "label": "Vaughn challenge / segregability push",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        }
+      ],
+      "checklist": {
+        "document_control_or_bates": false,
+        "date": false,
+        "author_recipient": false,
+        "document_type": false,
+        "exemption_claimed": false,
+        "segregability": false,
+        "non_conclusory_description": false,
+        "classification_or_privilege_flag": false
+      }
+    },
+    "C06": {
+      "claim_id": "C06",
+      "leo_tag_slogan": "IRREGULARITY",
+      "date_window": {
+        "start": "2020-02-01",
+        "end": "2023-12-31",
+        "label": "Mask guidance evolution"
+      },
+      "warrant_file": "C06-FOIA-LATEST.md",
+      "vaughn_checklist_embedded": true,
+      "openalex_attached": false,
+      "unpaywall_attached": false,
+      "waves": [
+        {
+          "wave": 1,
+          "label": "Initial FOIA/FOIL request",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        },
+        {
+          "wave": 2,
+          "label": "Follow-up / constructive denial appeal",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        },
+        {
+          "wave": 3,
+          "label": "Vaughn challenge / segregability push",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        }
+      ],
+      "checklist": {
+        "document_control_or_bates": false,
+        "date": false,
+        "author_recipient": false,
+        "document_type": false,
+        "exemption_claimed": false,
+        "segregability": false,
+        "non_conclusory_description": false,
+        "classification_or_privilege_flag": false
+      }
+    },
+    "C07": {
+      "claim_id": "C07",
+      "leo_tag_slogan": "CONTESTED",
+      "date_window": {
+        "start": "2020-03-01",
+        "end": "2024-12-31",
+        "label": "Lockdown collateral harms"
+      },
+      "warrant_file": "C07-FOIA-LATEST.md",
+      "vaughn_checklist_embedded": true,
+      "openalex_attached": false,
+      "unpaywall_attached": false,
+      "waves": [
+        {
+          "wave": 1,
+          "label": "Initial FOIA/FOIL request",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        },
+        {
+          "wave": 2,
+          "label": "Follow-up / constructive denial appeal",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        },
+        {
+          "wave": 3,
+          "label": "Vaughn challenge / segregability push",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        }
+      ],
+      "checklist": {
+        "document_control_or_bates": false,
+        "date": false,
+        "author_recipient": false,
+        "document_type": false,
+        "exemption_claimed": false,
+        "segregability": false,
+        "non_conclusory_description": false,
+        "classification_or_privilege_flag": false
+      }
+    },
+    "C08": {
+      "claim_id": "C08",
+      "leo_tag_slogan": "IRREGULARITY",
+      "date_window": {
+        "start": "2020-03-01",
+        "end": "2021-12-31",
+        "label": "NY March 25 nursing home directive"
+      },
+      "warrant_file": "C08-FOIA-LATEST.md",
+      "vaughn_checklist_embedded": true,
+      "openalex_attached": false,
+      "unpaywall_attached": false,
+      "waves": [
+        {
+          "wave": 1,
+          "label": "Initial FOIA/FOIL request",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        },
+        {
+          "wave": 2,
+          "label": "Follow-up / constructive denial appeal",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        },
+        {
+          "wave": 3,
+          "label": "Vaughn challenge / segregability push",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        }
+      ],
+      "checklist": {
+        "document_control_or_bates": false,
+        "date": false,
+        "author_recipient": false,
+        "document_type": false,
+        "exemption_claimed": false,
+        "segregability": false,
+        "non_conclusory_description": false,
+        "classification_or_privilege_flag": false
+      }
+    },
+    "C09": {
+      "claim_id": "C09",
+      "leo_tag_slogan": "IRREGULARITY",
+      "date_window": {
+        "start": "2019-12-01",
+        "end": "2025-06-30",
+        "label": "WHO / IHR / China notification"
+      },
+      "warrant_file": "C09-FOIA-LATEST.md",
+      "vaughn_checklist_embedded": true,
+      "openalex_attached": false,
+      "unpaywall_attached": false,
+      "waves": [
+        {
+          "wave": 1,
+          "label": "Initial FOIA/FOIL request",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        },
+        {
+          "wave": 2,
+          "label": "Follow-up / constructive denial appeal",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        },
+        {
+          "wave": 3,
+          "label": "Vaughn challenge / segregability push",
+          "status": "TEMPLATE",
+          "filed_date": null,
+          "agency": null,
+          "bates_range": null,
+          "pages_produced": null,
+          "pages_withheld": null,
+          "exemptions_seen": [],
+          "segregability_asserted": null,
+          "native_email_received": null,
+          "still_missing_primaries": [],
+          "notes": ""
+        }
+      ],
+      "checklist": {
+        "document_control_or_bates": false,
+        "date": false,
+        "author_recipient": false,
+        "document_type": false,
+        "exemption_claimed": false,
+        "segregability": false,
+        "non_conclusory_description": false,
+        "classification_or_privilege_flag": false
+      }
+    }
   }
 }
