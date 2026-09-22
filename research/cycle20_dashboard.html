@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Meridian Swarm HQ — Cycle 20 Dashboard</title>
+<style>
+:root {
+  --bg:#0a0c0b; --card:#141816; --border:#2a312c; --text:#e8ebe4;
+  --muted:#8a928a; --brass:#c4a35a; --ok:#3d9a6a; --warn:#c4a35a; --bad:#c45c4a; --olive:#3d4a3a;
+}
+* { box-sizing:border-box; }
+body { margin:0; font-family: ui-sans-serif, system-ui, sans-serif; background:var(--bg); color:var(--text); line-height:1.45; }
+header { border-bottom:1px solid var(--border); padding:20px 24px; background:linear-gradient(180deg,#121512,#0a0c0b); }
+header h1 { margin:0; font-size:1.35rem; letter-spacing:0.04em; }
+header .meta { color:var(--muted); font-size:12px; margin-top:6px; font-family:ui-monospace,monospace; }
+.badge { display:inline-block; padding:2px 8px; border-radius:999px; font-size:11px; font-family:ui-monospace,monospace; border:1px solid var(--border); }
+.badge.pass { color:var(--ok); border-color:var(--ok); }
+.badge.find { color:var(--warn); border-color:var(--warn); }
+main { max-width:1100px; margin:0 auto; padding:20px 24px 48px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:12px; margin:16px 0 24px; }
+.stat { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:14px; }
+.stat .k { font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:0.08em; }
+.stat .v { font-size:1.5rem; font-weight:600; color:var(--brass); margin-top:4px; }
+section { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px 18px; margin-bottom:16px; }
+section h2 { margin:0 0 12px; font-size:0.85rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--brass); }
+table { width:100%; border-collapse:collapse; font-size:13px; }
+th, td { border-bottom:1px solid var(--border); padding:8px 6px; text-align:left; vertical-align:top; }
+th { color:var(--muted); font-weight:500; font-size:11px; text-transform:uppercase; letter-spacing:0.06em; }
+.SOLID { color:var(--ok); } .CONTESTED { color:var(--warn); } .IRREGULARITY { color:var(--bad); } .OVERSTATED { color:#9aa; }
+.sev-OK { color:var(--ok); } .sev-HIGH,.sev-CRITICAL { color:var(--bad); } .sev-MED { color:var(--warn); }
+ul.channels { margin:0; padding-left:18px; color:var(--muted); font-size:13px; }
+.footer { color:var(--muted); font-size:11px; font-family:ui-monospace,monospace; margin-top:24px; }
+a { color:var(--brass); }
+code { font-family:ui-monospace,monospace; font-size:12px; background:#1c211e; padding:1px 5px; border-radius:4px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Meridian Swarm HQ · Cycle 20</h1>
+  <div class="meta">
+    M38 STATIC LOCK · LEO · OpenAlex live · Vaughn FOIA · Reviewer:
+    <span class="badge pass">PASS</span>
+    · 2026-09-22T07:44:54Z
+  </div>
+</header>
+<main>
+  <div class="grid">
+    <div class="stat"><div class="k">Claims</div><div class="v">11</div></div>
+    <div class="stat"><div class="k">IRREGULARITY</div><div class="v">8</div></div>
+    <div class="stat"><div class="k">CONTESTED</div><div class="v">1</div></div>
+    <div class="stat"><div class="k">SOLID</div><div class="v">2</div></div>
+    <div class="stat"><div class="k">FOIA Warrants</div><div class="v">9</div></div>
+    <div class="stat"><div class="k">OpenAlex C01 hits</div><div class="v">142089</div></div>
+  </div>
+
+  <section>
+    <h2>LEO Auto-Verdict Matrix</h2>
+    <table>
+      <thead><tr><th>ID</th><th>Tag</th><th>Omit</th><th>Warrant</th><th>Why (trunc)</th></tr></thead>
+      <tbody>
+<tr><td><code>C01</code></td><td class='IRREGULARITY'>IRREGULARITY</td><td>0.6</td><td>ESCALATE_TO_TARGETED_FOIA</td><td style='color:var(--muted)'>Overclaim clash: [('proven/debunked', 'unsubmitted'), ('proven', 'unsubmitted'), ('settled</td></tr>
+<tr><td><code>C02</code></td><td class='IRREGULARITY'>IRREGULARITY</td><td>0.5</td><td>ESCALATE_TO_TARGETED_FOIA</td><td style='color:var(--muted)'>Overclaim clash: [('no nih influence', 'investigation'), ('purely objective', 'investigati</td></tr>
+<tr><td><code>C03</code></td><td class='IRREGULARITY'>IRREGULARITY</td><td>0.0</td><td>ESCALATE_TO_TARGETED_FOIA</td><td style='color:var(--muted)'>Overclaim clash: [('fully complied', 'incident'), ('all applicable requirements', 'inciden</td></tr>
+<tr><td><code>C04</code></td><td class='IRREGULARITY'>IRREGULARITY</td><td>0.0</td><td>ESCALATE_TO_TARGETED_FOIA</td><td style='color:var(--muted)'>Overclaim clash: [('fully transparent', 'investigation'), ('complete transparency', 'inves</td></tr>
+<tr><td><code>C05</code></td><td class='IRREGULARITY'>IRREGULARITY</td><td>0.0</td><td>ESCALATE_TO_TARGETED_FOIA</td><td style='color:var(--muted)'>Overclaim clash: [('rigorously science-based', 'sort of just appeared')]</td></tr>
+<tr><td><code>C06</code></td><td class='IRREGULARITY'>IRREGULARITY</td><td>0.0</td><td>ESCALATE_TO_TARGETED_FOIA</td><td style='color:var(--muted)'>Overclaim clash: [('absolutely ineffective', 'mixed'), ("masks don't work", 'mixed'), ('in</td></tr>
+<tr><td><code>C07</code></td><td class='CONTESTED'>CONTESTED</td><td>0.333</td><td>ESCALATE_TO_TARGETED_FOIA</td><td style='color:var(--muted)'>Partial primary: missing ['universal_net']</td></tr>
+<tr><td><code>C08</code></td><td class='IRREGULARITY'>IRREGULARITY</td><td>0.333</td><td>ESCALATE_TO_TARGETED_FOIA</td><td style='color:var(--muted)'>Overclaim clash: [('adjudicated criminal', 'missing')]</td></tr>
+<tr><td><code>C09</code></td><td class='IRREGULARITY'>IRREGULARITY</td><td>0.0</td><td>ESCALATE_TO_TARGETED_FOIA</td><td style='color:var(--muted)'>Overclaim clash: [('proven', 'hypotheses remain'), ('there is no lab leak', 'hypotheses re</td></tr>
+<tr><td><code>C10</code></td><td class='SOLID'>SOLID</td><td>0.0</td><td>NONE</td><td style='color:var(--muted)'>All documented parameters verified cleanly within public record bounds.</td></tr>
+<tr><td><code>C11</code></td><td class='SOLID'>SOLID</td><td>0.0</td><td>NONE</td><td style='color:var(--muted)'>All documented parameters verified cleanly within public record bounds.</td></tr>
+
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Reviewer Agent</h2>
+    <table>
+      <thead><tr><th>Sev</th><th>ID</th><th>Finding</th></tr></thead>
+      <tbody>
+<tr><td class='sev-OK'>OK</td><td><code>R-C06</code></td><td>C06 IRREGULARITY holds</td></tr>
+<tr><td class='sev-OK'>OK</td><td><code>R-M38</code></td><td>M38 static lock intact</td></tr>
+<tr><td class='sev-OK'>OK</td><td><code>R-OA-C01</code></td><td>OpenAlex C01: OK hits=142089</td></tr>
+<tr><td class='sev-OK'>OK</td><td><code>R-OA-C02</code></td><td>OpenAlex C02: OK hits=4519</td></tr>
+<tr><td class='sev-OK'>OK</td><td><code>R-WARRANT</code></td><td>All 9 non-SOLID claims have Vaughn-bearing warrants</td></tr>
+<tr><td class='sev-OK'>OK</td><td><code>R-SOLID</code></td><td>SOLID set: ['C10', 'C11']</td></tr>
+<tr><td class='sev-OK'>OK</td><td><code>R-ORIGIN</code></td><td>C01 not falsely SOLID (IRREGULARITY) — process≠origin gate holds</td></tr>
+
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Live OpenAlex (C01 / C02)</h2>
+    <table>
+      <thead><tr><th>Claim</th><th>Status</th><th>Catalog</th><th>Top works</th></tr></thead>
+      <tbody>
+<tr><td>C01</td><td>OK</td><td>142089</td><td style='font-size:12px'><code>W3177828909</code> — Highly accurate protein structure prediction with AlphaFold (cites 47432)<br/><code>W3001897055</code> — A Novel Coronavirus from Patients with Pneumonia in China, 2019 (cites 30469)<br/><code>W3004280078</code> — A pneumonia outbreak associated with a new coronavirus of probable bat origin (cites 23421)</td></tr>
+<tr><td>C02</td><td>OK</td><td>4519</td><td style='font-size:12px'><code>W3018517500</code> — The trinity of COVID-19: immunity, inflammation and intervention (cites 4653)<br/><code>W3203433659</code> — Mechanisms of SARS-CoV-2 entry into cells (cites 3267)<br/><code>W3020695284</code> — Inhibition of SARS-CoV-2 Infections in Engineered Human Tissues Using Clinical-G (cites 2267)</td></tr>
+
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>FOIA Warrants (Vaughn + Timeline)</h2>
+    <table>
+      <thead><tr><th>Warrant</th><th>Tag</th><th>Date range</th><th>Vaughn</th><th>OpenAlex</th></tr></thead>
+      <tbody>
+<tr><td><code>C01-FOIA-20260922-v20</code></td><td class='IRREGULARITY'>IRREGULARITY</td><td>2019-09-01 → 2025-06-30</td><td>YES</td><td>YES</td></tr>
+<tr><td><code>C02-FOIA-20260922-v20</code></td><td class='IRREGULARITY'>IRREGULARITY</td><td>2020-01-31 → 2020-04-30</td><td>YES</td><td>YES</td></tr>
+<tr><td><code>C03-FOIA-20260922-v20</code></td><td class='IRREGULARITY'>IRREGULARITY</td><td>2014-06-01 → 2025-01-31</td><td>YES</td><td>—</td></tr>
+<tr><td><code>C04-FOIA-20260922-v20</code></td><td class='IRREGULARITY'>IRREGULARITY</td><td>2020-01-01 → 2024-12-31</td><td>YES</td><td>—</td></tr>
+<tr><td><code>C05-FOIA-20260922-v20</code></td><td class='IRREGULARITY'>IRREGULARITY</td><td>2020-02-01 → 2020-06-30</td><td>YES</td><td>—</td></tr>
+<tr><td><code>C06-FOIA-20260922-v20</code></td><td class='IRREGULARITY'>IRREGULARITY</td><td>2020-02-01 → 2023-12-31</td><td>YES</td><td>—</td></tr>
+<tr><td><code>C07-FOIA-20260922-v20</code></td><td class='CONTESTED'>CONTESTED</td><td>2020-03-01 → 2024-12-31</td><td>YES</td><td>—</td></tr>
+<tr><td><code>C08-FOIA-20260922-v20</code></td><td class='IRREGULARITY'>IRREGULARITY</td><td>2020-03-01 → 2021-12-31</td><td>YES</td><td>—</td></tr>
+<tr><td><code>C09-FOIA-20260922-v20</code></td><td class='IRREGULARITY'>IRREGULARITY</td><td>2019-12-01 → 2025-06-30</td><td>YES</td><td>—</td></tr>
+
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>M38 Compliance Manifest</h2>
+    <ul class="channels">
+      <li>dump_dorks: <strong>false</strong></li>
+      <li>directory_fuzzing: <strong>false</strong></li>
+      <li>private_api_bypass: <strong>false</strong></li>
+      <li>onion_scrapers: <strong>false</strong></li>
+      <li>force_allow_kernel: <strong>false</strong> (DISCARDED)</li>
+    </ul>
+    <p style="margin-top:12px;color:var(--muted);font-size:13px">
+      Authorized: .gov / FOIA · OpenAlex · Unpaywall OA · document forensics · LEO polarity
+    </p>
+  </section>
+
+  <section>
+    <h2>Linked Sub-Dashboards</h2>
+    <ul class="channels">
+      <li><a href="phase4_open_access.html">Phase 4 Open Access</a></li>
+      <li><a href="phase23_forensic_leo.html">Phase 2–3 Forensics + LEO</a></li>
+      <li><a href="doctrine_lvs_slmvp_aao.html">Doctrine LVS/SLMVP/AAO</a></li>
+      <li><a href="cycle9_primary_hunt.html">Cycle 9 Primary Hunt</a></li>
+    </ul>
+  </section>
+
+  <p class="footer">Meridian Swarm · cycle 20 · schema LEO 1.3 · git prior 173deb6d · 2026-09-22T07:44:54.021436+00:00</p>
+</main>
+</body>
+</html>

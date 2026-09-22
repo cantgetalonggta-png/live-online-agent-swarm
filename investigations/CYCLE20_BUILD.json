@@ -1,0 +1,647 @@
+{
+  "compliance_framework": "MERIDIAN_M38_STANDARD",
+  "enforcement_level": "STATIC_LOCK_COMPILED",
+  "updated": "2026-09-22T07:45:25.315146+00:00",
+  "cycle": 20,
+  "active_restrictions": {
+    "dump_dorks": false,
+    "directory_fuzzing": false,
+    "private_api_bypass": false,
+    "onion_scrapers": false,
+    "force_allow_kernel": false
+  },
+  "authorized_ingestion_channels": [
+    "gov_statutory_transparency_portals",
+    "openalex_rest_api_citation_graphs",
+    "unpaywall_authorized_oa_mirrors"
+  ],
+  "matrix": {
+    "C01": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.6,
+      "missing": [
+        "serology",
+        "host_data",
+        "notebook_logs"
+      ],
+      "clashes": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "proven/debunked",
+          "contradicted_by": "unsubmitted"
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "proven",
+          "contradicted_by": "unsubmitted"
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "settled science",
+          "contradicted_by": "unsubmitted"
+        }
+      ],
+      "why": "Overclaim clash: [('proven/debunked', 'unsubmitted'), ('proven', 'unsubmitted'), ('settled science', 'unsubmitted')]",
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
+      "timeline": {
+        "label": "Origins / host / serology",
+        "start": "2019-09-01",
+        "end": "2025-06-30",
+        "anchors": [
+          "WIV illness reports Fall 2019",
+          "SAGO 2025",
+          "CIA 2025 lean"
+        ]
+      },
+      "openalex_live": {
+        "status": "OK",
+        "count": 142089,
+        "top_ids": [
+          "W3177828909",
+          "W3001897055",
+          "W3004280078",
+          "W3005079553",
+          "W3003217347"
+        ],
+        "top_titles": [
+          "Highly accurate protein structure prediction with AlphaFold",
+          "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+          "A pneumonia outbreak associated with a new coronavirus of probable bat origin"
+        ],
+        "top_dois": [
+          "https://doi.org/10.1038/s41586-021-03819-2",
+          "https://doi.org/10.1056/nejmoa2001017",
+          "https://doi.org/10.1038/s41586-020-2012-7"
+        ]
+      }
+    },
+    "C02": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.5,
+      "missing": [
+        "payment_ledger"
+      ],
+      "clashes": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "no nih influence",
+          "contradicted_by": "investigation"
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "purely objective",
+          "contradicted_by": "investigation"
+        }
+      ],
+      "why": "Overclaim clash: [('no nih influence', 'investigation'), ('purely objective', 'investigation')]",
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
+      "timeline": {
+        "label": "Proximal Origin / NIH influence",
+        "start": "2020-01-31",
+        "end": "2020-04-30",
+        "anchors": [
+          "Feb 1 2020 call",
+          "Nature Med March 2020",
+          "FOIA emails"
+        ]
+      },
+      "openalex_live": {
+        "status": "OK",
+        "count": 4519,
+        "top_ids": [
+          "W3018517500",
+          "W3203433659",
+          "W3020695284",
+          "W3128392043",
+          "W3043773740"
+        ],
+        "top_titles": [
+          "The trinity of COVID-19: immunity, inflammation and intervention",
+          "Mechanisms of SARS-CoV-2 entry into cells",
+          "Inhibition of SARS-CoV-2 Infections in Engineered Human Tissues Using Clinical-Grade Soluble Human ACE2"
+        ],
+        "top_dois": [
+          "https://doi.org/10.1038/s41577-020-0311-8",
+          "https://doi.org/10.1038/s41580-021-00418-x",
+          "https://doi.org/10.1016/j.cell.2020.04.004"
+        ]
+      }
+    },
+    "C03": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.0,
+      "missing": [],
+      "clashes": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "fully complied",
+          "contradicted_by": "incident"
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "all applicable requirements",
+          "contradicted_by": "incident"
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "in full compliance",
+          "contradicted_by": "incident"
+        }
+      ],
+      "why": "Overclaim clash: [('fully complied', 'incident'), ('all applicable requirements', 'incident'), ('in full compliance', 'incident')]",
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
+      "timeline": {
+        "label": "EcoHealth grant / debarment",
+        "start": "2014-06-01",
+        "end": "2025-01-31",
+        "anchors": [
+          "R01AI110964",
+          "year-5 late report",
+          "HHS debarment Jan 2025"
+        ]
+      }
+    },
+    "C04": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.0,
+      "missing": [],
+      "clashes": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "fully transparent",
+          "contradicted_by": "investigation"
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "complete transparency",
+          "contradicted_by": "investigation"
+        }
+      ],
+      "why": "Overclaim clash: [('fully transparent', 'investigation'), ('complete transparency', 'investigation')]",
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
+      "timeline": {
+        "label": "FOIA culture / Morens / NIH oversight",
+        "start": "2020-01-01",
+        "end": "2024-12-31",
+        "anchors": [
+          "Morens emails",
+          "Fauci TI",
+          "Oversight productions"
+        ]
+      }
+    },
+    "C05": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.0,
+      "missing": [],
+      "clashes": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "rigorously science-based",
+          "contradicted_by": "sort of just appeared"
+        }
+      ],
+      "why": "Overclaim clash: [('rigorously science-based', 'sort of just appeared')]",
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
+      "timeline": {
+        "label": "Six-foot distancing policy basis",
+        "start": "2020-02-01",
+        "end": "2020-06-30",
+        "anchors": [
+          "Fauci TI sort of just appeared",
+          "Collins TI"
+        ]
+      }
+    },
+    "C06": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.0,
+      "missing": [],
+      "clashes": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "absolutely ineffective",
+          "contradicted_by": "mixed"
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "masks don't work",
+          "contradicted_by": "mixed"
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "ineffective in all contexts",
+          "contradicted_by": "mixed"
+        }
+      ],
+      "why": "Overclaim clash: [('absolutely ineffective', 'mixed'), (\"masks don't work\", 'mixed'), ('ineffective in all contexts', 'mixed')]",
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
+      "timeline": {
+        "label": "Mask guidance evolution",
+        "start": "2020-02-01",
+        "end": "2023-12-31",
+        "anchors": [
+          "CDC early no-mask",
+          "later mandate guidance",
+          "RCT mixed literature"
+        ]
+      }
+    },
+    "C07": {
+      "verdict_tag": "CONTESTED",
+      "omission_weight": 0.333,
+      "missing": [
+        "universal_net"
+      ],
+      "clashes": [],
+      "why": "Partial primary: missing ['universal_net']",
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
+      "timeline": {
+        "label": "Lockdown collateral harms",
+        "start": "2020-03-01",
+        "end": "2024-12-31",
+        "anchors": [
+          "NAEP learning loss",
+          "excess non-COVID"
+        ]
+      }
+    },
+    "C08": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.333,
+      "missing": [
+        "criminal_judgment"
+      ],
+      "clashes": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "adjudicated criminal",
+          "contradicted_by": "missing"
+        }
+      ],
+      "why": "Overclaim clash: [('adjudicated criminal', 'missing')]",
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
+      "timeline": {
+        "label": "NY March 25 nursing home directive",
+        "start": "2020-03-01",
+        "end": "2021-12-31",
+        "anchors": [
+          "March 25 2020 directive",
+          "July 6 drafts"
+        ]
+      }
+    },
+    "C09": {
+      "verdict_tag": "IRREGULARITY",
+      "omission_weight": 0.0,
+      "missing": [],
+      "clashes": [
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "proven",
+          "contradicted_by": "hypotheses remain"
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "there is no lab leak",
+          "contradicted_by": "hypotheses remain"
+        },
+        {
+          "type": "ABSOLUTE_OVERCLAIM_VIOLATION",
+          "triggered_by": "conspiracy theory",
+          "contradicted_by": "hypotheses remain"
+        }
+      ],
+      "why": "Overclaim clash: [('proven', 'hypotheses remain'), ('there is no lab leak', 'hypotheses remain'), ('conspiracy theory', 'hypotheses remain')]",
+      "actionable_warrant": "ESCALATE_TO_TARGETED_FOIA",
+      "timeline": {
+        "label": "WHO / IHR / China notification",
+        "start": "2019-12-01",
+        "end": "2025-06-30",
+        "anchors": [
+          "IHR timelines",
+          "WHO joint study",
+          "SAGO 2025"
+        ]
+      }
+    },
+    "C10": {
+      "verdict_tag": "SOLID",
+      "omission_weight": 0.0,
+      "missing": [],
+      "clashes": [],
+      "why": "All documented parameters verified cleanly within public record bounds.",
+      "actionable_warrant": "NONE",
+      "timeline": {
+        "label": "Pandemic relief fraud / improper payments",
+        "start": "2020-03-01",
+        "end": "2025-12-31",
+        "anchors": [
+          "GAO UI estimates",
+          "SBA OIG"
+        ]
+      }
+    },
+    "C11": {
+      "verdict_tag": "SOLID",
+      "omission_weight": 0.0,
+      "missing": [],
+      "clashes": [],
+      "why": "All documented parameters verified cleanly within public record bounds.",
+      "actionable_warrant": "NONE",
+      "timeline": {
+        "label": "HHS production delays / selective EcoHealth releases",
+        "start": "2021-01-01",
+        "end": "2025-12-31",
+        "anchors": [
+          "HHS production logs",
+          "EcoHealth release compare"
+        ]
+      }
+    }
+  },
+  "warrants": [
+    {
+      "warrant_id": "C01-FOIA-20260922-v20",
+      "claim_id": "C01",
+      "tag": "IRREGULARITY",
+      "date_range": {
+        "start": "2019-09-01",
+        "end": "2025-06-30"
+      },
+      "has_vaughn_checklist": true,
+      "has_openalex": true,
+      "path": "/workspace/artifacts/sscp_ingest/findings/foia_warrants/C01-FOIA-20260922-v20.md"
+    },
+    {
+      "warrant_id": "C02-FOIA-20260922-v20",
+      "claim_id": "C02",
+      "tag": "IRREGULARITY",
+      "date_range": {
+        "start": "2020-01-31",
+        "end": "2020-04-30"
+      },
+      "has_vaughn_checklist": true,
+      "has_openalex": true,
+      "path": "/workspace/artifacts/sscp_ingest/findings/foia_warrants/C02-FOIA-20260922-v20.md"
+    },
+    {
+      "warrant_id": "C03-FOIA-20260922-v20",
+      "claim_id": "C03",
+      "tag": "IRREGULARITY",
+      "date_range": {
+        "start": "2014-06-01",
+        "end": "2025-01-31"
+      },
+      "has_vaughn_checklist": true,
+      "has_openalex": false,
+      "path": "/workspace/artifacts/sscp_ingest/findings/foia_warrants/C03-FOIA-20260922-v20.md"
+    },
+    {
+      "warrant_id": "C04-FOIA-20260922-v20",
+      "claim_id": "C04",
+      "tag": "IRREGULARITY",
+      "date_range": {
+        "start": "2020-01-01",
+        "end": "2024-12-31"
+      },
+      "has_vaughn_checklist": true,
+      "has_openalex": false,
+      "path": "/workspace/artifacts/sscp_ingest/findings/foia_warrants/C04-FOIA-20260922-v20.md"
+    },
+    {
+      "warrant_id": "C05-FOIA-20260922-v20",
+      "claim_id": "C05",
+      "tag": "IRREGULARITY",
+      "date_range": {
+        "start": "2020-02-01",
+        "end": "2020-06-30"
+      },
+      "has_vaughn_checklist": true,
+      "has_openalex": false,
+      "path": "/workspace/artifacts/sscp_ingest/findings/foia_warrants/C05-FOIA-20260922-v20.md"
+    },
+    {
+      "warrant_id": "C06-FOIA-20260922-v20",
+      "claim_id": "C06",
+      "tag": "IRREGULARITY",
+      "date_range": {
+        "start": "2020-02-01",
+        "end": "2023-12-31"
+      },
+      "has_vaughn_checklist": true,
+      "has_openalex": false,
+      "path": "/workspace/artifacts/sscp_ingest/findings/foia_warrants/C06-FOIA-20260922-v20.md"
+    },
+    {
+      "warrant_id": "C07-FOIA-20260922-v20",
+      "claim_id": "C07",
+      "tag": "CONTESTED",
+      "date_range": {
+        "start": "2020-03-01",
+        "end": "2024-12-31"
+      },
+      "has_vaughn_checklist": true,
+      "has_openalex": false,
+      "path": "/workspace/artifacts/sscp_ingest/findings/foia_warrants/C07-FOIA-20260922-v20.md"
+    },
+    {
+      "warrant_id": "C08-FOIA-20260922-v20",
+      "claim_id": "C08",
+      "tag": "IRREGULARITY",
+      "date_range": {
+        "start": "2020-03-01",
+        "end": "2021-12-31"
+      },
+      "has_vaughn_checklist": true,
+      "has_openalex": false,
+      "path": "/workspace/artifacts/sscp_ingest/findings/foia_warrants/C08-FOIA-20260922-v20.md"
+    },
+    {
+      "warrant_id": "C09-FOIA-20260922-v20",
+      "claim_id": "C09",
+      "tag": "IRREGULARITY",
+      "date_range": {
+        "start": "2019-12-01",
+        "end": "2025-06-30"
+      },
+      "has_vaughn_checklist": true,
+      "has_openalex": false,
+      "path": "/workspace/artifacts/sscp_ingest/findings/foia_warrants/C09-FOIA-20260922-v20.md"
+    }
+  ],
+  "openalex_live": {
+    "updated": "2026-09-22T07:45:25.315146+00:00",
+    "C01": {
+      "status": "OK",
+      "queries": [
+        "SARS-CoV-2 origin zoonotic laboratory accident",
+        "SAGO"
+      ],
+      "results": [
+        {
+          "id": "W3012565918",
+          "title": "Zoonotic origins of human coronaviruses",
+          "year": 2020,
+          "cited_by": 983,
+          "doi": "https://doi.org/10.7150/ijbs.45472",
+          "oa_url": "https://doi.org/10.7150/ijbs.45472",
+          "is_oa": true
+        },
+        {
+          "id": "W2931144334",
+          "title": "Infectious Disease Threats in the Twenty-First Century: Strengthening the Global Response",
+          "year": 2019,
+          "cited_by": 820,
+          "doi": "https://doi.org/10.3389/fimmu.2019.00549",
+          "oa_url": "https://www.frontiersin.org/articles/10.3389/fimmu.2019.00549/pdf",
+          "is_oa": true
+        },
+        {
+          "id": "W3191809422",
+          "title": "The origins of SARS-CoV-2: A critical review",
+          "year": 2021,
+          "cited_by": 518,
+          "doi": "https://doi.org/10.1016/j.cell.2021.08.017",
+          "oa_url": "http://www.cell.com/article/S0092867421009910/pdf",
+          "is_oa": true
+        },
+        {
+          "id": "W4200429845",
+          "title": "The emergence, genomic diversity and global spread of SARS-CoV-2",
+          "year": 2021,
+          "cited_by": 441,
+          "doi": "https://doi.org/10.1038/s41586-021-04188-6",
+          "oa_url": "https://www.nature.com/articles/s41586-021-04188-6.pdf",
+          "is_oa": true
+        },
+        {
+          "id": "W2111322194",
+          "title": "Wet markets\u2014a continuing source of severe acute respiratory syndrome and influenza?",
+          "year": 2004,
+          "cited_by": 441,
+          "doi": "https://doi.org/10.1016/s0140-6736(03)15329-9",
+          "oa_url": "http://www.thelancet.com/article/S0140673603153299/pdf",
+          "is_oa": true
+        }
+      ],
+      "count_primary": 610
+    },
+    "C02": {
+      "status": "OK",
+      "queries": [
+        "The proximal origin of SARS-CoV-2",
+        "Andersen Rambaut"
+      ],
+      "results": [
+        {
+          "id": "W3011127849",
+          "title": "The proximal origin of SARS-CoV-2",
+          "year": 2020,
+          "cited_by": 5515,
+          "doi": "https://doi.org/10.1038/s41591-020-0820-9",
+          "oa_url": "https://www.nature.com/articles/s41591-020-0820-9.pdf",
+          "is_oa": true
+        },
+        {
+          "id": "W3092136311",
+          "title": "Characteristics of SARS-CoV-2 and COVID-19",
+          "year": 2020,
+          "cited_by": 5506,
+          "doi": "https://doi.org/10.1038/s41579-020-00459-7",
+          "oa_url": "https://www.nature.com/articles/s41579-020-00459-7.pdf",
+          "is_oa": true
+        },
+        {
+          "id": "W3018517500",
+          "title": "The trinity of COVID-19: immunity, inflammation and intervention",
+          "year": 2020,
+          "cited_by": 4653,
+          "doi": "https://doi.org/10.1038/s41577-020-0311-8",
+          "oa_url": "https://www.nature.com/articles/s41577-020-0311-8.pdf",
+          "is_oa": true
+        },
+        {
+          "id": "W3203433659",
+          "title": "Mechanisms of SARS-CoV-2 entry into cells",
+          "year": 2021,
+          "cited_by": 3267,
+          "doi": "https://doi.org/10.1038/s41580-021-00418-x",
+          "oa_url": "https://www.nature.com/articles/s41580-021-00418-x.pdf",
+          "is_oa": true
+        },
+        {
+          "id": "W3008295344",
+          "title": "High expression of ACE2 receptor of 2019-nCoV on the epithelial cells of oral mucosa",
+          "year": 2020,
+          "cited_by": 2953,
+          "doi": "https://doi.org/10.1038/s41368-020-0074-x",
+          "oa_url": "https://www.nature.com/articles/s41368-020-0074-x.pdf",
+          "is_oa": true
+        }
+      ],
+      "count_primary": 13035
+    }
+  },
+  "reviewer": {
+    "agent": "reviewer",
+    "cycle": 20,
+    "updated": "2026-09-22T07:44:54.021436+00:00",
+    "findings": [
+      {
+        "sev": "OK",
+        "id": "R-C06",
+        "msg": "C06 IRREGULARITY holds"
+      },
+      {
+        "sev": "OK",
+        "id": "R-M38",
+        "msg": "M38 static lock intact"
+      },
+      {
+        "sev": "OK",
+        "id": "R-OA-C01",
+        "msg": "OpenAlex C01: OK hits=142089"
+      },
+      {
+        "sev": "OK",
+        "id": "R-OA-C02",
+        "msg": "OpenAlex C02: OK hits=4519"
+      },
+      {
+        "sev": "OK",
+        "id": "R-WARRANT",
+        "msg": "All 9 non-SOLID claims have Vaughn-bearing warrants"
+      },
+      {
+        "sev": "OK",
+        "id": "R-SOLID",
+        "msg": "SOLID set: ['C10', 'C11']"
+      },
+      {
+        "sev": "OK",
+        "id": "R-ORIGIN",
+        "msg": "C01 not falsely SOLID (IRREGULARITY) \u2014 process\u2260origin gate holds"
+      }
+    ],
+    "pass": true,
+    "summary": "PASS"
+  },
+  "tag_counts": {
+    "IRREGULARITY": 8,
+    "CONTESTED": 1,
+    "SOLID": 2
+  },
+  "features": {
+    "vaughn_checklist": true,
+    "sscp_timeline_injection": true,
+    "linguistic_pack": "2.1",
+    "c06_patch": "APPLIED",
+    "openalex_live_c01_c02": true
+  },
+  "verification_signatures": {
+    "prior_git": "173deb6d",
+    "skill_cycle": 20
+  },
+  "openalex_refined": true
+}
