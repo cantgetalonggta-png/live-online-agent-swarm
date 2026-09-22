@@ -16,3 +16,9 @@ Updated: 2026-09-22T05:27:07.465934+00:00
 - [Hybrid Retrieval and Rerank](enc_13_hybrid_retrieval.md)
 - [GraphRAG Entity Expansion](enc_14_graphrag_entities.md)
 - [Autonomous Forever Reasoning Engine](enc_15_autonomous_forever_engine.md)
+## Cycle 8 additions
+- [enc_16_ti_roster.md](enc_16_ti_roster.md)
+- [enc_17_defuse_packet.md](enc_17_defuse_packet.md)
+- [enc_18_slmvp_m19_m22.md](enc_18_slmvp_m19_m22.md)
+- [enc_19_claim_linker.md](enc_19_claim_linker.md)
+- [enc_20_upgrade_ship.md](enc_20_upgrade_ship.md)
