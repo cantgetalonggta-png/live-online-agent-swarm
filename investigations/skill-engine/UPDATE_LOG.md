@@ -1,7 +1,13 @@
 # Update Log
 
-Cycle 1 @ 2026-09-22
+Cycle 2 @ 2026-09-22T04:50:14.311466Z
 - Atoms added: 5
-- Insights: 4
-- Critic: Full 557-page word-for-word still limited by image-heavy pages; footnotes need second-pass; Bayesian posteriors next.
-- Upgrade: Added public_record_claim_tagging and agent_swarm_document_distill atoms; enforced SOLID/CONTESTED separation for contested origin reports.
+- Insights: 3
+- Upgrade: Doctrine pipeline LVS→SLMVP→AAO + educator template encoded as permanent skill atoms; master operating procedure.
+## Cycle 2
+
+- added: 4 (LVS, SLMVP, AAO, educator)
+- insights: 3
+- note: permanent LVS→SLMVP→AAO doctrine + educator macro-micro wrapper
+- schema: migrated to masterSkillsTree
+

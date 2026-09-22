@@ -1,0 +1,727 @@
+{
+  "engine": {
+    "version": "1.0.0",
+    "cycle": 2,
+    "updatedAt": "2026-09-22T04:52:27.298524+00:00",
+    "modes": [
+      "markdown",
+      "dashboard",
+      "multi-agent"
+    ],
+    "upgrades": [
+      {
+        "cycle": 1,
+        "change": "Added public_record_claim_tagging and agent_swarm_document_distill atoms; enforced SOLID/CONTESTED separation for contested origin reports."
+      },
+      {
+        "cycle": 2,
+        "change": "Doctrine pipeline LVS\u2192SLMVP\u2192AAO + educator template encoded as permanent skill atoms; master operating procedure."
+      },
+      {
+        "cycle": 2,
+        "change": "Migrated to seed schema; added LVS/SLMVP/AAO/educator atoms as permanent doctrine OS."
+      }
+    ]
+  },
+  "atoms": {
+    "sk_public_record_claim_tagging": {
+      "id": "sk_public_record_claim_tagging",
+      "name": "Public Record Claim Tagging",
+      "definition": "Tag every factual claim from a long primary document as SOLID (primary-doc backed), CONTESTED (plausible but split evidence), or OVERSTATED using IC/SAGO/peer-review cross-checks.",
+      "purpose": "Separate documented institutional failures from advocacy conclusions in partisan or contested reports.",
+      "inputs": [
+        "primary_document_sections",
+        "footnote_cites",
+        "external_ic_assessments",
+        "peer_reviewed_literature"
+      ],
+      "outputs": [
+        "tagged_claim_list",
+        "solid_vs_contested_summary"
+      ],
+      "dependencies": [
+        "sk_document_ingestion",
+        "sk_bayesian_ach"
+      ],
+      "subskills": [
+        "footnote_harvest",
+        "genetic_distance_check",
+        "intelligence_assessment_mapping"
+      ],
+      "domain": "research_synthesis",
+      "tags": [
+        "covid",
+        "lab_leak",
+        "oversight",
+        "hitl",
+        "public_record"
+      ],
+      "version": 1,
+      "lineage": {
+        "createdCycle": 1,
+        "updatedCycle": 1,
+        "sources": [
+          "SSCP_557pp_2024_distillation"
+        ]
+      }
+    },
+    "sk_lab_leak_epistemology": {
+      "id": "sk_lab_leak_epistemology",
+      "name": "Lab Leak Epistemology",
+      "definition": "Evaluate origin hypotheses (lab accident vs zoonosis) under public-record ceiling: weight IC low-confidence assessments, market geospatial evidence, genetic features (FCS, RBD), and absence of smoking-gun samples.",
+      "purpose": "Avoid both premature conspiracy and premature dismissal; keep both hypotheses open until primary evidence closes them.",
+      "inputs": [
+        "odni_summaries",
+        "cia_2025_assessment",
+        "sago_2025",
+        "worobey_pekar_papers",
+        "wiv_grant_records"
+      ],
+      "outputs": [
+        "posterior_odds_table",
+        "solid_maybe_contested_flags"
+      ],
+      "dependencies": [
+        "sk_public_record_claim_tagging",
+        "sk_bayesian_ach"
+      ],
+      "subskills": [
+        "fcs_natural_analogs",
+        "market_clustering",
+        "go_f_definition_dispute"
+      ],
+      "domain": "research_synthesis",
+      "tags": [
+        "covid_origins",
+        "bayesian",
+        "intelligence"
+      ],
+      "version": 1,
+      "lineage": {
+        "createdCycle": 1,
+        "updatedCycle": 1,
+        "sources": [
+          "SSCP_C01_crosscheck"
+        ]
+      }
+    },
+    "sk_grant_oversight_failure_audit": {
+      "id": "sk_grant_oversight_failure_audit",
+      "name": "Grant Oversight Failure Audit",
+      "definition": "Audit high-risk research grants (e.g. EcoHealth/WIV) for late progress reports, unreported experiments, sample location misrepresentation, and FOIA evasion culture.",
+      "purpose": "Document process failures independently of whether the research caused a pandemic.",
+      "inputs": [
+        "nih_grant_files",
+        "year5_progress_report",
+        "hhs_debarment",
+        "morens_emails"
+      ],
+      "outputs": [
+        "violation_timeline",
+        "solid_documented_list"
+      ],
+      "dependencies": [
+        "sk_public_record_claim_tagging"
+      ],
+      "subskills": [
+        "foia_evasion_detection",
+        "durc_go_f_policy"
+      ],
+      "domain": "governance",
+      "tags": [
+        "ecohealth",
+        "nih",
+        "foia",
+        "debarment"
+      ],
+      "version": 1,
+      "lineage": {
+        "createdCycle": 1,
+        "updatedCycle": 1,
+        "sources": [
+          "SSCP_C03_C04"
+        ]
+      }
+    },
+    "sk_policy_by_fiat_detection": {
+      "id": "sk_policy_by_fiat_detection",
+      "name": "Policy By Fiat Detection",
+      "definition": "Identify public-health rules (6-ft distancing, mask mandates, lockdowns) whose quantitative basis was weak or admitted to be ad-hoc ('sort of just appeared').",
+      "purpose": "Flag when authority claims science but testimony/FOIA show improvisation.",
+      "inputs": [
+        "closed_door_testimony",
+        "cdc_guidance_archive",
+        "rct_evidence"
+      ],
+      "outputs": [
+        "arbitrary_rule_list",
+        "transparency_failure_score"
+      ],
+      "dependencies": [],
+      "subskills": [
+        "testimony_phrase_match",
+        "guidance_flipflop_timeline"
+      ],
+      "domain": "policy_equity",
+      "tags": [
+        "fauci",
+        "distancing",
+        "masks",
+        "lockdowns"
+      ],
+      "version": 1,
+      "lineage": {
+        "createdCycle": 1,
+        "updatedCycle": 1,
+        "sources": [
+          "SSCP_C05_C06_C07"
+        ]
+      }
+    },
+    "sk_agent_swarm_document_distill": {
+      "id": "sk_agent_swarm_document_distill",
+      "name": "Agent Swarm Document Distill",
+      "definition": "End-to-end: download long PDF \u2192 section extract \u2192 claim tag \u2192 Drive + GitHub push \u2192 live HTML dashboard under HITL public-record ceiling.",
+      "purpose": "Operational multi-agent pipeline for 500+ page oversight reports.",
+      "inputs": [
+        "pdf_url",
+        "hitl_flag",
+        "github_repo",
+        "drive_folder"
+      ],
+      "outputs": [
+        "distilled_md",
+        "claims_json",
+        "dashboard_html",
+        "github_commit_sha"
+      ],
+      "dependencies": [
+        "sk_public_record_claim_tagging",
+        "sk_document_ingestion"
+      ],
+      "subskills": [
+        "pdfplumber_section",
+        "github_push_files",
+        "drive_upload"
+      ],
+      "domain": "infrastructure",
+      "tags": [
+        "swarm",
+        "hitl",
+        "dashboard"
+      ],
+      "version": 1,
+      "lineage": {
+        "createdCycle": 1,
+        "updatedCycle": 1,
+        "sources": [
+          "SSCP_full_pipeline_2026-09-22"
+        ]
+      }
+    },
+    "sk_latent_vector_space_ingest": {
+      "id": "sk_latent_vector_space_ingest",
+      "name": "Latent Vector Space Ingest",
+      "definition": "Map investigation objects (Document, Chunk, Entity, Claim, Hypothesis, Agent, Modifier, Artifact) into a claim-grain latent space with decision axes: epistemic tag, hypothesis support, source quality, conflict-of-interest. Forbid single-vector pooling of long reports.",
+      "purpose": "Preserve rare identifiers and separate process failure from origin inference using geometry over rhetoric.",
+      "inputs": [
+        "primary_documents",
+        "claim_schema",
+        "source_hashes"
+      ],
+      "outputs": [
+        "object_registry",
+        "axis_plotted_claims",
+        "provenance_graph"
+      ],
+      "dependencies": [
+        "sk_public_record_claim_tagging"
+      ],
+      "subskills": [
+        "claim_grain_chunking",
+        "multi_vector_preservation",
+        "axis_declaration"
+      ],
+      "domain": "research_synthesis",
+      "tags": [
+        "lvs",
+        "embeddings",
+        "ontology",
+        "doctrine"
+      ],
+      "version": 1,
+      "lineage": {
+        "createdCycle": 2,
+        "updatedCycle": 2,
+        "sources": [
+          "doctrine_v1_lvs_2026-09-22"
+        ]
+      }
+    },
+    "sk_system_level_modifier_validation": {
+      "id": "sk_system_level_modifier_validation",
+      "name": "System Level Modifier Validation",
+      "definition": "Register named modifiers M1\u2013M6 (public-record ceiling, HITL, dual-anti-narrative, tag discipline, process\u2260origin, category-error watch) and validate each with a pass/fail test against both narrative tribes.",
+      "purpose": "Prevent prompt vibes and inverse-dogma from replacing reproducible gates.",
+      "inputs": [
+        "modifier_registry",
+        "claim_cards",
+        "ach_matrix"
+      ],
+      "outputs": [
+        "modifier_fire_log",
+        "validated_claim_set"
+      ],
+      "dependencies": [
+        "sk_latent_vector_space_ingest",
+        "sk_public_record_claim_tagging"
+      ],
+      "subskills": [
+        "dual_anti_narrative",
+        "confidence_vs_probability",
+        "adversarial_for_against"
+      ],
+      "domain": "governance",
+      "tags": [
+        "slmvp",
+        "hitl",
+        "modifiers",
+        "doctrine"
+      ],
+      "version": 1,
+      "lineage": {
+        "createdCycle": 2,
+        "updatedCycle": 2,
+        "sources": [
+          "doctrine_v1_slmvp_2026-09-22"
+        ]
+      }
+    },
+    "sk_atomized_artifact_output": {
+      "id": "sk_atomized_artifact_output",
+      "name": "Atomized Artifact Output",
+      "definition": "Emit versioned ClaimAtoms, SkillAtoms, agent reports, ACH posteriors, HTML dashboards, and GitHub/Drive hashes. Chat is index; artifacts are product.",
+      "purpose": "Make investigation results citable, reloadable, and session-surviving.",
+      "inputs": [
+        "validated_claims",
+        "skill_atoms",
+        "agent_reports"
+      ],
+      "outputs": [
+        "markdown_report",
+        "json_state",
+        "html_dashboard",
+        "github_commit",
+        "drive_file"
+      ],
+      "dependencies": [
+        "sk_system_level_modifier_validation",
+        "sk_agent_swarm_document_distill"
+      ],
+      "subskills": [
+        "claim_atom_schema",
+        "skill_atom_schema",
+        "multi_channel_backup"
+      ],
+      "domain": "infrastructure",
+      "tags": [
+        "aao",
+        "atoms",
+        "dashboard",
+        "doctrine"
+      ],
+      "version": 1,
+      "lineage": {
+        "createdCycle": 2,
+        "updatedCycle": 2,
+        "sources": [
+          "doctrine_v1_aao_2026-09-22"
+        ]
+      }
+    },
+    "sk_educator_macro_micro_template": {
+      "id": "sk_educator_macro_micro_template",
+      "name": "Educator Macro Micro Template",
+      "definition": "Mandatory step template: Phase, Step Title, Why, Theory, Nested Execution, Tools, Pitfalls+Fixes, KPI, and contrast table vs opposite approach.",
+      "purpose": "Block summarization skips and unfalsifiable depth; force measurable completion before next step.",
+      "inputs": [
+        "topic",
+        "goal",
+        "evidence_corpus"
+      ],
+      "outputs": [
+        "phase_structured_guide",
+        "kpi_checklist"
+      ],
+      "dependencies": [
+        "sk_atomized_artifact_output"
+      ],
+      "subskills": [
+        "phase_grouping",
+        "kpi_definition",
+        "pitfall_enumeration"
+      ],
+      "domain": "education",
+      "tags": [
+        "pedagogy",
+        "macro_micro",
+        "doctrine"
+      ],
+      "version": 1,
+      "lineage": {
+        "createdCycle": 1,
+        "updatedCycle": 1,
+        "sources": [
+          "doctrine_v1_educator"
+        ]
+      }
+    },
+    "sk_lvs_slmvp_aao_pipeline": {
+      "id": "sk_lvs_slmvp_aao_pipeline",
+      "name": "Lvs Slmvp Aao Pipeline",
+      "definition": "End-to-end permanent operating pipeline: Latent Vector Space placement \u2192 System-Level Modifier Validation \u2192 Atomized Artifact Output under dual-anti-narrative and HITL.",
+      "purpose": "Single default procedure for every swarm investigation and educator deep-dive.",
+      "inputs": [
+        "user_goal",
+        "primary_sources",
+        "hitl_flag"
+      ],
+      "outputs": [
+        "doctrine_compliant_artifact_pack"
+      ],
+      "dependencies": [
+        "sk_latent_vector_space_ingest",
+        "sk_system_level_modifier_validation",
+        "sk_atomized_artifact_output",
+        "sk_educator_macro_micro_template"
+      ],
+      "subskills": [
+        "pipeline_orchestrate",
+        "modifier_gate",
+        "artifact_ship"
+      ],
+      "domain": "infrastructure",
+      "tags": [
+        "doctrine",
+        "permanent",
+        "pipeline",
+        "swarm"
+      ],
+      "version": 1,
+      "lineage": {
+        "createdCycle": 1,
+        "updatedCycle": 1,
+        "sources": [
+          "doctrine_v1_master"
+        ]
+      }
+    },
+    "sk_educator_macro_micro_guide": {
+      "id": "sk_educator_macro_micro_guide",
+      "name": "Educator Macro Micro Guide",
+      "definition": "Mandatory pedagogical wrapper: for every step emit Phase Header, Step Title, Why, Granular Execution Plan, Tools/Resources, Common Pitfalls & Fixes (2\u20133), and KPI before next step. High operational volume without blending points.",
+      "purpose": "Prevent summarizing away gates; force falsifiable completion criteria on deep-dives.",
+      "inputs": [
+        "topic",
+        "goal_or_process",
+        "phase_plan"
+      ],
+      "outputs": [
+        "structured_guide",
+        "kpi_checklist"
+      ],
+      "dependencies": [
+        "sk_atomized_artifact_output"
+      ],
+      "subskills": [
+        "phase_grouping",
+        "pitfall_enumeration",
+        "kpi_definition"
+      ],
+      "domain": "pedagogy",
+      "tags": [
+        "educator",
+        "macro_micro",
+        "template",
+        "doctrine"
+      ],
+      "version": 1,
+      "lineage": {
+        "createdCycle": 2,
+        "updatedCycle": 2,
+        "sources": [
+          "doctrine_v1_educator_2026-09-22"
+        ]
+      }
+    }
+  },
+  "masterSkillsTree": {
+    "id": "root",
+    "name": "Master Skills",
+    "children": [
+      {
+        "id": "dom_research",
+        "name": "Research Synthesis",
+        "atomId": null,
+        "children": [
+          {
+            "id": "n_claim_tag",
+            "name": "Public Record Claim Tagging",
+            "atomId": "sk_public_record_claim_tagging",
+            "children": []
+          },
+          {
+            "id": "n_lab_ep",
+            "name": "Lab Leak Epistemology",
+            "atomId": "sk_lab_leak_epistemology",
+            "children": []
+          },
+          {
+            "id": "n_lvs",
+            "name": "Latent Vector Space Ingest",
+            "atomId": "sk_latent_vector_space_ingest",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "dom_gov",
+        "name": "Governance",
+        "atomId": null,
+        "children": [
+          {
+            "id": "n_grant",
+            "name": "Grant Oversight Failure Audit",
+            "atomId": "sk_grant_oversight_failure_audit",
+            "children": []
+          },
+          {
+            "id": "n_policy",
+            "name": "Policy By Fiat Detection",
+            "atomId": "sk_policy_by_fiat_detection",
+            "children": []
+          },
+          {
+            "id": "n_slmvp",
+            "name": "System Level Modifier Validation",
+            "atomId": "sk_system_level_modifier_validation",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "dom_infra",
+        "name": "Infrastructure",
+        "atomId": null,
+        "children": [
+          {
+            "id": "n_swarm",
+            "name": "Agent Swarm Document Distill",
+            "atomId": "sk_agent_swarm_document_distill",
+            "children": []
+          },
+          {
+            "id": "n_aao",
+            "name": "Atomized Artifact Output",
+            "atomId": "sk_atomized_artifact_output",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "dom_ped",
+        "name": "Pedagogy",
+        "atomId": null,
+        "children": [
+          {
+            "id": "n_edu",
+            "name": "Educator Macro Micro Guide",
+            "atomId": "sk_educator_macro_micro_guide",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "learnedKnowledgeTree": {
+    "id": "learned_root",
+    "name": "Learned Knowledge",
+    "children": [
+      {
+        "id": "lk_patterns",
+        "name": "Cross-Domain Patterns",
+        "atomId": null,
+        "children": [
+          {
+            "id": "lk_dual",
+            "name": "Dual-anti-narrative non-capture",
+            "atomId": null,
+            "children": []
+          },
+          {
+            "id": "lk_chat",
+            "name": "Chat is index; artifacts are product",
+            "atomId": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "lk_gaps",
+        "name": "Known Gaps",
+        "atomId": null,
+        "children": [
+          {
+            "id": "lk_footnote",
+            "name": "Footnote second-pass harvest incomplete",
+            "atomId": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "lk_abs",
+        "name": "Abstractions",
+        "atomId": null,
+        "children": [
+          {
+            "id": "lk_pipe",
+            "name": "LVS\u2192SLMVP\u2192AAO permanent pipeline",
+            "atomId": null,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "insights": [
+    {
+      "id": "ins_c1_0",
+      "title": "Documented process failures (EcoHealth, Morens FOIA, 6-ft admission, Cuomo data,",
+      "body": "Documented process failures (EcoHealth, Morens FOIA, 6-ft admission, Cuomo data, relief fraud) are high-confidence and transferable to future pandemic preparedness audits.",
+      "relatedAtoms": [],
+      "cycle": 1
+    },
+    {
+      "id": "ins_c1_1",
+      "title": "Origin conclusion remains low-to-moderate confidence on both sides; treating 'mo",
+      "body": "Origin conclusion remains low-to-moderate confidence on both sides; treating 'most likely lab leak' as settled fact over-claims the IC and scientific record.",
+      "relatedAtoms": [],
+      "cycle": 1
+    },
+    {
+      "id": "ins_c1_2",
+      "title": "Public-record ceiling + SOLID/CONTESTED tagging is the correct defense against b",
+      "body": "Public-record ceiling + SOLID/CONTESTED tagging is the correct defense against both conspiracy inflation and institutional gaslighting.",
+      "relatedAtoms": [],
+      "cycle": 1
+    },
+    {
+      "id": "ins_c1_3",
+      "title": "Agent swarm + Drive + GitHub push under explicit HITL authorization is now a reu",
+      "body": "Agent swarm + Drive + GitHub push under explicit HITL authorization is now a reusable pattern for 500-page primary documents.",
+      "relatedAtoms": [],
+      "cycle": 1
+    },
+    {
+      "id": "ins_c1_4",
+      "title": "LVS\u2192SLMVP\u2192AAO is now the permanent swarm default: place claims geometrically, va",
+      "body": "LVS\u2192SLMVP\u2192AAO is now the permanent swarm default: place claims geometrically, validate modifiers against both tribes, ship atoms not essays.",
+      "relatedAtoms": [],
+      "cycle": 1
+    },
+    {
+      "id": "ins_c1_5",
+      "title": "Educator macro-micro template is a first-class skill atom; every deep-dive must ",
+      "body": "Educator macro-micro template is a first-class skill atom; every deep-dive must carry Why/Execution/Tools/Pitfalls/KPI or it did not complete.",
+      "relatedAtoms": [],
+      "cycle": 1
+    },
+    {
+      "id": "ins_c1_6",
+      "title": "Dual-anti-narrative modifier (M3) is the key anti-capture control: both 2020 med",
+      "body": "Dual-anti-narrative modifier (M3) is the key anti-capture control: both 2020 media and Telegram overclaim can be OVERSTATED in the same cycle.",
+      "relatedAtoms": [],
+      "cycle": 1
+    },
+    {
+      "id": "ins_doctrine_permanent",
+      "title": "Doctrine is permanent OS",
+      "body": "LVS\u2192SLMVP\u2192AAO is now the default Meridian Swarm operating procedure; educator template is mandatory per step.",
+      "relatedAtoms": [
+        "sk_latent_vector_space_ingest",
+        "sk_system_level_modifier_validation",
+        "sk_atomized_artifact_output",
+        "sk_educator_macro_micro_guide"
+      ],
+      "cycle": 1
+    },
+    {
+      "id": "ins_dual_anti_narrative",
+      "title": "Dual-anti-narrative is the non-capture test",
+      "body": "A modifier that only wounds one tribe is captured. M3 requires OVERSTATED tags available for both 2020 media lines and Telegram overclaims.",
+      "relatedAtoms": [
+        "sk_system_level_modifier_validation"
+      ],
+      "cycle": 1
+    },
+    {
+      "id": "ins_chat_is_index",
+      "title": "Chat is index; artifacts are product",
+      "body": "AAO fails if only chat text exists. Success = HQ Doctrine route + skill-engine state + GitHub + Drive reconstructable without the conversation.",
+      "relatedAtoms": [
+        "sk_atomized_artifact_output"
+      ],
+      "cycle": 1
+    },
+    {
+      "id": "ins_doctrine_permanent",
+      "title": "Doctrine is permanent OS",
+      "body": "LVS\u2192SLMVP\u2192AAO is now the default Meridian Swarm operating procedure; educator template is mandatory per step.",
+      "relatedAtoms": [
+        "sk_latent_vector_space_ingest",
+        "sk_system_level_modifier_validation",
+        "sk_atomized_artifact_output",
+        "sk_educator_macro_micro_guide"
+      ],
+      "cycle": 2
+    },
+    {
+      "id": "ins_dual_anti_narrative",
+      "title": "Dual-anti-narrative is the non-capture test",
+      "body": "A modifier that only wounds one tribe is captured. M3 requires OVERSTATED tags available for both 2020 media lines and Telegram overclaims.",
+      "relatedAtoms": [
+        "sk_system_level_modifier_validation"
+      ],
+      "cycle": 2
+    },
+    {
+      "id": "ins_chat_is_index",
+      "title": "Chat is index; artifacts are product",
+      "body": "AAO fails if only chat text exists. Success = HQ Doctrine route + skill-engine state + GitHub + Drive reconstructable without the conversation.",
+      "relatedAtoms": [
+        "sk_atomized_artifact_output"
+      ],
+      "cycle": 2
+    }
+  ],
+  "critic": [
+    "Footnote second-pass harvest still incomplete on image-heavy PDF pages.",
+    "Educator template is encoded; future deep-dives must not skip KPI fields."
+  ],
+  "log": [
+    {
+      "cycle": 1,
+      "note": "SSCP cycle 1",
+      "added": 5
+    },
+    {
+      "cycle": 2,
+      "added": 4,
+      "updated": 0,
+      "insights": 3,
+      "note": "permanent LVS\u2192SLMVP\u2192AAO doctrine",
+      "at": "2026-09-22T04:52:27.298541+00:00"
+    }
+  ]
+}
