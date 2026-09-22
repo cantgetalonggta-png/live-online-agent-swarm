@@ -1,23 +1,18 @@
-See workspace COMPLETE_SKILL_ENCYCLOPEDIA.md (94KB full expansion). This stub points to the full pack.
+# Complete Skill Encyclopedia — Cycle 30
 
-## Status 2026-09-22T14:01Z
-- 128/128 skill encyclopedia files
-- 11 architecture domain files
-- 6 framework files (LVS_SLMVP_AAO, FOIA, RETRIEVAL, LEO, AGENT_ROLES, METHOD_TREE)
-- Engine cycle 27
-- Verification: complete=true
-- M38 fence on; general engine; no single-thesis lock
+Full pack lives in workspace + Drive (164KB, 128 operator-listed nodes).
 
-## Layers
-Fence → Ingest → SLMVP Gates → Synthesis → AAO → Ops
-
-## Pipe
-LVS → SLMVP (M1–M37) → AAO
-
-## Agents
-DISTILLER → ANALYZER → SYNTHESIZER → ONTOLOGIST → INFERENCER → CRITIC → UPGRADER → REVIEWER
+- Status: **128/128 COMPLETE** (Why, Definition, Purpose, Execution, I/O, Fence, KPI)
+- Pipeline: LVS → SLMVP → AAO
+- Fence: M38
+- Engine cycle: 30 (128 atoms updated)
+- Ontology: general (scoring modules optional)
 
 ## Drive
-https://drive.google.com/drive/folders/19WLfIAgWj1hIkYJaCmOb0CknPDX2_MVH
+- NEW_AUTONOMOUS_Project: https://drive.google.com/drive/folders/1IqbRINg4f2ZoPz-3wai3k0kRjlHu8Lz-
+- Encyclopedia: https://drive.google.com/file/d/1SHvCJfD-GFuUGIM0DXT5xLysxoelowQ0/view
+- Verification: https://drive.google.com/file/d/1XsTEq2EDYHTaR79JtoI3J3vdhsZgi76P/view
+- Dashboard: https://drive.google.com/file/d/1cgZhNOi16oQ3hD-TWJmhOMnF1c30VbFC/view
+- Prior pack: https://drive.google.com/drive/folders/19WLfIAgWj1hIkYJaCmOb0CknPDX2_MVH
 
-Full per-skill nodes: SKILL_NODES_FULL.json · encyclopedia/skills/sk_*.md
+See also `docs/10_COMPLETE_SKILL_EXPANSION_VERIFICATION.md`.
