@@ -1,0 +1,7 @@
+{
+  "system": "ANOMALY_MESH_V1",
+  "hitl_until": "2026-09-24T01:57:00Z",
+  "agents": ["A01_OMISSION", "A02_POLARITY", "A03_TIMELINE", "A04_ALIAS", "A05_MONEY", "A06_ENTITY", "A07_SEAL", "A08_NEGCTRL"],
+  "fence": "M38 public record. HITL. No FOIA send. No contact. No docket file.",
+  "spine": "ST-2019-PB-00080"
+}
