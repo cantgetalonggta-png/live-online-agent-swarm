@@ -1,7 +1,7 @@
 {
   "started_at": "2026-09-24T22:56:25.514650+00:00",
   "project": "MA-OS-12 web console",
-  "android_project_present": false,
+  "android_project_present": true,
   "steps": {
     "preflight": {
       "gh_auth": true,
@@ -36,10 +36,20 @@
       "prebuilt": true
     }
   },
-  "android_hits": [],
-  "finished_at": "2026-09-24T23:00:21.533603+00:00",
+  "android_hits": [
+    "android/app/src/main/java/com/maos12/console/MainActivity.kt",
+    "android/app/src/main/AndroidManifest.xml"
+  ],
+  "finished_at": "2026-09-24T23:16:10.098203+00:00",
   "ok": true,
   "github_url": "https://github.com/cantgetalonggta-png/ma-os-12-console",
   "ci_workflow": ".github/workflows/ma-os-12-ci.yml",
-  "public": true
+  "public": true,
+  "apk": {
+    "status": "github_actions_success",
+    "run": "https://github.com/cantgetalonggta-png/ma-os-12-console/actions/runs/36071663635",
+    "artifact": "ma-os-12-debug-apk",
+    "local_copy": "/workspace/artifacts/MA-OS-12-app-debug.apk",
+    "size_bytes": 6227726
+  }
 }
