@@ -1,0 +1,45 @@
+{
+  "started_at": "2026-09-24T22:56:25.514650+00:00",
+  "project": "MA-OS-12 web console",
+  "android_project_present": false,
+  "steps": {
+    "preflight": {
+      "gh_auth": true,
+      "detail": "github.com\n  \u2713 Logged in to github.com account cantgetalonggta-png (GH_TOKEN)\n  - Active account: true\n  - Git operations protocol: https\n  - Token: ghu_************************************"
+    },
+    "apk": {
+      "status": "skipped_not_android_project"
+    },
+    "swarm_verify": {
+      "ok": true,
+      "out": "{\n  \"ts\": \"2026-09-24T22:56:37.414123+00:00\",\n  \"main_exit\": 0,\n  \"tree_exit\": 0,\n  \"syntax_errors\": [],\n  \"report\": {\n    \"completed_agents\": [\n      \"Crawler\",\n      \"Extractor\",\n      \"Normalizer\",\n      \"Distiller\",\n      \"Classifier\",\n      \"Ontologist\",\n      \"Architect\",\n      \"SkillTree\",\n      \"SpecWriter\",\n      \"OSBuilder\",\n      \"Analyst\",\n      \"Refiner\"\n    ],\n    \"heals\": {\n      \"failures\": 0,\n      \"heals\": 0,\n      \"escalations\": 0\n    },\n    \"plugins_loaded\": 58,\n    \"plugins_blocked\": 0,\n    \"messages\": 13,\n    \"rl\": {\n      \"Crawler\": 0.1,\n      \"Extractor\": 0.1,\n      \"Normalizer\": 0.1,\n      \"Distiller\": 0.1,\n      \"Classifier\": 0.1,\n      \"Ontologist\": 0.1,\n      \"Architect\": 0.1,\n      \"SkillTree\": 0.1,\n      \"SpecWriter\": 0.1,\n      \"OSBuilder\": 0.1,\n      \"Analyst\": 0.1,\n      \"Refiner\": 0.1\n    }\n  },\n  \"tree_stdout\": [\n    \"atoms 59\",\n    \"route pdf swarm: ['advanced-swarm-v2-pdf-agents', 'agent-roles-memory-pattern-anticipation', 'research-automation', 'pdf-breakdown-explainer', 'osint-rag-master']\",\n    \"layers 4\"\n  ],\n  \"artifacts\": {\n    \"INVESTIGATION_METHODS\": true,\n    \"OWNED_REPOS_INDEX\": true,\n    \"TOOLCHAIN_CATALOG\": true,\n    \"SUPER_OBJECT\": true,\n    \"skill_index_n\": 53\n  },\n  \"ok\": true\n}"
+    },
+    "typecheck": {
+      "ok": true,
+      "out": "> typecheck\n> tsc --noEmit"
+    },
+    "build": {
+      "ok": true,
+      "out": "\u2502\u001b[0m \n \u001b[38;5;240m  \u2502\u001b[0m \u001b[38;5;115mHelp\u001b[0m: For more information, see https://rolldown.rs/in-depth/directives#other-directives\n\u001b[38;5;246m\u2500\u2500\u2500\u256f\u001b[0m\n\n\u001b[33m[MODULE_LEVEL_DIRECTIVE] \u001b[0mThe semantics of the module level directive \"use client\" in \"node_modules/@tanstack/react-router/dist/esm/Transitioner.js\" may not be preserved when bundling.\n   \u001b[38;5;246m\u256d\u001b[0m\u001b[38;5;246m\u2500\u001b[0m\u001b[38;5;246m[\u001b[0m node_modules/@tanstack/react-router/dist/esm/Transitioner.js:1:1 \u001b[38;5;246m]\u001b[0m\n   \u001b[38;5;246m\u2502\u001b[0m\n \u001b[38;5;246m1 \u2502\u001b[0m \"use client\";\n \u001b[38;5;240m  \u2502\u001b[0m \u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500  \n \u001b[38;5;240m  \u2502\u001b[0m       \u2570\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 module level directive may not be preserved\n \u001b[38;5;240m  \u2502\u001b[0m \n \u001b[38;5;240m  \u2502\u001b[0m \u001b[38;5;115mHelp\u001b[0m: For more information, see https://rolldown.rs/in-depth/directives#other-directives\n\u001b[38;5;246m\u2500\u2500\u2500\u256f\u001b[0m\n\n\u001b[33m[MODULE_LEVEL_DIRECTIVE] \u001b[0mThe semantics of the module level directive \"use client\" in \"node_modules/@tanstack/react-router/dist/esm/nonRouteComponentContext.js\" may not be preserved when bundling.\n   \u001b[38;5;246m\u256d\u001b[0m\u001b[38;5;246m\u2500\u001b[0m\u001b[38;5;246m[\u001b[0m node_modules/@tanstack/react-router/dist/esm/nonRouteComponentContext.js:1:1 \u001b[38;5;246m]\u001b[0m\n   \u001b[38;5;246m\u2502\u001b[0m\n \u001b[38;5;246m1 \u2502\u001b[0m \"use client\";\n \u001b[38;5;240m  \u2502\u001b[0m \u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500  \n \u001b[38;5;240m  \u2502\u001b[0m       \u2570\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 module level directive may not be preserved\n \u001b[38;5;240m  \u2502\u001b[0m \n \u001b[38;5;240m  \u2502\u001b[0m \u001b[38;5;115mHelp\u001b[0m: For more information, see https://rolldown.rs/in-depth/directives#other-directives\n\u001b[38;5;246m\u2500\u2500\u2500\u256f\u001b[0m"
+    },
+    "preview": {
+      "ok": true
+    },
+    "github": {
+      "create": true,
+      "out": "/workspace/artifacts/ma-os-12-publish is not a git repository. Run `git -C \"/workspace/artifacts/ma-os-12-publish\" init` to initialize it\nhttps://github.com/cantgetalonggta-png/ma-os-12-console\nbranch 'main' set up to track 'origin/main'.\n\nTo https://github.com/cantgetalonggta-png/ma-os-12-console.git\n * [new branch]      HEAD -> main"
+    },
+    "vercel": {
+      "cli_auth": false,
+      "note": "App Builder platform deploys production from .vercel/output when gates pass. CLI token not required for grok.me publish.",
+      "out": "Vercel CLI 56.1.0 (Node.js 22.23.3)\nError: No existing credentials found. Please run `vercel login` or pass \"--token\"\nLearn More: https://err.sh/vercel/no-credentials-found",
+      "prebuilt": true
+    }
+  },
+  "android_hits": [],
+  "finished_at": "2026-09-24T23:00:21.533603+00:00",
+  "ok": true,
+  "github_url": "https://github.com/cantgetalonggta-png/ma-os-12-console",
+  "ci_workflow": ".github/workflows/ma-os-12-ci.yml",
+  "public": true
+}
