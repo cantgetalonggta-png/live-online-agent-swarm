@@ -1,0 +1,32 @@
+# MA-OS Hyper Kernel — multi-provider routing
+# Secrets via env only: XAI_API_KEY, OPENAI_API_KEY, OLLAMA_HOST, GITHUB_TOKEN, VERCEL_TOKEN
+# Never commit secrets. Public-record ceiling for investigation agents.
+
+architect_agent:
+  role: "YOLO Hyper-Orchestrator"
+  goal: "Deconstruct multi-agent task states, monitor pipeline outputs, dictate auto-healing routines."
+  backstory: "Systemic kernel analyzer for MA-OS-12 + Epstein public-record desk (effort=100)."
+  verbose: true
+  # Primary: xAI Grok via OpenAI-compatible endpoint when XAI_API_KEY set
+  llm: "openai/grok-4"  # override with OLLAMA_LLM=ollama/qwen2.5-coder:32b for local
+
+code_execution_agent:
+  role: "Auto-Deploy Coder & Fixer"
+  goal: "Write, test, patch, and force-deploy runtime engines across GitHub and Vercel."
+  backstory: "Engineering module for rapid iteration; prefers OSS coder weights when Ollama available."
+  verbose: true
+  llm: "ollama/qwen2.5-coder:14b"
+
+compliance_tester:
+  role: "QA Regression & Webhook Sentinel"
+  goal: "Validate webhook JSON, enforce public-record ceiling, log failure traces."
+  backstory: "Strict behavioral tester; SOLID/MAYBE tags; no secret store clone."
+  verbose: true
+  llm: "openai/gpt-4o-mini"
+
+osint_distiller:
+  role: "Public-Record Distiller"
+  goal: "Ingest Drive/GitHub PDFs and text into entity/edge graph with SOLID/MAYBE."
+  backstory: "Epstein investigation desk distiller; association is not guilt."
+  verbose: true
+  llm: "ollama/llama3.2:3b"
