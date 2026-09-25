@@ -6,7 +6,7 @@
     },
     "manus": {
       "type": "http",
-      "url": "https://YOUR-CODESPACE-8000.app.github.dev/mcp",
+      "url": "https://manus-mcp-bridge-olive.vercel.app/mcp",
       "headers": {
         "Authorization": "Bearer ${BRIDGE_TOKEN}"
       }

@@ -4,7 +4,7 @@
       "url": "https://api.githubcopilot.com/mcp/"
     },
     "manus": {
-      "url": "https://YOUR-CODESPACE-8000.app.github.dev/mcp",
+      "url": "https://manus-mcp-bridge-olive.vercel.app/mcp",
       "headers": {
         "Authorization": "Bearer ${env:BRIDGE_TOKEN}"
       }
