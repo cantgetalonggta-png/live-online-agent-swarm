@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "github": {
+      "url": "https://api.githubcopilot.com/mcp/"
+    },
+    "manus": {
+      "url": "https://YOUR-CODESPACE-8000.app.github.dev/mcp",
+      "headers": {
+        "Authorization": "Bearer ${env:BRIDGE_TOKEN}"
+      }
+    },
+    "supabase": {
+      "url": "https://mcp.supabase.com/mcp?project_ref=YOUR_REF&read_only=true&features=database,docs"
+    }
+  }
+}
